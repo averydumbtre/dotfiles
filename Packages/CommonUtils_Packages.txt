@@ -1,5 +1,5 @@
 adobe-source-code-pro-fonts
-alacritty-sixel-git
+alacritty
 alsa-plugins
 android-file-transfer
 android-tools
