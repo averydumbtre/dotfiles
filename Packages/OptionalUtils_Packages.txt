@@ -16,4 +16,5 @@ sunshine
 tor
 torbrowser-launcher
 vesktop
+vesktop
 wine
