@@ -1,0 +1,5 @@
+this is outside of the home directory so chezmoi cannot manage it
+it is used during the install script
+
+if you edit this, please additionally edit the /etc/ly/config.ini file
+have a great day!
