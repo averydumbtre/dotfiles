@@ -7,10 +7,12 @@ kicad
 librewolf-bin
 ludusavi-bin
 makemkv
+moonlight-qt
 nheko
 obsidian
 proton-vpn-gtk-app
 qbittorrent
+sunshine
 tor
 torbrowser-launcher
 vesktop
