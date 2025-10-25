@@ -76,7 +76,6 @@ solaar
 spandsp
 speex
 speexdsp
-sunshine
 syncthing
 thunar
 timeshift
