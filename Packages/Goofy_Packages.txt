@@ -1,0 +1,3 @@
+cli-pride-flags
+cowsay
+trans-glxgears-git
