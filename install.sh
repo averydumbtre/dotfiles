@@ -272,15 +272,15 @@ case $DispOpt in
 esac
 
 
-case $display in
-    none ) echo;;
-    hyprland ) hyprctl monitors
-               echo "whats your monitor? (DP-1)"-
-               read -p "> " monitor;
-               echo "what do you want as your wallpaper? (~/Documents/wallpaper.png)";
-               read -p "> " wallpaper;
-               echo -e "\n wallpaper = $monitor, $wallpaper" >> ~/.config/hypr/hyprpaper.conf;;
-esac
+#case $display in
+#    none ) echo;;
+#    hyprland ) hyprctl monitors
+#               echo "whats your monitor? (DP-1)"-
+#              read -p "> " monitor;
+#               echo "what do you want as your wallpaper? (~/Documents/wallpaper.png)";
+#               read -p "> " wallpaper;
+#               echo -e "\n wallpaper = $monitor, $wallpaper" >> ~/.config/hypr/hyprpaper.conf;;
+#esac
 
 
 ## commented out password getting code...
@@ -304,8 +304,7 @@ sudo -i systemctl enable ly.service
 sudo -i systemctl enable cronie --now
 cd
 sudo -i crontab -u $username -e
-echo -e '@reboot  sleep 15 && env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) systemd-run --user --quiet
---collect ~/Documents/skripts/STARTUP.sh' >> mycron
+echo -e '@reboot  sleep 15 && env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) systemd-run --user --quiet --collect ~/Documents/skripts/STARTUP.sh' >> mycron
 crontab mycron
 rm mycron
 sudo -i chmod u+x ~/Documents/skripts/SHUTDOWN.sh
