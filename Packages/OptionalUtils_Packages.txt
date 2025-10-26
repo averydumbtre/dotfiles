@@ -3,6 +3,7 @@ android-file-transfer
 bitwarden
 easyeffects
 handbrake
+iamb
 kicad
 librewolf-bin
 ludusavi-bin
