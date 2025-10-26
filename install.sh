@@ -104,6 +104,8 @@ echo "installing required packages"
 cd ~/.local/share/chezmoi/
 cat Packages/Required_Packages.txt | yay -S -
 
+
+cd ~/.local/share/chezmoi/
 echo
 read -p "do you wish to install Common Utility packages? (yes you do)   [Y/n] " yn0
 case $yn0 in
@@ -122,6 +124,7 @@ case $yn0 in
 esac
 
 
+cd ~/.local/share/chezmoi/
 echo
 read -p "do you wish to install Optional Utility packages? (less common apps and stuffs)   [Y/n] " yn0
 case $yn0 in
@@ -140,6 +143,7 @@ case $yn0 in
 esac
 
 
+cd ~/.local/share/chezmoi/
 echo
 read -p "do you wish to install Goofy packages? (:3)                    [Y/n] " yn0
 case $yn0 in
@@ -158,6 +162,7 @@ case $yn0 in
 esac
 
 
+cd ~/.local/share/chezmoi/
 echo
 read -p "do you wish to install Nvidia Drivers? (even if you already installed them this is a good idea)  [Y/n] " yn0
 case $yn0 in
@@ -176,6 +181,7 @@ case $yn0 in
 esac
 
 
+cd ~/.local/share/chezmoi/
 echo
 read -p "do you wish to install Intel Drivers? (even if you already installed them this is a good idea)  [Y/n] " yn0
 case $yn0 in
@@ -194,13 +200,14 @@ case $yn0 in
 esac
 
 
+cd ~/.local/share/chezmoi/
 echo
 read -p "do you wish to install Obscure Bloatware? (large packages i couldnt in good consciece add to common utils)  [Y/n] " yn0
 case $yn0 in
     y ) echo "do you want to edit the packagefile before it gets installed?   (jesus, yes you do)";
         read -p "(it will be uneditied when the script ends)            [y/N] " yn1;
         case $yn1 in
-            y ) cp Packages/Bloat_Packages.txt Packages/Goofy_Packages_TEMP.txt
+            y ) cp Packages/Bloat_Packages.txt Packages/Bloat_Packages_TEMP.txt
                 vim Packages/Bloat_Packages_TEMP.txt;
                 cat Packages/Bloat_Packages_TEMP.txt | yay -S -;
                 rm Packages/Bloat_Packages_TEMP.txt;;
@@ -330,11 +337,12 @@ case $mpd in
         read -p "> " mpdpath;
         sed -i "s\music_directory    .*\music_directory    $mpdpath\g" ~/.config/mpd/mpd.conf;
         echo ;
-        read -p "would you like to setup your cronie (crontab) alarm?" cronyn;
+        read -p "would you like to setup your cronie (crontab) alarm?  (y/N) " cronyn;
         case $cronyn in
         y ) echo "okay, first gimmie the audio device you want it to play out of, something like  (alsa_output.pci-0000_01_00.1.hdmi-stereo)"
             echo "(dont worry you can change this later) (~/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh)";
-            read "press enter to view audio devices";
+            echo "press enter to view audio devices";
+            read;
             pw-cli list-objects | grep node.name | column;
             echo;
             read -p "audo device> " audiodevice;
@@ -372,7 +380,8 @@ case $githb in
         echo "git branch -M main";
         echo "git push -u origin main";
         echo "--";
-        read "press enter to continue";;
+        echo "press enter to continue";
+        read;;
     * ) echo "give me your Github Developer Classic Token"
         echo "it will be a long string of numbers with a prefix (ghp_1234etcaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)";
         read -p "> " GITHUBDEVELCLASSICTOKEN;
@@ -382,14 +391,6 @@ case $githb in
         git branch -M main;
         git pull origin main;;
 esac
-
-
-
-
-
-
-
-
 
 
 
@@ -416,5 +417,6 @@ echo "         tridactyl :bind dd tabclose"
 echo
 echo
 echo "alright screenshot that"
-read "press enter to reboot"
+echo "press enter to reboot"
+read
 sudo -i reboot
