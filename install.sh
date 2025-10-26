@@ -288,11 +288,26 @@ esac
 ##    exit
 ##fi
 
-
+sudo -i echo "bleh"
 sudo -i rm /etc/ly/config.ini
 sudo -i cp ~/.local/share/chezmoi/ly/config.ini /etc/ly/config.ini
 sudo -i systemctl enable ly.service
 sudo -i systemctl enable cronie
+crontab -l > mycron
+echo -e "\n@reboot  ~/Documents/skripts/STARTUP.sh" >> mycron
+crontab mycron
+rm mycron
+sudo -i chmod u+x ~/Documents/skripts/SHUTDOWN.sh
+sudo -i chmod u+x ~/Documents/skripts/STARTUP.sh
+chmod u+x ~/Documents/skripts/SHUTDOWN.sh
+chmod u+x ~/Documents/skripts/STARTUP.sh
+echo
+read -p "whats your username? (avery) " username
+sudo -i echo "bleh"
+sudo -i echo -e "[Unit]\nDescription=Pushes dotfiles to github before shutdown\nDefaultDependencies=no\nBefore=shutdown.target\n\n[Service]\nType=onceshot\nExecStart=/home/$avery/Documents/skripts/SHUTDOWN.sh\nTimeoutStartSec=0\n\n[Install]\nWantedBy=shutdown.target" | sudo -i tee -a /etc/systemd/system/chezmoi-before-shutdown.service
+sudo -i systemctl enable chezmoi-before-shutdown
+sudo -i systemctl enable libvirtd
+sudo -i systemctl enable sshd
 
 
 echo
@@ -322,8 +337,9 @@ case $mpd in
             pw-cli list-objects | grep node.name | column;
             echo;
             read -p "audo device> " audiodevice;
+            echo crontab -l > mycron;
             echo -e "#!/bin/bash \npipewire \nsleep 1 \npactl set-sink-volume @DEFAULT_SINK@ 100% \nmpv $mpdpath -shuffle --no-video --audio-device=pipewire/$audiodevice" >> ~/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh;
-            echo "1 6 * * 1-5 env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) /home/avery/Documents/skripts/music_shuffle.sh \n20 8 * * 0,6 env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) /home/avery/Documents/skripts/music_shuffle.sh" >> mycron;
+            echo "1 6 * * 1-5 env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) /home/avery/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh \n20 8 * * 0,6 env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) /home/avery/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh" >> mycron;
             crontab mycron;
             rm mycron;;
         n ) echo;;
@@ -377,10 +393,6 @@ esac
 
 
 
-
-
-
-
 clear
 echo
 echo "ALRIGHT"
@@ -400,4 +412,8 @@ echo "         tridactyl :bind <C-J> tabmove -1"
 echo "         tridactyl :bind <C-K> tabpush"
 echo "         tridactyl :unbind D"
 echo "         tridactyl :bind dd tabclose"
-echo "         "
+echo
+echo
+echo "alright screenshot that"
+read "press enter to reboot"
+sudo -i reboot
