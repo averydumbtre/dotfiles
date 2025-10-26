@@ -1,1 +1,2 @@
 intel-ucode
+intel-media-driver
