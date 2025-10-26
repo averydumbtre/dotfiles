@@ -169,7 +169,7 @@ case $yn0 in
     y ) echo "do you want to edit the packagefile before it gets installed?";
         read -p "(it will be uneditied when the script ends)            [y/N] " yn1;
         case $yn1 in
-            y ) cp Packages/NvidiaDriver_Packages.txt Packages/Goofy_Packages_TEMP.txt
+            y ) cp Packages/NvidiaDriver_Packages.txt Packages/NvidiaDriver_Packages_TEMP.txt
                 vim Packages/NvidiaDriver_Packages_TEMP.txt;
                 cat Packages/NvidiaDriver_Packages_TEMP.txt | yay -S -;
                 rm Packages/NvidiaDriver_Packages_TEMP.txt;;
@@ -188,7 +188,7 @@ case $yn0 in
     y ) echo "do you want to edit the packagefile before it gets installed?";
         read -p "(it will be uneditied when the script ends)            [y/N] " yn1;
         case $yn1 in
-            y ) cp Packages/IntelDriver_Packages.txt Packages/Goofy_Packages_TEMP.txt
+            y ) cp Packages/IntelDriver_Packages.txt Packages/IntelDriver_Packages_TEMP.txt
                 vim Packages/IntelDriver_Packages_TEMP.txt;
                 cat Packages/IntelDriver_Packages_TEMP.txt | yay -S -;
                 rm Packages/IntelDriver_Packages_TEMP.txt;;
