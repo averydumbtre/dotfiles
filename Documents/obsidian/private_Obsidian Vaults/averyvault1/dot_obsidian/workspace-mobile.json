@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "4a60a358f6d7b648",
+    "type": "split",
+    "children": [
+      {
+        "id": "d12e47e8a370bca4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4de005db371819ef",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "a0a89de786db0e24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To_Do.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "To_Do"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3707b8aaff120948",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "6d6138cbd8f9f34a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "f653f9a287ca5b3e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": true,
+            "explainSearch": false,
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "2dd426d86430959a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "f557c1cf12bf4adc",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "e760bbe65395221f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b26ac1224bfc5413",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "zettlekasten/Fleeting/jason sux forever.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "a5addf002b73d54b",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "To Do!.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "0a6944d70b888f5d",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "To Do!.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "bdf992f5b5fcb367",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "a0a89de786db0e24",
+  "lastOpenFiles": [
+    "zettlekasten/Fleeting/phys.md",
+    "To_Do.md",
+    "zettlekasten/Permanent/Math/Physics/Watts.md",
+    "zettlekasten/Fleeting/pitop stuffs.md",
+    "zettlekasten/Fleeting/jason sux forever.md",
+    "zettlekasten/Permanent/Linux/Copyparty Arch Pi Setup.md",
+    "zettlekasten/Fleeting/civx.md",
+    "zettlekasten/Fleeting/cum.md",
+    "zettlekasten/Permanent/General/Useful Information for Future Projects.md",
+    "zettlekasten/Fleeting/pi.md",
+    "zettlekasten/Permanent/Math/PRECALCNOTES.png",
+    "zettlekasten/Fleeting/eng notes.md",
+    "zettlekasten/Permanent/Math/LATEX cheat sheet.md",
+    "zettlekasten/Fleeting/personal essay germany.md",
+    "zettlekasten/Permanent/Misc/basic notes on stomach symptoms (Out of Date).md",
+    "zettlekasten/Fleeting/scebes.md",
+    "legal/Discord Arbitration Opt Out Email.md",
+    "zettlekasten/Fleeting/Triggers.md",
+    "zettlekasten/Fleeting/notes on whatever the fuck i have wrong with me.md",
+    "zettlekasten/Fleeting/chert dialogue.md",
+    "zettlekasten/Fleeting/anarch.md",
+    "zettlekasten/Fleeting/do babys subtract from the weight count.md",
+    "zettlekasten/Fleeting/Fleeting Doodles.md",
+    "zettlekasten/Permanent/Math/Math.md",
+    "zettlekasten/Fleeting/Untitled",
+    "zettlekasten/Permanent/Math/Physics/Average Velocity.md",
+    "zettlekasten/Fleeting/wah.md",
+    "zettlekasten/Permanent/Linux",
+    "templates",
+    "zettlekasten/Fleeting/Fleeting notes.canvas",
+    "zettlekasten/Fleeting/Untitled.canvas"
+  ]
+}

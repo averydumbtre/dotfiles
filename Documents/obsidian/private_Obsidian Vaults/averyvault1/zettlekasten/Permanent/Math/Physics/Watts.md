@@ -1,0 +1,7 @@
+$$
+\frac{joules}{seconds}
+$$
+
+
+
+[[Physics]]
