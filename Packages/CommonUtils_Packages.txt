@@ -26,7 +26,7 @@ goverlay
 gphoto2
 gputest
 handbrake
-iamb-git
+iamb
 imagemagick
 kate
 kdiskmark
