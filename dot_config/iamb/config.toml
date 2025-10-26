@@ -1,0 +1,16 @@
+[profiles.user]
+user_id = "@63-75-6d-x3:4d2.org"
+
+[settings.image_preview]
+size = { height = 20, width = 66 }
+protocol.type = "halfblocks"
+
+[settings]
+read_receipt_display = true
+read_receipt_send = true
+
+[settings.notifications]
+enabled = false
+
+[layout]
+style = "restore"

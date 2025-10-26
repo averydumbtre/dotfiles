@@ -1,0 +1,6 @@
+{ 08 E0 01 01 00 00 00 00 00 00 00 00 00 00 }, Delta:151.659ms, AuxButtons:[False False False False False False False False False False False False False False False False False False False False], ReportType:UCLogicAuxReport
+{ 08 E0 01 01 20 00 00 00 00 00 00 00 00 00 }, Delta:62.314ms, AuxButtons:[False False False False False True False False False False False False False False False False False False False False], ReportType:UCLogicAuxReport
+{ 08 E0 01 01 00 00 00 00 00 00 00 00 00 00 }, Delta:130.606ms, AuxButtons:[False False False False False False False False False False False False False False False False False False False False], ReportType:UCLogicAuxReport
+{ 08 E0 01 01 01 00 00 00 00 00 00 00 00 00 }, Delta:328.441ms, AuxButtons:[True False False False False False False False False False False False False False False False False False False False], ReportType:UCLogicAuxReport
+{ 08 E0 01 01 00 00 00 00 00 00 00 00 00 00 }, Delta:150.028ms, AuxButtons:[False False False False False False False False False False False False False False False False False False False False], ReportType:UCLogicAuxReport
+{ 08 E0 01 01 02 00 00 00 00 00 00 00 00 00 }, Delta:11.561ms, AuxButtons:[False True False False False False False False False False False False False False False False False False False False], ReportType:UCLogicAuxReport
