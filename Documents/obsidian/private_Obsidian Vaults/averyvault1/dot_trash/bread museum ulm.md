@@ -1,1 +1,0 @@
-it rocks, killer painting

@@ -1,1 +1,0 @@
-i was hungry and had a fever and wasnt feeling suuper steady so i just grabbed what would be easy to eat and tasty and ran back upstairs and took ibuprofin

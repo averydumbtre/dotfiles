@@ -1,1 +1,0 @@
-do you remember where i or you put the skateboard from my room during the move
