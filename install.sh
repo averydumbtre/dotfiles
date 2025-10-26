@@ -317,6 +317,7 @@ sudo -i echo -e "[Unit]\nDescription=Pushes dotfiles to github before shutdown\n
 sudo -i systemctl enable chezmoi-before-shutdown
 sudo -i systemctl enable libvirtd
 sudo -i systemctl enable sshd
+sudo -i systemctl enable mpd
 
 
 ##echo
