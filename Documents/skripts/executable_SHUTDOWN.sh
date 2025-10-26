@@ -1,5 +1,4 @@
 #! /bin/bash
-sleep 30s
 echo "finishing"
 chezmoi re-add &> /home/avery/.local/share/chezmoi/push.log
 chezmoi update &> /home/avery/.local/share/chezmoi/push.log
