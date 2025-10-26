@@ -274,7 +274,8 @@ esac
 
 case $display in
     none ) echo;;
-    hyprland ) echo "whats your monitor? (DP-1)"
+    hyprland ) hyprctl monitors
+               echo "whats your monitor? (DP-1)"-
                read -p "> " monitor;
                echo "what do you want as your wallpaper? (~/Documents/wallpaper.png)";
                read -p "> " wallpaper;
