@@ -1,4 +1,4 @@
-grub-btrfs
+
 argon2
 bridge-utils
 brightnessctl
@@ -8,8 +8,8 @@ clang
 cmake
 cmark
 cpio
-curl
 cronie
+curl
 ddcutil
 dkms
 dnsmasq
@@ -20,6 +20,7 @@ fzf
 git
 gnome-keyring
 go
+grub-btrfs
 gvfs
 less
 ly
