@@ -330,7 +330,6 @@ sudo -i systemctl enable mpd
 ##    * ) chezmoi apply -v;;
 ##esac
 
-
 echo
 read -p "do you want to pre-setup your music library?    (y/n)" mpd
 case $mpd in
@@ -359,7 +358,6 @@ case $mpd in
     n ) echo "okay, just dont forget to edit mpd.conf! (~/.config/mpd/mpd.conf)";;
     * ) echo "HEY DOOFUS GO MAKE AND EDIT ~/.config/mpd/mpd.conf IF YOU WANT MUSIC TO WORK";;
 esac
-
 
 echo
 read -p "do you want to setup push access for chezmoi?  (yes you do)     (Y/n) " githb
@@ -393,10 +391,6 @@ case $githb in
         git branch -M main;
         git pull origin main;;
 esac
-
-
-
-
 clear
 echo
 echo "ALRIGHT"
@@ -416,6 +410,7 @@ echo "         tridactyl :bind <C-J> tabmove -1"
 echo "         tridactyl :bind <C-K> tabpush"
 echo "         tridactyl :unbind D"
 echo "         tridactyl :bind dd tabclose"
+echo "* and login to discord and steam and matrix"
 echo
 echo
 echo "alright screenshot that"
