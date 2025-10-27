@@ -105,7 +105,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=128,0,128
 
 [General]
-ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+ColorSchemeHash=60afd72ab97c4b4de2f11aaf577d577b0bad2de0
 UseSystemBell=true
 
 [KDE]
