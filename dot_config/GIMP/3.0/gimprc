@@ -23,8 +23,8 @@
     (show-rgb-u8 no)
     (show-hsv yes))
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-darktable/file-darktable")
-(monitor-xresolution 83)
-(monitor-yresolution 83)
+(monitor-xresolution 142)
+(monitor-yresolution 142)
 (show-welcome-dialog no)
 (path-export-path "/home/avery/Downloads")
 (fill-options

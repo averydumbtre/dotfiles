@@ -225,7 +225,7 @@ echo "options are:"
 echo
 echo "* None"
 echo "* Hyprland"
-echo "* KDE (Plasma) [aero]"
+echo "* KDE Plasma (aero)"
 read -p "> " DispOpt
 case $DispOpt in
     None ) echo "cool, i respect it";
@@ -268,78 +268,6 @@ case $DispOpt in
                              echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
                esac;
                display="hyprland";;
-    KDE ) yay -S plasma-meta
-          pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-          git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-          cd aerothemeplasma;
-          chmod +x compile.sh && ./compile.sh --wayland;
-          chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;
-          chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-          chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-          chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
-   kde ) yay -S plasma-meta
-          pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-          git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-          cd aerothemeplasma;
-          chmod +x compile.sh && ./compile.sh --wayland;
-          chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;
-          chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-          chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-          chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
-    Kde ) yay -S plasma-meta
-          pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-          git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-          cd aerothemeplasma;
-          chmod +x compile.sh && ./compile.sh --wayland;
-          chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;
-          chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-          chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-          chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
-    PLASMA ) yay -S plasma-meta
-             pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-             git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-             cd aerothemeplasma;
-             chmod +x compile.sh && ./compile.sh --wayland;
-             chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;      
-             chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-             chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-             chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
-    Plasma ) yay -S plasma-meta
-             pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-             git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-             cd aerothemeplasma;                
-             chmod +x compile.sh && ./compile.sh --wayland;
-             chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;
-             chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-             chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-             chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
-    Plasma ) yay -S plasma-meta
-             pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-             git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-             cd aerothemeplasma;
-             chmod +x compile.sh && ./compile.sh --wayland;
-             chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;
-             chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-             chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-             chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
-    aero ) yay -S plasma-meta
-           pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-           git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-           cd aerothemeplasma;
-           chmod +x compile.sh && ./compile.sh --wayland;
-           chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;
-           chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-           chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-           chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
-     Aero ) yay -S plasma-meta
-           pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel;
-           git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma;
-           cd aerothemeplasma;
-           chmod +x compile.sh && ./compile.sh --wayland;
-           chmod +x install_plasmoids.sh && ./install_plasmoids.sh --wayland;
-           chmod +x install_kwin_components.sh && ./install_kwin_components.sh --wayland;
-           chmod +x install_plasma_components.sh && ./install_plasma_components.sh --wayland;
-           chmod +x install_misc_components.sh && ./install_misc_components.sh --wayland;;
     * ) echo "uhhh... i gues no display manager?";
         display="none";;
 esac
@@ -484,8 +412,6 @@ echo "         tridactyl :bind <C-K> tabpush"
 echo "         tridactyl :unbind D"
 echo "         tridactyl :bind dd tabclose"
 echo "* and login to discord and steam and matrix"
-echo "* and run ~/Documents/skripts/SHUTDOWN.sh for git privlages"
-echo "* and maybe follow the instructions on aerothemeplasms for a full install"
 echo
 echo
 echo "alright screenshot that"
