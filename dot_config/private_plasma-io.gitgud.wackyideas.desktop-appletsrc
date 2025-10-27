@@ -25,7 +25,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][8][Applets][100][Configuration][General]
-launcherUrls=file:///usr/share/applications/librewolf.desktop,file:///usr/share/applications/steam.desktop,file:///usr/share/applications/org.kde.kate.desktop,file:///usr/share/applications/Alacritty.desktop
+launcherUrls=file:///usr/share/applications/librewolf.desktop,file:///usr/share/applications/steam.desktop,file:///usr/share/applications/org.kde.kate.desktop,file:///usr/share/applications/Alacritty.desktop,file:///usr/share/applications/net.lutris.Lutris.desktop,file:///usr/share/applications/org.darktable.darktable.desktop,file:///usr/share/applications/gimp.desktop,file:///usr/share/applications/org.kde.krita.desktop,file:///usr/share/applications/nheko.desktop,file:///usr/share/applications/protonvpn.desktop,file:///usr/share/applications/org.qbittorrent.qBittorrent.desktop,file:///usr/share/applications/makemkv.desktop,file:///usr/share/applications/torbrowser.desktop,file:///usr/share/applications/vesktop.desktop,file:///usr/share/applications/com.github.wwmm.easyeffects.desktop
+maxSectionCount=4
+showLauncherNames=true
 
 [Containments][8][Applets][104]
 immutability=1
