@@ -106,6 +106,7 @@ ForegroundVisited=128,0,128
 
 [General]
 ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+UseSystemBell=true
 
 [KDE]
 DefaultLightLookAndFeel=authui7

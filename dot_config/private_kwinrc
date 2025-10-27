@@ -13,6 +13,7 @@ dimscreenaeroEnabled=true
 libkwin_effect_smodsnapEnabled=true
 minimizeallEnabled=true
 scaleEnabled=false
+shakecursorEnabled=false
 smodglowEnabled=true
 smodpeekeffectEnabled=true
 windowapertureEnabled=false
