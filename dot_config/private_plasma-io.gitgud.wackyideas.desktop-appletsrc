@@ -6,8 +6,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][8]
-ItemGeometries-1920x1080=Applet-108:80,160,240,240,0;Applet-95:384,16,592,368,0;Applet-109:128,400,80,256,0;Applet-111:230.684,368.416,176,240,0;Applet-110:320,208,64,448,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-107:0,656,384,384,0;Applet-100:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-97:976,16,640,80,0;Applet-80:976,96,400,288,0;Applet-86:1072,384,304,272,0;Applet-79:1184,656,432,384,0;Applet-71:1376,96,240,160,0;Applet-78:1376,256,240,400,0;Applet-81:1616,0,304,448,0;Applet-104:1616,688,288,352,0;Applet-67:1616,448,288,240,0;
-ItemGeometriesHorizontal=Applet-108:80,160,240,240,0;Applet-95:384,16,592,368,0;Applet-109:128,400,80,256,0;Applet-111:230.684,368.416,176,240,0;Applet-110:320,208,64,448,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-107:0,656,384,384,0;Applet-100:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-97:976,16,640,80,0;Applet-80:976,96,400,288,0;Applet-86:1072,384,304,272,0;Applet-79:1184,656,432,384,0;Applet-71:1376,96,240,160,0;Applet-78:1376,256,240,400,0;Applet-81:1616,0,304,448,0;Applet-104:1616,688,288,352,0;Applet-67:1616,448,288,240,0;
+ItemGeometries-1920x1080=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-97:976,16,640,80,0;Applet-80:976,96,400,288,0;Applet-114:0,416,384,288,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-116:0,704,384,336,0;Applet-100:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-78:1376,256,240,400,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
+ItemGeometriesHorizontal=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-97:976,16,640,80,0;Applet-80:976,96,400,288,0;Applet-114:0,416,384,288,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-116:0,704,384,336,0;Applet-100:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-78:1376,256,240,400,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
@@ -25,29 +25,11 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][8][Applets][100][Configuration][General]
-launcherUrls=file:///usr/share/applications/librewolf.desktop
+launcherUrls=file:///usr/share/applications/librewolf.desktop,file:///usr/share/applications/steam.desktop,file:///usr/share/applications/org.kde.kate.desktop,file:///usr/share/applications/Alacritty.desktop
 
 [Containments][8][Applets][104]
 immutability=1
 plugin=org.kde.plasma.windowlist
-
-[Containments][8][Applets][107]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
-
-[Containments][8][Applets][107][Configuration]
-activityId=
-formfactor=0
-immutability=1
-lastScreen=-1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=
 
 [Containments][8][Applets][108]
 immutability=1
@@ -57,8 +39,12 @@ plugin=org.kde.plasma.systemmonitor.memory
 CurrentPreset=org.kde.plasma.systemmonitor
 
 [Containments][8][Applets][108][Configuration][Appearance]
-chartFace=org.kde.ksysguard.piechart
+chartFace=org.kde.ksysguard.linechart
 title=Memory Usage
+
+[Containments][8][Applets][108][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][8][Applets][108][Configuration][SensorColors]
 memory/physical/used=51,153,255
@@ -68,26 +54,6 @@ highPrioritySensorIds=["memory/physical/used"]
 lowPrioritySensorIds=["memory/physical/total"]
 totalSensors=["memory/physical/usedPercent"]
 
-[Containments][8][Applets][109]
-immutability=1
-plugin=org.kde.plasma.mediaframe
-
-[Containments][8][Applets][109][Configuration]
-popupHeight=400
-popupWidth=560
-
-[Containments][8][Applets][110]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][8][Applets][110][Configuration]
-popupHeight=400
-popupWidth=560
-
-[Containments][8][Applets][110][Configuration][General]
-fontSize=10
-noteId=6aa5e6e6-3190-42cb-9934-ec2d7519ff
-
 [Containments][8][Applets][111]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.cpu
@@ -96,8 +62,12 @@ plugin=org.kde.plasma.systemmonitor.cpu
 CurrentPreset=org.kde.plasma.systemmonitor
 
 [Containments][8][Applets][111][Configuration][Appearance]
-chartFace=org.kde.ksysguard.piechart
+chartFace=org.kde.ksysguard.linechart
 title=Total CPU Use
+
+[Containments][8][Applets][111][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][8][Applets][111][Configuration][SensorColors]
 cpu/all/usage=51,153,255
@@ -107,6 +77,33 @@ highPrioritySensorIds=["cpu/all/usage"]
 lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
 totalSensors=["cpu/all/usage"]
 
+[Containments][8][Applets][114]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][8][Applets][114][Configuration][General]
+color=translucent
+fontSize=10
+noteId=56c77885-46ff-4882-8d8b-fb0e72c3e7
+
+[Containments][8][Applets][116]
+activityId=
+formfactor=0
+immutability=1
+lastScreen=-1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=
+
+[Containments][8][Applets][116][Configuration]
+activityId=
+formfactor=0
+immutability=1
+lastScreen=-1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=
+
 [Containments][8][Applets][67]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
@@ -114,11 +111,6 @@ plugin=io.gitgud.wackyideas.battery
 [Containments][8][Applets][67][Configuration]
 popupHeight=400
 popupWidth=560
-
-[Containments][8][Applets][70]
-immutability=1
-plugin=org.kde.plasma.brightness
-transient=true
 
 [Containments][8][Applets][71]
 immutability=1
@@ -136,14 +128,6 @@ DialogWidth=720
 [Containments][8][Applets][76]
 immutability=1
 plugin=org.kde.plasma.activitypager
-
-[Containments][8][Applets][77]
-immutability=1
-plugin=org.kde.plasma.kickerdash
-transient=true
-
-[Containments][8][Applets][77][Configuration][General]
-favoritesPortedToKAstats=true
 
 [Containments][8][Applets][78]
 immutability=1
@@ -172,36 +156,12 @@ plugin=org.kde.plasma.comic
 [Containments][8][Applets][81][Configuration]
 lastStripVisited_xkcd=true
 lastStrip_xkcd=
-maxStripNum_xkcd=0
+maxStripNum_xkcd=3159
 scaleToContent_xkcd=false
 storedPosition_xkcd=
 tabIdentifier=xkcd
 
 [Containments][8][Applets][81][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][8][Applets][82]
-immutability=1
-plugin=org.kde.plasma.diskquota
-transient=true
-
-[Containments][8][Applets][83]
-immutability=1
-plugin=org.kde.plasma.devicenotifier
-transient=true
-
-[Containments][8][Applets][84]
-immutability=1
-plugin=org.kde.plasma.fifteenpuzzle
-transient=true
-
-[Containments][8][Applets][85]
-immutability=1
-plugin=org.kde.plasma_applet_dict
-transient=true
-
-[Containments][8][Applets][85][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -225,11 +185,6 @@ disk/d3cddade-4161-4856-81b3-51167454cd45/usedPercent=51,153,255
 highPrioritySensorIds=["disk/.*/usedPercent"]
 lowPrioritySensorIds=["disk/all/total"]
 totalSensors=["disk/all/usedPercent"]
-
-[Containments][8][Applets][89]
-immutability=1
-plugin=org.kde.plasma.kimpanel
-transient=true
 
 [Containments][8][Applets][90]
 immutability=1
@@ -284,8 +239,8 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
-PreloadWeight=80
-popupHeight=62
+PreloadWeight=90
+popupHeight=28
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -343,19 +298,6 @@ plugin=io.gitgud.wackyideas.networkmanagement
 PreloadWeight=60
 popupHeight=411
 popupWidth=572
-
-[Containments][9][Applets][32]
-immutability=1
-plugin=org.kde.plasma.volume
-transient=true
-
-[Containments][9][Applets][32][Configuration]
-PreloadWeight=55
-popupHeight=401
-popupWidth=564
-
-[Containments][9][Applets][32][Configuration][General]
-migrated=true
 
 [Containments][9][Applets][34]
 immutability=1
