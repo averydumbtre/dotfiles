@@ -6,28 +6,15 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][8]
-ItemGeometries-1920x1080=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-97:976,16,640,80,0;Applet-80:976,96,400,288,0;Applet-114:0,416,384,288,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-116:0,704,384,336,0;Applet-100:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-78:1376,256,240,400,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
-ItemGeometriesHorizontal=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-97:976,16,640,80,0;Applet-80:976,96,400,288,0;Applet-114:0,416,384,288,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-116:0,704,384,336,0;Applet-100:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-78:1376,256,240,400,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
+ItemGeometries-1920x1080=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-118:0,416,384,304,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-97:976,0,640,96,0;Applet-80:976,96,406,288,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-119:0,736,388,304,0;Applet-117:384,656,512,384,0;Applet-78:1376,256,240,400,0;Applet-94:896,656,288,384,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
+ItemGeometriesHorizontal=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-118:0,416,384,304,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-97:976,0,640,96,0;Applet-80:976,96,406,288,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-119:0,736,388,304,0;Applet-117:384,656,512,384,0;Applet-78:1376,256,240,400,0;Applet-94:896,656,288,384,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=io.gitgud.wackyideas.desktopcontainment
-wallpaperplugin=org.kde.image
-
-[Containments][8][Applets][100]
-immutability=1
-plugin=org.kde.plasma.quicklaunch
-
-[Containments][8][Applets][100][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][8][Applets][100][Configuration][General]
-launcherUrls=file:///usr/share/applications/librewolf.desktop,file:///usr/share/applications/steam.desktop,file:///usr/share/applications/org.kde.kate.desktop,file:///usr/share/applications/Alacritty.desktop,file:///usr/share/applications/net.lutris.Lutris.desktop,file:///usr/share/applications/org.darktable.darktable.desktop,file:///usr/share/applications/gimp.desktop,file:///usr/share/applications/org.kde.krita.desktop,file:///usr/share/applications/nheko.desktop,file:///usr/share/applications/protonvpn.desktop,file:///usr/share/applications/org.qbittorrent.qBittorrent.desktop,file:///usr/share/applications/makemkv.desktop,file:///usr/share/applications/torbrowser.desktop,file:///usr/share/applications/vesktop.desktop,file:///usr/share/applications/com.github.wwmm.easyeffects.desktop
-maxSectionCount=4
-showLauncherNames=true
+wallpaperplugin=org.kde.potd
 
 [Containments][8][Applets][104]
 immutability=1
@@ -79,16 +66,25 @@ highPrioritySensorIds=["cpu/all/usage"]
 lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
 totalSensors=["cpu/all/usage"]
 
-[Containments][8][Applets][114]
+[Containments][8][Applets][117]
+immutability=1
+plugin=org.kde.plasma.quicklaunch
+
+[Containments][8][Applets][118]
 immutability=1
 plugin=org.kde.plasma.notes
 
-[Containments][8][Applets][114][Configuration][General]
+[Containments][8][Applets][118][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][8][Applets][118][Configuration][General]
 color=translucent
 fontSize=10
-noteId=56c77885-46ff-4882-8d8b-fb0e72c3e7
+noteId=d5f99f2b-e458-4e77-9e32-72c198816f
+pinOpen=true
 
-[Containments][8][Applets][116]
+[Containments][8][Applets][119]
 activityId=
 formfactor=0
 immutability=1
@@ -97,7 +93,7 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=
 
-[Containments][8][Applets][116][Configuration]
+[Containments][8][Applets][119][Configuration]
 activityId=
 formfactor=0
 immutability=1
@@ -241,8 +237,8 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
-PreloadWeight=90
-popupHeight=28
+PreloadWeight=100
+popupHeight=300
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -278,8 +274,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=412
-popupWidth=576
+popupHeight=423
+popupWidth=588
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
