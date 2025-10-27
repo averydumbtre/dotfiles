@@ -6,8 +6,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][8]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
+ItemGeometries-1920x1080=Applet-71:1072,768,176,80,0;Applet-70:1264,832,368,208,0;Applet-76:1376,304,160,96,0;Applet-67:1632,832,208,208,0;
+ItemGeometriesHorizontal=Applet-71:1072,768,176,80,0;Applet-70:1264,832,368,208,0;Applet-76:1376,304,160,96,0;Applet-67:1632,832,208,208,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
@@ -15,6 +15,26 @@ lastScreen=0
 location=0
 plugin=io.gitgud.wackyideas.desktopcontainment
 wallpaperplugin=org.kde.image
+
+[Containments][8][Applets][67]
+immutability=1
+plugin=io.gitgud.wackyideas.battery
+
+[Containments][8][Applets][70]
+immutability=1
+plugin=org.kde.plasma.brightness
+
+[Containments][8][Applets][71]
+immutability=1
+plugin=org.kde.plasma.binaryclock
+
+[Containments][8][Applets][71][Configuration]
+popupHeight=395
+popupWidth=556
+
+[Containments][8][Applets][76]
+immutability=1
+plugin=org.kde.plasma.activitypager
 
 [Containments][8][ConfigDialog]
 DialogHeight=540
@@ -42,8 +62,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=406
-popupWidth=568
+popupHeight=412
+popupWidth=576
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -71,8 +91,8 @@ plugin=org.kde.plasma.volume
 
 [Containments][9][Applets][32][Configuration]
 PreloadWeight=55
-popupHeight=400
-popupWidth=560
+popupHeight=406
+popupWidth=568
 
 [Containments][9][Applets][32][Configuration][General]
 migrated=true
@@ -87,7 +107,7 @@ DialogWidth=720
 
 [Containments][9][Applets][34][Configuration][General]
 highlightWindows=true
-launchers=applications:Alacritty.desktop,preferred://browser
+launchers=
 middleClickAction=Close
 taskMaxWidth=Narrow
 
@@ -118,8 +138,8 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][9][Applets][45][Configuration]
-PreloadWeight=80
-popupHeight=28
+PreloadWeight=100
+popupHeight=504
 popupWidth=630
 
 [Containments][9][Applets][45][Configuration][ConfigDialog]
@@ -134,3 +154,4 @@ AppletOrder=10;34;45;32;30;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=
