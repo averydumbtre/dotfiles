@@ -484,6 +484,8 @@ echo "         tridactyl :bind <C-K> tabpush"
 echo "         tridactyl :unbind D"
 echo "         tridactyl :bind dd tabclose"
 echo "* and login to discord and steam and matrix"
+echo "* and run ~/Documents/skripts/SHUTDOWN.sh for git privlages"
+echo "* and maybe follow the instructions on aerothemeplasms for a full install"
 echo
 echo
 echo "alright screenshot that"
