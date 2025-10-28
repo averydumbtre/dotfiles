@@ -265,8 +265,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=451
-popupWidth=620
+popupHeight=462
+popupWidth=632
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540

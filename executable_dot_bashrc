@@ -25,10 +25,10 @@ esac
 #(cat ~/.cache/wal/sequences &)
 
 # Alternative (blocks terminal for 0-3ms)
-#cat ~/.cache/wal/sequences
+cat ~/.cache/wal/sequences
 
 # To add support for TTYs this line can be optionally added.
-#source ~/.cache/wal/colors-tty.sh
+source ~/.cache/wal/colors-tty.sh
 
 # Normal Bash
 export PS1='\[\e[1;38;5;244m\]\T \[\e[1;36m\]\u@\H \[\e[1;33m\]\w \[\e[1;36m\]\$ \[\e[0m\]'
@@ -191,3 +191,8 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
     source /etc/profile.d/vte.sh
   fi
 fi
+
+
+
+EDITOR="vim"
+VISUAL="vim"
