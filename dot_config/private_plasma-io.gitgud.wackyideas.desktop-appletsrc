@@ -284,7 +284,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][9][Applets][142][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 popupHeight=400
 popupWidth=560
 

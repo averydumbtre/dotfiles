@@ -1,6 +1,6 @@
 [Keyboard]
 RepeatDelay=400
-RepeatRate=60
+RepeatRate=45
 
 [Libinput][1133][16500][Logitech G305]
 PointerAcceleration=-0.400
