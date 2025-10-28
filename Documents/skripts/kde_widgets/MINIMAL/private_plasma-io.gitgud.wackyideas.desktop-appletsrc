@@ -6,8 +6,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][8]
-ItemGeometries-1920x1080=Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-95:480,16,560,288,0;Applet-155:0,432,480,304,0;Applet-97:1040,16,480,96,0;Applet-111:480,304,560,240,0;Applet-119:0,736,480,304,0;Applet-80:1040,112,480,336,0;Applet-120:480,560,416,384,0;Applet-154:1056,448,176,96,0;Applet-94:896,544,336,400,0;Applet-79:1232,448,384,496,0;Applet-81:1520,16,400,432,0;Applet-104:1616,448,288,368,0;Applet-151:480,944,1136,96,0;Applet-67:1616,816,288,224,0;
-ItemGeometriesHorizontal=Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-95:480,16,560,288,0;Applet-155:0,432,480,304,0;Applet-97:1040,16,480,96,0;Applet-111:480,304,560,240,0;Applet-119:0,736,480,304,0;Applet-80:1040,112,480,336,0;Applet-120:480,560,416,384,0;Applet-154:1056,448,176,96,0;Applet-94:896,544,336,400,0;Applet-79:1232,448,384,496,0;Applet-81:1520,16,400,432,0;Applet-104:1616,448,288,368,0;Applet-151:480,944,1136,96,0;Applet-67:1616,816,288,224,0;
+ItemGeometries-1920x1080=Applet-97:1840,0,80,80,0;
+ItemGeometriesHorizontal=Applet-97:1840,0,80,80,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
@@ -19,10 +19,12 @@ wallpaperplugin=org.kde.image
 [Containments][8][Applets][104]
 immutability=1
 plugin=org.kde.plasma.windowlist
+transient=true
 
 [Containments][8][Applets][108]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.memory
+transient=true
 
 [Containments][8][Applets][108][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -46,6 +48,7 @@ totalSensors=["memory/physical/usedPercent"]
 [Containments][8][Applets][111]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.cpu
+transient=true
 
 [Containments][8][Applets][111][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -76,6 +79,7 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=org.kde.plasma.folder
+transient=true
 wallpaperplugin=
 
 [Containments][8][Applets][119][Configuration]
@@ -90,6 +94,7 @@ wallpaperplugin=
 [Containments][8][Applets][120]
 immutability=1
 plugin=org.kde.plasma.quicklaunch
+transient=true
 
 [Containments][8][Applets][120][Configuration][ConfigDialog]
 DialogHeight=540
@@ -103,6 +108,7 @@ showLauncherNames=true
 [Containments][8][Applets][151]
 immutability=1
 plugin=org.kde.plasma.pager
+transient=true
 
 [Containments][8][Applets][151][Configuration][ConfigDialog]
 DialogHeight=540
@@ -116,6 +122,7 @@ wrapPage=true
 [Containments][8][Applets][154]
 immutability=1
 plugin=org.kde.plasma.binaryclock
+transient=true
 
 [Containments][8][Applets][154][Configuration]
 PreloadWeight=55
@@ -125,6 +132,7 @@ popupWidth=560
 [Containments][8][Applets][155]
 immutability=1
 plugin=org.kde.plasma.notes
+transient=true
 
 [Containments][8][Applets][155][Configuration][ConfigDialog]
 DialogHeight=540
@@ -138,6 +146,7 @@ noteId=4e3dc64c-8779-4929-83ea-d79c85a27e
 [Containments][8][Applets][67]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
+transient=true
 
 [Containments][8][Applets][67][Configuration]
 popupHeight=400
@@ -146,6 +155,7 @@ popupWidth=560
 [Containments][8][Applets][79]
 immutability=1
 plugin=org.kde.plasma.volume
+transient=true
 
 [Containments][8][Applets][79][Configuration][General]
 currentTab=streams
@@ -154,10 +164,12 @@ migrated=true
 [Containments][8][Applets][80]
 immutability=1
 plugin=org.kde.plasma.calendar
+transient=true
 
 [Containments][8][Applets][81]
 immutability=1
 plugin=org.kde.plasma.comic
+transient=true
 
 [Containments][8][Applets][81][Configuration]
 lastStripVisited_xkcd=true
@@ -174,6 +186,7 @@ DialogWidth=720
 [Containments][8][Applets][90]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.diskactivity
+transient=true
 
 [Containments][8][Applets][90][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -197,10 +210,12 @@ highPrioritySensorIds=["disk/all/write","disk/all/read"]
 [Containments][8][Applets][94]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+transient=true
 
 [Containments][8][Applets][95]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.net
+transient=true
 
 [Containments][8][Applets][95][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -265,8 +280,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=445
-popupWidth=612
+popupHeight=429
+popupWidth=596
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -284,7 +299,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][9][Applets][142][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 popupHeight=400
 popupWidth=560
 
@@ -331,6 +346,7 @@ historyAmount=10
 [Containments][9][Applets][147]
 immutability=1
 plugin=org.kde.plasma.systemmonitor
+transient=true
 
 [Containments][9][Applets][147][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -369,8 +385,8 @@ immutability=1
 plugin=io.gitgud.wackyideas.volume
 
 [Containments][9][Applets][156][Configuration]
-popupHeight=411
-popupWidth=572
+popupHeight=395
+popupWidth=556
 
 [Containments][9][Applets][156][Configuration][General]
 migrated=true
@@ -421,7 +437,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][9][General]
-AppletOrder=10;34;149;148;147;146;145;156;142;30;143;43;14
+AppletOrder=10;34;149;148;146;145;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
