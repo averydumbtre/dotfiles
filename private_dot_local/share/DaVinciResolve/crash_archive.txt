@@ -1,0 +1,300 @@
+----------------------------------------------------------------------
+#TIME Thu Sep 11 18:34:43 2025 - Uptime 00:00:04 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7fa99fa3e540]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZNK18QThreadStorageData3getEv+0x29) [0x7fa9a1b90349]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContext14currentContextEv+0x29) [0x7fa9a4162a79]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContext7destroyEv+0x57) [0x7fa9a4162fd7]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContextD0Ev+0x1a) [0x7fa9a41635ca]
+/opt/resolve/bin/resolve() [0x350b7da]
+/usr/lib/libc.so.6(+0x40cb1) [0x7fa99fa40cb1]
+/usr/lib/libc.so.6(+0x40d8e) [0x7fa99fa40d8e]
+/opt/resolve/bin/resolve() [0x5ff3fa2]
+/opt/resolve/bin/resolve() [0x35087ff]
+/opt/resolve/bin/resolve() [0x3507004]
+/opt/resolve/bin/resolve() [0x34ffeda]
+/usr/lib/libc.so.6(+0x27675) [0x7fa99fa27675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fa99fa27729]
+/opt/resolve/bin/resolve() [0x34fe35e]
+Signal Number = 11
+
+----------------------------------------------------------------------
+#TIME Thu Sep 11 18:34:52 2025 - Uptime 00:00:02 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7f331dc3e540]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZNK18QThreadStorageData3getEv+0x29) [0x7f331fd90349]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContext14currentContextEv+0x29) [0x7f3322362a79]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContext7destroyEv+0x57) [0x7f3322362fd7]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContextD0Ev+0x1a) [0x7f33223635ca]
+/opt/resolve/bin/resolve() [0x350b7da]
+/usr/lib/libc.so.6(+0x40cb1) [0x7f331dc40cb1]
+/usr/lib/libc.so.6(+0x40d8e) [0x7f331dc40d8e]
+/opt/resolve/bin/resolve() [0x5ff3fa2]
+/opt/resolve/bin/resolve() [0x35087ff]
+/opt/resolve/bin/resolve() [0x3507004]
+/opt/resolve/bin/resolve() [0x34ffeda]
+/usr/lib/libc.so.6(+0x27675) [0x7f331dc27675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f331dc27729]
+/opt/resolve/bin/resolve() [0x34fe35e]
+Signal Number = 11
+
+----------------------------------------------------------------------
+#TIME Thu Sep 11 18:35:39 2025 - Uptime 00:00:06 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+davinci-resolve-studio() [0x5ff3fe9]
+davinci-resolve-studio() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7f1642c3e540]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZNK18QThreadStorageData3getEv+0x29) [0x7f1644d90349]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContext14currentContextEv+0x29) [0x7f1647362a79]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContext7destroyEv+0x57) [0x7f1647362fd7]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContextD0Ev+0x1a) [0x7f16473635ca]
+davinci-resolve-studio() [0x350b7da]
+/usr/lib/libc.so.6(+0x40cb1) [0x7f1642c40cb1]
+/usr/lib/libc.so.6(+0x40d8e) [0x7f1642c40d8e]
+davinci-resolve-studio() [0x5ff3fa2]
+davinci-resolve-studio() [0x35087ff]
+davinci-resolve-studio() [0x3507004]
+davinci-resolve-studio() [0x34ffeda]
+/usr/lib/libc.so.6(+0x27675) [0x7f1642c27675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f1642c27729]
+davinci-resolve-studio() [0x34fe35e]
+Signal Number = 11
+
+----------------------------------------------------------------------
+#TIME Thu Sep 11 18:51:28 2025 - Uptime 00:08:15 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7f0e02e3e540]
+/usr/lib/libc.so.6(+0x169512) [0x7f0e02f69512]
+/usr/lib/libc.so.6(__backtrace_symbols+0x152) [0x7f0e02f256d2]
+/opt/resolve/bin/resolve() [0x5ff3ff5]
+/opt/resolve/bin/resolve() [0x3501d9f]
+/usr/lib/libc.so.6(+0x3e540) [0x7f0e02e3e540]
+/usr/lib/libc.so.6(+0x9f042) [0x7f0e02e9f042]
+/usr/lib/libc.so.6(+0x931ac) [0x7f0e02e931ac]
+/usr/lib/libc.so.6(+0x931f4) [0x7f0e02e931f4]
+/usr/lib/libc.so.6(ppoll+0x46) [0x7f0e02f0da36]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x5fe04) [0x7f0e1f109e04]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7f0e1f109ee5]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7f0e051b1208]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7f0e05159ba6]
+/opt/resolve/bin/resolve() [0x350ddce]
+/opt/resolve/bin/resolve() [0x514a9ab]
+/opt/resolve/bin/resolve() [0x514a84f]
+/opt/resolve/bin/resolve() [0x34fe7f0]
+/opt/resolve/bin/resolve() [0x34fe922]
+/opt/resolve/bin/resolve() [0x3505f4e]
+/opt/resolve/bin/resolve() [0x3507009]
+/opt/resolve/bin/resolve() [0x34ffeda]
+/usr/lib/libc.so.6(+0x27675) [0x7f0e02e27675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f0e02e27729]
+/opt/resolve/bin/resolve() [0x34fe35e]
+Signal Number = 1
+
+----------------------------------------------------------------------
+#TIME Sat Sep 13 19:38:26 2025 - Uptime 00:00:07 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7f58c863e540]
+/opt/resolve/libs/libFairlightPage.so(_ZN18NativeAudioEngine236GetSourceFromAudioEngineSourceHandleERK23AudioEngineSourceHandle+0x3ab) [0x7f58477602cb]
+/opt/resolve/libs/libFairlightPage.so(_ZN16MonitoringMatrix9SetSourceEiRK23AudioEngineSourceHandle+0xba) [0x7f584770ebaa]
+/opt/resolve/libs/libFairlightPage.so(_ZN18NativeAudioEngine223UpdateSparseMatrixInputEiRK23AudioEngineSourceHandle+0x14b) [0x7f584770f1db]
+/opt/resolve/libs/libFairlightPage.so(_ZN18NativeAudioEngine27DoPatchERK23AudioEngineSourceHandleRK28AudioEngineDestinationHandle+0x367) [0x7f584774d817]
+/opt/resolve/libs/libFairlightPage.so(_ZN22AudioEngineDestination12ActuatePatchEPK11AudioSourceb+0x5f7) [0x7f584768fdf7]
+/opt/resolve/libs/libFairlightPage.so(_ZN12MonitorInput12ActuatePatchEPK11AudioSourceb+0x60) [0x7f5847692220]
+/opt/resolve/libs/libFairlightPage.so(_ZN11AudioRouter12ActuatePatchEN2FL9ModuleIdsEiNS0_12ParameterIdsEi+0x70b) [0x7f584768d8db]
+/opt/resolve/libs/libFairlightPage.so(_ZN11AudioRouter13ActuateChangeEN2FL9ModuleIdsEiNS0_12ParameterIdsEiNS0_15TargetModifiersE+0x2b) [0x7f584768e4cb]
+/opt/resolve/libs/libFairlightPage.so(_ZN11StudioModel21DirectSetIntParameterEN2FL9ModuleIdsEiNS0_12ParameterIdsEiNS0_15TargetModifiersEbPKNS0_21StudioModelSubscriberEPNS_13ParameterInfoE+0x434) [0x7f584758acc4]
+/opt/resolve/libs/libFairlightPage.so(_ZN11StudioModel15SetIntParameterEN2FL9ModuleIdsEiNS0_12ParameterIdsEiNS0_15TargetModifiersEPKNS0_21StudioModelSubscriberE+0x402) [0x7f584758a002]
+/opt/resolve/libs/libFairlightPage.so(_ZN20MonitoringController19ChangeMonitorSourceEiib+0x1055) [0x7f58477ad995]
+/opt/resolve/libs/libFairlightPage.so(_ZN20MonitoringController14RefreshSourcesEv+0xe7) [0x7f58477b88e7]
+/opt/resolve/libs/libFairlightPage.so(_ZN16MatrixController15ChangeBusFormatEN2FL9ModuleIdsEii+0x4ab9) [0x7f58477f25a9]
+/opt/resolve/libs/libFairlightPage.so(_ZN16BusFormatHandler13ActuateChangeEN2FL9ModuleIdsEiNS0_12ParameterIdsEiNS0_15TargetModifiersE+0x32) [0x7f5847814492]
+/opt/resolve/libs/libFairlightPage.so(_ZN11StudioModel21DirectSetIntParameterEN2FL9ModuleIdsEiNS0_12ParameterIdsEiNS0_15TargetModifiersEbPKNS0_21StudioModelSubscriberEPNS_13ParameterInfoE+0x434) [0x7f584758acc4]
+/opt/resolve/libs/libFairlightPage.so(_ZN11StudioModel15SetIntParameterEN2FL9ModuleIdsEiNS0_12ParameterIdsEiNS0_15TargetModifiersEPKNS0_21StudioModelSubscriberE+0x402) [0x7f584758a002]
+/opt/resolve/libs/libFairlightPage.so(_ZN22FLGenericActionHandler8DoActionERKNSt3__110shared_ptrIK6ActionEE+0x1279) [0x7f5846f9f749]
+/opt/resolve/libs/libFairlightPage.so(_ZThn16_N22FLGenericActionHandler8DoActionERKNSt3__110shared_ptrIK6ActionEE+0x17) [0x7f5846fa6ca7]
+/opt/resolve/libs/libFairlightPage.so(_ZN7Actions8DoActionERKNSt3__110shared_ptrI6ActionEE+0x17d) [0x7f5847666c1d]
+/opt/resolve/libs/libFairlightPage.so(_ZN13FLCoreActions8DoActionEPKwS1_S1_+0x5f) [0x7f584766978f]
+/opt/resolve/bin/resolve() [0x69d0240]
+/opt/resolve/bin/resolve() [0x5c506a1]
+/opt/resolve/bin/resolve() [0x5c502c6]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3917b2) [0x7f58ca9917b2]
+/opt/resolve/bin/resolve() [0x5b30b65]
+/opt/resolve/bin/resolve() [0x5c501af]
+/opt/resolve/bin/resolve() [0x5c500d4]
+/opt/resolve/bin/resolve() [0x5c56585]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7f58ca9918d4]
+/opt/resolve/bin/resolve() [0x5c450af]
+/opt/resolve/bin/resolve() [0x396d68e]
+/opt/resolve/bin/resolve() [0x396ce8a]
+/opt/resolve/bin/resolve() [0x351c44c]
+/opt/resolve/bin/resolve() [0x351b56f]
+/opt/resolve/bin/resolve() [0x3519f61]
+/opt/resolve/bin/resolve() [0x34ffeec]
+/usr/lib/libc.so.6(+0x27675) [0x7f58c8627675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f58c8627729]
+/opt/resolve/bin/resolve() [0x34fe35e]
+Signal Number = 11
+
+----------------------------------------------------------------------
+#TIME Sat Sep 13 19:44:42 2025 - Uptime 00:00:33 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7f5deda3e540]
+/usr/lib/libgcc_s.so.1(_Unwind_Find_FDE+0x350) [0x7f5e0b1644b0]
+/usr/lib/libgcc_s.so.1(+0x2050b) [0x7f5e0b15f50b]
+/usr/lib/libgcc_s.so.1(_Unwind_Backtrace+0xe2) [0x7f5e0b161952]
+/usr/lib/libc.so.6(__backtrace+0xa3) [0x7f5dedb25523]
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x3501d9f]
+/usr/lib/libc.so.6(+0x3e540) [0x7f5deda3e540]
+/usr/lib/libc.so.6(+0x9f042) [0x7f5deda9f042]
+/usr/lib/libc.so.6(+0x931ac) [0x7f5deda931ac]
+/usr/lib/libc.so.6(+0x931f4) [0x7f5deda931f4]
+/usr/lib/libc.so.6(ppoll+0x46) [0x7f5dedb0da36]
+/usr/lib/libglib-2.0.so.0(+0x5fe04) [0x7f5e09d09e04]
+/usr/lib/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7f5e09d09ee5]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7f5defdb1208]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7f5defd59ba6]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN7QDialog4execEv+0x1d6) [0x7f5def5658c6]
+/opt/resolve/bin/../libs/libBMDDavUI.so(_ZN8BmdDavUI17UiFramelessDialog4execEv+0x1c) [0x7f5e2c5b31fc]
+/opt/resolve/bin/resolve() [0x39baaaf]
+/opt/resolve/bin/resolve() [0x39ba81e]
+/opt/resolve/bin/resolve() [0x396f4df]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7f5defd918d4]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN6QTimer10timerEventEP11QTimerEvent+0x54) [0x7f5defd96704]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN7QObject5eventEP6QEvent+0x57) [0x7f5defd85c67]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x100) [0x7f5def36ac80]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x1da) [0x7f5def36c0ba]
+/opt/resolve/bin/resolve() [0x357aa3c]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7f5defd5d560]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN14QTimerInfoList14activateTimersEv+0x3fd) [0x7f5defdb02dd]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3b1b5e) [0x7f5defdb1b5e]
+/usr/lib/libglib-2.0.so.0(+0x5e880) [0x7f5e09d08880]
+/usr/lib/libglib-2.0.so.0(+0x5fcd7) [0x7f5e09d09cd7]
+/usr/lib/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7f5e09d09ee5]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7f5defdb1208]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7f5defd59ba6]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x71) [0x7f5defd5daf1]
+/opt/resolve/bin/resolve() [0x351b7e3]
+/opt/resolve/bin/resolve() [0x3519f61]
+/opt/resolve/bin/resolve() [0x34ffeec]
+/usr/lib/libc.so.6(+0x27675) [0x7f5deda27675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f5deda27729]
+/opt/resolve/bin/resolve() [0x34fe35e]
+Signal Number = 1
+
+----------------------------------------------------------------------
+#TIME Sat Sep 13 20:42:12 2025 - Uptime 00:00:38 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7fe6da23e540]
+/usr/lib/libgcc_s.so.1(_Unwind_Find_FDE+0x399) [0x7fe6f79644f9]
+/usr/lib/libgcc_s.so.1(+0x2050b) [0x7fe6f795f50b]
+/usr/lib/libgcc_s.so.1(_Unwind_Backtrace+0xe2) [0x7fe6f7961952]
+/usr/lib/libc.so.6(__backtrace+0xa3) [0x7fe6da325523]
+/opt/resolve/bin/resolve() [0x5ff3fe9]
+/opt/resolve/bin/resolve() [0x3501d9f]
+/usr/lib/libc.so.6(+0x3e540) [0x7fe6da23e540]
+/usr/lib/libc.so.6(+0x9f042) [0x7fe6da29f042]
+/usr/lib/libc.so.6(+0x931ac) [0x7fe6da2931ac]
+/usr/lib/libc.so.6(+0x931f4) [0x7fe6da2931f4]
+/usr/lib/libc.so.6(ppoll+0x46) [0x7fe6da30da36]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x5fe04) [0x7fe6f6509e04]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7fe6f6509ee5]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7fe6dc5b1208]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7fe6dc559ba6]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x71) [0x7fe6dc55daf1]
+/opt/resolve/bin/resolve() [0x351b7e3]
+/opt/resolve/bin/resolve() [0x3519f61]
+/opt/resolve/bin/resolve() [0x34ffeec]
+/usr/lib/libc.so.6(+0x27675) [0x7fe6da227675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fe6da227729]
+/opt/resolve/bin/resolve() [0x34fe35e]
+Signal Number = 1
+
+----------------------------------------------------------------------
+#TIME Fri Oct 17 17:33:49 2025 - Uptime 00:20:26 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+#BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+#BMD_UTIL_VERSION 20.2.0.0013
+#OS Linux
+
+davinci-resolve-studio() [0x5ff3fe9]
+davinci-resolve-studio() [0x5ff31b2]
+/usr/lib/libc.so.6(+0x3e540) [0x7ff0b763e540]
+/usr/lib/libc.so.6(+0x1694c5) [0x7ff0b77694c5]
+/usr/lib/libc.so.6(__backtrace_symbols+0x152) [0x7ff0b77256d2]
+davinci-resolve-studio() [0x5ff3ff5]
+davinci-resolve-studio() [0x3501d9f]
+/usr/lib/libc.so.6(+0x3e540) [0x7ff0b763e540]
+/usr/lib/libc.so.6(+0x9f042) [0x7ff0b769f042]
+/usr/lib/libc.so.6(+0x931ac) [0x7ff0b76931ac]
+/usr/lib/libc.so.6(+0x931f4) [0x7ff0b76931f4]
+/usr/lib/libc.so.6(ppoll+0x46) [0x7ff0b770da36]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x60744) [0x7ff0d3908744]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7ff0d3908825]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7ff0b99b1208]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7ff0b9959ba6]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x71) [0x7ff0b995daf1]
+davinci-resolve-studio() [0x351b7e3]
+davinci-resolve-studio() [0x3519f61]
+davinci-resolve-studio() [0x34ffeec]
+/usr/lib/libc.so.6(+0x27675) [0x7ff0b7627675]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7ff0b7627729]
+davinci-resolve-studio() [0x34fe35e]
+Signal Number = 1
+

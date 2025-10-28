@@ -1,0 +1,45 @@
+[Info] [GInstance.Create] success
+Platform            	Linux
+Mac OS Version      	unset
+AMD Driver Version  	unset
+Intel Driver Version	unset
+NVIDIA Driver Version	unset
+CPU Core Count      	12
+Physical Memory (MiB)	15850
+[Info] [GInstance.Create] success, backend=OpenGL
+[Info] [GLContext.Create] success:  Name="DeviceManager", Handle=0x7f11f0553178, ShareContext="GlobalShare", ThreadID=7F12FD1DA000
+	Requested: 4.5 Core, R(-1)G(-1)B(-1)A(-1), D(-1)S(-1), SwapBehaviour=platformDefault SwapMethod=default 
+	Chosen:    4.5 Core, RGB8_UNorm, D24X8_UNorm, SwapBehaviour=platformDefault SwapMethod=default 
+	Surface:   4.5 Core, RGB8_UNorm, D24X8_UNorm, SwapBehaviour=platformDefault SwapMethod=default 
+	Screen:    DP-1, 1920x1080, DPR=1.0, Refresh~164.83, Geom=(0,0,1920,1080), Primary=yes
+[Info] skipped loading of 4.6 entry points
+[Info] GenerateShaderEnvironment shader version set to 4.5
+[Info] [GLibrary.Create] success
+GPUID               	gpu:598eeef9.cd75a979
+Name                	GeForce RTX 3060
+Vendor              	NVIDIA
+Type                	Discrete
+Physical Memory (MiB)	11901
+IsMainDisplayGPU    	yes
+Backend             	OpenGL
+Backend Version     	4.5
+GLSL Version        	4.5
+[Info] Looking for shaders ...
+[Info]  Shaders found.
+[Info] [GLContext.Create] success:  Name="ResourceManager3D", Handle=0x7f10e7d9b178, ShareContext="GlobalShare", ThreadID=7F12FD1DA000
+	Requested: 4.5 Core, R(-1)G(-1)B(-1)A(-1), D(-1)S(-1), SwapBehaviour=platformDefault SwapMethod=default 
+	Chosen:    4.5 Core, RGB8_UNorm, D24X8_UNorm, SwapBehaviour=platformDefault SwapMethod=default 
+	Surface:   4.5 Core, RGB8_UNorm, D24X8_UNorm, SwapBehaviour=platformDefault SwapMethod=default 
+	Screen:    DP-1, 1920x1080, DPR=1.0, Refresh~164.83, Geom=(0,0,1920,1080), Primary=yes
+[Info] [GLContext.Create] success:  Name="GraphicsThread0", Handle=0x7f10e7d991f8, ShareContext="GlobalShare", ThreadID=7F12FD1DA000
+	Requested: 4.5 Core, R(-1)G(-1)B(-1)A(-1), D(-1)S(-1), SwapBehaviour=platformDefault SwapMethod=default 
+	Chosen:    4.5 Core, RGB8_UNorm, D24X8_UNorm, SwapBehaviour=platformDefault SwapMethod=default 
+	Surface:   4.5 Core, RGB8_UNorm, D24X8_UNorm, SwapBehaviour=platformDefault SwapMethod=default 
+	Screen:    DP-1, 1920x1080, DPR=1.0, Refresh~164.83, Geom=(0,0,1920,1080), Primary=yes
+[Info] [GLContext.Destroy] Name="GraphicsThread0", ThreadID=7F10D9FF2000
+[Info] [GLContext.Destroy] Name="ResourceManager3D", ThreadID=7F12FD1DA000
+[Info] [GLContext.Destroy] Name="DeviceManager", ThreadID=7F12FD1DA000
+
+Message Summary:
+Trace = 0   Debug = 0   Info = 13   Warning = 0   Error = 0   Fatal = 0   
+

@@ -1,0 +1,406 @@
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:39,781 | Running DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:39,781 | BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:39,781 | BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,782 | Starting GPUDetect 1.2_9-a4
+0x7f4bb6af5000 | GPUDetect            | WARN  | 2025-09-13 19:38:39,823 | X11 logs not found.
+0x7f4bb6af5000 | GPUDetect            | ERROR | 2025-09-13 19:38:39,847 | No Main Display GPU found and no monitors found to match, defaulting to gpu:598eeef9.cd75a979.
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 | Done in 65 ms.
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 | Detected System:
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |   - OS: Linux Arch
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |   - Model: HP 8767
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |   - System ID: ae5b6c0df3f94f53bc6bea961317405a
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |   - CPU: Intel Core i5-10400F, 12 threads, x86-64
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |   - RAM: 6.8 GiB used of 15.5 GiB
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 | Detected 1 GPUs:
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) <- Main Display GPU
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |     Discrete, 11.6 GiB VRAM, PCI:1:0
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 |     Matches: CUDA, NVML, OpenCL
+0x7f4bb6af5000 | GPUDetect            | INFO  | 2025-09-13 19:38:39,847 | Detected 1 monitors:
+0x7f4bb6af5000 | Main.GPUConfig       | INFO  | 2025-09-13 19:38:39,847 | Compute API set to automatic, defaulting to CUDA.
+0x7f4bb6af5000 | Main.GPUConfig       | INFO  | 2025-09-13 19:38:39,847 | Selected compute API: CUDA
+0x7f4bb6af5000 | Main.GPUConfig       | INFO  | 2025-09-13 19:38:39,847 | Automatic GPU Selection:
+0x7f4bb6af5000 | Main.GPUConfig       | INFO  | 2025-09-13 19:38:39,847 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979)
+0x7f4bb6af5000 | IO                   | INFO  | 2025-09-13 19:38:39,847 | RED InitializeSdk with library path at /opt/resolve/libs
+0x7f4bb6af5000 | IO                   | INFO  | 2025-09-13 19:38:40,032 | R3DAPI 9.1.0-07abfbd (20250817 Lx64S) R3DSDK 9.1.0-07abfbd (20250817 Lx64D C3B3) RED CUDA 9.1.0-0 (20250817) [/opt/resolve/libs/] init is successful
+libDeckLinkAPI.so: cannot open shared object file: No such file or directory
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:40,032 | Decklink model name: '', version: ''
+0x7f4bb6af5000 | DVIP                 | INFO  | 2025-09-13 19:38:40,033 | DVIP release/20.2 build 35 (168d740ee3a1c62a862734f66ca703fcb773bd21). Release, version 20.2.0.
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,206 | Using DNxHR library v3.0.0.1312r
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
+0x7f4b2abef000 | Fusion               | INFO  | 2025-09-13 19:38:40,354 | Fusion Build: d1036166_0019 (Sep  8 2025 14:33:15)
+0x7f4b179fc000 | Fusion               | INFO  | 2025-09-13 19:38:40,360 | fusionsystem: = "/opt/resolve/libs/Fusion/libfusionsystem.so"
+0x7f4b179fc000 | Fusion               | INFO  | 2025-09-13 19:38:40,366 | FusionLibs: = "/opt/resolve/libs/Fusion/"
+0x7f4b179fc000 | Fusion               | INFO  | 2025-09-13 19:38:40,366 | UserData:   = "/home/avery/.local/share/DaVinciResolve/Fusion"
+0x7f4b179fc000 | Fusion               | INFO  | 2025-09-13 19:38:40,366 | Profiles:   = "UserData:Profiles/"
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,369 | NVDEC decodes H264, chroma 4:2:0, bitdepth 8, upto 4096 x 4096
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:40,389 | UI language is set to "en".
+Attribute Qt::AA_ShareOpenGLContexts must be set before QCoreApplication is created.
+0x7f4bb6af5000 | DDM                  | INFO  | 2025-09-13 19:38:40,392 | Creating package storage directory '/opt/resolve/Extras'
+0x7f4bb6af5000 | DDM                  | ERROR | 2025-09-13 19:38:40,392 | Failed to initialize DDM: failed to create storage dir '/opt/resolve/Extras' (error 'Permission denied')
+0x7f4bb6af5000 | DownloadMgr          | ERROR | 2025-09-13 19:38:40,392 | DDM init failed.
+0x7f4b029be000 | DbCommon2            | INFO  | 2025-09-13 19:38:40,398 | Loading dblist file: /home/avery/.local/share/DaVinciResolve/configs/.dblist
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,415 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,423 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,431 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 12, upto 8192 x 8192
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:40,443 | Finished loading Application style sheet
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:40,460 | Show splash screen
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:40,460 | Show splash screen message: Starting Up
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,463 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 8, upto 8192 x 8192
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,520 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 10, upto 8192 x 8192
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,529 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 12, upto 8192 x 8192
+0x7f4bb6af5000 | UI.GLContext         | INFO  | 2025-09-13 19:38:40,531 | Creating shared OpenGL context for this thread (1 total).
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,537 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7f4bb6af5000 | UI.GLContext         | INFO  | 2025-09-13 19:38:40,541 | Initialized OpenGL 4.5 (requested 4.5) on device 'Mesa llvmpipe (LLVM 20.1.8, 256 bits)'
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:40,541 | Show splash screen message: Checking Licenses
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,546 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+sh: line 1: python2: command not found
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,553 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,562 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:40,562 | Nvidia : driverVer(208), SDK(13:0)
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:41,591 | Nvidia GPU (0) is initialised as decoding and encoding device.
+0x7f4b24fff000 | IO                   | ERROR | 2025-09-13 19:38:41,593 | Error initializing ArriImageSdk Some requested platforms could not be loaded. See log for details.
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:41,593 | Initialized ARRIImageSDK version 9.0.0-rc3
+0x7f4a9cdff000 | Main                 | INFO  | 2025-09-13 19:38:41,593 | Local SysId:5081402EF365 Hostname:averyspcpc Timezone:US/Pacific UTC-0700
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:41,595 | Apple ProRes RAW plugin - Standard v1.3 [com.apple.proresraw.prrplugin.standardrawconversion]
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:41,595 | Found 1 Apple ProRes RAW plugins.
+0x7f4b24fff000 | IO                   | ERROR | 2025-09-13 19:38:41,595 | ProRes RAW SDK raw conversion plug-in loading error(s): unable to open default plug-in directory /usr/local/lib/proresraw/plugins
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:41,595 | IO codec library load completed in 1389 ms.
+0x7f4a9adfa000 | Main                 | INFO  | 2025-09-13 19:38:41,599 | Started listener socket at port 15000
+libScannerAPI.so: cannot open shared object file: No such file or directory
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:41,601 | Application state changed to Active
+Unable to read VR Path Registry from /home/avery/.config/openvr/openvrpaths.vrpath
+0x7f4bb6af5000 | LeManager            | INFO  | 2025-09-13 19:38:41,723 | R_V:16.0.3.0
+0x7f4bb6af5000 | BtCommon             | INFO  | 2025-09-13 19:38:41,728 | Memory config: reserved=2971M pinned=2228M log=0
+0x7f4bb6af5000 | BtCommon             | INFO  | 2025-09-13 19:38:41,728 | Using default pooled memory manager
+0x7f4a9cdff000 | BtCommon             | INFO  | 2025-09-13 19:38:41,728 | BtResourceManager Process Thread Started
+0x7f4bb6af5000 | SyManager            | INFO  | 2025-09-13 19:38:41,732 | Total: 20, NumDtThreads: 8, NumComms: 0, NumSites: 1
+
+0x7f4bb6af5000 | SyManager            | INFO  | 2025-09-13 19:38:41,732 | Lookaheads -> playback = 20, record = 20, stop = 2
+
+Sy High Command Handler Thread ----- (139958297067520)
+SY high priority cmd handler thread starts: 94948000
+Sy Low Command Handler Thread ----- (139958280286208)
+SY low priority cmd handler thread starts: 93947000
+Sy Data Handler Thread ----- (139958263504896)
+SY data handler thread starts: 92946000
+Gs High Command Handler Thread ----- (139958229942272)
+GS high priority cmd handler thread starts: 90944000
+Gs Low Command Handler Thread ----- (139958213160960)
+GS low priority cmd handler thread starts: 8F943000
+0x7f4a8e942000 | GsManager            | INFO  | 2025-09-13 19:38:41,733 | Gs Processor Thread ----- (139958196379648)
+
+GS processor thread starts: 8E942000
+Dp High Command Handler Thread ----- (139958179598336)
+DP high priority cmd handler thread starts: 8D941000
+Dp Low Command Handler Thread ----- (139958162817024)
+DP low priority cmd handler thread starts: 8C940000
+Dt High Command Handler Thread ----- (139958146035712)
+DT high priority cmd handler thhread starts: 8B93F000
+Dt Low Command Handler Thread ----- (139958129254400)
+DT low priority cmd handler thread starts: 8A93E000
+0x7f4bb6af5000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Using 8 generic IO threads
+0x7f4a8993d000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Dt Data Handler Thread Started
+DT data handler thread starts: 8993D000
+0x7f4bb6af5000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Total of 16 IO threads (including 8 generic and 8 Red decode threads)
+0x7f4a8793b000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Dt Worker Thread Started
+0x7f4a8893c000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Dt Worker Thread Started
+0x7f4a8693a000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Dt Worker Thread Started
+0x7f4a85939000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Dt Worker Thread Started
+0x7f4a84938000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Dt Worker Thread Started
+0x7f4a83937000 | DtManager            | INFO  | 2025-09-13 19:38:41,733 | Dt Worker Thread Started
+0x7f4a82936000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a81935000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a80934000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7f933000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7e932000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7d931000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7c930000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7b92f000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7a92e000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7992d000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7892c000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+0x7f4a7792b000 | DtManager            | INFO  | 2025-09-13 19:38:41,734 | Dt Worker Thread Started
+Ls High Command Handler Thread ----- (139957793628160)
+Ls Low Command Handler Thread ----- (139957776846848)
+LS low priority cmd handler thread starts: 75929000
+Ls Data Handler Thread ----- (139957760065536)
+LS data handler thread starts: 74928000
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:41,735 | Show splash screen message: Loading Project Libraries
+Mem data transmitter thread starts: 6C7FD000
+LS data handler thread starts: 713FF000
+LS low priority cmd handler thread starts: 6E7FF000
+LS low priority cmd handler thread starts: 72926000
+Ls Data Handler Thread ----- (139957704323072)
+Mem Data Transmitter Thread ----- (139957624623104)
+Ls High Command Handler Thread ----- (139957681254400)
+Ls Data Handler Thread ----- (139957641404416)
+Ls Low Command Handler Thread ----- (139957658185728)
+Ls High Command Handler Thread ----- (139957743284224)
+Ls Low Command Handler Thread ----- (139957726502912)
+0x7f4a6d7fe000 | GPU.MultiBoardMgr    | INFO  | 2025-09-13 19:38:41,745 | Let There Be CUDA Light!
+0x7f4a6d7fe000 | GPU.MultiBoardMgr    | INFO  | 2025-09-13 19:38:41,746 | Initializing CUDA board manager for Main Display GPU gpu:598eeef9.cd75a979.
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:41,751 | Show splash screen message: Initializing system components
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:41,755 | Show splash screen message: Loading video codecs
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:41,756 | Show splash screen message: Loading video plugins
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:41,758 | Show splash screen message: Loading Fairlight Engine
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:41,762 | Board manager thread for "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) is ready.
+0x7f4a6d7fe000 | UI.GLInterop         | INFO  | 2025-09-13 19:38:41,762 | OpenGL interop was initialized.
+0x7f4a6d7fe000 | UI.GLInterop         | INFO  | 2025-09-13 19:38:41,762 | OpenGL interop was initialized.
+0x7f4a6d7fe000 | GPU.MultiBoardMgr    | INFO  | 2025-09-13 19:38:41,762 | Enabled CUDA pinned memory.
+LS data handler thread starts: 6D7FE000
+0x7f4b24fff000 | IO                   | INFO  | 2025-09-13 19:38:41,767 | IO codec initialization completed in 11 ms.
+0x7f4abf9ff000 | Fusion               | INFO  | 2025-09-13 19:38:41,929 | 371 templates scanned in 0.15 secs
+0x7f4bb6af5000 | BtCommon             | ERROR | 2025-09-13 19:38:42,000 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f4bb6af5000 | BtCommon             | ERROR | 2025-09-13 19:38:42,340 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f4bb6af5000 | BtCommon             | ERROR | 2025-09-13 19:38:42,544 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f4bb6af5000 | Fairlight            | INFO  | 2025-09-13 19:38:42,557 | 00.00.00.795(002): Running Fairlight (7758d19aa751da89a7226a62c629d484783991f3)
+0x7f4bb6af5000 | FairlightLoader      | INFO  | 2025-09-13 19:38:42,557 | Fairlight lib initialized in 796 ms.
+0x7f4b2abef000 | UI.GLContext         | INFO  | 2025-09-13 19:38:42,558 | Creating shared OpenGL context for this thread (2 total).
+0x7f4b2abef000 | UI.GLIO              | INFO  | 2025-09-13 19:38:42,567 | Initialized MainPlayer OpenGL I/O on CUDA device 'NVIDIA GeForce RTX 3060'
+0x7f4bb6af5000 | UI.GLIO              | INFO  | 2025-09-13 19:38:42,567 | MainPlayer: OpenGL I/O setup done.
+0x7f49ca9eb000 | UI.GLContext         | INFO  | 2025-09-13 19:38:42,568 | Creating shared OpenGL context for this thread (3 total).
+0x7f49ca9eb000 | UI.GLIO              | INFO  | 2025-09-13 19:38:42,578 | Initialized AuxPlayer OpenGL I/O on CUDA device 'NVIDIA GeForce RTX 3060'
+0x7f4bb6af5000 | UI.GLIO              | INFO  | 2025-09-13 19:38:42,578 | AuxPlayer: OpenGL I/O setup done.
+0x7f49c76df000 | UI.GLContext         | INFO  | 2025-09-13 19:38:42,578 | Creating shared OpenGL context for this thread (4 total).
+0x7f49c76df000 | UI.Scopes            | INFO  | 2025-09-13 19:38:42,636 | Initialized GPU Scopes Manager on CUDA device 'NVIDIA GeForce RTX 3060'
+0x7f49f19ff000 | SyManager            | INFO  | 2025-09-13 19:38:42,658 | Starting keyboard device monitor thread...
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:42,665 | Show splash screen message: Loading Project Settings
+0x7f4bb6af5000 | UI.MenuBar           | WARN  | 2025-09-13 19:38:42,985 | Main menu action [workspaceLayoutFusion_sub001Default]'s slot is not defined: workspaceLayoutFusion_sub001Default_triggered()
+0x7f4bb6af5000 | FusionUtils          | WARN  | 2025-09-13 19:38:42,993 | Fusion DoAction ACTION_SET_FUSION_HOTKEY ignored, init not completed
+0x7f4bb6af5000 | SyManager            | ERROR | 2025-09-13 19:38:43,006 | RemoteStream() - Access token is empty
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:43,246 | Show splash screen message: Loading Media Page
+0x7f4bb6af5000 | UI.FairlightInterface | WARN  | 2025-09-13 19:38:43,436 | SetActionEnabled: Failed to find action [viewTimelineScrollingFixed]'s action connector for handler Id [1]
+Unknown property letter-spacing
+Unknown property letter-spacing
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:44,189 | Show splash screen message: Loading Cut Page
+0x7f4bb6af5000 | UI.SpeedTimeline     | INFO  | 2025-09-13 19:38:44,275 | Replay UI is enabled.
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:44,519 | OFX - plugin not supported on this platform, is being skipped
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:44,521 | OFX - plugin not supported on this platform, is being skipped
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:44,557 | Show splash screen message: Loading Edit Page
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:44,850 | OFX - plugin not supported on this platform, is being skipped
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:44,851 | OFX - plugin not supported on this platform, is being skipped
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:44,860 | Show splash screen message: Loading Fusion Page
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:44,928 | Show splash screen message: Loading Fairlight Page
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:45,110 | Show splash screen message: Loading Color Page
+libpng warning: iCCP: known incorrect sRGB profile
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:45,221 | OFX - plugin not supported on this platform, is being skipped
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:45,221 | OFX - plugin not supported on this platform, is being skipped
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:46,514 | Show splash screen message: Loading Waveform Monitor
+****************** Flushing GPU Buffers
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:46,794 | Show splash screen message: Loading Audio Plugins
+0x7f4bb6af5000 | SyManager            | INFO  | 2025-09-13 19:38:46,848 | Collaboration IP  Port 0
+0x7f4bb6af5000 | DbCommon2            | INFO  | 2025-09-13 19:38:46,848 | Sm2SysIdEntry is not supported in local project library (xml) mode
+0x7f4bb6af5000 | SyManager            | ERROR | 2025-09-13 19:38:46,848 | Failed to parse key (SkipVersion) from JsonObject
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:46,849 | 83, 468
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:46,849 | 27, 1118
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:46,849 | 61, 1154, -149
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:46,855 | Show splash screen message: Loading Projects
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:46,869 | Current user pointer is changed
+0x7f4bb6af5000 | UI                   | WARN  | 2025-09-13 19:38:47,014 | Failed to load [13] from Metadata widget.
+0x7f4bb6af5000 | BtCommon             | ERROR | 2025-09-13 19:38:47,261 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:47,760 | Start purging still caches
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:47,760 | Finish purging still caches
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:47,829 | Media pool relink status changed to 0
+0x7f4bb6af5000 | FusionUtils          | WARN  | 2025-09-13 19:38:47,851 | Fusion DoAction ACTION_SET_FUSION_HOTKEY ignored, init not completed
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:47,857 | Launching project manager
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:47,858 | Main view page is changed to 12
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:47,873 | Show splash screen message: Ready
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:47,875 | Gallery pointer is changed, refreshing color gallery
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:48,014 | Close splash screen
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:48,014 | Launching main loop
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:48,399 | Fusion templates changed
+0x7f4bb6af5000 | UI                   | WARN  | 2025-09-13 19:38:48,410 | Bin to remove [Titles/Subtitles/Animated] does not exist in the view []
+0x7f4bb6af5000 | UI                   | WARN  | 2025-09-13 19:38:48,410 | Bin to remove [Titles/Subtitles] does not exist in the view []
+0x7f4bb6af5000 | Fusion               | INFO  | 2025-09-13 19:38:48,631 | Started script server: 241994
+
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:48,901 | 26, 442, -9
+0x7f4bb6af5000 | SyManager.ActionExecutor | INFO  | 2025-09-13 19:38:49,477 | Database transaction is ongoing, user initiated action Sync Asset Map is postponed
+0x7f4bb6af5000 | SyManager.ActionExecutor | INFO  | 2025-09-13 19:38:49,548 | Database transaction completed, enqueueing 1 postponed actions
+0x7f4bb6af5000 | SyManager.ProjectManager | INFO  | 2025-09-13 19:38:49,591 | Loading project (Untitled Project 4) from project library (Local Database) took 366 ms
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:49,725 | Start purging still caches
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:49,725 | Finish purging still caches
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:49,779 | Media pool relink status changed to 0
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:49,780 | Current project pointer changed to (Untitled Project 4) from DB (Local Database : Local)
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:49,780 | Current timeline pointer (Timeline 1) is changed
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:49,823 | The buttonId [7] is not found for [0] in [0]
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:49,828 | Gallery pointer is changed, refreshing color gallery
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:49,848 | Main view page is changed to 1
+0x7f4bb6af5000 | UI                   | WARN  | 2025-09-13 19:38:49,848 | Failed to get auto update information.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:50,074 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLContext         | INFO  | 2025-09-13 19:38:50,075 | Creating shared OpenGL context for this thread (5 total).
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:50,086 | Main view page is changed to 3
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:50,086 | Released 0 MiB in 0 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:50,094 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:50,119 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4b2abef000 | DVIP                 | ERROR | 2025-09-13 19:38:50,318 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4b2abef000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:50,318 | Failed to register OpenGL texture to compute API.
+0x7f4b2abef000 | UI.GLIO              | ERROR | 2025-09-13 19:38:50,318 | MainPlayer ProcessNextWorkItem: Handle1 Unable to allocate texture
+0x7f4b2abef000 | DVIP                 | ERROR | 2025-09-13 19:38:50,320 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4b2abef000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:50,320 | Failed to register OpenGL texture to compute API.
+0x7f4b2abef000 | UI.GLIO              | ERROR | 2025-09-13 19:38:50,320 | MainPlayer ProcessNextWorkItem: Handle2 Unable to allocate texture
+0x7f4b2abef000 | DVIP                 | ERROR | 2025-09-13 19:38:50,324 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4b2abef000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:50,324 | Failed to register OpenGL texture to compute API.
+0x7f4b2abef000 | UI.GLIO              | ERROR | 2025-09-13 19:38:50,324 | MainPlayer ProcessNextWorkItem: Handle3 Unable to allocate texture
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:50,635 | Main view page is changed to 3
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:50,646 | Launching main window
+### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/Resolve Project Backups/ac31bf8b-02d9-4e51-8a6d-be335dc85c78'
+### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
+0x7f4bb6af5000 | SyManager            | WARN  | 2025-09-13 19:38:50,658 | No reply received from file system, assume successfully deleted folder /home/avery/Resolve Project Backups/ac31bf8b-02d9-4e51-8a6d-be335dc85c78.
+### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/CacheClip/ac31bf8b-02d9-4e51-8a6d-be335dc85c78'
+### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
+0x7f4bb6af5000 | SyManager            | WARN  | 2025-09-13 19:38:50,668 | No reply received from file system, assume successfully deleted folder /home/avery/CacheClip/ac31bf8b-02d9-4e51-8a6d-be335dc85c78.
+### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/.gallery/ac31bf8b-02d9-4e51-8a6d-be335dc85c78'
+### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
+0x7f4bb6af5000 | SyManager            | WARN  | 2025-09-13 19:38:50,678 | No reply received from file system, assume successfully deleted folder /home/avery/.gallery/ac31bf8b-02d9-4e51-8a6d-be335dc85c78.
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:51,204 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:51,204 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,216 | MainPlayer: Failed to un-map texture, Handle2 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:51,216 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:51,216 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:51,230 | Released 0 MiB in 0 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:51,232 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:51,239 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:51,240 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,240 | MainPlayer: Failed to un-map texture, Handle2 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:51,240 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+Urgent message: Your GPU memory is full.||Try reducing the timeline resolution or the number of correctors.
+0x7f4bb6af5000 | ControlPanel         | INFO  | 2025-09-13 19:38:51,250 | Switched Control Panel to mode Primary YSFX
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:51,254 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:51,267 | Released 0 MiB in 0 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:51,271 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:51,280 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:51,280 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,280 | MainPlayer: Failed to un-map texture, Handle3 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:51,280 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:51,280 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:51,293 | Released 0 MiB in 0 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:51,295 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:51,302 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:51,302 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,302 | MainPlayer: Failed to un-map texture, Handle3 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:51,302 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+0x7f4bb6af5000 | UI.GLIO              | WARN  | 2025-09-13 19:38:51,315 | MainPlayer: Failed to get texture for Handle3, job was aborted.
+0x7f4bb6af5000 | UI                   | ERROR | 2025-09-13 19:38:51,315 | Invalid handle, and failed to get previous texture.
+0x7f4bb6af5000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,340 | MainPlayer: Failed to get texture, Handle2 is unknown.
+0x7f4bb6af5000 | UI                   | ERROR | 2025-09-13 19:38:51,340 | Invalid handle, and failed to get previous texture.
+0x7f4bb6af5000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,617 | MainPlayer: Failed to get texture, Handle3 is unknown.
+0x7f4bb6af5000 | UI                   | ERROR | 2025-09-13 19:38:51,617 | Invalid handle, and failed to get previous texture.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:51,746 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:51,760 | Released 110 MiB in 7 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:51,762 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:51,765 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:51,769 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:51,769 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,769 | MainPlayer: Failed to un-map texture, Handle4 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:51,769 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:51,769 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:51,786 | Released 0 MiB in 0 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:51,789 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:51,794 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:51,794 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,794 | MainPlayer: Failed to un-map texture, Handle4 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:51,794 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:51,796 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:51,809 | Released 0 MiB in 0 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:51,811 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4bb6af5000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:51,946 | MainPlayer: Failed to get texture, Handle4 is unknown.
+0x7f4bb6af5000 | UI                   | ERROR | 2025-09-13 19:38:51,946 | Invalid handle, and failed to get previous texture.
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:54,261 | 63, 1148, -154
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:54,261 | 28, 1124
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:54,261 | 29, 1132
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:54,261 | 28, 1124
+0x7f4b019bd000 | LeManager            | ERROR | 2025-09-13 19:38:54,261 | 29, 1132
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:57,210 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:57,212 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:57,212 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:57,212 | MainPlayer: Failed to un-map texture, Handle5 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:57,213 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:57,213 | Flushing GPU memory...
+0x7f4a677fd000 | UI.GLTexPool         | INFO  | 2025-09-13 19:38:57,230 | Released 0 MiB in 0 unused textures.
+0x7f4a677fd000 | GPU                  | INFO  | 2025-09-13 19:38:57,232 | Loaded Shaper LUT 'F-Log_LUT_E_Ver.1.31/X-S10/XS10_FLog_FGamut_to_ETERNA_BT.709_33grid_V.1.01.cube'
+0x7f4a677fd000 | DVIP                 | ERROR | 2025-09-13 19:38:57,236 | Failed to register OpenGL object for CUDA interop: cudaErrorUnknown.
+0x7f4a677fd000 | UI.GLTexPool         | ERROR | 2025-09-13 19:38:57,236 | Failed to register OpenGL texture to compute API.
+0x7f4a677fd000 | UI.GLInterop         | ERROR | 2025-09-13 19:38:57,236 | MainPlayer: Failed to un-map texture, Handle5 is unknown.
+0x7f4a677fd000 | GPU.SingleBoardMgr   | ERROR | 2025-09-13 19:38:57,236 | Out-of-memory exception caught, purging memory: Packer OpenGL interop failed.
+0x7f4bb6af5000 | SyManager.Project    | INFO  | 2025-09-13 19:38:57,307 | Unlock project Untitled Project 4
+0x7f4bb6af5000 | DbCommon2            | INFO  | 2025-09-13 19:38:57,308 | Active collaborators cleared
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:57,308 | Start purging still caches
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:57,308 | Finish purging still caches
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:57,328 | Start purging still caches
+0x7f4bb6af5000 | SyManager.Gallery    | INFO  | 2025-09-13 19:38:57,328 | Finish purging still caches
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:57,376 | Media pool relink status changed to 0
+Accepted close event on main window
+0x7f4a74928000 | LsManager            | INFO  | 2025-09-13 19:38:57,380 | Exit LS data handler
+0x7f4a6d7fe000 | LsManager            | INFO  | 2025-09-13 19:38:57,380 | Exit LS data handler
+0x7f4a713ff000 | LsManager            | INFO  | 2025-09-13 19:38:57,380 | Exit LS data handler
+0x7f49f19ff000 | SyManager            | INFO  | 2025-09-13 19:38:57,675 | Exiting keyboard device monitor thread.
+0x7f4bb6af5000 | SyManager            | INFO  | 2025-09-13 19:38:57,675 | Thread release successful.
+QWidget::setMinimumSize: (/QDialog) Negative sizes (-3,-3) are not possible
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,321 | Starting terminate sequence by calling g_MainTerm
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,321 | Closing components
+0x7f4bb6af5000 | DownloadMgr          | INFO  | 2025-09-13 19:38:58,321 | Uninitializing Download Manager
+0x7f4bb6af5000 | UI                   | INFO  | 2025-09-13 19:38:58,321 | Audio thread terminated.
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,342 | g_MainTerm: BtStartupShutdownControl.Shutdown() - begin
+0x7f4a93947000 | SyManager            | INFO  | 2025-09-13 19:38:58,356 | Exit SY low priority cmd handler
+0x7f4a94948000 | SyManager            | INFO  | 2025-09-13 19:38:58,356 | Exit SY high priority cmd handler
+Exit SY data handler
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,397 | SvcManager: SyManager.StopThreads() - end
+Exit GS high priority cmd handler
+Exit GS low priority cmd handler
+0x7f4a8e942000 | GsManager            | INFO  | 2025-09-13 19:38:58,425 | Exit GS process handler
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,425 | SvcManager: GsManager.StopThreads() - end
+0x7f4a8c940000 | DpManager            | INFO  | 2025-09-13 19:38:58,436 | Exit DP low priority cmd handler
+0x7f4a8d941000 | DpManager            | INFO  | 2025-09-13 19:38:58,436 | Exit DP high priority cmd handler
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,452 | SvcManager: DpManager.StopThreads() - end
+0x7f4a8b93f000 | DtManager            | INFO  | 2025-09-13 19:38:58,456 | Exit DT high priority cmd handler
+0x7f4a8a93e000 | DtManager            | INFO  | 2025-09-13 19:38:58,456 | Exit DT low priority cmd handler
+0x7f4a8993d000 | DtManager            | INFO  | 2025-09-13 19:38:58,483 | Exit DT data handler thread
+0x7f4a7892c000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7c930000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7e932000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a80934000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7792b000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7b92f000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7f933000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a8693a000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7992d000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a83937000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a81935000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a8893c000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a82936000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7d931000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a7a92e000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a85939000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a8793b000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4a84938000 | DtManager            | INFO  | 2025-09-13 19:38:58,506 | Exit DT worker thread
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,526 | SvcManager: DtManager.StopThreads() - end
+0x7f4a75929000 | LsManager            | INFO  | 2025-09-13 19:38:58,537 | Exit LS low priority cmd handler
+0x7f4a7692a000 | LsManager            | INFO  | 2025-09-13 19:38:58,537 | Exit LS high priority cmd handler
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,554 | SvcManager: LsManager.StopThreads() - end
+0x7f4a72926000 | LsManager            | INFO  | 2025-09-13 19:38:58,557 | Exit LS low priority cmd handler
+0x7f4a73927000 | LsManager            | INFO  | 2025-09-13 19:38:58,557 | Exit LS high priority cmd handler
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,582 | SvcManager: LsManager.StopThreads() - end
+0x7f4a6fdff000 | LsManager            | INFO  | 2025-09-13 19:38:58,597 | Exit LS high priority cmd handler
+0x7f4a6e7ff000 | LsManager            | INFO  | 2025-09-13 19:38:58,597 | Exit LS low priority cmd handler
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,610 | SvcManager: LsManager.StopThreads() - end
+Exit memory data transmitter
+Delete service manager
+Delete cmd transmitter/receiver
+Delete data transmitter/receiver
+Delete remote cmd receiver
+Delete remote data receiver
+Exit SiteManager
+0x7f4a677fd000 | GPU.SingleBoardMgr   | INFO  | 2025-09-13 19:38:58,628 | Board manager thread for "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) is done.
+0x7f4bb6af5000 | IO                   | INFO  | 2025-09-13 19:38:58,628 | RED FinalizeSdk
+0x7f4bb6af5000 | DbCommon2            | INFO  | 2025-09-13 19:38:58,647 | Active collaborators cleared
+0x7f4bb6af5000 | SyManager.Signals    | INFO  | 2025-09-13 19:38:58,647 | Collaboration connection count has changed
+0x7f4a9cdff000 | BtCommon             | INFO  | 2025-09-13 19:38:58,648 | Exit BtResourceManager Process Thread
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,861 | g_MainTerm: BtStartupShutdownControl.Shutdown() - finished
+0x7f49c76df000 | UI.Scopes            | INFO  | 2025-09-13 19:38:58,861 | GPU Scopes thread done.
+0x7f4b2abef000 | UI.GLIO              | INFO  | 2025-09-13 19:38:58,861 | MainPlayer: OpenGL I/O worker thread is done.
+0x7f4bb6af5000 | UI.GLIO              | INFO  | 2025-09-13 19:38:58,862 | MainPlayer: OpenGL I/O uninit done.
+0x7f49ca9eb000 | UI.GLIO              | INFO  | 2025-09-13 19:38:58,862 | AuxPlayer: OpenGL I/O worker thread is done.
+0x7f4bb6af5000 | UI.GLIO              | INFO  | 2025-09-13 19:38:58,862 | AuxPlayer: OpenGL I/O uninit done.
+0x7f4bb6af5000 | UI.GLContext         | INFO  | 2025-09-13 19:38:58,870 | Destroyed main OpenGL context.
+0x7f4bb6af5000 | Main                 | INFO  | 2025-09-13 19:38:58,874 | Main thread exited successfully

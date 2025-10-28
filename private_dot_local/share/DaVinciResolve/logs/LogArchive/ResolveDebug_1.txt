@@ -1,0 +1,89 @@
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,229 | Running DaVinci Resolve Studio v20.2.0.0013 (Linux/Clang x86_64)
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,229 | BMD_BUILD_UUID 5fbbb484-9e29-4b0c-aafb-b9d449cf84c8
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,229 | BMD_GIT_COMMIT bb995087a5a5b52e57afba416e3bc706c66863f1
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,231 | Starting GPUDetect 1.2_9-a4
+0x7fc47e518000 | GPUDetect            | WARN  | 2025-09-14 09:58:42,270 | X11 logs not found.
+0x7fc47e518000 | GPUDetect            | ERROR | 2025-09-14 09:58:42,289 | No Main Display GPU found and no monitors found to match, defaulting to gpu:598eeef9.cd75a979.
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 | Done in 57 ms.
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 | Detected System:
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |   - OS: Linux Arch
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |   - Model: HP 8767
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |   - System ID: ae5b6c0df3f94f53bc6bea961317405a
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |   - CPU: Intel Core i5-10400F, 12 threads, x86-64
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |   - RAM: 2.6 GiB used of 15.5 GiB
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 | Detected 1 GPUs:
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) <- Main Display GPU
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |     Discrete, 11.6 GiB VRAM, PCI:1:0
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 |     Matches: CUDA, NVML, OpenCL
+0x7fc47e518000 | GPUDetect            | INFO  | 2025-09-14 09:58:42,289 | Detected 1 monitors:
+0x7fc47e518000 | Main.GPUConfig       | INFO  | 2025-09-14 09:58:42,289 | Compute API set to automatic, defaulting to CUDA.
+0x7fc47e518000 | Main.GPUConfig       | INFO  | 2025-09-14 09:58:42,289 | Selected compute API: CUDA
+0x7fc47e518000 | Main.GPUConfig       | INFO  | 2025-09-14 09:58:42,289 | Automatic GPU Selection:
+0x7fc47e518000 | Main.GPUConfig       | INFO  | 2025-09-14 09:58:42,289 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979)
+0x7fc47e518000 | IO                   | INFO  | 2025-09-14 09:58:42,289 | RED InitializeSdk with library path at /opt/resolve/libs
+0x7fc47e518000 | IO                   | INFO  | 2025-09-14 09:58:42,456 | R3DAPI 9.1.0-07abfbd (20250817 Lx64S) R3DSDK 9.1.0-07abfbd (20250817 Lx64D C3B3) RED CUDA 9.1.0-0 (20250817) [/opt/resolve/libs/] init is successful
+libDeckLinkAPI.so: cannot open shared object file: No such file or directory
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,456 | Decklink model name: '', version: ''
+0x7fc47e518000 | DVIP                 | INFO  | 2025-09-14 09:58:42,456 | DVIP release/20.2 build 35 (168d740ee3a1c62a862734f66ca703fcb773bd21). Release, version 20.2.0.
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,607 | Using DNxHR library v3.0.0.1312r
+qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
+0x7fc3f1ff1000 | Fusion               | INFO  | 2025-09-14 09:58:42,773 | Fusion Build: d1036166_0019 (Sep  8 2025 14:33:15)
+0x7fc3d19fc000 | Fusion               | INFO  | 2025-09-14 09:58:42,774 | fusionsystem: = "/opt/resolve/libs/Fusion/libfusionsystem.so"
+0x7fc3d19fc000 | Fusion               | INFO  | 2025-09-14 09:58:42,781 | FusionLibs: = "/opt/resolve/libs/Fusion/"
+0x7fc3d19fc000 | Fusion               | INFO  | 2025-09-14 09:58:42,781 | UserData:   = "/home/avery/.local/share/DaVinciResolve/Fusion"
+0x7fc3d19fc000 | Fusion               | INFO  | 2025-09-14 09:58:42,781 | Profiles:   = "UserData:Profiles/"
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,782 | NVDEC decodes H264, chroma 4:2:0, bitdepth 8, upto 4096 x 4096
+0x7fc47e518000 | UI                   | INFO  | 2025-09-14 09:58:42,802 | UI language is set to "en".
+Attribute Qt::AA_ShareOpenGLContexts must be set before QCoreApplication is created.
+0x7fc47e518000 | DDM                  | INFO  | 2025-09-14 09:58:42,806 | Creating package storage directory '/opt/resolve/Extras'
+0x7fc47e518000 | DDM                  | ERROR | 2025-09-14 09:58:42,807 | Failed to initialize DDM: failed to create storage dir '/opt/resolve/Extras' (error 'Permission denied')
+0x7fc47e518000 | DownloadMgr          | ERROR | 2025-09-14 09:58:42,807 | DDM init failed.
+0x7fc3c8dff000 | DbCommon2            | INFO  | 2025-09-14 09:58:42,807 | Loading dblist file: /home/avery/.local/share/DaVinciResolve/configs/.dblist
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,816 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,823 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,830 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 12, upto 8192 x 8192
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,847 | Finished loading Application style sheet
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,857 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 8, upto 8192 x 8192
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,864 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 10, upto 8192 x 8192
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,866 | Show splash screen
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,867 | Show splash screen message: Starting Up
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,871 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 12, upto 8192 x 8192
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,922 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,929 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7fc3ab9ea000 | Main                 | INFO  | 2025-09-14 09:58:42,936 | Started listener socket at port 15000
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,937 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+libScannerAPI.so: cannot open shared object file: No such file or directory
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,938 | Application state changed to Active
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,946 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:42,946 | Nvidia : driverVer(208), SDK(13:0)
+0x7fc47e518000 | UI.GLContext         | INFO  | 2025-09-14 09:58:42,973 | Creating shared OpenGL context for this thread (1 total).
+0x7fc47e518000 | UI.GLContext         | INFO  | 2025-09-14 09:58:42,981 | Initialized OpenGL 4.5 (requested 4.5) on device 'Mesa llvmpipe (LLVM 20.1.8, 256 bits)'
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:42,981 | Show splash screen message: Checking Licenses
+sh: line 1: python2: command not found
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:43,025 | Local SysId:5081402EF365 Hostname:averyspcpc Timezone:US/Pacific UTC-0700
+0x7fc47e518000 | LeManager            | INFO  | 2025-09-14 09:58:43,140 | R_V:16.0.3.0
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:43,967 | Nvidia GPU (0) is initialised as decoding and encoding device.
+0x7fc47e518000 | LeManager            | ERROR | 2025-09-14 09:58:43,968 | 22, 336, -1
+0x7fc3f0ff0000 | IO                   | ERROR | 2025-09-14 09:58:43,968 | Error initializing ArriImageSdk Some requested platforms could not be loaded. See log for details.
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:43,968 | Initialized ARRIImageSDK version 9.0.0-rc3
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:43,969 | Apple ProRes RAW plugin - Standard v1.3 [com.apple.proresraw.prrplugin.standardrawconversion]
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:43,969 | Found 1 Apple ProRes RAW plugins.
+0x7fc3f0ff0000 | IO                   | ERROR | 2025-09-14 09:58:43,969 | ProRes RAW SDK raw conversion plug-in loading error(s): unable to open default plug-in directory /usr/local/lib/proresraw/plugins
+0x7fc3f0ff0000 | IO                   | INFO  | 2025-09-14 09:58:43,969 | IO codec library load completed in 1362 ms.
+Unknown property letter-spacing
+Unknown property letter-spacing
+Unknown property letter-spacing
+Unable to read VR Path Registry from /home/avery/.config/openvr/openvrpaths.vrpath
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:44,086 | Application state changed to Inactive
+0x7fc3847ff000 | Fusion               | INFO  | 2025-09-14 09:58:44,232 | 371 templates scanned in 0.13 secs
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:45,555 | Application state changed to Active
+0x7fc38f9ce000 | BLKManager           | INFO  | 2025-09-14 09:58:49,075 | 422, 254
+0x7fc38f9ce000 | LeManager            | INFO  | 2025-09-14 09:58:49,075 | 641
+0x7fc38f9ce000 | LeManager            | INFO  | 2025-09-14 09:58:50,076 | 642
+0x7fc38f9ce000 | LeManager            | ERROR | 2025-09-14 09:58:50,519 | 26, 399, -9
+0x7fc38f9ce000 | LeManager            | ERROR | 2025-09-14 09:58:53,546 | 41, 426, -1021
+0x7fc47e518000 | LeManager            | ERROR | 2025-09-14 09:58:53,546 | License Key: License key is invalid.
+0x7fc47e518000 | Main                 | INFO  | 2025-09-14 09:58:55,902 | Close splash screen
+0x7fc47e518000 | SyManager.Signals    | INFO  | 2025-09-14 09:58:56,271 | Fusion templates changed
+0x7fc47e518000 | IO                   | INFO  | 2025-09-14 09:58:56,784 | RED FinalizeSdk
+0x7fc47e518000 | UI.GLContext         | INFO  | 2025-09-14 09:58:56,867 | Destroyed main OpenGL context.

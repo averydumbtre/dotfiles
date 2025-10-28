@@ -1,0 +1,11 @@
+FaderDisplayTimeoutSeconds = 600
+atmos_phrtf = 
+deckLinkAudioEnabled = 0
+enableGUIFPS = 0
+enableStreamingDebug = 0
+engineConfig = 1
+ioConfig = 0
+madiConfig = 0
+rmuBaseOutput = 0
+rmuEnabled = 0
+screenSaverState = 87
