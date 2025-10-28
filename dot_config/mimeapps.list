@@ -1,5 +1,6 @@
 [Added Associations]
 application/x-matroska=mpv.desktop;
+application/x-shellscript=org.kde.kate.desktop;
 audio/aac=mpv.desktop;
 audio/mp4=mpv.desktop;
 audio/mpeg=mpv.desktop;
@@ -18,6 +19,7 @@ audio/x-scpls=mpv.desktop;
 audio/x-vorbis=mpv.desktop;
 audio/x-vorbis+ogg=mpv.desktop;
 audio/x-wav=mpv.desktop;
+inode/directory=thunar.desktop;
 video/3gp=mpv.desktop;
 video/3gpp=mpv.desktop;
 video/3gpp2=mpv.desktop;
@@ -51,7 +53,6 @@ video/x-ogm+ogg=mpv.desktop;
 video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
-application/x-shellscript=org.kde.kate.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;
@@ -73,6 +74,7 @@ audio/x-scpls=mpv.desktop;
 audio/x-vorbis=mpv.desktop;
 audio/x-vorbis+ogg=mpv.desktop;
 audio/x-wav=mpv.desktop;
+inode/directory=thunar.desktop;
 video/3gp=mpv.desktop;
 video/3gpp=mpv.desktop;
 video/3gpp2=mpv.desktop;
@@ -105,5 +107,5 @@ video/x-ogm=mpv.desktop;
 video/x-ogm+ogg=mpv.desktop;
 video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
-x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
 x-scheme-handler/bitwarden=bitwarden.desktop
+x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
