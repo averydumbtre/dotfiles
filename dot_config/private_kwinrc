@@ -11,12 +11,18 @@ Id_9=df004cac-ff64-4e02-b0ce-e04ec97a1998
 Number=9
 Rows=1
 
+[MouseBindings]
+CommandAll2=Minimize
+CommandAllWheel=Change Opacity
+
 [Plugins]
 aeroglassblurEnabled=true
 aeroglideEnabled=true
 blurEnabled=false
+cubeEnabled=true
 desktopchangeosdEnabled=true
 dialogparentEnabled=false
+diminactiveEnabled=true
 dimscreenEnabled=false
 dimscreenaeroEnabled=true
 libkwin_effect_smodsnapEnabled=true
