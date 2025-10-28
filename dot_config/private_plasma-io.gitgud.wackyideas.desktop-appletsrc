@@ -138,6 +138,10 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.activitypager
 
+[Containments][8][Applets][76][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][8][Applets][78]
 immutability=1
 plugin=org.kde.plasma.calculator
@@ -265,7 +269,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=28
+popupHeight=470
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -301,8 +305,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=418
-popupWidth=584
+popupHeight=434
+popupWidth=600
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -320,6 +324,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][9][Applets][142][Configuration]
+PreloadWeight=55
 popupHeight=400
 popupWidth=560
 
@@ -369,8 +374,8 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][9][Applets][147][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-popupHeight=395
-popupWidth=556
+popupHeight=411
+popupWidth=572
 
 [Containments][9][Applets][147][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -386,6 +391,18 @@ network/all/upload=0,85,255
 
 [Containments][9][Applets][147][Configuration][Sensors]
 highPrioritySensorIds=["network/all/download","network/all/upload"]
+
+[Containments][9][Applets][148]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][9][Applets][149]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
+
+[Containments][9][Applets][149][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][9][Applets][30]
 immutability=1
@@ -433,7 +450,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][9][General]
-AppletOrder=10;34;147;146;145;142;30;143;43;14
+AppletOrder=10;34;149;148;147;146;145;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
