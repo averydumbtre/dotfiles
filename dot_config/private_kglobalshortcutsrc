@@ -252,6 +252,13 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
+[services][Alacritty.desktop]
+New=Meta+Q
+
+[services][librewolf.desktop]
+_launch=Meta+S
+new-private-window=Meta+Shift+S
+
 [services][org.kde.krunner.desktop]
 RunClipboard=none
 _launch=none
