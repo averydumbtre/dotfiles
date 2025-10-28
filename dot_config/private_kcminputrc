@@ -2,6 +2,14 @@
 RepeatDelay=400
 RepeatRate=60
 
+[Libinput][1133][16500][Logitech G305]
+PointerAcceleration=-0.400
+PointerAccelerationProfile=1
+
+[Libinput][1739][32183][SYNA7DB5:00 06CB:7DB7 Mouse]
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+
 [Libinput][1739][32183][SYNA7DB5:00 06CB:7DB7 Touchpad]
 NaturalScroll=true
 

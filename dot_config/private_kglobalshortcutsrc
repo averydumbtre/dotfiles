@@ -14,11 +14,11 @@ _k_friendly_name=Accessibility
 [kmix]
 _k_friendly_name=Audio Volume
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
-decrease_volume=Volume Down,Volume Down,Decrease Volume
-decrease_volume_small=Shift+Volume Down\tMeta+\\,,Shift+Volume Down,Decrease Volume by 1%
+decrease_volume=Volume Down\tMeta+\\,,Volume Down,Decrease Volume
+decrease_volume_small=Shift+Volume Down,Shift+Volume Down,Decrease Volume by 1%
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
-increase_volume=Volume Up,Volume Up,Increase Volume
-increase_volume_small=Meta+.\tShift+Volume Up,Shift+Volume Up,Increase Volume by 1%
+increase_volume=Meta+.\tVolume Up,Volume Up,Increase Volume
+increase_volume_small=Shift+Volume Up,Shift+Volume Up,Increase Volume by 1%
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
@@ -39,7 +39,7 @@ Cube=Meta+E,Meta+C,Toggle Cube
 Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
-Edit Tiles=Meta+T,Meta+T,Toggle Tiles Editor
+Edit Tiles=Meta+Shift+T,Meta+T,Toggle Tiles Editor
 Expose=none,Ctrl+F9,Toggle Present Windows (Current desktop)
 ExposeAll=none,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=none,Ctrl+F7,Toggle Present Windows (Window class)
@@ -284,3 +284,6 @@ RecordWindow=none
 RectangularRegionScreenShot=Meta+P
 WindowUnderCursorScreenShot=none
 _launch=none
+
+[services][thunar.desktop]
+_launch=Meta+T

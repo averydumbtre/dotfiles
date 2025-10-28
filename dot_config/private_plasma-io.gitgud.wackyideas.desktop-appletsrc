@@ -6,15 +6,15 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][8]
-ItemGeometries-1920x1080=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-97:976,0,640,96,0;Applet-80:976,96,400,288,0;Applet-118:0,416,384,304,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-119:0,736,384,304,0;Applet-120:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-78:1376,256,240,400,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
-ItemGeometriesHorizontal=Applet-108:0,16,384,192,0;Applet-111:0,208,384,208,0;Applet-95:384,16,592,368,0;Applet-97:976,0,640,96,0;Applet-80:976,96,400,288,0;Applet-118:0,416,384,304,0;Applet-90:384,384,208,272,0;Applet-76:592,384,480,272,0;Applet-71:1376,96,240,160,0;Applet-86:1072,384,304,272,0;Applet-119:0,736,384,304,0;Applet-120:384,656,512,384,0;Applet-94:896,656,288,384,0;Applet-78:1376,256,240,400,0;Applet-79:1184,656,432,384,0;Applet-81:1616,16,304,432,0;Applet-67:1616,448,288,240,0;Applet-104:1616,688,288,352,0;
+ItemGeometries-1920x1080=Applet-119:0,736,480,304,0;Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-155:0.352187,432,480,304,0;Applet-120:480,560,416,384,0;Applet-111:480,304,560,240,0;Applet-95:480,16,560,288,0;Applet-80:1040,112,480,336,0;Applet-97:1040,16,480,96,0;Applet-81:1520,16,400,432,0;Applet-151:480,944,1136,96,0;Applet-94:896,544,336,400,0;Applet-154:1056,448,176,96,0;Applet-79:1232,448,384,496,0;Applet-67:1616,816,288,224,0;Applet-104:1616,448,288,368,0;
+ItemGeometriesHorizontal=Applet-119:0,736,480,304,0;Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-155:0.352187,432,480,304,0;Applet-120:480,560,416,384,0;Applet-111:480,304,560,240,0;Applet-95:480,16,560,288,0;Applet-80:1040,112,480,336,0;Applet-97:1040,16,480,96,0;Applet-81:1520,16,400,432,0;Applet-151:480,944,1136,96,0;Applet-94:896,544,336,400,0;Applet-154:1056,448,176,96,0;Applet-79:1232,448,384,496,0;Applet-67:1616,816,288,224,0;Applet-104:1616,448,288,368,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=io.gitgud.wackyideas.desktopcontainment
-wallpaperplugin=org.kde.potd
+wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][104]
 immutability=1
@@ -52,7 +52,7 @@ CurrentPreset=org.kde.plasma.systemmonitor
 
 [Containments][8][Applets][111][Configuration][Appearance]
 chartFace=org.kde.ksysguard.linechart
-title=Total CPU Use
+title=Total CPU and GPU Use
 updateRateLimit=500
 
 [Containments][8][Applets][111][Configuration][ConfigDialog]
@@ -61,15 +61,18 @@ DialogWidth=720
 
 [Containments][8][Applets][111][Configuration][SensorColors]
 cpu/all/usage=255,255,255
+gpu/gpu1/usage=0,85,255
+gpu/gpu\\d+/usage=0,85,255
 
 [Containments][8][Applets][111][Configuration][Sensors]
-highPrioritySensorIds=["cpu/all/usage"]
+highPrioritySensorIds=["cpu/all/usage","gpu/gpu\\\\d+/usage"]
 lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
 totalSensors=["cpu/all/usage"]
 
 [Containments][8][Applets][118]
 immutability=1
 plugin=org.kde.plasma.notes
+transient=true
 
 [Containments][8][Applets][118][Configuration][ConfigDialog]
 DialogHeight=540
@@ -113,6 +116,66 @@ launcherUrls=file:///usr/share/applications/librewolf.desktop,file:///usr/share/
 maxSectionCount=5
 showLauncherNames=true
 
+[Containments][8][Applets][150]
+immutability=1
+plugin=io.gitgud.wackyideas.win7showdesktop
+transient=true
+
+[Containments][8][Applets][151]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][8][Applets][151][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][8][Applets][151][Configuration][General]
+currentDesktopSelected=ShowDesktop
+displayedText=Number
+wrapPage=true
+
+[Containments][8][Applets][152]
+immutability=1
+plugin=org.kde.plasma.binaryclock
+transient=true
+
+[Containments][8][Applets][152][Configuration]
+PreloadWeight=55
+popupHeight=400
+popupWidth=560
+
+[Containments][8][Applets][153]
+immutability=1
+plugin=org.kde.plasma.calculator
+transient=true
+
+[Containments][8][Applets][153][Configuration]
+PreloadWeight=55
+popupHeight=194
+popupWidth=128
+
+[Containments][8][Applets][154]
+immutability=1
+plugin=org.kde.plasma.binaryclock
+
+[Containments][8][Applets][154][Configuration]
+PreloadWeight=55
+popupHeight=400
+popupWidth=560
+
+[Containments][8][Applets][155]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][8][Applets][155][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][8][Applets][155][Configuration][General]
+color=white
+fontSize=10
+noteId=4e3dc64c-8779-4929-83ea-d79c85a27e
+
 [Containments][8][Applets][67]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
@@ -124,6 +187,7 @@ popupWidth=560
 [Containments][8][Applets][71]
 immutability=1
 plugin=org.kde.plasma.binaryclock
+transient=true
 
 [Containments][8][Applets][71][Configuration]
 PreloadWeight=55
@@ -137,6 +201,7 @@ DialogWidth=720
 [Containments][8][Applets][76]
 immutability=1
 plugin=org.kde.plasma.activitypager
+transient=true
 
 [Containments][8][Applets][76][Configuration][ConfigDialog]
 DialogHeight=540
@@ -145,6 +210,7 @@ DialogWidth=720
 [Containments][8][Applets][78]
 immutability=1
 plugin=org.kde.plasma.calculator
+transient=true
 
 [Containments][8][Applets][78][Configuration][ConfigDialog]
 DialogHeight=540
@@ -181,6 +247,7 @@ DialogWidth=720
 [Containments][8][Applets][86]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.diskusage
+transient=true
 
 [Containments][8][Applets][86][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -269,7 +336,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=538
+popupHeight=504
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -287,7 +354,7 @@ DialogWidth=810
 positions={"1920x1080":[]}
 
 [Containments][8][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/FlyingKonqui/
+Image=file:///home/avery/Documents/2025-10-15-FUJIFILM-X-S10-407.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][9]
@@ -305,8 +372,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=434
-popupWidth=600
+popupHeight=423
+popupWidth=588
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -324,7 +391,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][9][Applets][142][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 popupHeight=400
 popupWidth=560
 
@@ -374,8 +441,8 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][9][Applets][147][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-popupHeight=411
-popupWidth=572
+popupHeight=400
+popupWidth=560
 
 [Containments][9][Applets][147][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -409,7 +476,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][9][Applets][30][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 popupHeight=411
 popupWidth=572
 
