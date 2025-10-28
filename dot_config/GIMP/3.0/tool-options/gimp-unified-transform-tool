@@ -1,7 +1,0 @@
-# GIMP gimp-unified-transform-tool options
-
-(background
-    (color "R'G'B'A u8" 4 "\44\44\44\377" 0))
-(constrain-scale no)
-
-# end of gimp-unified-transform-tool options
