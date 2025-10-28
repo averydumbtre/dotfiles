@@ -229,7 +229,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=28
+popupHeight=504
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -265,8 +265,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=456
-popupWidth=624
+popupHeight=462
+popupWidth=632
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
