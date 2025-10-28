@@ -54,6 +54,7 @@ video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
 image/png=gimp.desktop;
+application/x-zerosize=org.kde.kate.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;
@@ -111,3 +112,4 @@ video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/bitwarden=bitwarden.desktop
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
 x-scheme-handler/discord=vesktop.desktop
+application/x-zerosize=org.kde.kate.desktop
