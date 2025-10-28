@@ -262,11 +262,11 @@ New=Meta+Q
 _launch=Meta+S
 new-private-window=Meta+Shift+S
 
-[services][net.local.kde_gamemode.sh.desktop]
-_launch=Meta+G
-
-[services][net.local.kde_ungamemode.sh.desktop]
+[services][net.local.bash-2.desktop]
 _launch=Meta+Shift+G
+
+[services][net.local.bash.desktop]
+_launch=Meta+G
 
 [services][org.kde.krunner.desktop]
 RunClipboard=none

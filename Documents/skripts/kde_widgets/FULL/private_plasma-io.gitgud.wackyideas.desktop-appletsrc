@@ -229,7 +229,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=538
+popupHeight=28
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -265,8 +265,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=445
-popupWidth=612
+popupHeight=456
+popupWidth=624
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -284,7 +284,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][9][Applets][142][Configuration]
-PreloadWeight=75
+PreloadWeight=85
 popupHeight=400
 popupWidth=560
 
@@ -380,7 +380,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][9][Applets][30][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 popupHeight=411
 popupWidth=572
 
