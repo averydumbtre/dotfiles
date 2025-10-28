@@ -1,0 +1,10 @@
+[General]
+count=1
+rules=cf7c7ed5-b762-4a22-abba-a7a798b337e2
+
+[cf7c7ed5-b762-4a22-abba-a7a798b337e2]
+Description=POLKIT_RULES
+clientmachine=localhost
+minimizerule=2
+wmclass=(polkit-kde-authentication-agent-1)|(polkit-kde-manager)|(org.kde.polkit-kde-authentication-agent-1)
+wmclassmatch=3

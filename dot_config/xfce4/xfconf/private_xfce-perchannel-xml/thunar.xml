@@ -19,6 +19,6 @@
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
   <property name="misc-expandable-folders" type="bool" value="true"/>
   <property name="last-renamer-dialog-maximized" type="bool" value="true"/>
-  <property name="last-window-width" type="int" value="1032"/>
-  <property name="last-window-height" type="int" value="574"/>
+  <property name="last-window-width" type="int" value="981"/>
+  <property name="last-window-height" type="int" value="1002"/>
 </channel>

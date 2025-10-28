@@ -1,0 +1,23 @@
+[PlasmaTransientsConfig]
+PreloadWeight=0
+popupHeight=432
+popupWidth=432
+
+[PlasmaViews][Panel 2]
+floating=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 9]
+alignment=1
+floating=0
+panelLengthMode=0
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 9][Defaults]
+thickness=40
+
+[Updates]
+performed=
