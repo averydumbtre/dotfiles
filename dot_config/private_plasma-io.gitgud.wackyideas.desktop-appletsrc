@@ -38,8 +38,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][158][Applets][159][Configuration]
 PreloadWeight=100
-popupHeight=468
-popupWidth=640
+popupHeight=457
+popupWidth=628
 
 [Containments][158][Applets][159][Configuration][ConfigDialog]
 DialogHeight=540
@@ -324,6 +324,7 @@ DialogWidth=720
 
 [Containments][8][Applets][155][Configuration][General]
 color=white
+cursorPosition=5
 fontSize=10
 noteId=4e3dc64c-8779-4929-83ea-d79c85a27e
 
@@ -421,7 +422,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=402
+popupHeight=436
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -457,8 +458,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=473
-popupWidth=644
+popupHeight=462
+popupWidth=632
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
