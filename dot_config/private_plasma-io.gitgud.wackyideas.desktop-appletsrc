@@ -340,8 +340,18 @@ plugin=org.kde.plasma.comic
 
 [Containments][8][Applets][172][Configuration]
 PreloadWeight=55
+lastStripVisited_xkcd=true
+lastStrip_xkcd=3160
+maxStripNum_xkcd=3160
 popupHeight=400
 popupWidth=560
+scaleToContent_xkcd=false
+storedPosition_xkcd=
+tabIdentifier=xkcd
+
+[Containments][8][Applets][172][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][8][Applets][173]
 immutability=1

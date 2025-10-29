@@ -110,7 +110,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
+DelayFocusInterval=0
 ElectricBorders=1
+FocusPolicy=FocusFollowsMouse
+NextFocusPrefersMouse=true
 RollOverDesktops=true
 
 [Xwayland]
