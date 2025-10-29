@@ -318,7 +318,8 @@ sudo -i echo -e "[Unit]\nDescription=Pushes dotfiles to github before shutdown\n
 sudo -i systemctl enable chezmoi-before-shutdown
 sudo -i systemctl enable libvirtd
 sudo -i systemctl enable sshd
-sudo -i systemctl enable mpd
+systemctl --user enable mpd --now
+systemctl --user enable mpd.socket --now
 
 
 ##echo
@@ -338,6 +339,7 @@ case $mpd in
         echo "something like this:  /path/to/directory/";
         read -p "> " mpdpath;
         sed -i "s\music_directory    .*\music_directory    $mpdpath\g" ~/.config/mpd/mpd.conf;
+        rmpc update;
         echo ;
         read -p "would you like to setup your cronie (crontab) alarm?  (y/N) " cronyn;
         case $cronyn in
