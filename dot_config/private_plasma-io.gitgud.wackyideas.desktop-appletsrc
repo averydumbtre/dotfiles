@@ -229,7 +229,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=402
+popupHeight=504
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -369,6 +369,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.volume
 
 [Containments][9][Applets][156][Configuration]
+PreloadWeight=55
 popupHeight=411
 popupWidth=572
 
@@ -380,7 +381,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][9][Applets][30][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=411
 popupWidth=572
 
