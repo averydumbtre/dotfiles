@@ -192,16 +192,16 @@
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
         "Settings": [],
         "Enable": true
       },
       "Filters": [],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 1350.0,
+          "Width": 1320.0,
           "Height": 1080.0,
-          "X": 675.0,
+          "X": 660.0,
           "Y": 540.0,
           "Rotation": 0.0
         },

@@ -36,7 +36,7 @@
                 "autoRotation": "InTabletMode",
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferEfficiency",
-                "colorProfileSource": "sRGB",
+                "colorProfileSource": "EDID",
                 "connectorName": "DP-1",
                 "detectedDdcCi": true,
                 "edidHash": "b2ce3de4445953851c8cd2bc4c1e75b1",
@@ -64,15 +64,15 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": true,
                 "autoRotation": "InTabletMode",
-                "brightness": 0.65,
+                "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "sRGB",
+                "colorProfileSource": "EDID",
                 "connectorName": "DP-2",
                 "detectedDdcCi": false,
                 "edidHash": "7ab6080f4c3b71bd9a6e2272c754dd4f",
                 "edidIdentifier": "AUS 10426 343323 44 2020 0",
                 "edrPolicy": "always",
-                "highDynamicRange": true,
+                "highDynamicRange": false,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "mode": {
@@ -88,7 +88,37 @@
                 "transform": "Normal",
                 "uuid": "8ef4fd04-bc00-4d8e-9a17-0f65e23c660d",
                 "vrrPolicy": "Never",
-                "wideColorGamut": true
+                "wideColorGamut": false
+            },
+            {
+                "allowDdcCi": true,
+                "allowSdrSoftwareBrightness": false,
+                "autoRotation": "InTabletMode",
+                "brightness": 0.5,
+                "colorPowerTradeoff": "PreferAccuracy",
+                "colorProfileSource": "sRGB",
+                "connectorName": "HDMI-A-1",
+                "detectedDdcCi": true,
+                "edidHash": "12fbfd53829125e1681f8d58980555fb",
+                "edidIdentifier": "HAT 4915 4026531854 17 2024 0",
+                "edrPolicy": "always",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "maxBitsPerColor": 0,
+                "mode": {
+                    "height": 1080,
+                    "refreshRate": 60000,
+                    "width": 1920
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "uuid": "bfd020cf-32e4-405c-8e14-6985d1d10da9",
+                "vrrPolicy": "Never",
+                "wideColorGamut": false
             }
         ],
         "name": "outputs"
@@ -176,6 +206,41 @@
                             "y": 0
                         },
                         "priority": 0,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "priority": 0,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 2,
+                        "position": {
+                            "x": 3840,
+                            "y": 0
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 3,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 2,
                         "replicationSource": ""
                     }
                 ]
