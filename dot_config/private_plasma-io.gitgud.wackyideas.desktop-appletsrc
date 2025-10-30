@@ -218,9 +218,9 @@ Image=file:///home/avery/Documents/2025-10-15-FUJIFILM-X-S10-407.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][8]
-ItemGeometries-1920x1080=Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-95:480,16,560,288,0;Applet-155:0,432,480,304,0;Applet-97:1040,16,480,96,0;Applet-111:480,304,560,240,0;Applet-119:0,736,480,304,0;Applet-80:1040,112,480,336,0;Applet-120:480,560,416,384,0;Applet-154:1056,448,176,96,0;Applet-94:896,544,336,400,0;Applet-79:1232,448,384,496,0;Applet-172:1520,16,400,432,0;Applet-104:1616,448,288,368,0;Applet-174:528,944,1369,96,0;Applet-67:1616,816,288,224,0;
+ItemGeometries-1920x1080=Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-95:480,16,560,288,0;Applet-155:0,432,480,304,0;Applet-97:1040,16,480,96,0;Applet-111:480,304,560,240,0;Applet-119:0,736,480,304,0;Applet-80:1040,112,480,336,0;Applet-120:480,560,416,384,0;Applet-154:1056,448,176,96,0;Applet-94:896,544,336,400,0;Applet-79:1232,448,384,496,0;Applet-172:1520,16,400,432,0;Applet-104:1616,448,288,368,0;Applet-174:480,944,1136,96,0;Applet-67:1616,816,288,224,0;
 ItemGeometries-2327x1309=Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-95:480,16,560,288,0;Applet-155:0,432,480,304,0;Applet-97:1040,16,480,96,0;Applet-111:480,304,560,240,0;Applet-119:0,736,480,304,0;Applet-80:1040,112,480,336,0;Applet-120:480,560,416,384,0;Applet-154:1056,448,176,96,0;Applet-94:896,544,336,400,0;Applet-79:1232,448,384,496,0;Applet-81:1520,16,400,432,0;Applet-104:1616,448,288,368,0;Applet-151:288.64,1150.08,2048,96,0;Applet-67:1616,816,288,224,0;
-ItemGeometriesHorizontal=Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-95:480,16,560,288,0;Applet-155:0,432,480,304,0;Applet-97:1040,16,480,96,0;Applet-111:480,304,560,240,0;Applet-119:0,736,480,304,0;Applet-80:1040,112,480,336,0;Applet-120:480,560,416,384,0;Applet-154:1056,448,176,96,0;Applet-94:896,544,336,400,0;Applet-79:1232,448,384,496,0;Applet-172:1520,16,400,432,0;Applet-104:1616,448,288,368,0;Applet-174:528,944,1369,96,0;Applet-67:1616,816,288,224,0;
+ItemGeometriesHorizontal=Applet-108:0,16,480,192,0;Applet-90:0,208,480,224,0;Applet-95:480,16,560,288,0;Applet-155:0,432,480,304,0;Applet-97:1040,16,480,96,0;Applet-111:480,304,560,240,0;Applet-119:0,736,480,304,0;Applet-80:1040,112,480,336,0;Applet-120:480,560,416,384,0;Applet-154:1056,448,176,96,0;Applet-94:896,544,336,400,0;Applet-79:1232,448,384,496,0;Applet-172:1520,16,400,432,0;Applet-104:1616,448,288,368,0;Applet-174:480,944,1136,96,0;Applet-67:1616,816,288,224,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
@@ -313,20 +313,6 @@ launcherUrls=file:///usr/share/applications/librewolf.desktop,file:///usr/share/
 maxSectionCount=5
 showLauncherNames=true
 
-[Containments][8][Applets][151]
-immutability=1
-plugin=org.kde.plasma.pager
-transient=true
-
-[Containments][8][Applets][151][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][8][Applets][151][Configuration][General]
-currentDesktopSelected=ShowDesktop
-displayedText=Number
-wrapPage=true
-
 [Containments][8][Applets][154]
 immutability=1
 plugin=org.kde.plasma.binaryclock
@@ -357,7 +343,7 @@ plugin=org.kde.plasma.comic
 [Containments][8][Applets][172][Configuration]
 PreloadWeight=55
 lastStripVisited_xkcd=true
-lastStrip_xkcd=3160
+lastStrip_xkcd=
 maxStripNum_xkcd=3160
 popupHeight=400
 popupWidth=560
@@ -366,15 +352,6 @@ storedPosition_xkcd=
 tabIdentifier=xkcd
 
 [Containments][8][Applets][172][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][8][Applets][173]
-immutability=1
-plugin=org.kde.plasma.pager
-transient=true
-
-[Containments][8][Applets][173][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
@@ -401,23 +378,6 @@ migrated=true
 [Containments][8][Applets][80]
 immutability=1
 plugin=org.kde.plasma.calendar
-
-[Containments][8][Applets][81]
-immutability=1
-plugin=org.kde.plasma.comic
-transient=true
-
-[Containments][8][Applets][81][Configuration]
-lastStripVisited_xkcd=true
-lastStrip_xkcd=
-maxStripNum_xkcd=3160
-scaleToContent_xkcd=false
-storedPosition_xkcd=
-tabIdentifier=xkcd
-
-[Containments][8][Applets][81][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][8][Applets][90]
 immutability=1
