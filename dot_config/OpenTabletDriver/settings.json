@@ -199,9 +199,9 @@
       "Filters": [],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 1320.0,
+          "Width": 1325.0,
           "Height": 1080.0,
-          "X": 660.0,
+          "X": 662.5,
           "Y": 540.0,
           "Rotation": 0.0
         },
@@ -304,6 +304,6 @@
     }
   ],
   "LockUsableAreaDisplay": true,
-  "LockUsableAreaTablet": false,
+  "LockUsableAreaTablet": true,
   "Tools": []
 }
