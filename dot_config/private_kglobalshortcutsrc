@@ -253,7 +253,7 @@ show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=none,Meta+V,Show Clipboard Items at Mouse Position
 switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
-toggle do not disturb=none,none,Toggle do not disturb
+toggle do not disturb=none,,Toggle do not disturb
 
 [services][Alacritty.desktop]
 New=Meta+Q

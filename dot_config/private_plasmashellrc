@@ -1,3 +1,8 @@
+[PlasmaTransientsConfig]
+PreloadWeight=0
+popupHeight=512
+popupWidth=688
+
 [PlasmaViews][Panel 158]
 alignment=1
 floating=0
@@ -6,6 +11,26 @@ panelOpacity=0
 panelVisibility=0
 
 [PlasmaViews][Panel 158][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 177]
+alignment=1
+floating=0
+panelLengthMode=0
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 177][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 188]
+alignment=1
+floating=0
+panelLengthMode=0
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 188][Defaults]
 thickness=40
 
 [PlasmaViews][Panel 2]
