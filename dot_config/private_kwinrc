@@ -127,6 +127,3 @@ ElectricBorders=1
 FocusPolicy=FocusFollowsMouse
 NextFocusPrefersMouse=true
 RollOverDesktops=true
-
-[Xwayland]
-Scale=1.65

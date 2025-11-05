@@ -49,60 +49,8 @@ formfactor=2
 immutability=1
 lastScreen=1
 location=4
-plugin=io.gitgud.wackyideas.panel
+plugin=org.kde.panel
 wallpaperplugin=org.kde.image
-
-[Containments][177][Applets][143]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-transient=true
-
-[Containments][177][Applets][143][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][177][Applets][146]
-immutability=1
-plugin=org.kde.plasma.systemmonitor
-transient=true
-
-[Containments][177][Applets][146][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=60
-popupHeight=192
-popupWidth=102
-
-[Containments][177][Applets][146][Configuration][Appearance]
-chartFace=org.kde.ksysguard.textonly
-
-[Containments][177][Applets][146][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][177][Applets][146][Configuration][SensorColors]
-network/all/download=255,255,255
-network/all/upload=0,85,255
-
-[Containments][177][Applets][146][Configuration][Sensors]
-highPrioritySensorIds=[]
-totalSensors=["network/all/downloadBits"]
-
-[Containments][177][Applets][146][Configuration][org.kde.ksysguard.linechart][General]
-historyAmount=10
-
-[Containments][177][Applets][148]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-transient=true
-
-[Containments][177][Applets][149]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
-transient=true
-
-[Containments][177][Applets][149][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][177][Applets][178]
 immutability=1
@@ -224,7 +172,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][177][Applets][187][Configuration]
-PreloadWeight=55
+PreloadWeight=70
 popupHeight=400
 popupWidth=560
 
@@ -358,9 +306,10 @@ plugin=org.kde.plasma.comic
 PreloadWeight=55
 lastStripVisited_xkcd=true
 lastStrip_xkcd=
-maxStripNum_xkcd=3160
+maxStripNum_xkcd=3163
 popupHeight=400
 popupWidth=560
+savingDir=file:///home/avery/Downloads/
 scaleToContent_xkcd=false
 storedPosition_xkcd=
 tabIdentifier=xkcd
@@ -451,7 +400,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=436
+popupHeight=334
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -543,7 +492,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.volume
 
 [Containments][9][Applets][156][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 popupHeight=411
 popupWidth=572
 
@@ -555,7 +504,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][9][Applets][176][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
