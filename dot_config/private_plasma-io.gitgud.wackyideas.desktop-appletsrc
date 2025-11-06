@@ -400,7 +400,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-popupHeight=504
+popupHeight=266
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]

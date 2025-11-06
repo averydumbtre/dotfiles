@@ -35,7 +35,7 @@
     eq: []
     ), 
     album_art: (
-        method: UeberzugWayland,
+        method: Auto,
         max_size_px: (width: 12000, height: 12000),
         disabled_protocols: ["http://", "https://"],
         vertical_align: Center,

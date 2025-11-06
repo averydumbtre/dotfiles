@@ -1,4 +1,4 @@
 #! /bin/bash
 sleep 2
-alacritty --hold -e chezmoi update
+kitty --hold -e chezmoi update
 
