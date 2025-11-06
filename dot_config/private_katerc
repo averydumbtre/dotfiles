@@ -86,7 +86,6 @@ Word Completion Remove Tail=true
 1920x1080 screen: Width=944
 2 screens: Height=687
 2 screens: Width=1057
-2 screens: Window-Maximized=true
 3 screens: Window-Maximized=true
 
 [UiSettings]
