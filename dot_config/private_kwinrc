@@ -6,6 +6,10 @@ Id_4=25808ca2-61ea-459a-82b9-6b45eed2179b
 Number=4
 Rows=1
 
+[Effect-blur]
+BlurStrength=2
+NoiseStrength=0
+
 [MouseBindings]
 CommandAll2=Minimize
 CommandAllWheel=Change Opacity
@@ -13,7 +17,7 @@ CommandAllWheel=Change Opacity
 [Plugins]
 aeroglassblurEnabled=true
 aeroglideEnabled=true
-blurEnabled=false
+blurEnabled=true
 cubeEnabled=true
 desktopchangeosdEnabled=true
 dialogparentEnabled=false
