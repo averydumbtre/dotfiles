@@ -199,18 +199,18 @@
       "Filters": [],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 1325.0,
-          "Height": 1080.0,
-          "X": 662.5,
-          "Y": 540.0,
+          "Width": 865.0,
+          "Height": 1310.0,
+          "X": 432.5,
+          "Y": 655.0,
           "Rotation": 0.0
         },
         "Tablet": {
-          "Width": 293.8,
-          "Height": 165.2,
+          "Width": 165.2,
+          "Height": 293.8,
           "X": 146.9,
-          "Y": 82.6,
-          "Rotation": 0.0
+          "Y": 82.59999,
+          "Rotation": -90.0
         },
         "EnableClipping": false,
         "EnableAreaLimiting": false,
@@ -291,8 +291,26 @@
           null,
           null,
           null,
-          null,
-          null,
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Application+Shift+F"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "Application"
+              }
+            ],
+            "Enable": true
+          },
           null
         ],
         "MouseButtons": [],
