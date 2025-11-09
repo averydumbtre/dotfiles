@@ -5,7 +5,11 @@
   <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_150_PERCENT"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_50_PERCENT"/>
+<<<<<<< Updated upstream
   <property name="last-details-view-column-widths" type="string" value="50,50,123,117,86,264,50,50,533,50,50,57,50,143"/>
+=======
+  <property name="last-details-view-column-widths" type="string" value="50,50,123,117,86,264,50,50,486,50,50,71,50,218"/>
+>>>>>>> Stashed changes
   <property name="last-separator-position" type="int" value="207"/>
   <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
