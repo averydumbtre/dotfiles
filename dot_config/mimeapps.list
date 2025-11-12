@@ -55,6 +55,8 @@ video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
 image/png=com.interversehq.qView.desktop;gimp.desktop;
 application/x-zerosize=org.kde.kate.desktop;
+text/csv=org.kde.kate.desktop;
+application/pdf=librewolf.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;

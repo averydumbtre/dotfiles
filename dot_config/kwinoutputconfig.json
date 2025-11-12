@@ -5,7 +5,7 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoRotation": "InTabletMode",
-                "brightness": 0.3,
+                "brightness": 0.9,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
@@ -15,6 +15,7 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
                     "height": 1080,
                     "refreshRate": 60008,
@@ -44,7 +45,6 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 0,
                 "mode": {
                     "height": 1080,
                     "refreshRate": 165003,
@@ -74,7 +74,6 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 0,
                 "mode": {
                     "height": 2160,
                     "refreshRate": 59997,

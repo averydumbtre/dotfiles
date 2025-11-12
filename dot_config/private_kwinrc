@@ -17,7 +17,7 @@ CommandAllWheel=Change Opacity
 [Plugins]
 aeroglassblurEnabled=true
 aeroglideEnabled=true
-blurEnabled=true
+blurEnabled=false
 cubeEnabled=true
 desktopchangeosdEnabled=true
 dialogparentEnabled=false

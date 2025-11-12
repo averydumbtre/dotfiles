@@ -21,7 +21,7 @@
     "on_selection": true,
     "zoom_to_fit": true
   },
-  "current_layer_preset": "follow_plot_settings",
+  "current_layer_preset": "",
   "find_replace": {
     "find_history": [],
     "find_string": "",
@@ -39,10 +39,6 @@
   "layer_presets": [
     {
       "colors": [
-        {
-          "color": "rgb(194, 194, 194)",
-          "layer": ""
-        },
         {
           "color": "rgb(102, 102, 128)",
           "layer": "background_bottom"
@@ -98,6 +94,186 @@
         {
           "color": "rgb(179, 26, 26)",
           "layer": "user_eco2"
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(232, 178, 167)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(89, 148, 220)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(180, 219, 210)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(216, 200, 82)",
+          "layer": ""
+        },
+        {
+          "color": "rgb(194, 194, 194)",
+          "layer": ""
         }
       ],
       "layers": [
@@ -153,8 +329,8 @@
     "opengl_holes_disableOnMove": false,
     "opengl_render_bbox_only_OnMove": false,
     "opengl_selection_color": "rgb(0, 255, 0)",
-    "opengl_show_model_bbox": false,
-    "opengl_show_off_board_silk": false,
+    "opengl_show_model_bbox": true,
+    "opengl_show_off_board_silk": true,
     "opengl_thickness_disableOnMove": false,
     "opengl_vias_disableOnMove": false,
     "plated_and_bare_copper": false,
@@ -210,13 +386,13 @@
     "show_adhesive": true,
     "show_axis": true,
     "show_board_body": true,
-    "show_comments": true,
+    "show_comments": false,
     "show_copper_bottom": true,
     "show_copper_top": true,
-    "show_drawings": true,
-    "show_eco1": true,
-    "show_eco2": true,
-    "show_footprints_dnp": false,
+    "show_drawings": false,
+    "show_eco1": false,
+    "show_eco2": false,
+    "show_footprints_dnp": true,
     "show_footprints_insert": true,
     "show_footprints_normal": true,
     "show_footprints_not_in_posfile": true,
@@ -297,7 +473,7 @@
       "always_show_cursor": true,
       "fullscreen_cursor": false
     },
-    "display": 1,
+    "display": 0,
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 15,
