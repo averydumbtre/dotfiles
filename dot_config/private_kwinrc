@@ -7,8 +7,8 @@ Number=4
 Rows=1
 
 [Effect-blur]
-BlurStrength=2
-NoiseStrength=0
+BlurStrength=5
+NoiseStrength=8
 
 [MouseBindings]
 CommandAll2=Minimize
