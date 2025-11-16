@@ -131,7 +131,7 @@ Speedbar Width=140
 View Style=DetailTree
 
 [KScreen]
-ScreenScaleFactors=DP-1=1;DP-2=1;
+ScreenScaleFactors=DP-2=1;DP-1=1;
 
 [QtQuickRendererSettings]
 SceneGraphBackend=opengl

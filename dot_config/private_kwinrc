@@ -23,8 +23,9 @@ desktopchangeosdEnabled=true
 dialogparentEnabled=false
 dimscreenEnabled=false
 dimscreenaeroEnabled=true
+krohnkiteEnabled=true
 libkwin_effect_smodsnapEnabled=true
-minimizeallEnabled=true
+minimizeallEnabled=false
 scaleEnabled=false
 shakecursorEnabled=false
 slideEnabled=false
@@ -34,6 +35,10 @@ windowapertureEnabled=false
 
 [Script-desktopchangeosd]
 PopupHideDelay=300
+
+[Script-krohnkite]
+keepTilingOnDrag=false
+newWindowPosition=1
 
 [Tiling]
 padding=4
