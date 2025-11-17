@@ -25,6 +25,11 @@
   },
   "drag_pins_along_with_edges": true,
   "edit_symbol_visible_columns": "0 1 2 3 4 5 6 7",
+  "field_editor": {
+    "field_widths": {},
+    "height": 0,
+    "width": 0
+  },
   "find_replace": {
     "find_history": [],
     "find_string": "",

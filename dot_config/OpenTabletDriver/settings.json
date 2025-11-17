@@ -196,13 +196,71 @@
         "Settings": [],
         "Enable": true
       },
-      "Filters": [],
+      "Filters": [
+        {
+          "Path": "RadialFollow.RadialFollowSmoothingScreenSpace",
+          "Settings": [
+            {
+              "Property": "OuterRadius",
+              "Value": 5.0
+            },
+            {
+              "Property": "InnerRadius",
+              "Value": 0.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.95
+            },
+            {
+              "Property": "SoftKneeScale",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingLeakCoefficient",
+              "Value": 0.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "BetterCalibrator.BetterCalibrator",
+          "Settings": [],
+          "Enable": false
+        },
+        {
+          "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
+          "Settings": [
+            {
+              "Property": "OuterRadius",
+              "Value": 1.0
+            },
+            {
+              "Property": "InnerRadius",
+              "Value": 0.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.95
+            },
+            {
+              "Property": "SoftKneeScale",
+              "Value": 1.0
+            },
+            {
+              "Property": "SmoothingLeakCoefficient",
+              "Value": 0.0
+            }
+          ],
+          "Enable": true
+        }
+      ],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 865.0,
-          "Height": 1310.0,
-          "X": 432.5,
-          "Y": 655.0,
+          "Width": 1080.0,
+          "Height": 1920.0,
+          "X": 540.0,
+          "Y": 960.0,
           "Rotation": 0.0
         },
         "Tablet": {
@@ -288,8 +346,26 @@
             ],
             "Enable": true
           },
-          null,
-          null,
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Plus"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Control+Minus"
+              }
+            ],
+            "Enable": true
+          },
           null,
           {
             "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",

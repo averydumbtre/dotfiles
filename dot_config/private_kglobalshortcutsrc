@@ -23,14 +23,14 @@ mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mut
 mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
-Halt Without Confirmation=none,none,Shut Down Without Confirmation
+Halt Without Confirmation=none,,Shut Down Without Confirmation
 Lock Session=Screensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,Ctrl+Alt+Del,Show Logout Screen
-Log Out Without Confirmation=none,none,Log Out Without Confirmation
-LogOut=none,none,Log Out
-Reboot=none,none,Reboot
-Reboot Without Confirmation=none,none,Reboot Without Confirmation
-Shut Down=none,none,Shut Down
+Log Out Without Confirmation=none,,Log Out Without Confirmation
+LogOut=none,,Log Out
+Reboot=none,,Reboot
+Reboot Without Confirmation=none,,Reboot Without Confirmation
+Shut Down=none,,Shut Down
 _k_friendly_name=Session Management
 
 [kwin]
@@ -51,7 +51,7 @@ KrohnkiteBTreeLayout=none,none,Krohnkite: BTree Layout
 KrohnkiteColumnsLayout=none,none,Krohnkite: Columns Layout
 KrohnkiteDecrease=none,none,Krohnkite: Decrease
 KrohnkiteFloatAll=none,none,Krohnkite: Toggle Float All
-KrohnkiteFloatingLayout=none,none,Krohnkite: Floating Layout
+KrohnkiteFloatingLayout=Meta+Ctrl+F,none,Krohnkite: Floating Layout
 KrohnkiteFocusDown=Meta+J,none,Krohnkite: Focus Down
 KrohnkiteFocusLeft=Meta+H,none,Krohnkite: Focus Left
 KrohnkiteFocusNext=none,none,Krohnkite: Focus Next
@@ -233,11 +233,11 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -259,11 +259,11 @@ _k_friendly_name=Power Management
 powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
-Slideshow Wallpaper Next Image=none,none,Next Wallpaper Image
+Slideshow Wallpaper Next Image=none,,Next Wallpaper Image
 _k_friendly_name=plasmashell
 activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
-activate task manager entry 10=none,none,Activate Task Manager Entry 10
+activate task manager entry 10=none,,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
 activate task manager entry 3=none,Meta+3,Activate Task Manager Entry 3
 activate task manager entry 4=none,Meta+4,Activate Task Manager Entry 4
@@ -285,9 +285,9 @@ repeat_action=none,none,Manually Invoke Action on Current Clipboard
 show dashboard=none,Ctrl+F12,Show Desktop
 show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=none,Meta+V,Show Clipboard Items at Mouse Position
-switch to next activity=none,none,Switch to Next Activity
-switch to previous activity=none,none,Switch to Previous Activity
-toggle do not disturb=none,none,Toggle do not disturb
+switch to next activity=none,,Switch to Next Activity
+switch to previous activity=none,,Switch to Previous Activity
+toggle do not disturb=none,,Toggle do not disturb
 
 [services][kitty.desktop]
 _launch=Meta+Q

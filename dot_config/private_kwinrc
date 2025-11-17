@@ -10,6 +10,9 @@ Rows=1
 BlurStrength=5
 NoiseStrength=8
 
+[Effect-translucency]
+MoveResize=71
+
 [MouseBindings]
 CommandAll2=Minimize
 CommandAllWheel=Change Opacity
@@ -31,6 +34,7 @@ shakecursorEnabled=false
 slideEnabled=false
 smodglowEnabled=true
 smodpeekeffectEnabled=true
+translucencyEnabled=true
 windowapertureEnabled=false
 
 [Script-desktopchangeosd]
@@ -38,7 +42,6 @@ PopupHideDelay=300
 
 [Script-krohnkite]
 keepTilingOnDrag=false
-newWindowPosition=1
 
 [Tiling]
 padding=4
@@ -138,4 +141,4 @@ NextFocusPrefersMouse=true
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1
+Scale=1.65
