@@ -60,8 +60,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][177][Applets][178][Configuration]
 PreloadWeight=100
-popupHeight=523
-popupWidth=700
+popupHeight=545
+popupWidth=724
 
 [Containments][177][Applets][178][Configuration][ConfigDialog]
 DialogHeight=540
@@ -139,8 +139,8 @@ plugin=org.kde.plasma.systemmonitor
 [Containments][177][Applets][185][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=55
-popupHeight=395
-popupWidth=556
+popupHeight=406
+popupWidth=568
 
 [Containments][177][Applets][185][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -163,8 +163,8 @@ plugin=io.gitgud.wackyideas.volume
 
 [Containments][177][Applets][186][Configuration]
 PreloadWeight=65
-popupHeight=411
-popupWidth=572
+popupHeight=422
+popupWidth=584
 
 [Containments][177][Applets][186][Configuration][General]
 migrated=true
@@ -174,9 +174,9 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][177][Applets][187][Configuration]
-PreloadWeight=70
-popupHeight=400
-popupWidth=560
+PreloadWeight=75
+popupHeight=411
+popupWidth=572
 
 [Containments][177][General]
 AppletOrder=178;181;185;187;184;186;183;180;182;179
@@ -354,8 +354,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=473
-popupWidth=644
+popupHeight=495
+popupWidth=668
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -423,8 +423,8 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][9][Applets][147][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-popupHeight=400
-popupWidth=560
+popupHeight=411
+popupWidth=572
 
 [Containments][9][Applets][147][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -471,8 +471,8 @@ plugin=org.kde.plasma.notifications
 
 [Containments][9][Applets][199][Configuration]
 PreloadWeight=60
-popupHeight=395
-popupWidth=556
+popupHeight=406
+popupWidth=568
 
 [Containments][9][Applets][30]
 immutability=1
@@ -502,9 +502,9 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][9][Applets][43][Configuration]
-PreloadWeight=65
-popupHeight=455
-popupWidth=560
+PreloadWeight=70
+popupHeight=466
+popupWidth=572
 
 [Containments][9][Applets][43][Configuration][Appearance]
 autoFontAndSize=false

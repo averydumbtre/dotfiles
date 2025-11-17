@@ -107,8 +107,9 @@ ForegroundVisited=128,0,128
 [General]
 ColorSchemeHash=60afd72ab97c4b4de2f11aaf577d577b0bad2de0
 UseSystemBell=true
+XftAntialias=true
 XftHintStyle=hintslight
-XftSubPixel=none
+XftSubPixel=rgb
 font=Segoe UI Variable Static Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=Segoe UI Variable Static Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Segoe UI Variable Static Text,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
@@ -117,7 +118,7 @@ toolBarFont=Segoe UI Variable Static Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 [KDE]
 DefaultLightLookAndFeel=authui7
 LookAndFeelPackage=authui7
-widgetStyle=Breeze
+widgetStyle=Oxygen
 
 [KFileDialog Settings]
 Allow Expansion=false
