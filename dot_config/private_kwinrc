@@ -138,4 +138,4 @@ NextFocusPrefersMouse=true
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1.65
+Scale=1
