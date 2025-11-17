@@ -107,6 +107,12 @@ ForegroundVisited=128,0,128
 [General]
 ColorSchemeHash=60afd72ab97c4b4de2f11aaf577d577b0bad2de0
 UseSystemBell=true
+XftHintStyle=hintslight
+XftSubPixel=none
+font=Segoe UI Variable Static Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Segoe UI Variable Static Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Segoe UI Variable Static Text,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Segoe UI Variable Static Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 DefaultLightLookAndFeel=authui7
@@ -145,6 +151,7 @@ Theme=Windows 7
 [WM]
 activeBackground=153,180,209
 activeBlend=185,209,234
+activeFont=Segoe UI Variable Static Text,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=0,0,0
 inactiveBackground=191,205,219
 inactiveBlend=215,228,242
