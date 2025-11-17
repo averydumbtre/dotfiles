@@ -540,11 +540,7 @@ plugin=org.kde.milou
 
 [Containments][8][Applets][97][Configuration]
 PreloadWeight=100
-<<<<<<< HEAD
-popupHeight=28
-=======
 popupHeight=436
->>>>>>> d34106e (automated commit)
 popupWidth=630
 
 [Containments][8][Applets][97][Configuration][ConfigDialog]
@@ -684,11 +680,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.volume
 
 [Containments][9][Applets][156][Configuration]
-<<<<<<< HEAD
-PreloadWeight=100
-=======
 PreloadWeight=80
->>>>>>> d34106e (automated commit)
 popupHeight=411
 popupWidth=572
 
@@ -700,6 +692,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][9][Applets][199][Configuration]
+PreloadWeight=55
 popupHeight=395
 popupWidth=556
 
