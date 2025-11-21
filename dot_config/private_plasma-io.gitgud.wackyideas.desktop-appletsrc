@@ -103,8 +103,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][177][Applets][182][Configuration]
 PreloadWeight=70
-popupHeight=455
-popupWidth=560
+popupHeight=466
+popupWidth=572
 
 [Containments][177][Applets][182][Configuration][Appearance]
 autoFontAndSize=false
@@ -163,8 +163,8 @@ plugin=io.gitgud.wackyideas.volume
 
 [Containments][177][Applets][186][Configuration]
 PreloadWeight=65
-popupHeight=422
-popupWidth=584
+popupHeight=433
+popupWidth=596
 
 [Containments][177][Applets][186][Configuration][General]
 migrated=true
@@ -470,9 +470,9 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][9][Applets][199][Configuration]
-PreloadWeight=60
-popupHeight=406
-popupWidth=568
+PreloadWeight=75
+popupHeight=417
+popupWidth=580
 
 [Containments][9][Applets][30]
 immutability=1
@@ -502,7 +502,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][9][Applets][43][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 popupHeight=466
 popupWidth=572
 
