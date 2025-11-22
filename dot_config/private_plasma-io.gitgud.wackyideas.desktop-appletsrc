@@ -470,9 +470,9 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][9][Applets][199][Configuration]
-PreloadWeight=75
-popupHeight=417
-popupWidth=580
+PreloadWeight=90
+popupHeight=406
+popupWidth=568
 
 [Containments][9][Applets][30]
 immutability=1
