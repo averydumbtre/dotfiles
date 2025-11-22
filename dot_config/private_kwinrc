@@ -136,6 +136,8 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Windows]
 DelayFocusInterval=0
+ElectricBorderMaximize=false
+ElectricBorderTiling=false
 ElectricBorders=1
 FocusPolicy=FocusFollowsMouse
 NextFocusPrefersMouse=true
