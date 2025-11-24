@@ -2,4 +2,4 @@
 pipewire
 sleep 1
 pactl set-sink-volume @DEFAULT_SINK@ 100%
-mpv /mnt/0df76e2c-45d5-44d2-ad7e-91488ebcafba/music-flac/ -shuffle --no-video --audio-device=pipewire/alsa_output.pci-0000_00_1f.3.analog-stereo
+mpv /mnt/0df76e2c-45d5-44d2-ad7e-91488ebcafba/music-flac/ -shuffle --no-video --af=lavfi=[loudnorm=i=-16.0:lra=5.0:tp=-1.0] --audio-device=pipewire/alsa_output.pci-0000_00_1f.3.analog-stereo
