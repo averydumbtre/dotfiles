@@ -60,8 +60,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][177][Applets][178][Configuration]
 PreloadWeight=100
-popupHeight=578
-popupWidth=760
+popupHeight=567
+popupWidth=748
 
 [Containments][177][Applets][178][Configuration][ConfigDialog]
 DialogHeight=540
@@ -196,8 +196,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][188][Applets][189][Configuration]
 PreloadWeight=100
-popupHeight=518
-popupWidth=696
+popupHeight=507
+popupWidth=684
 
 [Containments][188][Applets][189][Configuration][ConfigDialog]
 DialogHeight=540
@@ -354,8 +354,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=528
-popupWidth=704
+popupHeight=517
+popupWidth=692
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -503,7 +503,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][9][Applets][43][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 popupHeight=466
 popupWidth=572
 
