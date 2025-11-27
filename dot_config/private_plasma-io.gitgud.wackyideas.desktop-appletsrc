@@ -60,8 +60,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][177][Applets][178][Configuration]
 PreloadWeight=100
-popupHeight=556
-popupWidth=736
+popupHeight=567
+popupWidth=748
 
 [Containments][177][Applets][178][Configuration][ConfigDialog]
 DialogHeight=540
@@ -139,8 +139,8 @@ plugin=org.kde.plasma.systemmonitor
 [Containments][177][Applets][185][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=55
-popupHeight=406
-popupWidth=568
+popupHeight=417
+popupWidth=580
 
 [Containments][177][Applets][185][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -354,8 +354,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=506
-popupWidth=680
+popupHeight=517
+popupWidth=692
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540

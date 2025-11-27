@@ -1,5 +1,3 @@
-yay -S plasma-meta
-pacman -S git cmake extra-cmake-modules ninja curl unzip qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel
 git clone https://gitgud.io/wackyideas/aerothemeplasma.git aerothemeplasma
 cd aerothemeplasma
 chmod +x compile.sh && ./compile.sh --wayland --ninja
