@@ -29,6 +29,8 @@ SlidePaths=/usr/share/wallpapers/
 
 [Containments][175]
 ItemGeometries-1080x1920=
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 ItemGeometriesVertical=
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
@@ -459,9 +461,13 @@ immutability=1
 plugin=io.gitgud.wackyideas.volume
 
 [Containments][9][Applets][156][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=411
 popupWidth=572
+
+[Containments][9][Applets][156][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][9][Applets][156][Configuration][General]
 migrated=true

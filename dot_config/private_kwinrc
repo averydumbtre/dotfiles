@@ -134,6 +134,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][fad9ac6b-4da1-4f43-ba00-2a9d4287e731][fbad4ddd-5c8f-4c60-b514-593b68cfa7b3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Wayland]
+InputMethod[$e]=/usr/share/applications/com.github.maliit.keyboard.desktop
+
 [Windows]
 DelayFocusInterval=0
 ElectricBorderMaximize=false
