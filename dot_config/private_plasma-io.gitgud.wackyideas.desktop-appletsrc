@@ -168,6 +168,10 @@ PreloadWeight=65
 popupHeight=433
 popupWidth=596
 
+[Containments][177][Applets][186][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][177][Applets][186][Configuration][General]
 migrated=true
 
