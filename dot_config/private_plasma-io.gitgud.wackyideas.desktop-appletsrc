@@ -62,8 +62,13 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][177][Applets][178][Configuration]
 PreloadWeight=100
+<<<<<<< HEAD
 popupHeight=567
 popupWidth=748
+=======
+popupHeight=589
+popupWidth=772
+>>>>>>> fa44c5b (cum)
 
 [Containments][177][Applets][178][Configuration][ConfigDialog]
 DialogHeight=540
@@ -202,8 +207,13 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][188][Applets][189][Configuration]
 PreloadWeight=100
+<<<<<<< HEAD
 popupHeight=507
 popupWidth=684
+=======
+popupHeight=529
+popupWidth=708
+>>>>>>> fa44c5b (cum)
 
 [Containments][188][Applets][189][Configuration][ConfigDialog]
 DialogHeight=540
@@ -367,8 +377,13 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
+<<<<<<< HEAD
 popupHeight=517
 popupWidth=692
+=======
+popupHeight=539
+popupWidth=716
+>>>>>>> fa44c5b (cum)
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540

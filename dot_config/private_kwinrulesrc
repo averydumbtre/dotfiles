@@ -1,13 +1,6 @@
-[3d5eaa6b-36f2-4624-a23b-544941de567a]
-Description=Application settings for onboard
-acceptfocusrule=2
-wmclass=python3.13 onboard
-wmclasscomplete=true
-wmclassmatch=1
-
 [General]
-count=2
-rules=3d5eaa6b-36f2-4624-a23b-544941de567a,cf7c7ed5-b762-4a22-abba-a7a798b337e2
+count=1
+rules=cf7c7ed5-b762-4a22-abba-a7a798b337e2
 
 [cf7c7ed5-b762-4a22-abba-a7a798b337e2]
 Description=POLKIT_RULES

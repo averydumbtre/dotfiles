@@ -42,6 +42,11 @@ windowapertureEnabled=false
 PopupHideDelay=300
 
 [Script-krohnkite]
+floatingClass=onboard,Onboard
+floatingTitle=onboard,Onboard
+ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,kruler,kwin_wayland,ksmserver-logout-greeter,onboard,Onboard
+ignoreRole=quake,onboard,Onboard
+ignoreTitle=onboard,Onboard
 keepTilingOnDrag=false
 
 [Tiling]
@@ -135,7 +140,11 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
+<<<<<<< HEAD
 InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
+=======
+InputMethod[$e]=/usr/share/applications/com.github.maliit.keyboard.desktop
+>>>>>>> fa44c5b (cum)
 VirtualKeyboardEnabled=true
 
 [Windows]

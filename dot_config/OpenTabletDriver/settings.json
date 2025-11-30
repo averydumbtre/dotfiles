@@ -192,7 +192,7 @@
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
         "Settings": [],
         "Enable": true
       },
@@ -232,16 +232,8 @@
           "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
           "Settings": [
             {
-              "Property": "OuterRadius",
-              "Value": 1.0
-            },
-            {
               "Property": "InnerRadius",
               "Value": 0.0
-            },
-            {
-              "Property": "SmoothingCoefficient",
-              "Value": 0.95
             },
             {
               "Property": "SoftKneeScale",
@@ -250,17 +242,25 @@
             {
               "Property": "SmoothingLeakCoefficient",
               "Value": 0.0
+            },
+            {
+              "Property": "SmoothingCoefficient",
+              "Value": 0.95
+            },
+            {
+              "Property": "OuterRadius",
+              "Value": 0.5
             }
           ],
-          "Enable": true
+          "Enable": false
         }
       ],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 1920.0,
-          "Height": 1080.0,
-          "X": 960.0,
-          "Y": 540.0,
+          "Width": 6167.0,
+          "Height": 1309.0,
+          "X": 3083.5,
+          "Y": 654.5,
           "Rotation": 0.0
         },
         "Tablet": {
@@ -366,7 +366,16 @@
             ],
             "Enable": true
           },
-          null,
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Application+Shift+O"
+              }
+            ],
+            "Enable": true
+          },
           {
             "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
             "Settings": [

@@ -305,6 +305,9 @@ _launch=Meta+G
 [services][net.local.kitty-2.desktop]
 _launch=Meta+M
 
+[services][net.local.pkill-2.desktop]
+_launch=Meta+Shift+O
+
 [services][org.kde.krunner.desktop]
 RunClipboard=none
 _launch=none
