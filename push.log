@@ -1,5 +1,0 @@
-error: object file .git/objects/5a/19f886b22761c2a52d0874435f117f95649622 is empty
-error: object file .git/objects/5a/19f886b22761c2a52d0874435f117f95649622 is empty
-error: update_ref failed for ref 'refs/remotes/origin/main': cannot update ref 'refs/remotes/origin/main': trying to write ref 'refs/remotes/origin/main' with nonexistent object 5a19f886b22761c2a52d0874435f117f95649622
-Everything up-to-date
-branch 'main' set up to track 'origin/main'.

@@ -62,13 +62,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][177][Applets][178][Configuration]
 PreloadWeight=100
-<<<<<<< HEAD
-popupHeight=567
-popupWidth=748
-=======
 popupHeight=589
 popupWidth=772
->>>>>>> fa44c5b (cum)
 
 [Containments][177][Applets][178][Configuration][ConfigDialog]
 DialogHeight=540
@@ -207,13 +202,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][188][Applets][189][Configuration]
 PreloadWeight=100
-<<<<<<< HEAD
-popupHeight=507
-popupWidth=684
-=======
-popupHeight=529
-popupWidth=708
->>>>>>> fa44c5b (cum)
+popupHeight=518
+popupWidth=696
 
 [Containments][188][Applets][189][Configuration][ConfigDialog]
 DialogHeight=540
@@ -330,15 +320,8 @@ PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
-[Containments][188][Applets][200]
-immutability=1
-plugin=org.kde.plasma.manage-inputmethod
-
-[Containments][188][Applets][200][Configuration]
-PreloadWeight=75
-
 [Containments][188][General]
-AppletOrder=189;192;200;196;198;195;197;194;191;193;190
+AppletOrder=189;192;196;198;195;197;194;191;193;190
 
 [Containments][8]
 ItemGeometries-1920x1080=
@@ -377,13 +360,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-<<<<<<< HEAD
-popupHeight=517
-popupWidth=692
-=======
 popupHeight=539
 popupWidth=716
->>>>>>> fa44c5b (cum)
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540

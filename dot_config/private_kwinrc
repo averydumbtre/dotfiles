@@ -140,11 +140,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
-<<<<<<< HEAD
-InputMethod[$e]=/usr/share/applications/org.kde.plasma.keyboard.desktop
-=======
 InputMethod[$e]=/usr/share/applications/com.github.maliit.keyboard.desktop
->>>>>>> fa44c5b (cum)
 VirtualKeyboardEnabled=true
 
 [Windows]
