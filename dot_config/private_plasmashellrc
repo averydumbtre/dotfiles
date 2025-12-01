@@ -1,3 +1,8 @@
+[PlasmaTransientsConfig]
+PreloadWeight=26
+popupHeight=395
+popupWidth=556
+
 [PlasmaViews][Panel 158]
 alignment=1
 floating=0

@@ -62,8 +62,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][177][Applets][178][Configuration]
 PreloadWeight=100
-popupHeight=589
-popupWidth=772
+popupHeight=600
+popupWidth=784
 
 [Containments][177][Applets][178][Configuration][ConfigDialog]
 DialogHeight=540
@@ -84,20 +84,6 @@ plugin=io.gitgud.wackyideas.networkmanagement
 PreloadWeight=100
 popupHeight=411
 popupWidth=572
-
-[Containments][177][Applets][181]
-immutability=1
-plugin=org.kde.plasma.taskmanager
-
-[Containments][177][Applets][181][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][177][Applets][181][Configuration][General]
-highlightWindows=true
-launchers=
-middleClickAction=Close
-taskMaxWidth=Narrow
 
 [Containments][177][Applets][182]
 immutability=1
@@ -184,8 +170,22 @@ PreloadWeight=80
 popupHeight=411
 popupWidth=572
 
+[Containments][177][Applets][241]
+immutability=1
+plugin=io.gitgud.wackyideas.seventasks
+
+[Containments][177][Applets][241][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][177][Applets][241][Configuration][General]
+disableJumplists=true
+launchers=applications:librewolf.desktop,applications:steam.desktop
+showOnlyCurrentScreen=true
+showPreviews=false
+
 [Containments][177][General]
-AppletOrder=178;181;185;187;184;186;183;180;182;179
+AppletOrder=178;241;185;187;184;186;183;180;182;179
 
 [Containments][188]
 activityId=
@@ -324,8 +324,8 @@ popupWidth=560
 AppletOrder=189;192;196;198;195;197;194;191;193;190
 
 [Containments][8]
-ItemGeometries-1920x1080=Applet-238:0,928,80,96,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
-ItemGeometriesHorizontal=Applet-238:0,928,80,96,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
+ItemGeometries-1920x1080=Applet-238:0,928,80,96,0;Applet-239:371.774,510.382,96,96,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
+ItemGeometriesHorizontal=Applet-238:0,928,80,96,0;Applet-239:371.774,510.382,96,96,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
@@ -475,15 +475,9 @@ plugin=org.kde.plasma.mediacontroller
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][8][Applets][245]
+[Containments][8][Applets][239]
 immutability=1
 plugin=io.gitgud.wackyideas.seventasks
-transient=true
-
-[Containments][8][Applets][246]
-immutability=1
-plugin=io.gitgud.wackyideas.seventasks
-transient=true
 
 [Containments][8][ConfigDialog]
 DialogHeight=540
@@ -511,8 +505,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=539
-popupWidth=716
+popupHeight=550
+popupWidth=728
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -636,24 +630,9 @@ PreloadWeight=100
 popupHeight=406
 popupWidth=568
 
-[Containments][9][Applets][229]
+[Containments][9][Applets][240]
 immutability=1
-plugin=org.kde.plasma.comic
-
-[Containments][9][Applets][229][Configuration]
-PreloadWeight=70
-lastStripVisited_xkcd=true
-lastStrip_xkcd=
-maxStripNum_xkcd=0
-popupHeight=400
-popupWidth=560
-scaleToContent_xkcd=false
-storedPosition_xkcd=
-tabIdentifier=xkcd
-
-[Containments][9][Applets][229][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+plugin=io.gitgud.wackyideas.seventasks
 
 [Containments][9][Applets][30]
 immutability=1
@@ -663,20 +642,6 @@ plugin=io.gitgud.wackyideas.networkmanagement
 PreloadWeight=100
 popupHeight=411
 popupWidth=572
-
-[Containments][9][Applets][34]
-immutability=1
-plugin=org.kde.plasma.taskmanager
-
-[Containments][9][Applets][34][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][9][Applets][34][Configuration][General]
-highlightWindows=true
-launchers=
-middleClickAction=Close
-taskMaxWidth=Narrow
 
 [Containments][9][Applets][43]
 immutability=1
@@ -701,7 +666,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][9][General]
-AppletOrder=10;34;229;149;148;147;146;145;199;156;142;30;143;43;14
+AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
