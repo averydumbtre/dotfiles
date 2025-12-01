@@ -2,13 +2,13 @@ AlsoSaveAsKra=false
 AntialiasSelectionOutline=false
 ArtColorSel.ColorSpace=0
 ArtColorSel.InversedSaturation=false
-ArtColorSel.Light=0.8712397247639815
+ArtColorSel.Light=0.9400361643042742
 ArtColorSel.LightPieces=11
 ArtColorSel.NumRings=7
 ArtColorSel.RingPieces=12
-ArtColorSel.SelColorH=0.36546659253081276
-ArtColorSel.SelColorS=0.11367583657206871
-ArtColorSel.SelColorX=0.8712397247639815
+ArtColorSel.SelColorH=0.380316782345613
+ArtColorSel.SelColorS=0.1188416658946542
+ArtColorSel.SelColorX=0.9400361643042742
 ArtColorSel.defaultHueSteps=12
 ArtColorSel.defaultSaturationSteps=7
 ArtColorSel.defaultValueScaleSteps=11
@@ -44,8 +44,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB r="0" b="0" space="sRGB-elle-V2-srgbtrc.icc" g="0"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB r="0.831372559070587" b="0.843137264251709" space="sRGB" g="0.890196084976196"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB r="0" b="0" g="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB r="0.831372559070587" b="0.843137264251709" g="0.890196084976196" space="sRGB-elle-V2-g10.icc"/>\n</LastForeGroundColor>\n
 LastPreset=d) Ink-2 Fineliner
 LastPreset_-1=d) Ink-2 Fineliner
 LineSmoothingDelayDistance=50

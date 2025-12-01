@@ -4,6 +4,18 @@ ordering=preferred://browser,applications:systemsettings.desktop,applications:or
 [Favorites-org.kde.plasma.kicker.favorites.instance-10-global]
 ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.discover.desktop
 
+[Favorites-org.kde.plasma.kicker.favorites.instance-245-6d66ba13-baae-4ebd-973e-324a2d00c622]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-245-global]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-274-6d66ba13-baae-4ebd-973e-324a2d00c622]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-274-global]
+ordering=
+
 [Favorites-org.kde.plasma.kicker.favorites.instance-3-6d66ba13-baae-4ebd-973e-324a2d00c622]
 ordering=
 
