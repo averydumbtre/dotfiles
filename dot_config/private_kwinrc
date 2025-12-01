@@ -167,7 +167,7 @@ NextFocusPrefersMouse=true
 RollOverDesktops=true
 
 [Xwayland]
-Scale=1.65
+Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=M
