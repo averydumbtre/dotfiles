@@ -151,9 +151,6 @@ plugin=org.kde.plasma.mediacontroller
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
-[Containments][244][Applets][250][Applets][269][Configuration]
-PreloadWeight=42
-
 [Containments][244][Applets][250][Applets][270]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
@@ -661,10 +658,6 @@ popupWidth=568
 [Containments][9][Applets][240]
 immutability=1
 plugin=io.gitgud.wackyideas.seventasks
-
-[Containments][9][Applets][240][Configuration]
-popupHeight=400
-popupWidth=560
 
 [Containments][9][Applets][240][Configuration][ConfigDialog]
 DialogHeight=540
