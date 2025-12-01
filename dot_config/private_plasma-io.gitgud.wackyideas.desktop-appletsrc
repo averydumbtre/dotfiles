@@ -632,8 +632,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][341][Configuration]
 PreloadWeight=100
-popupHeight=539
-popupWidth=716
+popupHeight=534
+popupWidth=712
 
 [Containments][340][Applets][341][Configuration][ConfigDialog]
 DialogHeight=540
@@ -797,8 +797,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][340][Applets][354][Configuration][General]
+disableJumplists=true
 highlightWindows=false
-launchers=applications:librewolf.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
@@ -979,8 +980,9 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][9][Applets][240][Configuration][General]
+disableJumplists=true
 highlightWindows=false
-launchers=applications:librewolf.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
