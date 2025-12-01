@@ -6,6 +6,15 @@ Id_4=25808ca2-61ea-459a-82b9-6b45eed2179b
 Number=4
 Rows=1
 
+[Effect-aeroglassblur]
+AccentColorGroup=7
+AccentColorName=0
+AeroBrightness=0
+AeroIntensity=215
+AeroSaturation=0
+BasicColorization=true
+CustomColor=#d7000000
+
 [Effect-blur]
 BlurStrength=5
 NoiseStrength=8
@@ -27,6 +36,7 @@ dialogparentEnabled=false
 dimscreenEnabled=false
 dimscreenaeroEnabled=true
 krohnkiteEnabled=true
+kwin4_effect_geometry_changeEnabled=true
 libkwin_effect_smodsnapEnabled=true
 loginEnabled=false
 logoutEnabled=false
@@ -48,6 +58,9 @@ ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,kspl
 ignoreRole=quake,onboard,Onboard
 ignoreTitle=onboard,Onboard
 keepTilingOnDrag=false
+
+[TabBox]
+LayoutName=thumbnail_seven
 
 [Tiling]
 padding=4
@@ -154,3 +167,7 @@ RollOverDesktops=true
 
 [Xwayland]
 Scale=1.65
+
+[org.kde.kdecoration2]
+ButtonsOnLeft=M
+ButtonsOnRight=HIX
