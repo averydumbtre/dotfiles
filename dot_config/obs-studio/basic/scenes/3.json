@@ -9,13 +9,13 @@
     "name": ":3",
     "sources": [
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "gamecapture",
             "uuid": "962301f9-9d9e-4d5e-b1f6-986e2c08cd59",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 38,
+                "id_counter": 40,
                 "custom_size": false,
                 "items": [
                     {
@@ -402,6 +402,61 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "Video Capture Device (V4L2)",
+                        "source_uuid": "322d8da3-0760-461d-8bde-dce47db9deb1",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 40,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -431,7 +486,9 @@
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": []
+                "libobs.hide_scene_item.16": [],
+                "libobs.show_scene_item.40": [],
+                "libobs.hide_scene_item.40": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -440,7 +497,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "TF2",
             "uuid": "21813a75-4d49-4948-8263-82cfe0dcc91c",
             "id": "pipewire_audio_application_capture",
@@ -471,7 +528,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "MIC",
             "uuid": "7bda8544-196f-4426-85a8-f0849f506f3e",
             "id": "pulse_input_capture",
@@ -485,7 +542,7 @@
             "volume": 0.6690263748168945,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -502,7 +559,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 536870913,
+                    "prev_ver": 536870914,
                     "name": "Gain",
                     "uuid": "738c2da5-9793-4f7d-b8e0-28c359ef4416",
                     "id": "gain_filter",
@@ -530,7 +587,7 @@
             ]
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "LIbrewolf",
             "uuid": "924069a3-bc2c-4e8a-8013-811c1161aa2f",
             "id": "pipewire_audio_application_capture",
@@ -572,7 +629,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "mpd",
             "uuid": "eee4413c-70f4-4117-af67-e97ef0a1e3fc",
             "id": "pipewire_audio_application_capture",
@@ -604,7 +661,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "discord",
             "uuid": "13093ce4-f404-4ec0-bb85-497163c5fc8d",
             "id": "pipewire_audio_application_capture",
@@ -635,7 +692,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Game Capture",
             "uuid": "7054e5a0-d64a-4124-9f76-47fdef4c1f49",
             "id": "vkcapture-source",
@@ -662,7 +719,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "mpv",
             "uuid": "e075905f-282f-4179-a2b1-400bb9f9fa08",
             "id": "pipewire_audio_application_capture",
@@ -687,6 +744,30 @@
                 "libobs.push-to-mute": [],
                 "libobs.push-to-talk": []
             },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536870914,
+            "name": "Video Capture Device (V4L2)",
+            "uuid": "322d8da3-0760-461d-8bde-dce47db9deb1",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
+            "settings": {},
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -724,7 +805,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -69,
+    "scaling_level": -11,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
