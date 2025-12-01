@@ -324,8 +324,8 @@ popupWidth=560
 AppletOrder=189;192;196;198;195;197;194;191;193;190
 
 [Containments][8]
-ItemGeometries-1920x1080=Applet-238:0,928,80,96,0;Applet-244:400,448,480,432,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
-ItemGeometriesHorizontal=Applet-238:0,928,80,96,0;Applet-244:400,448,480,432,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
+ItemGeometries-1920x1080=Applet-238:0,928,80,96,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
+ItemGeometriesHorizontal=Applet-238:0,928,80,96,0;Applet-236:1552,624,368,368,0;Applet-200:1552,992,368,48,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
@@ -456,7 +456,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][8][Applets][200][Applets][220][Configuration]
-PreloadWeight=41
+PreloadWeight=33
 
 [Containments][8][Applets][200][ConfigDialog]
 DialogHeight=540
@@ -475,9 +475,15 @@ plugin=org.kde.plasma.mediacontroller
 immutability=1
 plugin=org.kde.plasma.trash
 
-[Containments][8][Applets][244]
+[Containments][8][Applets][245]
 immutability=1
 plugin=io.gitgud.wackyideas.seventasks
+transient=true
+
+[Containments][8][Applets][246]
+immutability=1
+plugin=io.gitgud.wackyideas.seventasks
+transient=true
 
 [Containments][8][ConfigDialog]
 DialogHeight=540
