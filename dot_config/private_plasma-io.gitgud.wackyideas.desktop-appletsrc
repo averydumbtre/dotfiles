@@ -182,6 +182,7 @@ immutability=1
 lastScreen=2
 location=4
 plugin=io.gitgud.wackyideas.panel
+transient=true
 wallpaperplugin=org.kde.image
 
 [Containments][279][Applets][280]
@@ -193,11 +194,13 @@ location=0
 plugin=org.kde.plasma.systemtray
 popupHeight=432
 popupWidth=432
+transient=true
 wallpaperplugin=org.kde.image
 
 [Containments][279][Applets][280][Applets][281]
 immutability=1
 plugin=io.gitgud.wackyideas.volume
+transient=true
 
 [Containments][279][Applets][280][Applets][281][Configuration][General]
 migrated=true
@@ -205,42 +208,52 @@ migrated=true
 [Containments][279][Applets][280][Applets][282]
 immutability=1
 plugin=org.kde.plasma.cameraindicator
+transient=true
 
 [Containments][279][Applets][280][Applets][283]
 immutability=1
 plugin=org.kde.plasma.clipboard
+transient=true
 
 [Containments][279][Applets][280][Applets][284]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
+transient=true
 
 [Containments][279][Applets][280][Applets][285]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
+transient=true
 
 [Containments][279][Applets][280][Applets][286]
 immutability=1
 plugin=org.kde.plasma.vault
+transient=true
 
 [Containments][279][Applets][280][Applets][287]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
+transient=true
 
 [Containments][279][Applets][280][Applets][288]
 immutability=1
 plugin=org.kde.plasma.weather
+transient=true
 
 [Containments][279][Applets][280][Applets][289]
 immutability=1
 plugin=org.kde.kscreen
+transient=true
 
 [Containments][279][Applets][280][Applets][290]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
+transient=true
 
 [Containments][279][Applets][280][Applets][291]
 immutability=1
 plugin=org.kde.plasma.volume
+transient=true
 
 [Containments][279][Applets][280][Applets][291][Configuration][General]
 migrated=true
@@ -248,38 +261,47 @@ migrated=true
 [Containments][279][Applets][280][Applets][292]
 immutability=1
 plugin=org.kde.plasma.printmanager
+transient=true
 
 [Containments][279][Applets][280][Applets][293]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
+transient=true
 
 [Containments][279][Applets][280][Applets][294]
 immutability=1
 plugin=org.kde.plasma.notifications
+transient=true
 
 [Containments][279][Applets][280][Applets][295]
 immutability=1
 plugin=org.kde.plasma.battery
+transient=true
 
 [Containments][279][Applets][280][Applets][296]
 immutability=1
 plugin=org.kde.plasma.brightness
+transient=true
 
 [Containments][279][Applets][280][Applets][297]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
+transient=true
 
 [Containments][279][Applets][280][Applets][298]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+transient=true
 
 [Containments][279][Applets][280][Applets][299]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+transient=true
 
 [Containments][279][Applets][280][Applets][300]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
+transient=true
 
 [Containments][279][Applets][280][ConfigDialog]
 DialogHeight=540
@@ -292,6 +314,7 @@ knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,i
 [Containments][279][Applets][301]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+transient=true
 
 [Containments][279][Applets][301][Configuration]
 PreloadWeight=65
@@ -308,11 +331,13 @@ immutability=1
 lastScreen=2
 location=4
 plugin=io.gitgud.wackyideas.panel
+transient=true
 wallpaperplugin=org.kde.image
 
 [Containments][302][Applets][303]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
+transient=true
 
 [Containments][302][Applets][303][Configuration]
 PreloadWeight=100
@@ -329,10 +354,12 @@ favoritesPortedToKAstats=true
 [Containments][302][Applets][304]
 immutability=1
 plugin=io.gitgud.wackyideas.win7showdesktop
+transient=true
 
 [Containments][302][Applets][305]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
+transient=true
 
 [Containments][302][Applets][305][Configuration]
 PreloadWeight=100
@@ -342,6 +369,7 @@ popupWidth=572
 [Containments][302][Applets][306]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+transient=true
 
 [Containments][302][Applets][306][Configuration]
 PreloadWeight=85
@@ -364,6 +392,7 @@ DialogWidth=720
 [Containments][302][Applets][307]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
+transient=true
 
 [Containments][302][Applets][307][Configuration]
 PreloadWeight=100
@@ -373,6 +402,7 @@ popupWidth=560
 [Containments][302][Applets][308]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
+transient=true
 
 [Containments][302][Applets][308][Configuration][ConfigDialog]
 DialogHeight=540
@@ -381,10 +411,12 @@ DialogWidth=720
 [Containments][302][Applets][309]
 immutability=1
 plugin=org.kde.plasma.trash
+transient=true
 
 [Containments][302][Applets][310]
 immutability=1
 plugin=org.kde.plasma.systemmonitor
+transient=true
 
 [Containments][302][Applets][310][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -413,6 +445,7 @@ historyAmount=10
 [Containments][302][Applets][311]
 immutability=1
 plugin=org.kde.plasma.systemmonitor
+transient=true
 
 [Containments][302][Applets][311][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
@@ -438,10 +471,12 @@ highPrioritySensorIds=["network/all/download","network/all/upload"]
 [Containments][302][Applets][312]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
+transient=true
 
 [Containments][302][Applets][313]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
+transient=true
 
 [Containments][302][Applets][313][Configuration][ConfigDialog]
 DialogHeight=540
@@ -450,6 +485,7 @@ DialogWidth=720
 [Containments][302][Applets][314]
 immutability=1
 plugin=io.gitgud.wackyideas.volume
+transient=true
 
 [Containments][302][Applets][314][Configuration]
 PreloadWeight=100
@@ -466,6 +502,7 @@ migrated=true
 [Containments][302][Applets][315]
 immutability=1
 plugin=org.kde.plasma.notifications
+transient=true
 
 [Containments][302][Applets][315][Configuration]
 PreloadWeight=100
@@ -475,6 +512,7 @@ popupWidth=568
 [Containments][302][Applets][316]
 immutability=1
 plugin=io.gitgud.wackyideas.seventasks
+transient=true
 
 [Containments][302][Applets][316][Configuration][ConfigDialog]
 DialogHeight=540
