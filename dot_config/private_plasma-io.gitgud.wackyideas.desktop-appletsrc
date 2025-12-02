@@ -127,6 +127,9 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][244][Applets][250][Applets][263][Configuration]
+PreloadWeight=65
+
 [Containments][244][Applets][250][Applets][264]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -146,6 +149,9 @@ plugin=io.gitgud.wackyideas.battery
 [Containments][244][Applets][250][Applets][268]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][244][Applets][250][Applets][268][Configuration]
+PreloadWeight=42
 
 [Containments][244][Applets][250][Applets][269]
 immutability=1
@@ -168,7 +174,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][244][Applets][272][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 popupHeight=360
 popupWidth=360
 
@@ -253,6 +259,9 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][317][Applets][318][Applets][331][Configuration]
+PreloadWeight=60
+
 [Containments][317][Applets][318][Applets][332]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -272,6 +281,9 @@ plugin=io.gitgud.wackyideas.battery
 [Containments][317][Applets][318][Applets][336]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][317][Applets][318][Applets][336][Configuration]
+PreloadWeight=42
 
 [Containments][317][Applets][318][Applets][337]
 immutability=1
@@ -316,8 +328,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][341][Configuration]
 PreloadWeight=100
-popupHeight=534
-popupWidth=712
+popupHeight=539
+popupWidth=716
 
 [Containments][340][Applets][341][Configuration][ConfigDialog]
 DialogHeight=540
@@ -344,7 +356,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][340][Applets][344][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 popupHeight=466
 popupWidth=572
 
