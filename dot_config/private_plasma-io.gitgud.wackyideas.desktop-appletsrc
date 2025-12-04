@@ -43,7 +43,8 @@ plugin=io.gitgud.wackyideas.desktopcontainment
 wallpaperplugin=org.kde.image
 
 [Containments][175][General]
-positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":[]}
+positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["6","30","desktop:/Link to Application.desktop","5","4"]}
+sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
 Image=file:///home/avery/Documents/2025-11-27-FUJIFILM-X-S10-463.png
@@ -196,8 +197,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][341][Configuration]
 PreloadWeight=100
-popupHeight=550
-popupWidth=728
+popupHeight=534
+popupWidth=712
 
 [Containments][340][Applets][341][Configuration][ConfigDialog]
 DialogHeight=540
@@ -542,8 +543,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=550
-popupWidth=728
+popupHeight=534
+popupWidth=712
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -720,4 +721,4 @@ AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
