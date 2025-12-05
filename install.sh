@@ -414,7 +414,7 @@ echo "         tridactyl :bind <C-K> tabpush"
 echo "         tridactyl :unbind D"
 echo "         tridactyl :bind dd tabclose"
 echo "* and login to discord and steam and matrix"
-echo
+echo "and autostart: easyeffects, mpdscribble, solaar, and syncthing"
 echo
 echo "alright screenshot that"
 echo "press enter to reboot"
