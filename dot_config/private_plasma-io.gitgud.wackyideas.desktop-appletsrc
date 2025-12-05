@@ -129,7 +129,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][317][Applets][318][Applets][331][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][317][Applets][318][Applets][332]
 immutability=1
@@ -209,8 +209,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][341][Configuration]
 PreloadWeight=100
-popupHeight=545
-popupWidth=724
+popupHeight=534
+popupWidth=712
 
 [Containments][340][Applets][341][Configuration][ConfigDialog]
 DialogHeight=540
@@ -464,7 +464,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][401][Applets][402][Applets][415][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][401][Applets][402][Applets][416]
 immutability=1
@@ -567,8 +567,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=545
-popupWidth=724
+popupHeight=534
+popupWidth=712
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -723,7 +723,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][9][Applets][43][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 popupHeight=466
 popupWidth=572
 
@@ -745,4 +745,4 @@ AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
