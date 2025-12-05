@@ -139,13 +139,22 @@ plugin=org.kde.plasma.notifications
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][317][Applets][318][Applets][333][Configuration]
+PreloadWeight=42
+
 [Containments][317][Applets][318][Applets][334]
 immutability=1
 plugin=org.kde.plasma.brightness
 
+[Containments][317][Applets][318][Applets][334][Configuration]
+PreloadWeight=42
+
 [Containments][317][Applets][318][Applets][335]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
+
+[Containments][317][Applets][318][Applets][335][Configuration]
+PreloadWeight=42
 
 [Containments][317][Applets][318][Applets][336]
 immutability=1
@@ -157,6 +166,9 @@ PreloadWeight=0
 [Containments][317][Applets][318][Applets][337]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][317][Applets][318][Applets][337][Configuration]
+PreloadWeight=42
 
 [Containments][317][Applets][318][Applets][338]
 immutability=1
@@ -197,8 +209,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][341][Configuration]
 PreloadWeight=100
-popupHeight=545
-popupWidth=724
+popupHeight=534
+popupWidth=712
 
 [Containments][340][Applets][341][Configuration][ConfigDialog]
 DialogHeight=540
@@ -462,13 +474,22 @@ plugin=org.kde.plasma.notifications
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][401][Applets][402][Applets][417][Configuration]
+PreloadWeight=42
+
 [Containments][401][Applets][402][Applets][418]
 immutability=1
 plugin=org.kde.plasma.brightness
 
+[Containments][401][Applets][402][Applets][418][Configuration]
+PreloadWeight=42
+
 [Containments][401][Applets][402][Applets][419]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
+
+[Containments][401][Applets][402][Applets][419][Configuration]
+PreloadWeight=42
 
 [Containments][401][Applets][402][Applets][420]
 immutability=1
@@ -480,6 +501,9 @@ PreloadWeight=0
 [Containments][401][Applets][402][Applets][421]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][401][Applets][402][Applets][421][Configuration]
+PreloadWeight=42
 
 [Containments][401][Applets][402][Applets][422]
 immutability=1
@@ -543,8 +567,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=545
-popupWidth=724
+popupHeight=534
+popupWidth=712
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -721,4 +745,4 @@ AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622
