@@ -43,7 +43,7 @@ plugin=io.gitgud.wackyideas.desktopcontainment
 wallpaperplugin=org.kde.image
 
 [Containments][175][General]
-positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["6","30","desktop:/Link to Application.desktop","5","4"]}
+positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30","desktop:/Link to Application.desktop","0","0"]}
 sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
