@@ -207,10 +207,292 @@
     "44ab832b-b8d6-4851-883e-3568edd1e4de": {
       "Devices": [],
       "Microphone": {
-        "DisplayName": "USB AUDIO  CODEC: USB Audio"
+        "DisplayName": "PulseAudio Sound Server"
       },
-      "ModeMappings": {},
-      "MenuMappings": null
+      "ModeMappings": {
+        "FiveFretGuitar": {
+          "Bindings": {
+            "FiveFret.Green": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/leftTrigger"
+                }
+              ]
+            },
+            "FiveFret.Red": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/leftShoulder"
+                }
+              ]
+            },
+            "FiveFret.Yellow": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/rightShoulder"
+                }
+              ]
+            },
+            "FiveFret.Blue": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/rightTrigger"
+                }
+              ]
+            },
+            "FiveFret.Orange": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/buttonSouth"
+                }
+              ]
+            },
+            "Guitar.StrumUp": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/dpad/up"
+                }
+              ]
+            },
+            "Guitar.StrumDown": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/dpad/down"
+                }
+              ]
+            },
+            "Guitar.StarPower": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/select"
+                }
+              ]
+            },
+            "Guitar.Whammy": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/leftStick/x"
+                }
+              ]
+            }
+          }
+        },
+        "Vocals": {
+          "Bindings": {
+            "Vocals.Hit": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/buttonSouth"
+                }
+              ]
+            },
+            "Vocals.StarPower": {
+              "Controls": [
+                {
+                  "Device": {
+                    "Layout": "Gamepad",
+                    "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                  },
+                  "ControlPath": "/<Gamepad>/select"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "MenuMappings": {
+        "Bindings": {
+          "Menu.Start": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/start"
+              }
+            ]
+          },
+          "Menu.Select": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/select"
+              }
+            ]
+          },
+          "Menu.Green": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/buttonSouth"
+              }
+            ]
+          },
+          "Menu.Red": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/buttonEast"
+              }
+            ]
+          },
+          "Menu.Yellow": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/buttonNorth"
+              }
+            ]
+          },
+          "Menu.Blue": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/buttonWest"
+              }
+            ]
+          },
+          "Menu.Orange": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/leftShoulder"
+              }
+            ]
+          },
+          "Menu.Up": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/leftStick/up"
+              },
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/dpad/up"
+              }
+            ]
+          },
+          "Menu.Down": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/leftStick/down"
+              },
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/dpad/down"
+              }
+            ]
+          },
+          "Menu.Left": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/leftStick/left"
+              },
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/dpad/left"
+              }
+            ]
+          },
+          "Menu.Right": {
+            "Controls": [
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/leftStick/right"
+              },
+              {
+                "Device": {
+                  "Layout": "Gamepad",
+                  "Hash": "77B7359CF71427CE843AA6081106F30C5BCF110C"
+                },
+                "ControlPath": "/<Gamepad>/dpad/right"
+              }
+            ]
+          }
+        }
+      }
     }
   }
 }

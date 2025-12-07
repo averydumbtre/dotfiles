@@ -723,7 +723,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][9][Applets][43][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 popupHeight=466
 popupWidth=572
 

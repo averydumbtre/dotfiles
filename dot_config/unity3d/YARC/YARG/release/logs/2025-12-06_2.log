@@ -605,3 +605,87 @@ UnityEngine.EventSystems.EventSystem:Update()
 [Info] [2025-12-06 17:01:50 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
 [Info] [2025-12-06 17:01:53 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
 [Info] [2025-12-06 17:02:19 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:03:55 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 5 stems
+[Info] [2025-12-06 17:03:59 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:03:59 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:00 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:01 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:02 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:03 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:04 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:05 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:08 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:09 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:11 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:15 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:18 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:18 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 6 stems
+[Info] [2025-12-06 17:04:19 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:26 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:34 GameManager.Loading.cs:Start:108] Loading song Blow Up The Outside World - Soundgarden
+[Info] [2025-12-06 17:04:34 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:04:34 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Info] [2025-12-06 17:04:34 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Vocals on Vocals: 0
+[Info] [2025-12-06 17:05:13 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 17:05:14 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:05:23 GameManager.Loading.cs:Start:108] Loading song Blow Up The Outside World - Soundgarden
+[Info] [2025-12-06 17:05:23 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:05:23 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Info] [2025-12-06 17:05:23 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Vocals on Vocals: 0
+[Warning] [2025-12-06 17:05:27 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 1.38237855100012, input being queued: 1.38230785900011
+[Warning] [2025-12-06 17:05:27 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.38237855100012, input being queued: 1.38230785900011
+[Warning] [2025-12-06 17:05:41 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 15.7431761200001, input being queued: 15.7431531880002
+[Warning] [2025-12-06 17:05:41 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 15.7431761200001, input being queued: 15.7431531880002
+[Info] [2025-12-06 17:05:53 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 17:05:54 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:06:06 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:06:10 GameManager.Loading.cs:Start:108] Loading song Blow Up The Outside World - Soundgarden
+[Info] [2025-12-06 17:06:10 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:06:10 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Info] [2025-12-06 17:06:10 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Vocals on Vocals: 0
+[Warning] [2025-12-06 17:06:22 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 9.45141468199997, input being queued: 9.451381397
+[Warning] [2025-12-06 17:06:33 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 21.059210877, input being queued: 21.0591261899999
+[Warning] [2025-12-06 17:06:33 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 21.059210877, input being queued: 21.0591261899999
+[Warning] [2025-12-06 17:06:50 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 37.8510491069999, input being queued: 37.8509845209999
+[Warning] [2025-12-06 17:07:04 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 51.6190887159999, input being queued: 51.6190552759999
+[Warning] [2025-12-06 17:07:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 54.043782126, input being queued: 54.0436970419999
+[Warning] [2025-12-06 17:07:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 54.043782126, input being queued: 54.0436970419999
+[Warning] [2025-12-06 17:07:30 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 78.3315330559999, input being queued: 78.331476119
+[Warning] [2025-12-06 17:08:00 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 107.738853713, input being queued: 107.738768805
+[Warning] [2025-12-06 17:08:09 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 116.8750255, input being queued: 116.874980919
+[Warning] [2025-12-06 17:08:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 116.8750255, input being queued: 116.874980919
+[Warning] [2025-12-06 17:08:27 BaseEngine.cs:ProcessInputs:182] Queued input is in the future! Time being updated to: 135.260956366, input time: 135.261070525
+[Warning] [2025-12-06 17:08:27 BaseEngine.cs:Update:167] Input queue was not fully cleared!
+[Info] [2025-12-06 17:08:34 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 17:08:35 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Warning] [2025-12-06 17:09:29 Localize.cs:Key:25] No translation found for key `Bindings.Vocals.Hit`.
+[Warning] [2025-12-06 17:09:32 Localize.cs:Key:25] No translation found for key `Bindings.Vocals.Hit`.
+[Info] [2025-12-06 17:10:17 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:10:21 GameManager.Loading.cs:Start:108] Loading song The Castle In the Air - King Gizzard and the Lizard Wizard
+[Info] [2025-12-06 17:10:21 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:10:21 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Info] [2025-12-06 17:10:21 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Vocals on Vocals: 0
+[Info] [2025-12-06 17:10:29 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 17:10:29 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:10:29 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 17:10:46 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: Busy!
+[Info] [2025-12-06 17:11:28 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:11:33 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:11:34 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:12:07 BassAudioManager.cs:DisposeUnmanagedResources:342] Unloading BASS plugins
+[Info] [2025-12-06 17:12:07 LogHandler.cs:ShutdownLogHandler:87] Disabling Logging

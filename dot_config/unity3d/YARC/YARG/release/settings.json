@@ -5,8 +5,8 @@
   "ShowAntiPiracyDialog": false,
   "ShowEngineInconsistencyDialog": true,
   "ShowExperimentalWarningDialog": true,
-  "LibrarySort": 33,
-  "PreviousLibrarySort": 33,
+  "LibrarySort": 2,
+  "PreviousLibrarySort": 2,
   "HUDPositionProfiles": {
     "Normal": {
       "Version": 1,
@@ -31,7 +31,7 @@
     }
   },
   "AudioCalibration": 0,
-  "VideoCalibration": 0,
+  "VideoCalibration": 20,
   "AccountForHardwareLatency": true,
   "DisableGlobalBackgrounds": false,
   "DisablePerSongBackgrounds": false,
@@ -74,8 +74,8 @@
   "VocalMonitoring": 0.7,
   "EnablePlaybackBuffer": true,
   "PlaybackBufferLength": 75,
-  "MicrophoneSensitivity": 2.0,
-  "MuteOnMiss": 2,
+  "MicrophoneSensitivity": 13.2554054,
+  "MuteOnMiss": 0,
   "UseStarpowerFx": 2,
   "ClapsInStarpower": true,
   "OverstrumAndOverhitSoundEffects": true,
