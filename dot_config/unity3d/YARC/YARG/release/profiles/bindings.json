@@ -1,0 +1,216 @@
+{
+  "Version": 2,
+  "Profiles": {
+    "e816af6d-4c16-403d-b7ed-21a784ddfd23": {
+      "Devices": [
+        {
+          "Layout": "HID::DragonRise Inc.   Generic   USB  Joystick  ",
+          "Hash": "41530922BA631237B71EEAF022554DF3637B9B1E"
+        }
+      ],
+      "Microphone": null,
+      "ModeMappings": {
+        "FiveFretGuitar": {
+          "Bindings": {
+            "FiveFret.Green": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button10"
+                }
+              ]
+            },
+            "FiveFret.Red": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button9"
+                }
+              ]
+            },
+            "FiveFret.Yellow": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button12"
+                }
+              ]
+            },
+            "FiveFret.Blue": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button11"
+                }
+              ]
+            },
+            "FiveFret.Orange": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button8"
+                }
+              ]
+            },
+            "FiveFret.SoloGreen": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button10"
+                }
+              ]
+            },
+            "FiveFret.SoloRed": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button9"
+                }
+              ]
+            },
+            "FiveFret.SoloYellow": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button12"
+                }
+              ]
+            },
+            "FiveFret.SoloBlue": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button11"
+                }
+              ]
+            },
+            "FiveFret.SoloOrange": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button8"
+                }
+              ]
+            },
+            "Guitar.StrumUp": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/stick/down"
+                }
+              ]
+            },
+            "Guitar.StrumDown": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/stick/up"
+                }
+              ]
+            },
+            "Guitar.StarPower": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button7"
+                }
+              ]
+            },
+            "Guitar.Whammy": {
+              "Controls": [
+                {
+                  "DeviceIndex": 0,
+                  "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "MenuMappings": {
+        "Bindings": {
+          "Menu.Start": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button6"
+              }
+            ]
+          },
+          "Menu.Select": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button7"
+              }
+            ]
+          },
+          "Menu.Green": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button10"
+              }
+            ]
+          },
+          "Menu.Red": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button9"
+              }
+            ]
+          },
+          "Menu.Yellow": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button12"
+              }
+            ]
+          },
+          "Menu.Blue": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button11"
+              }
+            ]
+          },
+          "Menu.Orange": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/button8"
+              }
+            ]
+          },
+          "Menu.Up": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/stick/down"
+              }
+            ]
+          },
+          "Menu.Down": {
+            "Controls": [
+              {
+                "DeviceIndex": 0,
+                "ControlPath": "/<HID::DragonRise Inc.   Generic   USB  Joystick  >/stick/up"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "44ab832b-b8d6-4851-883e-3568edd1e4de": {
+      "Devices": [],
+      "Microphone": {
+        "DisplayName": "USB AUDIO  CODEC: USB Audio"
+      },
+      "ModeMappings": {},
+      "MenuMappings": null
+    }
+  }
+}

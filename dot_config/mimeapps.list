@@ -58,7 +58,7 @@ application/x-zerosize=org.kde.kate.desktop;
 image/jpeg=com.interversehq.qView.desktop;org.darktable.darktable.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
 image/x-canon-cr2=com.interversehq.qView.desktop;
-application/octet-stream=org.kde.kate.desktop;
+application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;

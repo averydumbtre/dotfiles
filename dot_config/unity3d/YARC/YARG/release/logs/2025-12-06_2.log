@@ -1,0 +1,607 @@
+[Info] [2025-12-06 16:34:43 LogHandler.cs:SetupLogHandler:68] System Information:
+CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz (4001MHz 12 Cores)
+RAM: 15850MB
+GPU: NVIDIA GeForce RTX 3060 (VRAM: 12534MB, Version: Vulkan 1.1.0 [0x911a4200], Renderer: Vulkan)
+OS: Linux 6.17 Arch Linux  64bit (Linux)
+
+[Warning] [2025-12-06 16:34:43 PathHelper.cs:FindSetlistPath:131] Failed to find launcher settings file. Game is most likely running without the launcher.
+[Info] [2025-12-06 16:34:46 GlobalVariables.cs:SingletonAwake:56] YARG v0.13.0
+[Info] [2025-12-06 16:34:46 LocalizationManager.cs:Initialize:35] Localization initialized with language `en-US`
+[Info] [2025-12-06 16:34:46 GlobalVariables.cs:SingletonAwake:88] Loaded 1 profiles
+[Info] [2025-12-06 16:34:46 GlobalVariables.cs:SingletonAwake:91] Saved 1 profiles
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:.ctor:101] Initializing BASS...
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:.ctor:137] Devices found: 19
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:265] Loading SFX
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded note_miss
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded starpower_award
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded starpower_gain
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded starpower_deploy
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded starpower_release
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded clap
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded star
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded star_gold
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_1
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_2
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_3
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_4
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadSfx:289] Finished loading SFX
+[Info] [2025-12-06 16:34:46 BassAudioManager.cs:LoadDrumSfx:294] Loading Drum SFX
+[Info] [2025-12-06 16:34:47 BassAudioManager.cs:LoadDrumSfx:317] Finished loading Drum SFX
+[Info] [2025-12-06 16:34:47 BassAudioManager.cs:.ctor:157] BASS Successfully Initialized
+[Info] [2025-12-06 16:34:47 BassAudioManager.cs:.ctor:158] BASS: 2.4.17.10 - BASS.FX: 2.4.12.12 - BASS.Mix: 2.4.12.0
+[Info] [2025-12-06 16:34:47 BassAudioManager.cs:.ctor:159] Update Period: 5ms. Device Buffer Length: 20ms. Playback Buffer Length: 500ms. Device Playback Latency: 45ms
+[Info] [2025-12-06 16:34:47 BassAudioManager.cs:.ctor:161] Current Device: Default
+[Info] [2025-12-06 16:34:48 LocalizationManager.cs:TryParseAndLoadLanguage:67] Loading language `en-US`...
+--------------- EXCEPTION ---------------
+at SongSources.cs:DownloadSources:282
+Failed to download newest song source version.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.UnauthorizedAccessException: Access to the path "/opt/yarg/YARG_Data/StreamingAssets/sources/update.zip" is denied.
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00022] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00096] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)
+  at YARG.Song.SongSources+<>c__DisplayClass18_0.<DownloadSources>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0009d] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0012f] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1[TStateMachine].GetResult (System.Int16 token) [0x00000] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at YARG.Song.SongSources.DownloadSources (YARG.LoadingContext context) [0x003c4] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+-----------------------------------------
+
+--------------- EXCEPTION ---------------
+at SongSources.cs:ReadSources:310
+Failed to read song source index.json for `extra`!
+System.IO.DirectoryNotFoundException: Could not find a part of the path "/opt/yarg/YARG_Data/StreamingAssets/sources/OpenSource-master/extra/index.json".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at YARG.Song.SongSources.ReadIndexPath (System.String indexPath) [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Song.SongSources.ReadSources () [0x00052] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+-----------------------------------------
+
+[Info] [2025-12-06 16:34:48 SongContainer.cs:RunRefresh:150] Scan time: 0.0871492s
+[Info] [2025-12-06 16:34:49 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Error] [2025-12-06 16:34:49 BassStemMixer.cs:Play_Internal:68] Failed to fill playback buffer: Already!
+[Info] [2025-12-06 16:36:23 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 16:36:27 GameManager.Loading.cs:Start:108] Loading song I Ran (So Far Away) - Flock of Seagulls
+[Info] [2025-12-06 16:36:27 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 16:36:27 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 16:36:31 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 1.463733404, input being queued: 1.463705076
+[Warning] [2025-12-06 16:36:31 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.463733404, input being queued: 1.463705076
+[Warning] [2025-12-06 16:37:02 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 32.311203511, input being queued: 32.311176812
+[Warning] [2025-12-06 16:37:35 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 65.711124204, input being queued: 65.711111446
+[Warning] [2025-12-06 16:37:41 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 71.239607828, input being queued: 71.239548664
+[Warning] [2025-12-06 16:37:56 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 86.838912553, input being queued: 86.838885593
+[Warning] [2025-12-06 16:38:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 96.34299045, input being queued: 96.342969602
+[Warning] [2025-12-06 16:38:33 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 123.407554507, input being queued: 123.407493929
+[Warning] [2025-12-06 16:38:33 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 123.407554507, input being queued: 123.407493929
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 135.359357391, input being queued: 135.359328854
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 135.51207984, input being queued: 135.510807768
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 135.51207984, input being queued: 135.510807768
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 135.51207984, input being queued: 135.510807768
+[Warning] [2025-12-06 16:38:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 135.51207984, input being queued: 135.510807768
+[Warning] [2025-12-06 16:39:03 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 153.03145872, input being queued: 153.031407935
+[Warning] [2025-12-06 16:39:09 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 159.239338779, input being queued: 159.239333406
+[Warning] [2025-12-06 16:39:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 159.239338779, input being queued: 159.239333406
+[Warning] [2025-12-06 16:39:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 159.239338779, input being queued: 159.239333406
+[Warning] [2025-12-06 16:39:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 159.239338779, input being queued: 159.239333406
+[Warning] [2025-12-06 16:39:13 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 163.75881701, input being queued: 163.758805678
+[Warning] [2025-12-06 16:39:13 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 163.75881701, input being queued: 163.758805678
+[Warning] [2025-12-06 16:39:46 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 196.679351429, input being queued: 196.679302214
+[Warning] [2025-12-06 16:39:49 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 199.958521047, input being queued: 199.958503406
+[Warning] [2025-12-06 16:40:10 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 220.927468895, input being queued: 220.927408785
+[Warning] [2025-12-06 16:40:10 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 220.927468895, input being queued: 220.927408785
+[Warning] [2025-12-06 16:40:10 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 220.927468895, input being queued: 220.927408785
+[Warning] [2025-12-06 16:40:13 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 223.855209027, input being queued: 223.85520173
+[Warning] [2025-12-06 16:40:13 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 223.855209027, input being queued: 223.85520173
+[Warning] [2025-12-06 16:40:13 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 223.855209027, input being queued: 223.85520173
+[Warning] [2025-12-06 16:40:20 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 230.455188974, input being queued: 230.455179605
+[Warning] [2025-12-06 16:40:43 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 253.654779885, input being queued: 253.654753693
+[Warning] [2025-12-06 16:40:43 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 253.654779885, input being queued: 253.654753693
+[Info] [2025-12-06 16:40:54 ScoreContainer.cs:RecordScore:146] Recorded score for song.
+[Info] [2025-12-06 16:40:54 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 16:40:57 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 16:40:59 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 16:41:16 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 16:41:20 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:41:33 SongContainer.cs:RunRefresh:150] Scan time: 2.1769757s
+[Info] [2025-12-06 16:41:39 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 16:41:44 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 16:41:57 GameManager.Loading.cs:Start:108] Loading song Get Ready 2 Rokk - Freezepop
+[Info] [2025-12-06 16:41:57 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 16:41:57 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 16:42:00 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 1.19932474199999, input being queued: 1.19927806300001
+[Warning] [2025-12-06 16:42:00 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.19932474199999, input being queued: 1.19927806300001
+[Warning] [2025-12-06 16:42:00 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.19932474199999, input being queued: 1.19927806300001
+[Warning] [2025-12-06 16:42:00 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.19932474199999, input being queued: 1.19927806300001
+[Warning] [2025-12-06 16:42:03 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 4.39098589299999, input being queued: 4.39096644899996
+[Warning] [2025-12-06 16:42:03 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 4.39098589299999, input being queued: 4.39096644899996
+[Warning] [2025-12-06 16:42:07 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 7.58308598599996, input being queued: 7.583048174
+[Warning] [2025-12-06 16:42:11 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 11.559104389, input being queued: 11.559065829
+[Warning] [2025-12-06 16:42:14 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 14.678795082, input being queued: 14.678737232
+[Warning] [2025-12-06 16:42:14 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.678795082, input being queued: 14.678737232
+[Warning] [2025-12-06 16:42:16 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 17.038501471, input being queued: 17.038457578
+[Warning] [2025-12-06 16:42:16 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 17.038501471, input being queued: 17.038457578
+[Warning] [2025-12-06 16:42:16 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 17.038501471, input being queued: 17.038457578
+[Warning] [2025-12-06 16:42:16 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 17.038501471, input being queued: 17.038457578
+[Warning] [2025-12-06 16:42:21 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 22.111436123, input being queued: 22.111421513
+[Warning] [2025-12-06 16:42:21 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[Warning] [2025-12-06 16:42:21 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[Warning] [2025-12-06 16:42:21 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[Warning] [2025-12-06 16:42:21 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[Warning] [2025-12-06 16:42:22 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 22.830558394, input being queued: 22.83047974
+[Warning] [2025-12-06 16:42:24 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 24.799007975, input being queued: 24.798927201
+[Warning] [2025-12-06 16:42:30 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 30.822515261, input being queued: 30.822434097
+[Warning] [2025-12-06 16:42:30 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 30.822515261, input being queued: 30.822434097
+[Warning] [2025-12-06 16:42:32 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 33.158752948, input being queued: 33.158693038
+[Warning] [2025-12-06 16:42:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 36.614528608, input being queued: 36.614505032
+[Warning] [2025-12-06 16:42:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 36.614528608, input being queued: 36.614505032
+[Warning] [2025-12-06 16:42:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 36.790577642, input being queued: 36.790497408
+[Warning] [2025-12-06 16:42:54 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 55.182572385, input being queued: 55.182521491
+[Warning] [2025-12-06 16:42:54 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 55.182572385, input being queued: 55.182521491
+[Warning] [2025-12-06 16:43:17 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 77.6870682020001, input being queued: 77.687022393
+[Warning] [2025-12-06 16:43:20 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 81.2868259750001, input being queued: 81.2868152000001
+[Warning] [2025-12-06 16:43:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 96.927134622, input being queued: 96.927105794
+[Warning] [2025-12-06 16:43:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[Warning] [2025-12-06 16:43:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[Warning] [2025-12-06 16:43:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[Warning] [2025-12-06 16:43:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[Warning] [2025-12-06 16:43:38 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 99.0313067340001, input being queued: 99.031286903
+[Warning] [2025-12-06 16:43:55 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 116.086457566, input being queued: 116.08637347
+[Warning] [2025-12-06 16:43:55 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 116.086457566, input being queued: 116.08637347
+[Warning] [2025-12-06 16:43:55 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 116.086457566, input being queued: 116.08637347
+[Warning] [2025-12-06 16:44:02 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 123.207030292, input being queued: 123.207021385
+[Warning] [2025-12-06 16:44:05 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 126.398561792, input being queued: 126.3985269
+[Warning] [2025-12-06 16:44:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 126.94324081, input being queued: 126.943182666
+[Warning] [2025-12-06 16:44:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 126.94324081, input being queued: 126.943182666
+[Warning] [2025-12-06 16:44:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 127.142610113, input being queued: 127.142496575
+[Warning] [2025-12-06 16:44:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 127.142610113, input being queued: 127.142496575
+[Warning] [2025-12-06 16:44:08 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 128.758288193, input being queued: 128.758252227
+[Warning] [2025-12-06 16:44:08 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 128.758288193, input being queued: 128.758252227
+[Warning] [2025-12-06 16:44:10 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 131.422746719, input being queued: 131.42272352
+[Warning] [2025-12-06 16:44:28 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 149.118441206, input being queued: 149.118438028
+[Warning] [2025-12-06 16:44:28 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 149.118441206, input being queued: 149.118438028
+[Warning] [2025-12-06 16:44:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 156.47859618, input being queued: 156.47858931
+[Warning] [2025-12-06 16:44:49 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 169.85449556, input being queued: 169.854434382
+[Warning] [2025-12-06 16:44:51 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 172.19080575, input being queued: 172.19073456
+[Warning] [2025-12-06 16:45:00 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 180.470195363, input being queued: 180.470120057
+[Warning] [2025-12-06 16:45:00 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 180.534724295, input being queued: 180.534722896
+[Warning] [2025-12-06 16:45:00 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 180.534724295, input being queued: 180.534722896
+[Warning] [2025-12-06 16:45:00 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 180.534724295, input being queued: 180.534722896
+[Info] [2025-12-06 16:45:00 ScoreContainer.cs:RecordScore:146] Recorded score for song.
+[Info] [2025-12-06 16:45:00 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 16:45:02 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 16:45:04 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 16:45:18 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 16:45:22 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:45:24 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:45:28 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 2 stems
+[Info] [2025-12-06 16:45:34 GameManager.Loading.cs:Start:108] Loading song classic j dies and goes to hell part 1 - glass beach
+[Info] [2025-12-06 16:45:34 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 6 stems
+[Info] [2025-12-06 16:45:34 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 16:45:37 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 0.18676570699995, input being queued: 0.18675173500003
+[Warning] [2025-12-06 16:45:37 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 0.18676570699995, input being queued: 0.18675173500003
+[Warning] [2025-12-06 16:45:37 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 0.362689438999951, input being queued: 0.362676591999957
+[Warning] [2025-12-06 16:45:37 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 0.362689438999951, input being queued: 0.362676591999957
+[Warning] [2025-12-06 16:45:38 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 1.36283345200002, input being queued: 1.36276944899998
+[Warning] [2025-12-06 16:45:38 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.36283345200002, input being queued: 1.36276944899998
+[Warning] [2025-12-06 16:45:54 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 17.314234612, input being queued: 17.31415396
+[Warning] [2025-12-06 16:46:07 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 29.986497956, input being queued: 29.986463348
+[Warning] [2025-12-06 16:47:11 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 94.409825385, input being queued: 94.409781363
+[Warning] [2025-12-06 16:47:16 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 99.2100145429999, input being queued: 99.20997261
+[Warning] [2025-12-06 16:47:19 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 102.313850468, input being queued: 102.313832626
+[Warning] [2025-12-06 16:47:19 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 102.313850468, input being queued: 102.313832626
+[Warning] [2025-12-06 16:47:25 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 108.258261229, input being queued: 108.258243646
+[Warning] [2025-12-06 16:47:26 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 109.258507991, input being queued: 109.258453389
+[Warning] [2025-12-06 16:47:33 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 116.730752474, input being queued: 116.730702018
+[Warning] [2025-12-06 16:47:57 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 140.106621083, input being queued: 140.106608549
+[Warning] [2025-12-06 16:47:57 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 140.106621083, input being queued: 140.106608549
+[Warning] [2025-12-06 16:47:57 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 140.106621083, input being queued: 140.106608549
+[Warning] [2025-12-06 16:47:57 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 140.106621083, input being queued: 140.106608549
+[Warning] [2025-12-06 16:48:05 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 148.433798618, input being queued: 148.433705637
+[Warning] [2025-12-06 16:48:05 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 148.433798618, input being queued: 148.433705637
+[Warning] [2025-12-06 16:48:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 149.482064341, input being queued: 149.482007212
+[Warning] [2025-12-06 16:48:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 149.482064341, input being queued: 149.482007212
+[Warning] [2025-12-06 16:48:07 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 150.657739173, input being queued: 150.657683562
+[Warning] [2025-12-06 16:48:11 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 154.481940241, input being queued: 154.481927793
+[Warning] [2025-12-06 16:48:11 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 154.481940241, input being queued: 154.481927793
+[Warning] [2025-12-06 16:48:11 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 154.481940241, input being queued: 154.481927793
+[Warning] [2025-12-06 16:48:15 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 158.457766136, input being queued: 158.457726504
+[Warning] [2025-12-06 16:48:18 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 161.930379742, input being queued: 161.930330937
+[Warning] [2025-12-06 16:48:45 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 188.433649547, input being queued: 188.43362315
+[Warning] [2025-12-06 16:48:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 188.433649547, input being queued: 188.43362315
+[Warning] [2025-12-06 16:48:49 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 192.929961166, input being queued: 192.92993452
+[Warning] [2025-12-06 16:48:49 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 192.929961166, input being queued: 192.92993452
+[Warning] [2025-12-06 16:48:59 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 201.978427069, input being queued: 201.978372617
+[Warning] [2025-12-06 16:48:59 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 201.978427069, input being queued: 201.978372617
+[Warning] [2025-12-06 16:49:04 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 207.130076209, input being queued: 207.130011248
+[Warning] [2025-12-06 16:49:04 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 207.130076209, input being queued: 207.130011248
+[Warning] [2025-12-06 16:49:04 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 207.154403426, input being queued: 207.154333634
+[Warning] [2025-12-06 16:49:04 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 207.154403426, input being queued: 207.154333634
+[Warning] [2025-12-06 16:49:21 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 224.78590435, input being queued: 224.785855516
+[Warning] [2025-12-06 16:49:29 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 232.602441209, input being queued: 232.60242664
+[Warning] [2025-12-06 16:49:51 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 254.929641535, input being queued: 254.929624607
+[Warning] [2025-12-06 16:50:19 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 281.977595958, input being queued: 281.977583147
+[Warning] [2025-12-06 16:50:22 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 285.602083841, input being queued: 285.60203073
+[Warning] [2025-12-06 16:50:26 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 289.5299621, input being queued: 289.529908239
+[Warning] [2025-12-06 16:50:26 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 289.92955934, input being queued: 289.92952854
+[Warning] [2025-12-06 16:50:27 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 290.274182772, input being queued: 290.274170969
+[Warning] [2025-12-06 16:50:28 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 291.650275711, input being queued: 291.650244202
+[Warning] [2025-12-06 16:50:28 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 291.801850844, input being queued: 291.801753867
+[Warning] [2025-12-06 16:50:39 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 302.833914363, input being queued: 302.833887591
+[Warning] [2025-12-06 16:50:39 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 302.833914363, input being queued: 302.833887591
+[Warning] [2025-12-06 16:50:39 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 302.833914363, input being queued: 302.833887591
+[Info] [2025-12-06 16:50:46 ScoreContainer.cs:RecordScore:146] Recorded score for song.
+[Info] [2025-12-06 16:50:46 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 16:50:48 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 6 stems
+[Info] [2025-12-06 16:51:00 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 16:52:13 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 6 stems
+[Info] [2025-12-06 16:52:44 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:53:02 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:53:03 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:53:06 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:53:09 GameManager.Loading.cs:Start:108] Loading song Blow Me Away - Breaking Benjamin
+[Info] [2025-12-06 16:53:09 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:53:09 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 16:53:15 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 3.08312864499999, input being queued: 3.08306659099981
+[Warning] [2025-12-06 16:53:15 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 3.08312864499999, input being queued: 3.08306659099981
+[Warning] [2025-12-06 16:53:17 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 5.44403498899987, input being queued: 5.4440188489998
+[Warning] [2025-12-06 16:53:17 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 5.44403498899987, input being queued: 5.4440188489998
+[Warning] [2025-12-06 16:53:34 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 22.267658107, input being queued: 22.2675646529999
+[Warning] [2025-12-06 16:53:34 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 22.267658107, input being queued: 22.2675646529999
+[Warning] [2025-12-06 16:53:38 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 26.5950951889999, input being queued: 26.5950326669999
+[Info] [2025-12-06 16:53:44 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 16:53:44 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:53:47 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 16:53:56 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:17 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:18 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:18 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:19 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:19 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:19 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:19 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:20 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:20 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:20 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:21 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Error] [2025-12-06 16:54:21 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+[Error] [2025-12-06 16:54:21 BassMicDevice.cs:CreateRecordingHandle:116] Failed to start clean recording: SampleFormat!
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+UnityEngine.Events.InvokableCall.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <c9bf70caf60f496295a2d6046da3e3c9>:0)
+UnityEngine.UI.Button.Press () (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) (at <5ffc7bc4400949eda5bd0a2968f874b8>:0)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.EventSystems.EventSystem:Update()
+-----------------------------------------
+[Info] [2025-12-06 16:55:12 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:55:19 GameManager.Loading.cs:Start:108] Loading song Blow Me Away - Breaking Benjamin
+[Info] [2025-12-06 16:55:19 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:55:19 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Info] [2025-12-06 16:55:19 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Vocals on Vocals: 0
+[Warning] [2025-12-06 16:55:23 BaseEngine.cs:ProcessInputs:182] Queued input is in the future! Time being updated to: 2.07769053900006, input time: 2.07774093500007
+[Warning] [2025-12-06 16:55:23 BaseEngine.cs:Update:167] Input queue was not fully cleared!
+[Warning] [2025-12-06 16:55:28 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 7.17646857699992, input being queued: 7.17641135600002
+[Warning] [2025-12-06 16:55:28 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 7.17646857699992, input being queued: 7.17641135600002
+[Warning] [2025-12-06 16:55:29 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 7.41636171499999, input being queued: 7.41629661499996
+[Warning] [2025-12-06 16:55:29 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 7.41636171499999, input being queued: 7.41629661499996
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 14.6730916240001, input being queued: 14.6730619100001
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 14.736517844, input being queued: 14.7364581459999
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[Warning] [2025-12-06 16:55:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[Warning] [2025-12-06 16:55:46 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 25.224846541, input being queued: 25.224774819
+[Warning] [2025-12-06 16:55:50 BaseEngine.cs:ProcessInputs:182] Queued input is in the future! Time being updated to: 29.2387492749999, input time: 29.238935223
+[Warning] [2025-12-06 16:55:50 BaseEngine.cs:Update:167] Input queue was not fully cleared!
+[Warning] [2025-12-06 16:56:18 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 56.304825834, input being queued: 56.304780982
+[Warning] [2025-12-06 16:56:18 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 56.304825834, input being queued: 56.304780982
+[Warning] [2025-12-06 16:56:22 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 61.1129418200001, input being queued: 61.112899582
+[Warning] [2025-12-06 16:56:43 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 81.7606228930001, input being queued: 81.7605945360001
+[Warning] [2025-12-06 16:56:43 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 81.7606228930001, input being queued: 81.7605945360001
+[Warning] [2025-12-06 16:57:05 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 103.760279479, input being queued: 103.760213701
+[Warning] [2025-12-06 16:57:05 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 103.760279479, input being queued: 103.760213701
+[Info] [2025-12-06 16:57:30 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 16:57:30 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:57:30 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:57:31 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:57:45 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:57:46 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:57:52 GameManager.Loading.cs:Start:108] Loading song Ego Brain - System of a Down
+[Info] [2025-12-06 16:57:52 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:57:52 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Info] [2025-12-06 16:57:52 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Vocals on Vocals: 0
+[Warning] [2025-12-06 16:57:52 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -1.76983223299997, input being queued: -1.76988068400008
+[Warning] [2025-12-06 16:57:52 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -1.76983223299997, input being queued: -1.76988068400008
+[Warning] [2025-12-06 16:57:53 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -1.202275094, input being queued: -1.20231170500004
+[Warning] [2025-12-06 16:57:53 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -1.202275094, input being queued: -1.20231170500004
+[Warning] [2025-12-06 16:57:54 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 0.0222827370000869, input being queued: 0.0222460929999397
+[Warning] [2025-12-06 16:57:54 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 0.0222827370000869, input being queued: 0.0222460929999397
+[Warning] [2025-12-06 16:57:54 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 0.0222827370000869, input being queued: 0.0222460929999397
+[Warning] [2025-12-06 16:57:54 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 0.0222827370000869, input being queued: 0.0222460929999397
+[Warning] [2025-12-06 16:58:01 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 6.57437358499989, input being queued: 6.57433784399997
+[Warning] [2025-12-06 16:58:01 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 6.57437358499989, input being queued: 6.57433784399997
+[Warning] [2025-12-06 16:58:05 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 10.9498729980001, input being queued: 10.949790483
+[Warning] [2025-12-06 16:58:09 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 14.422279554, input being queued: 14.422269785
+[Warning] [2025-12-06 16:58:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.422279554, input being queued: 14.422269785
+[Warning] [2025-12-06 16:58:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 14.422279554, input being queued: 14.422269785
+[Warning] [2025-12-06 16:58:13 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 18.3978864569999, input being queued: 18.3978607689999
+[Warning] [2025-12-06 16:58:14 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 19.5738080900001, input being queued: 19.573755742
+[Warning] [2025-12-06 16:58:14 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 19.7495406870001, input being queued: 19.749501625
+[Warning] [2025-12-06 16:58:16 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 21.8220717320001, input being queued: 21.8220231129999
+[Warning] [2025-12-06 16:58:16 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[Warning] [2025-12-06 16:58:16 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[Warning] [2025-12-06 16:58:16 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[Warning] [2025-12-06 16:58:16 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[Warning] [2025-12-06 16:58:16 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 22.022028716, input being queued: 22.0220139179999
+[Warning] [2025-12-06 16:58:27 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 33.270064799, input being queued: 33.2700112580001
+[Warning] [2025-12-06 16:58:27 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 33.270064799, input being queued: 33.2700112580001
+[Warning] [2025-12-06 16:58:27 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 33.270064799, input being queued: 33.2700112580001
+[Warning] [2025-12-06 16:58:32 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 37.4460081689999, input being queued: 37.446007414
+[Warning] [2025-12-06 16:58:38 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 43.8700952259999, input being queued: 43.8700382990001
+[Warning] [2025-12-06 16:59:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 72.045788057, input being queued: 72.0457424649999
+[Warning] [2025-12-06 16:59:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 72.045788057, input being queued: 72.0457424649999
+[Warning] [2025-12-06 16:59:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 72.045788057, input being queued: 72.0457424649999
+[Warning] [2025-12-06 16:59:10 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 76.0696889880001, input being queued: 76.069659837
+[Warning] [2025-12-06 16:59:10 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 76.0696889880001, input being queued: 76.069659837
+[Warning] [2025-12-06 16:59:10 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 76.0696889880001, input being queued: 76.069659837
+[Warning] [2025-12-06 16:59:19 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 85.0700863309999, input being queued: 85.070069093
+[Warning] [2025-12-06 16:59:19 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[Warning] [2025-12-06 16:59:19 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[Warning] [2025-12-06 16:59:19 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[Warning] [2025-12-06 16:59:19 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[Warning] [2025-12-06 16:59:50 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 115.693623274, input being queued: 115.693595831
+[Warning] [2025-12-06 16:59:50 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 115.693623274, input being queued: 115.693595831
+[Warning] [2025-12-06 16:59:51 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 117.094404151, input being queued: 117.094335155
+[Warning] [2025-12-06 17:00:12 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 137.566040216, input being queued: 137.566027094
+[Info] [2025-12-06 17:00:23 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 17:00:23 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:00:24 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:00:25 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:00:29 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 7 stems
+[Info] [2025-12-06 17:00:30 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 7 stems
+[Info] [2025-12-06 17:00:37 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:00:41 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 17:00:48 GameManager.Loading.cs:Start:108] Loading song Dragula - Rob Zombie
+[Info] [2025-12-06 17:00:48 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 5 stems
+[Info] [2025-12-06 17:00:48 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Info] [2025-12-06 17:00:48 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Vocals on Vocals: 0
+[Warning] [2025-12-06 17:01:07 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 15.9869320339999, input being queued: 15.9868934029999
+[Warning] [2025-12-06 17:01:07 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 15.9869320339999, input being queued: 15.9868934029999
+[Warning] [2025-12-06 17:01:19 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 28.259752209, input being queued: 28.259748297
+[Warning] [2025-12-06 17:01:30 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 39.3152574999999, input being queued: 39.3151921189999
+[Warning] [2025-12-06 17:01:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 44.8916899569999, input being queued: 44.8915982369999
+[Warning] [2025-12-06 17:01:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 44.8916899569999, input being queued: 44.8915982369999
+[Warning] [2025-12-06 17:01:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 45.0196976709999, input being queued: 45.0196786859999
+[Warning] [2025-12-06 17:01:39 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 48.5790498679999, input being queued: 48.578952523
+[Warning] [2025-12-06 17:01:39 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 48.5790498679999, input being queued: 48.578952523
+[Info] [2025-12-06 17:01:48 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 17:01:49 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 5 stems
+[Info] [2025-12-06 17:01:49 SongEntry.Sng.cs:CreateAudioMixer:238] Loaded 5 stems
+[Info] [2025-12-06 17:01:50 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 17:01:53 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 17:02:19 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems

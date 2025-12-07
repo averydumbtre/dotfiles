@@ -1,0 +1,712 @@
+[Info] [2025-12-06 14:31:39 LogHandler.cs:SetupLogHandler:68] System Information:
+CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz (3999MHz 12 Cores)
+RAM: 15850MB
+GPU: NVIDIA GeForce RTX 3060 (VRAM: 12534MB, Version: Vulkan 1.1.0 [0x911a4200], Renderer: Vulkan)
+OS: Linux 6.17 Arch Linux  64bit (Linux)
+
+[Warning] [2025-12-06 14:31:39 PathHelper.cs:FindSetlistPath:131] Failed to find launcher settings file. Game is most likely running without the launcher.
+[Info] [2025-12-06 14:31:41 GlobalVariables.cs:SingletonAwake:56] YARG v0.13.0
+[Info] [2025-12-06 14:31:41 LocalizationManager.cs:Initialize:35] Localization initialized with language `en-US`
+[Info] [2025-12-06 14:31:41 GlobalVariables.cs:SingletonAwake:88] Loaded 0 profiles
+[Info] [2025-12-06 14:31:41 GlobalVariables.cs:SingletonAwake:91] Saved 0 profiles
+[Info] [2025-12-06 14:31:41 BassAudioManager.cs:.ctor:101] Initializing BASS...
+[Info] [2025-12-06 14:31:41 BassAudioManager.cs:.ctor:137] Devices found: 19
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:265] Loading SFX
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded note_miss
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded starpower_award
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded starpower_gain
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded starpower_deploy
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded starpower_release
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded clap
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded star
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded star_gold
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_1
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_2
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_3
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_4
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadSfx:289] Finished loading SFX
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadDrumSfx:294] Loading Drum SFX
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:LoadDrumSfx:317] Finished loading Drum SFX
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:.ctor:157] BASS Successfully Initialized
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:.ctor:158] BASS: 2.4.17.10 - BASS.FX: 2.4.12.12 - BASS.Mix: 2.4.12.0
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:.ctor:159] Update Period: 5ms. Device Buffer Length: 20ms. Playback Buffer Length: 500ms. Device Playback Latency: 45ms
+[Info] [2025-12-06 14:31:42 BassAudioManager.cs:.ctor:161] Current Device: Default
+--------------- EXCEPTION ---------------
+at SettingsManager.cs:LoadSettings:239
+Failed to load settings!
+System.IO.FileNotFoundException: Could not find file "/home/avery/.config/unity3d/YARC/YARG/release/settings.json"
+File name: '/home/avery/.config/unity3d/YARC/YARG/release/settings.json'
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at YARG.Settings.SettingsManager.LoadSettings () [0x00005] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+-----------------------------------------
+
+[Info] [2025-12-06 14:31:43 LocalizationManager.cs:TryParseAndLoadLanguage:67] Loading language `en-US`...
+--------------- EXCEPTION ---------------
+at SongSources.cs:DownloadSources:282
+Failed to download newest song source version.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.UnauthorizedAccessException: Access to the path "/opt/yarg/YARG_Data/StreamingAssets/sources/update.zip" is denied.
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00022] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00096] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)
+  at YARG.Song.SongSources+<>c__DisplayClass18_0.<DownloadSources>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0009d] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0012f] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1[TStateMachine].GetResult (System.Int16 token) [0x00000] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at YARG.Song.SongSources.DownloadSources (YARG.LoadingContext context) [0x003c4] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+-----------------------------------------
+
+--------------- EXCEPTION ---------------
+at SongSources.cs:ReadSources:310
+Failed to read song source index.json for `extra`!
+System.IO.DirectoryNotFoundException: Could not find a part of the path "/opt/yarg/YARG_Data/StreamingAssets/sources/OpenSource-master/extra/index.json".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at YARG.Song.SongSources.ReadIndexPath (System.String indexPath) [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Song.SongSources.ReadSources () [0x00052] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+-----------------------------------------
+
+[Info] [2025-12-06 14:31:44 SongContainer.cs:RunRefresh:150] Scan time: 0.0237533s
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:36:55 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:17 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:20 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:37:41 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Info] [2025-12-06 14:38:13 SongContainer.cs:RunRefresh:150] Scan time: 2.6064566s
+[Info] [2025-12-06 14:38:14 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:38:18 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:38:22 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:38:44 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 4 stems
+[Error] [2025-12-06 14:38:44 BassStemChannel.cs:SetPosition_Internal:108] Failed to seek to position 20!
+[Info] [2025-12-06 14:38:52 GameManager.Loading.cs:Start:108] Loading song The Pretender - Foo Fighters
+[Info] [2025-12-06 14:38:52 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:38:52 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:38:54 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -0.180703862999962, input being queued: -0.180723154999953
+[Warning] [2025-12-06 14:38:54 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -0.180703862999962, input being queued: -0.180723154999953
+[Warning] [2025-12-06 14:39:00 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 5.17154460500001, input being queued: 5.17148464000002
+[Warning] [2025-12-06 14:39:00 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 5.17154460500001, input being queued: 5.17148464000002
+[Warning] [2025-12-06 14:39:00 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 5.17154460500001, input being queued: 5.17148464000002
+[Warning] [2025-12-06 14:39:25 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 30.122571672, input being queued: 30.122533328
+[Warning] [2025-12-06 14:39:25 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 30.122571672, input being queued: 30.122533328
+[Warning] [2025-12-06 14:39:25 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 30.122571672, input being queued: 30.122533328
+[Warning] [2025-12-06 14:39:25 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 30.122571672, input being queued: 30.122533328
+[Warning] [2025-12-06 14:39:25 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 30.122571672, input being queued: 30.122533328
+[Warning] [2025-12-06 14:39:30 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 35.498568472, input being queued: 35.498565649
+[Warning] [2025-12-06 14:39:30 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 35.498568472, input being queued: 35.498565649
+[Warning] [2025-12-06 14:39:34 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 39.146659841, input being queued: 39.1466547220001
+[Warning] [2025-12-06 14:39:34 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 39.146659841, input being queued: 39.1466547220001
+[Info] [2025-12-06 14:39:45 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:39:45 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:39:45 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:39:49 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Info] [2025-12-06 14:40:27 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:40:32 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:40:33 GameManager.Loading.cs:Start:108] Loading song The Fallen - Franz Ferdinand
+[Info] [2025-12-06 14:40:33 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:40:33 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:40:34 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -0.873505464000004, input being queued: -0.873532651000005
+[Warning] [2025-12-06 14:40:34 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -0.873505464000004, input being queued: -0.873532651000005
+[Warning] [2025-12-06 14:40:43 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 8.15057711899999, input being queued: 8.15052233500001
+[Warning] [2025-12-06 14:40:43 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 8.15057711899999, input being queued: 8.15052233500001
+[Warning] [2025-12-06 14:40:43 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 8.15057711899999, input being queued: 8.15052233500001
+[Warning] [2025-12-06 14:40:47 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 11.7509737619999, input being queued: 11.7509586499999
+[Warning] [2025-12-06 14:40:49 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 13.847043518, input being queued: 13.8470424989999
+[Warning] [2025-12-06 14:40:52 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 16.647026975, input being queued: 16.647019111
+[Warning] [2025-12-06 14:40:52 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 16.647026975, input being queued: 16.647019111
+[Warning] [2025-12-06 14:40:52 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 16.647026975, input being queued: 16.647019111
+[Warning] [2025-12-06 14:40:53 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 18.150429896, input being queued: 18.150359881
+[Warning] [2025-12-06 14:40:58 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 23.374222531, input being queued: 23.3742103009999
+[Warning] [2025-12-06 14:40:58 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 23.374222531, input being queued: 23.3742103009999
+[Warning] [2025-12-06 14:40:58 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 23.374222531, input being queued: 23.3742103009999
+[Warning] [2025-12-06 14:40:59 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 23.398521892, input being queued: 23.3985067789999
+[Warning] [2025-12-06 14:40:59 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 23.398521892, input being queued: 23.3985067789999
+[Warning] [2025-12-06 14:40:59 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 23.398521892, input being queued: 23.3985067789999
+[Warning] [2025-12-06 14:41:05 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 29.6227289, input being queued: 29.6227263649999
+[Warning] [2025-12-06 14:41:09 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 33.6227100689999, input being queued: 33.622685621
+[Warning] [2025-12-06 14:41:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 33.6227100689999, input being queued: 33.622685621
+[Info] [2025-12-06 14:41:10 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:41:10 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:41:11 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:41:12 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:37 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:38 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:40 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:58 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:59 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:59 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:59 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:59 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:41:59 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:03 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:04 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:06 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:12 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:15 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:16 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:42:18 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Info] [2025-12-06 14:42:54 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:42:58 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:42:59 GameManager.Loading.cs:Start:108] Loading song Get Ready 2 Rokk - Freezepop
+[Info] [2025-12-06 14:42:59 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:42:59 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:43:12 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 11.077948118, input being queued: 11.0779477999999
+[Warning] [2025-12-06 14:43:35 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 31.0223590209999, input being queued: 31.0188830179999
+[Warning] [2025-12-06 14:43:35 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 31.0223590209999, input being queued: 31.0188925049999
+[Warning] [2025-12-06 14:43:35 BaseEngine.cs:ProcessInputs:182] Queued input is in the future! Time being updated to: 31.018950262, input time: 31.0223590209999
+[Warning] [2025-12-06 14:43:35 BaseEngine.cs:Update:167] Input queue was not fully cleared!
+[Warning] [2025-12-06 14:43:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 32.36412861, input being queued: 32.3633728929999
+[Warning] [2025-12-06 14:43:36 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 32.36412861, input being queued: 32.3633787829999
+[Warning] [2025-12-06 14:43:36 BaseEngine.cs:ProcessInputs:182] Queued input is in the future! Time being updated to: 32.3633842119999, input time: 32.36412861
+[Warning] [2025-12-06 14:43:36 BaseEngine.cs:Update:167] Input queue was not fully cleared!
+[Info] [2025-12-06 14:43:40 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:43:40 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:43:41 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:43:42 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:44:00 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:44:02 GameManager.Loading.cs:Start:108] Loading song Get Ready 2 Rokk - Freezepop
+[Info] [2025-12-06 14:44:02 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:44:02 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:44:03 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -0.417851206000023, input being queued: -0.417863921000048
+[Warning] [2025-12-06 14:44:10 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 6.00629306399992, input being queued: 6.00628988699998
+[Warning] [2025-12-06 14:44:15 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 11.3345201019999, input being queued: 11.334510166
+[Warning] [2025-12-06 14:44:47 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 43.4543691399999, input being queued: 43.4543268909999
+[Warning] [2025-12-06 14:44:47 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 43.4543691399999, input being queued: 43.4543268909999
+[Warning] [2025-12-06 14:44:47 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 43.5579861169999, input being queued: 43.557944102
+[Warning] [2025-12-06 14:44:47 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 43.5579861169999, input being queued: 43.557944102
+[Warning] [2025-12-06 14:44:57 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 53.654412795, input being queued: 53.6543635629999
+[Warning] [2025-12-06 14:45:05 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 61.229872602, input being queued: 61.229862016
+[Warning] [2025-12-06 14:45:22 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 78.42976403, input being queued: 78.429710268
+[Warning] [2025-12-06 14:45:26 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 82.405728236, input being queued: 82.4057066849999
+[Warning] [2025-12-06 14:45:27 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 83.229710672, input being queued: 83.22968019
+[Warning] [2025-12-06 14:45:27 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 83.229710672, input being queued: 83.22968019
+[Warning] [2025-12-06 14:45:40 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 96.0539069959999, input being queued: 96.0538391809999
+[Warning] [2025-12-06 14:45:43 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 99.5505074609999, input being queued: 99.5504507569999
+[Warning] [2025-12-06 14:45:43 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 99.5505074609999, input being queued: 99.5504507569999
+[Warning] [2025-12-06 14:45:51 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 107.350504714, input being queued: 107.350494919
+[Warning] [2025-12-06 14:46:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 122.229659411, input being queued: 122.229646393
+[Warning] [2025-12-06 14:46:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 122.229659411, input being queued: 122.229646393
+[Warning] [2025-12-06 14:46:11 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 127.253685847, input being queued: 127.253638217
+[Warning] [2025-12-06 14:46:12 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 128.126101463, input being queued: 128.126081425
+[Warning] [2025-12-06 14:46:12 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 128.126101463, input being queued: 128.126081425
+[Warning] [2025-12-06 14:46:12 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 128.326098178, input being queued: 128.326072609
+[Warning] [2025-12-06 14:46:13 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 129.150421416, input being queued: 129.150368452
+[Warning] [2025-12-06 14:46:13 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 129.326090298, input being queued: 129.326073186
+[Warning] [2025-12-06 14:46:15 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 131.405486318, input being queued: 131.405460637
+[Warning] [2025-12-06 14:46:15 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 131.405486318, input being queued: 131.405460637
+[Warning] [2025-12-06 14:46:19 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 135.750192294, input being queued: 135.750185065
+[Warning] [2025-12-06 14:46:37 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 153.749974519, input being queued: 153.749955071
+[Warning] [2025-12-06 14:46:37 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 153.749974519, input being queued: 153.749955071
+[Warning] [2025-12-06 14:46:37 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 153.749974519, input being queued: 153.749955071
+[Info] [2025-12-06 14:46:39 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:46:39 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:46:40 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:46:41 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 14:46:49 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:47:52 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:47:59 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:48:09 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:48:11 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:48:20 GameManager.Loading.cs:Start:108] Loading song Welcome To The Jungle - Guns N' Roses
+[Info] [2025-12-06 14:48:20 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:48:20 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:48:22 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -0.583588982000038, input being queued: -0.583594266000091
+[Warning] [2025-12-06 14:48:22 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -0.583588982000038, input being queued: -0.583594266000091
+[Warning] [2025-12-06 14:48:28 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 5.31315072099994, input being queued: 5.3130870519999
+[Warning] [2025-12-06 14:48:32 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 9.33738080099999, input being queued: 9.33733140699997
+[Warning] [2025-12-06 14:48:32 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 9.61674071099992, input being queued: 9.61672446299997
+[Warning] [2025-12-06 14:48:32 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 9.61674071099992, input being queued: 9.61672446299997
+[Warning] [2025-12-06 14:48:32 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 9.61674071099992, input being queued: 9.61672446299997
+[Warning] [2025-12-06 14:48:35 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 12.088684758, input being queued: 12.0886642309999
+[Warning] [2025-12-06 14:48:35 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 12.088684758, input being queued: 12.0886642309999
+[Warning] [2025-12-06 14:48:35 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 12.088684758, input being queued: 12.0886642309999
+[Warning] [2025-12-06 14:48:53 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 30.9371914549998, input being queued: 30.937142423
+[Warning] [2025-12-06 14:49:16 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 53.0883009569999, input being queued: 53.0882942919999
+[Warning] [2025-12-06 14:49:17 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 54.9682411609998, input being queued: 54.9682052939999
+[Warning] [2025-12-06 14:49:19 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 56.9609618759999, input being queued: 56.9609213799998
+[Warning] [2025-12-06 14:49:22 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 59.7369304449998, input being queued: 59.7369229289999
+[Warning] [2025-12-06 14:49:22 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 59.7369304449998, input being queued: 59.7369229289999
+[Warning] [2025-12-06 14:49:37 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 74.9127387009997, input being queued: 74.9126901279998
+[Warning] [2025-12-06 14:49:37 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 74.9127387009997, input being queued: 74.9126901279998
+[Info] [2025-12-06 14:49:39 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:49:41 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 14:50:23 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 14:50:24 GameManager.Loading.cs:Start:108] Loading song Gor-Gor - GWAR
+[Info] [2025-12-06 14:50:24 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 14:50:24 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:50:27 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 0.415098844000113, input being queued: 0.415060631000188
+[Warning] [2025-12-06 14:50:27 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 0.415098844000113, input being queued: 0.415060631000188
+[Warning] [2025-12-06 14:50:29 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 2.31168562700009, input being queued: 2.31166441699997
+[Warning] [2025-12-06 14:50:29 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 2.31168562700009, input being queued: 2.31166441699997
+[Warning] [2025-12-06 14:50:29 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 2.51165151200007, input being queued: 2.5116308690001
+[Warning] [2025-12-06 14:50:29 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 2.51165151200007, input being queued: 2.5116308690001
+[Warning] [2025-12-06 14:50:29 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 2.51165151200007, input being queued: 2.5116308690001
+[Warning] [2025-12-06 14:50:29 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 2.51165151200007, input being queued: 2.5116308690001
+[Warning] [2025-12-06 14:50:31 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 5.13593595800012, input being queued: 5.13587871300001
+[Warning] [2025-12-06 14:50:32 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 5.31155320800008, input being queued: 5.31152614899997
+[Warning] [2025-12-06 14:50:40 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 13.2632872850002, input being queued: 13.2632550360001
+[Warning] [2025-12-06 14:50:47 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 20.687278932, input being queued: 20.6872524350001
+[Warning] [2025-12-06 14:50:55 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 28.463033561, input being queued: 28.4630249530001
+[Warning] [2025-12-06 14:51:30 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 63.8079262200001, input being queued: 63.807882842
+[Warning] [2025-12-06 14:51:30 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 63.8079262200001, input being queued: 63.807882842
+[Warning] [2025-12-06 14:51:30 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 63.8079262200001, input being queued: 63.807882842
+[Warning] [2025-12-06 14:51:30 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 63.8079262200001, input being queued: 63.807882842
+[Warning] [2025-12-06 14:51:36 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 69.5350071100002, input being queued: 69.5349693220001
+[Warning] [2025-12-06 14:51:37 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 70.559421555, input being queued: 70.5593970310001
+[Warning] [2025-12-06 14:51:37 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 70.559421555, input being queued: 70.5593970310001
+[Warning] [2025-12-06 14:51:53 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 81.046902072, input being queued: 81.0449714460001
+[Warning] [2025-12-06 14:51:53 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 81.046902072, input being queued: 81.0449773290002
+[Warning] [2025-12-06 14:51:53 BaseEngine.cs:ProcessInputs:182] Queued input is in the future! Time being updated to: 81.0449816520002, input time: 81.046902072
+[Warning] [2025-12-06 14:51:53 BaseEngine.cs:Update:167] Input queue was not fully cleared!
+[Info] [2025-12-06 14:51:55 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:51:55 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 14:51:55 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:52:07 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 8 stems
+[Info] [2025-12-06 14:52:11 GameManager.Loading.cs:Start:108] Loading song Barracuda - Heart (WaveGroup)
+[Info] [2025-12-06 14:52:12 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:52:12 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:52:14 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -0.0955425670001659, input being queued: -0.0955926760000239
+[Warning] [2025-12-06 14:52:14 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -0.0955425670001659, input being queued: -0.0955926760000239
+[Warning] [2025-12-06 14:52:26 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 11.5044265529998, input being queued: 11.5044133279998
+[Warning] [2025-12-06 14:52:33 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 18.9607618789998, input being queued: 18.9606756399999
+[Warning] [2025-12-06 14:52:33 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 19.1290216899999, input being queued: 19.1290054629999
+[Warning] [2025-12-06 14:52:40 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 26.1047691469998, input being queued: 26.1047233559998
+[Warning] [2025-12-06 14:52:48 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 33.6803894519999, input being queued: 33.6803511969999
+[Warning] [2025-12-06 14:52:49 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 34.9284572859999, input being queued: 34.9284313659998
+[Warning] [2025-12-06 14:52:50 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 35.777049649, input being queued: 35.7770110929998
+[Warning] [2025-12-06 14:52:53 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 38.552851939, input being queued: 38.5528302819998
+[Warning] [2025-12-06 14:52:53 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 38.552851939, input being queued: 38.5528302819998
+[Warning] [2025-12-06 14:53:04 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 50.2011386439999, input being queued: 50.2011266069999
+[Warning] [2025-12-06 14:53:25 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 71.1042504779998, input being queued: 71.1041813999998
+[Warning] [2025-12-06 14:53:58 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 104.025142754, input being queued: 104.025073947
+[Warning] [2025-12-06 14:53:58 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 104.200570335, input being queued: 104.200533472
+[Warning] [2025-12-06 14:54:18 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 123.400334332, input being queued: 123.400283339
+[Warning] [2025-12-06 14:54:25 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 130.872681081, input being queued: 130.872650534
+[Warning] [2025-12-06 14:54:28 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 133.472766156, input being queued: 133.472675638
+[Warning] [2025-12-06 14:54:31 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 136.400226138, input being queued: 136.400191311
+[Warning] [2025-12-06 14:54:31 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 136.424064127, input being queued: 136.42403118
+[Warning] [2025-12-06 14:54:34 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 139.896738331, input being queued: 139.896698477
+[Warning] [2025-12-06 14:54:42 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 148.200179377, input being queued: 148.20012044
+[Info] [2025-12-06 14:54:55 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:54:57 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:55:04 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:55:06 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 14:55:07 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:55:08 GameManager.Loading.cs:Start:108] Loading song You Got Another Thing Comin' - Judas Priest (WaveGroup)
+[Info] [2025-12-06 14:55:08 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:55:08 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:55:09 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -1.92805048600007, input being queued: -1.92809468300015
+[Warning] [2025-12-06 14:55:09 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -1.92805048600007, input being queued: -1.92809468300015
+[Warning] [2025-12-06 14:55:10 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -0.903577532000099, input being queued: -0.903627740000047
+[Warning] [2025-12-06 14:55:10 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -0.903577532000099, input being queued: -0.903627740000047
+[Warning] [2025-12-06 14:55:20 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 9.6722650879999, input being queued: 9.67221219399994
+[Warning] [2025-12-06 14:55:40 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 28.871569117, input being queued: 28.8715539519999
+[Warning] [2025-12-06 14:55:40 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 28.871569117, input being queued: 28.8715539519999
+[Warning] [2025-12-06 14:55:40 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 28.871569117, input being queued: 28.8715539519999
+[Warning] [2025-12-06 14:55:40 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 28.871569117, input being queued: 28.8715539519999
+[Warning] [2025-12-06 14:55:41 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 30.0963017049999, input being queued: 30.0962545139998
+[Warning] [2025-12-06 14:55:41 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 30.0963017049999, input being queued: 30.0962545139998
+[Warning] [2025-12-06 14:55:42 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 31.4960349799999, input being queued: 31.4960244699998
+[Warning] [2025-12-06 14:55:42 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 31.6715840939999, input being queued: 31.6715738799999
+[Warning] [2025-12-06 14:55:46 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 35.4476262409999, input being queued: 35.4476052529999
+[Warning] [2025-12-06 14:55:47 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 36.4960873769999, input being queued: 36.4960355599999
+[Warning] [2025-12-06 14:55:53 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 41.9199687509999, input being queued: 41.9199320159998
+[Warning] [2025-12-06 14:55:56 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 45.520252859, input being queued: 45.5202190919999
+[Info] [2025-12-06 14:56:04 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:56:04 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:56:05 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 2 stems
+[Info] [2025-12-06 14:56:06 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:08 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Warning] [2025-12-06 14:56:11 GameplayBehaviour.cs:Awake:28] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[Info] [2025-12-06 14:56:37 GameManager.Loading.cs:Start:108] Loading song The Metal - Tenacious D
+[Info] [2025-12-06 14:56:37 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:56:37 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 14:56:38 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: -1.31864798900006, input being queued: -1.31870306400015
+[Warning] [2025-12-06 14:56:38 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -1.31864798900006, input being queued: -1.31870306400015
+[Warning] [2025-12-06 14:56:38 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -1.31864798900006, input being queued: -1.31870306400015
+[Warning] [2025-12-06 14:56:38 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: -1.31864798900006, input being queued: -1.31870306400015
+[Warning] [2025-12-06 14:56:43 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 3.18476087299996, input being queued: 3.18470616899981
+[Warning] [2025-12-06 14:56:43 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 3.18476087299996, input being queued: 3.18470616899981
+[Warning] [2025-12-06 14:56:45 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 5.60927884199987, input being queued: 5.60927675699986
+[Warning] [2025-12-06 14:56:45 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 5.60927884199987, input being queued: 5.60927675699986
+[Warning] [2025-12-06 14:56:59 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 19.6330425409999, input being queued: 19.633011248
+[Warning] [2025-12-06 14:57:11 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 31.0329137089998, input being queued: 31.0328496309999
+[Warning] [2025-12-06 14:57:11 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 31.0329137089998, input being queued: 31.0328496309999
+[Warning] [2025-12-06 14:57:12 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 32.5843159859999, input being queued: 32.5842950389999
+[Warning] [2025-12-06 14:57:12 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 32.5843159859999, input being queued: 32.5842950389999
+[Warning] [2025-12-06 14:57:23 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 42.8571580809999, input being queued: 42.8571358859999
+[Warning] [2025-12-06 14:57:23 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 42.8571580809999, input being queued: 42.8571358859999
+[Warning] [2025-12-06 14:57:33 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 53.4082830129998, input being queued: 53.4082211559999
+[Warning] [2025-12-06 14:57:33 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 53.4082830129998, input being queued: 53.4082211559999
+[Warning] [2025-12-06 14:57:57 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 77.5052372779999, input being queued: 77.5051667999999
+[Warning] [2025-12-06 14:57:59 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 79.184566253, input being queued: 79.184492335
+[Warning] [2025-12-06 14:58:05 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 85.2566012819998, input being queued: 85.2565833219999
+[Warning] [2025-12-06 14:58:05 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 85.2566012819998, input being queued: 85.2565833219999
+[Warning] [2025-12-06 14:58:09 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 89.5842363319998, input being queued: 89.5842229539999
+[Warning] [2025-12-06 14:58:11 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 91.6322302659999, input being queued: 91.6322044389999
+[Warning] [2025-12-06 14:58:19 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 99.4803906149998, input being queued: 99.4803832129999
+[Warning] [2025-12-06 14:58:27 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 106.880648113, input being queued: 106.880638727
+[Warning] [2025-12-06 14:58:28 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 108.256094429, input being queued: 108.256067317
+[Warning] [2025-12-06 14:58:28 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 108.256094429, input being queued: 108.256067317
+[Warning] [2025-12-06 14:58:28 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 108.256094429, input being queued: 108.256067317
+[Info] [2025-12-06 14:58:29 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 14:58:31 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 14:58:31 BassAudioManager.cs:DisposeUnmanagedResources:342] Unloading BASS plugins
+--------------- EXCEPTION ---------------
+NullReferenceException: Object reference not set to an instance of an object
+YARG.Menu.Main.MainMenu.OnDisable () (at <f2c6fb31cf8344739f7b72399724d6b4>:0)
+-----------------------------------------
+[Info] [2025-12-06 14:58:32 LogHandler.cs:ShutdownLogHandler:87] Disabling Logging

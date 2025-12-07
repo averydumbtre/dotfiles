@@ -1,0 +1,5 @@
+Total Errors: 1
+
+/mnt/0df76e2c-45d5-44d2-ad7e-91488ebcafba/Clone Hero/Songs/drive-download-20230730T030335Z-001/notes.mid
+No audio accompanying the chart file
+

@@ -1,0 +1,92 @@
+[Info] [2025-12-06 16:30:26 LogHandler.cs:SetupLogHandler:68] System Information:
+CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz (4000MHz 12 Cores)
+RAM: 15850MB
+GPU: NVIDIA GeForce RTX 3060 (VRAM: 12534MB, Version: Vulkan 1.1.0 [0x911a4200], Renderer: Vulkan)
+OS: Linux 6.17 Arch Linux  64bit (Linux)
+
+[Warning] [2025-12-06 16:30:26 PathHelper.cs:FindSetlistPath:131] Failed to find launcher settings file. Game is most likely running without the launcher.
+[Info] [2025-12-06 16:30:28 GlobalVariables.cs:SingletonAwake:56] YARG v0.13.0
+[Info] [2025-12-06 16:30:28 LocalizationManager.cs:Initialize:35] Localization initialized with language `en-US`
+[Info] [2025-12-06 16:30:29 GlobalVariables.cs:SingletonAwake:88] Loaded 1 profiles
+[Info] [2025-12-06 16:30:29 GlobalVariables.cs:SingletonAwake:91] Saved 1 profiles
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:.ctor:101] Initializing BASS...
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:.ctor:137] Devices found: 19
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:265] Loading SFX
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded note_miss
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded starpower_award
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded starpower_gain
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded starpower_deploy
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded starpower_release
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded clap
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded star
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded star_gold
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_1
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_2
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_3
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:282] Loaded overstrum_4
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadSfx:289] Finished loading SFX
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadDrumSfx:294] Loading Drum SFX
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:LoadDrumSfx:317] Finished loading Drum SFX
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:.ctor:157] BASS Successfully Initialized
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:.ctor:158] BASS: 2.4.17.10 - BASS.FX: 2.4.12.12 - BASS.Mix: 2.4.12.0
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:.ctor:159] Update Period: 5ms. Device Buffer Length: 20ms. Playback Buffer Length: 500ms. Device Playback Latency: 45ms
+[Info] [2025-12-06 16:30:29 BassAudioManager.cs:.ctor:161] Current Device: Default
+[Info] [2025-12-06 16:30:30 LocalizationManager.cs:TryParseAndLoadLanguage:67] Loading language `en-US`...
+--------------- EXCEPTION ---------------
+at SongSources.cs:DownloadSources:282
+Failed to download newest song source version.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.UnauthorizedAccessException: Access to the path "/opt/yarg/YARG_Data/StreamingAssets/sources/update.zip" is denied.
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00022] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00096] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)
+  at YARG.Song.SongSources+<>c__DisplayClass18_0.<DownloadSources>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0009d] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0012f] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1[TStateMachine].GetResult (System.Int16 token) [0x00000] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at YARG.Song.SongSources.DownloadSources (YARG.LoadingContext context) [0x003c4] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+-----------------------------------------
+
+--------------- EXCEPTION ---------------
+at SongSources.cs:ReadSources:310
+Failed to read song source index.json for `extra`!
+System.IO.DirectoryNotFoundException: Could not find a part of the path "/opt/yarg/YARG_Data/StreamingAssets/sources/OpenSource-master/extra/index.json".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at YARG.Song.SongSources.ReadIndexPath (System.String indexPath) [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Song.SongSources.ReadSources () [0x00052] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+-----------------------------------------
+
+[Info] [2025-12-06 16:30:31 SongContainer.cs:RunRefresh:150] Scan time: 0.0769123s
+[Info] [2025-12-06 16:30:32 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Error] [2025-12-06 16:30:32 BassStemMixer.cs:Play_Internal:68] Failed to fill playback buffer: Already!
+[Info] [2025-12-06 16:30:55 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:30:57 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:30:58 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:31:02 GameManager.Loading.cs:Start:108] Loading song Ghost Under the Umbrella (feat. GUMI) - Utsu-P
+[Info] [2025-12-06 16:31:02 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:31:02 GameManager.Loading.cs:CreatePlayers:378] Current high score for player Avery on FiveFretGuitar: 0
+[Warning] [2025-12-06 16:31:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 1.343505507, input being queued: 1.343478218
+[Warning] [2025-12-06 16:31:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.343505507, input being queued: 1.343478218
+[Warning] [2025-12-06 16:31:06 BaseEngine.cs:QueueInput:316] Engine was forced to move an input time! Current time: 1.694960598, input being queued: 1.694938716
+[Warning] [2025-12-06 16:31:06 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 1.694960598, input being queued: 1.694938716
+[Warning] [2025-12-06 16:31:08 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 2.367078993, input being queued: 2.364346136
+[Warning] [2025-12-06 16:31:08 BaseEngine.cs:QueueInput:306] Engine was forced to move an input time! Previous queued input: 2.367078993, input being queued: 2.36435590000001
+[Warning] [2025-12-06 16:31:08 BaseEngine.cs:ProcessInputs:182] Queued input is in the future! Time being updated to: 2.364412196, input time: 2.367078993
+[Warning] [2025-12-06 16:31:08 BaseEngine.cs:Update:167] Input queue was not fully cleared!
+[Info] [2025-12-06 16:31:13 GameManager.cs:OnDestroy:171] Exiting song
+[Info] [2025-12-06 16:31:13 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 1 stems
+[Info] [2025-12-06 16:31:14 SongEntry.UnpackedIni.cs:LoadAudio:76] Loaded 3 stems
+[Info] [2025-12-06 16:31:26 BassAudioManager.cs:DisposeUnmanagedResources:342] Unloading BASS plugins
+[Info] [2025-12-06 16:31:26 LogHandler.cs:ShutdownLogHandler:87] Disabling Logging

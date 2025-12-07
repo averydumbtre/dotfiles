@@ -209,8 +209,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][341][Configuration]
 PreloadWeight=100
-popupHeight=534
-popupWidth=712
+popupHeight=545
+popupWidth=724
 
 [Containments][340][Applets][341][Configuration][ConfigDialog]
 DialogHeight=540
@@ -567,8 +567,8 @@ plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][10][Configuration]
 PreloadWeight=100
-popupHeight=534
-popupWidth=712
+popupHeight=545
+popupWidth=724
 
 [Containments][9][Applets][10][Configuration][ConfigDialog]
 DialogHeight=540
@@ -745,4 +745,4 @@ AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622

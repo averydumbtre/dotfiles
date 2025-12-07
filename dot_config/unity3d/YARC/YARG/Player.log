@@ -1,0 +1,1302 @@
+Mono path[0] = '/opt/yarg/YARG_Data/Managed'
+Mono config path = '/opt/yarg/YARG_Data/MonoBleedingEdge/etc'
+Preloaded 'STB2CSharp.so'
+Preloaded 'discord_game_sdk.so'
+Preloaded 'libRtMidi.so'
+Preloaded 'libStandaloneFileBrowser.so'
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libbass.so'
+Preloaded 'libbass_fx.so'
+Preloaded 'libbassmix.so'
+Preloaded 'libbassopus.so'
+Preloaded 'libsqlite3.so'
+Display 0 'DP-1 27"': 3168x1782 (primary device).
+Display 1 'DP-2 28"': 3840x2160 (secondary device).
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Desktop is 3168 x 1782 @ 165 Hz
+[Vulkan init] extensions: count=24
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_drm_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_display_stereo, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+Vulkan detection: 2
+Initialize engine version: 2021.3.36f1 (7a0645017be0)
+[Subsystems] Discovering subsystems at path /opt/yarg/YARG_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+[Vulkan init] extensions: count=24
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_drm_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+[Vulkan init] extensions: name=VK_EXT_surface_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_display_stereo, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[Vulkan init] extensions: name=VK_LUNARG_direct_driver_loading, enabled=0
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan init] Physical Device 0x19f48f70 [0]: "NVIDIA GeForce RTX 3060" deviceType=2 vendorID=10de deviceID=2504
+[Vulkan init] Selected physical device 0x19f48f70
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=251
+[Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=1
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_KHR_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_KHR_compute_shader_derivatives, enabled=0
+[Vulkan init] extensions: name=VK_KHR_cooperative_matrix, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_clamp_zero_one, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=1
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering_local_read, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_format_feature_flags2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_fragment_shader_barycentric, enabled=0
+[Vulkan init] extensions: name=VK_KHR_fragment_shading_rate, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_global_priority, enabled=0
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_incremental_present, enabled=0
+[Vulkan init] extensions: name=VK_KHR_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_KHR_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_KHR_load_store_op_none, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance5, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance6, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance7, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance8, enabled=0
+[Vulkan init] extensions: name=VK_KHR_map_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_binary, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_id, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_wait, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_query, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_position_fetch, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_bfloat16, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_expect_assume, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=1
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_maximal_reconvergence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_quad_control, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_relaxed_extended_instruction, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_rotate, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_uniform_control_flow, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shared_presentable_image, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_synchronization2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_av1, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_h264, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_h265, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_decode_vp9, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_encode_h264, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_encode_h265, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_encode_quantization_map, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_encode_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_maintenance2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_video_queue, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_EXT_border_color_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_color_write_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=1
+[Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_bias_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clamp_zero_one, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_buffer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
+[Vulkan init] extensions: name=VK_EXT_device_address_binding_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_device_fault, enabled=0
+[Vulkan init] extensions: name=VK_EXT_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_dynamic_rendering_unused_attachments, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state3, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
+[Vulkan init] extensions: name=VK_EXT_global_priority, enabled=0
+[Vulkan init] extensions: name=VK_EXT_global_priority_query, enabled=0
+[Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_EXT_host_image_copy, enabled=0
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_drm_format_modifier, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_sliced_view_of_3d, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_view_min_lod, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_legacy_vertex_attributes, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_load_store_op_none, enabled=0
+[Vulkan init] extensions: name=VK_EXT_map_memory_placed, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=1
+[Vulkan init] extensions: name=VK_EXT_memory_priority, enabled=1
+[Vulkan init] extensions: name=VK_EXT_mesh_shader, enabled=0
+[Vulkan init] extensions: name=VK_EXT_multi_draw, enabled=0
+[Vulkan init] extensions: name=VK_EXT_mutable_descriptor_type, enabled=0
+[Vulkan init] extensions: name=VK_EXT_nested_command_buffer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map, enabled=0
+[Vulkan init] extensions: name=VK_EXT_opacity_micromap, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pageable_device_local_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_physical_device_drm, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_library_group_handles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_present_mode_fifo_latest_ready, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitives_generated_query, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_provoking_vertex, enabled=0
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=1
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_module_identifier, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_object, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_replicated_composites, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=1
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_2plane_444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling, enabled=0
+[Vulkan init] extensions: name=VK_NV_cluster_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_NV_compute_shader_derivatives, enabled=0
+[Vulkan init] extensions: name=VK_NV_cooperative_matrix, enabled=0
+[Vulkan init] extensions: name=VK_NV_cooperative_matrix2, enabled=0
+[Vulkan init] extensions: name=VK_NV_cooperative_vector, enabled=0
+[Vulkan init] extensions: name=VK_NV_copy_memory_indirect, enabled=0
+[Vulkan init] extensions: name=VK_NV_corner_sampled_image, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_cuda_kernel_launch, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_descriptor_pool_overallocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands_compute, enabled=0
+[Vulkan init] extensions: name=VK_NV_disk_cache_utils, enabled=0
+[Vulkan init] extensions: name=VK_NV_extended_sparse_address_space, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_shader_barycentric, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_shading_rate_enums, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_inherited_viewport_scissor, enabled=0
+[Vulkan init] extensions: name=VK_NV_internal_nvpresent, enabled=0
+[Vulkan init] extensions: name=VK_NV_linear_color_attachment, enabled=0
+[Vulkan init] extensions: name=VK_NV_low_latency, enabled=0
+[Vulkan init] extensions: name=VK_NV_low_latency2, enabled=0
+[Vulkan init] extensions: name=VK_NV_memory_decompression, enabled=0
+[Vulkan init] extensions: name=VK_NV_mesh_shader, enabled=0
+[Vulkan init] extensions: name=VK_NV_optical_flow, enabled=0
+[Vulkan init] extensions: name=VK_NV_partitioned_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_NV_present_metering, enabled=0
+[Vulkan init] extensions: name=VK_NV_raw_access_chains, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing_invocation_reorder, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing_motion_blur, enabled=0
+[Vulkan init] extensions: name=VK_NV_representative_fragment_test, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_scissor_exclusive, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_atomic_float16_vector, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_image_footprint, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_shading_rate_image, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NVX_binary_import, enabled=0
+[Vulkan init] extensions: name=VK_NVX_image_view_handle, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
+[Vulkan init] extensions: name=VK_AMD_buffer_marker, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_user_type, enabled=0
+Vulkan API version 1.1.0 (1.4.312 supported by driver, 1.1.0 requested)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[NVIDIA GeForce RTX 3060] id=[2504]
+Vulkan device type 2
+Vulkan driverversion=[0x911a4200] uint=[-1860550144]
+Vulkan PSO: Cache data successfully loaded [size=1600043,path=/tmp/YARC/YARG/vulkan_pso_cache.bin]
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.084 seconds
+requesting resize 3168 x 1782
+Using native desktop resolution 3168 x 1782
+requesting fullscreen 3168 x 1782 at 0 Hz
+Desktop is 3168 x 1782 @ 165 Hz
+InitializeOrResetSwapChain 3168x1782 hdr=0 samples=1
+Disable old input system
+[<a href="Assets/Script/Persistent/Logging/LogHandler.cs" line="68">LogHandler.cs:SetupLogHandler:68</a>] System Information:
+CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz (4001MHz 12 Cores)
+RAM: 15850MB
+GPU: NVIDIA GeForce RTX 3060 (VRAM: 12534MB, Version: Vulkan 1.1.0 [0x911a4200], Renderer: Vulkan)
+OS: Linux 6.17 Arch Linux  64bit (Linux)
+[<a href="Assets/Script/Helpers/PathHelper.cs" line="131">PathHelper.cs:FindSetlistPath:131</a>] Failed to find launcher settings file. Game is most likely running without the launcher.
+UnloadTime: 0.573138 ms
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl.so
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl.so
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl.so
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl.so
+Fallback handler could not load library /opt/yarg/YARG_Data/MonoBleedingEdge/x86_64/libdl
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[<a href="Assets/Script/Persistent/GlobalVariables.cs" line="56">GlobalVariables.cs:SingletonAwake:56</a>] YARG v0.13.0
+[<a href="Assets/Script/Localization/LocalizationManager.cs" line="35">LocalizationManager.cs:Initialize:35</a>] Localization initialized with language `en-US`
+[HIDrogen HidApiBackend.cs(160)] Error getting descriptor (EACCES)
+[<a href="Assets/Script/Persistent/GlobalVariables.cs" line="88">GlobalVariables.cs:SingletonAwake:88</a>] Loaded 1 profiles
+[<a href="Assets/Script/Persistent/GlobalVariables.cs" line="91">GlobalVariables.cs:SingletonAwake:91</a>] Saved 1 profiles
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="101">BassAudioManager.cs:.ctor:101</a>] Initializing BASS...
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="137">BassAudioManager.cs:.ctor:137</a>] Devices found: 19
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="265">BassAudioManager.cs:LoadSfx:265</a>] Loading SFX
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded note_miss
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded starpower_award
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded starpower_gain
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded starpower_deploy
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded starpower_release
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded clap
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded star
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded star_gold
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded overstrum_1
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded overstrum_2
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded overstrum_3
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="282">BassAudioManager.cs:LoadSfx:282</a>] Loaded overstrum_4
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="289">BassAudioManager.cs:LoadSfx:289</a>] Finished loading SFX
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="294">BassAudioManager.cs:LoadDrumSfx:294</a>] Loading Drum SFX
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="317">BassAudioManager.cs:LoadDrumSfx:317</a>] Finished loading Drum SFX
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="157">BassAudioManager.cs:.ctor:157</a>] BASS Successfully Initialized
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="158">BassAudioManager.cs:.ctor:158</a>] BASS: 2.4.17.10 - BASS.FX: 2.4.12.12 - BASS.Mix: 2.4.12.0
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="159">BassAudioManager.cs:.ctor:159</a>] Update Period: 5ms. Device Buffer Length: 20ms. Playback Buffer Length: 500ms. Device Playback Latency: 45ms
+[<a href="Assets/Script/Audio/Bass/BassAudioManager.cs" line="161">BassAudioManager.cs:.ctor:161</a>] Current Device: Default
+[<a href="Assets/Script/Localization/LocalizationManager.cs" line="67">LocalizationManager.cs:TryParseAndLoadLanguage:67</a>] Loading language `en-US`...
+Couldn't parse HID descriptor with fast parser. Using fallback
+requesting resize 3168 x 1782
+Using native desktop resolution 3168 x 1782
+requesting fullscreen 3168 x 1782 at 165 Hz
+Desktop is 3168 x 1782 @ 165 Hz
+InitializeOrResetSwapChain 3168x1782 hdr=0 samples=1
+[<a href="Assets/Script/Song/SongSources.cs" line="282">SongSources.cs:DownloadSources:282</a>] Failed to download newest song source version.
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.UnauthorizedAccessException: Access to the path "/opt/yarg/YARG_Data/StreamingAssets/sources/update.zip" is denied.
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean isAsync, System.Boolean anonymous) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess)
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00022] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebClient.DownloadFile (System.Uri address, System.String fileName) [0x00096] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at System.Net.WebClient.DownloadFile (System.String address, System.String fileName) [0x00008] in <7188aefa46c940efb60ceae1a2bf9525>:0 
+  at (wrapper remoting-invoke-with-check) System.Net.WebClient.DownloadFile(string,string)
+  at YARG.Song.SongSources+<>c__DisplayClass18_0.<DownloadSources>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0009d] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.UniTask.RunOnThreadPool (System.Action action, System.Boolean configureAwait, System.Threading.CancellationToken cancellationToken) [0x0012f] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at Cysharp.Threading.Tasks.CompilerServices.AsyncUniTask`1[TStateMachine].GetResult (System.Int16 token) [0x00000] in <18f702ffffaa4795a8a7340751e5495b>:0 
+  at YARG.Song.SongSources.DownloadSources (YARG.LoadingContext context) [0x003c4] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+[<a href="Assets/Script/Song/SongSources.cs" line="310">SongSources.cs:ReadSources:310</a>] Failed to read song source index.json for `extra`!
+System.IO.DirectoryNotFoundException: Could not find a part of the path "/opt/yarg/YARG_Data/StreamingAssets/sources/OpenSource-master/extra/index.json".
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x00164] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
+  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at System.IO.File.ReadAllText (System.String path) [0x0002c] in <54c1dce38bc04937bde6e2d7b67fd312>:0 
+  at YARG.Song.SongSources.ReadIndexPath (System.String indexPath) [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Song.SongSources.ReadSources () [0x00052] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+[<a href="Assets/Script/Song/SongContainer.cs" line="150">SongContainer.cs:RunRefresh:150</a>] Scan time: 0.0871492s
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 3 stems
+[<a href="Assets/Script/Audio/Bass/BassStemMixer.cs" line="68">BassStemMixer.cs:Play_Internal:68</a>] Failed to fill playback buffer: Already!
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 3 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="108">GameManager.Loading.cs:Start:108</a>] Loading song I Ran (So Far Away) - Flock of Seagulls
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 3 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Avery on FiveFretGuitar: 0
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 1.463733404, input being queued: 1.463705076
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 1.463733404, input being queued: 1.463705076
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 32.311203511, input being queued: 32.311176812
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 65.711124204, input being queued: 65.711111446
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 71.239607828, input being queued: 71.239548664
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 86.838912553, input being queued: 86.838885593
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 96.34299045, input being queued: 96.342969602
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 123.407554507, input being queued: 123.407493929
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 123.407554507, input being queued: 123.407493929
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 135.359357391, input being queued: 135.359328854
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 135.359357391, input being queued: 135.359328854
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 135.51207984, input being queued: 135.510807768
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 135.51207984, input being queued: 135.510807768
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 135.51207984, input being queued: 135.510807768
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 135.51207984, input being queued: 135.510807768
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 153.03145872, input being queued: 153.031407935
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 159.239338779, input being queued: 159.239333406
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 159.239338779, input being queued: 159.239333406
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 159.239338779, input being queued: 159.239333406
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 159.239338779, input being queued: 159.239333406
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 163.75881701, input being queued: 163.758805678
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 163.75881701, input being queued: 163.758805678
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 196.679351429, input being queued: 196.679302214
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 199.958521047, input being queued: 199.958503406
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 220.927468895, input being queued: 220.927408785
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 220.927468895, input being queued: 220.927408785
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 220.927468895, input being queued: 220.927408785
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 223.855209027, input being queued: 223.85520173
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 223.855209027, input being queued: 223.85520173
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 223.855209027, input being queued: 223.85520173
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 230.455188974, input being queued: 230.455179605
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 253.654779885, input being queued: 253.654753693
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 253.654779885, input being queued: 253.654753693
+[<a href="Assets/Script/Scores/ScoreContainer.cs" line="146">ScoreContainer.cs:RecordScore:146</a>] Recorded score for song.
+[<a href="Assets/Script/Gameplay/GameManager.cs" line="171">GameManager.cs:OnDestroy:171</a>] Exiting song
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 3 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 8 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 3 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="Assets/Script/Song/SongContainer.cs" line="150">SongContainer.cs:RunRefresh:150</a>] Scan time: 2.1769757s
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 8 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 2 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="108">GameManager.Loading.cs:Start:108</a>] Loading song Get Ready 2 Rokk - Freezepop
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 2 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Avery on FiveFretGuitar: 0
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (10)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (13)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (14)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (11)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (6)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (9)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (12)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (8)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (7)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (5)"
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 1.19932474199999, input being queued: 1.19927806300001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 1.19932474199999, input being queued: 1.19927806300001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 1.19932474199999, input being queued: 1.19927806300001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 1.19932474199999, input being queued: 1.19927806300001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 4.39098589299999, input being queued: 4.39096644899996
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 4.39098589299999, input being queued: 4.39096644899996
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 7.58308598599996, input being queued: 7.583048174
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 11.559104389, input being queued: 11.559065829
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 14.678795082, input being queued: 14.678737232
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.678795082, input being queued: 14.678737232
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 17.038501471, input being queued: 17.038457578
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 17.038501471, input being queued: 17.038457578
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 17.038501471, input being queued: 17.038457578
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 17.038501471, input being queued: 17.038457578
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 22.111436123, input being queued: 22.111421513
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 22.111436123, input being queued: 22.111421513
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 22.830558394, input being queued: 22.83047974
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 24.799007975, input being queued: 24.798927201
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 30.822515261, input being queued: 30.822434097
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 30.822515261, input being queued: 30.822434097
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 33.158752948, input being queued: 33.158693038
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 36.614528608, input being queued: 36.614505032
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 36.614528608, input being queued: 36.614505032
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 36.790577642, input being queued: 36.790497408
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 55.182572385, input being queued: 55.182521491
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 55.182572385, input being queued: 55.182521491
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 77.6870682020001, input being queued: 77.687022393
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 81.2868259750001, input being queued: 81.2868152000001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 96.927134622, input being queued: 96.927105794
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 96.927134622, input being queued: 96.927105794
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 99.0313067340001, input being queued: 99.031286903
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 116.086457566, input being queued: 116.08637347
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 116.086457566, input being queued: 116.08637347
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 116.086457566, input being queued: 116.08637347
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 123.207030292, input being queued: 123.207021385
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 126.398561792, input being queued: 126.3985269
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 126.94324081, input being queued: 126.943182666
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 126.94324081, input being queued: 126.943182666
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 127.142610113, input being queued: 127.142496575
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 127.142610113, input being queued: 127.142496575
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 128.758288193, input being queued: 128.758252227
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 128.758288193, input being queued: 128.758252227
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 131.422746719, input being queued: 131.42272352
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 149.118441206, input being queued: 149.118438028
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 149.118441206, input being queued: 149.118438028
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 156.47859618, input being queued: 156.47858931
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 169.85449556, input being queued: 169.854434382
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 172.19080575, input being queued: 172.19073456
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 180.470195363, input being queued: 180.470120057
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 180.534724295, input being queued: 180.534722896
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 180.534724295, input being queued: 180.534722896
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 180.534724295, input being queued: 180.534722896
+[<a href="Assets/Script/Scores/ScoreContainer.cs" line="146">ScoreContainer.cs:RecordScore:146</a>] Recorded score for song.
+[<a href="Assets/Script/Gameplay/GameManager.cs" line="171">GameManager.cs:OnDestroy:171</a>] Exiting song
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 2 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 8 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 2 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.Sng.cs" line="238">SongEntry.Sng.cs:CreateAudioMixer:238</a>] Loaded 2 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="108">GameManager.Loading.cs:Start:108</a>] Loading song classic j dies and goes to hell part 1 - glass beach
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.Sng.cs" line="238">SongEntry.Sng.cs:CreateAudioMixer:238</a>] Loaded 6 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Avery on FiveFretGuitar: 0
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 0.18676570699995, input being queued: 0.18675173500003
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 0.18676570699995, input being queued: 0.18675173500003
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 0.362689438999951, input being queued: 0.362676591999957
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 0.362689438999951, input being queued: 0.362676591999957
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 1.36283345200002, input being queued: 1.36276944899998
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 1.36283345200002, input being queued: 1.36276944899998
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 17.314234612, input being queued: 17.31415396
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 29.986497956, input being queued: 29.986463348
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 94.409825385, input being queued: 94.409781363
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 99.2100145429999, input being queued: 99.20997261
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 102.313850468, input being queued: 102.313832626
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 102.313850468, input being queued: 102.313832626
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 108.258261229, input being queued: 108.258243646
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 109.258507991, input being queued: 109.258453389
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 116.730752474, input being queued: 116.730702018
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 140.106621083, input being queued: 140.106608549
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 140.106621083, input being queued: 140.106608549
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 140.106621083, input being queued: 140.106608549
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 140.106621083, input being queued: 140.106608549
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 148.433798618, input being queued: 148.433705637
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 148.433798618, input being queued: 148.433705637
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 149.482064341, input being queued: 149.482007212
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 149.482064341, input being queued: 149.482007212
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 150.657739173, input being queued: 150.657683562
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 154.481940241, input being queued: 154.481927793
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 154.481940241, input being queued: 154.481927793
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 154.481940241, input being queued: 154.481927793
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 158.457766136, input being queued: 158.457726504
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 161.930379742, input being queued: 161.930330937
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 188.433649547, input being queued: 188.43362315
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 188.433649547, input being queued: 188.43362315
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 192.929961166, input being queued: 192.92993452
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 192.929961166, input being queued: 192.92993452
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 201.978427069, input being queued: 201.978372617
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 201.978427069, input being queued: 201.978372617
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 207.130076209, input being queued: 207.130011248
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 207.130076209, input being queued: 207.130011248
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 207.154403426, input being queued: 207.154333634
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 207.154403426, input being queued: 207.154333634
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 224.78590435, input being queued: 224.785855516
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 232.602441209, input being queued: 232.60242664
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 254.929641535, input being queued: 254.929624607
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 281.977595958, input being queued: 281.977583147
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 285.602083841, input being queued: 285.60203073
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 289.5299621, input being queued: 289.529908239
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 289.92955934, input being queued: 289.92952854
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 290.274182772, input being queued: 290.274170969
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 291.650275711, input being queued: 291.650244202
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 291.801850844, input being queued: 291.801753867
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 302.833914363, input being queued: 302.833887591
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 302.833914363, input being queued: 302.833887591
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 302.833914363, input being queued: 302.833887591
+[<a href="Assets/Script/Scores/ScoreContainer.cs" line="146">ScoreContainer.cs:RecordScore:146</a>] Recorded score for song.
+[<a href="Assets/Script/Gameplay/GameManager.cs" line="171">GameManager.cs:OnDestroy:171</a>] Exiting song
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.Sng.cs" line="238">SongEntry.Sng.cs:CreateAudioMixer:238</a>] Loaded 6 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 8 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.Sng.cs" line="238">SongEntry.Sng.cs:CreateAudioMixer:238</a>] Loaded 6 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="108">GameManager.Loading.cs:Start:108</a>] Loading song Blow Me Away - Breaking Benjamin
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Avery on FiveFretGuitar: 0
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Camera') is missing!
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (10)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (13)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (14)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (11)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (6)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (9)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (12)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (8)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (7)"
+BoxCollider does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "_Background(Clone)/Stage/PUT THINGS HERE!/Cube (5)"
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 3.08312864499999, input being queued: 3.08306659099981
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 3.08312864499999, input being queued: 3.08306659099981
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 5.44403498899987, input being queued: 5.4440188489998
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 5.44403498899987, input being queued: 5.4440188489998
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 22.267658107, input being queued: 22.2675646529999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 22.267658107, input being queued: 22.2675646529999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 26.5950951889999, input being queued: 26.5950326669999
+[<a href="Assets/Script/Gameplay/GameManager.cs" line="171">GameManager.cs:OnDestroy:171</a>] Exiting song
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 3 stems
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object Starpower Bar was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object Sunburst Effects was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object FiveFretShiftIndicator(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object RangeIndicator(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+[<a href="Assets/Script/Gameplay/GameplayBehaviour.cs" line="28">GameplayBehaviour.cs:Awake:28</a>] Gameplay object TrackEffectTrack(Clone) was instantiated outside of the gameplay scene!
+ALSA lib control.c:1575:(snd_ctl_open_noupdate) Invalid CTL vdownmix
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+[<a href="Assets/Script/Audio/Bass/BassMicDevice.cs" line="116">BassMicDevice.cs:CreateRecordingHandle:116</a>] Failed to start clean recording: SampleFormat!
+NullReferenceException: Object reference not set to an instance of an object
+  at YARG.Input.ProfileBindings.AddMicrophone (YARG.Core.Audio.MicDevice microphone) [0x00017] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.ProfileList.ProfileView+<>c__DisplayClass19_2.<PromptAddDevice>b__1 () [0x0002c] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at YARG.Menu.Dialogs.ListDialog+<>c__DisplayClass2_0.<AddListButton>b__0 () [0x00000] in <f2c6fb31cf8344739f7b72399724d6b4>:0 
+  at UnityEngine.Events.InvokableCall.Invoke () [0x00010] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00022] in <c9bf70caf60f496295a2d6046da3e3c9>:0 
+  at UnityEngine.UI.Button.Press () [0x0001c] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00009] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00007] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in <5ffc7bc4400949eda5bd0a2968f874b8>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+YARG.Logging.Unity.CustomUnityLogger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+
+Attempting to select while already selecting an object.
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="108">GameManager.Loading.cs:Start:108</a>] Loading song Blow Me Away - Breaking Benjamin
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Avery on FiveFretGuitar: 0
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Vocals on Vocals: 0
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="182">BaseEngine.cs:ProcessInputs:182</a>] Queued input is in the future! Time being updated to: 2.07769053900006, input time: 2.07774093500007
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="167">BaseEngine.cs:Update:167</a>] Input queue was not fully cleared!
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 7.17646857699992, input being queued: 7.17641135600002
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 7.17646857699992, input being queued: 7.17641135600002
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 7.41636171499999, input being queued: 7.41629661499996
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 7.41636171499999, input being queued: 7.41629661499996
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 14.6730916240001, input being queued: 14.6730619100001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.6730916240001, input being queued: 14.6730619100001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 14.736517844, input being queued: 14.7364581459999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.736517844, input being queued: 14.7364581459999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 25.224846541, input being queued: 25.224774819
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="182">BaseEngine.cs:ProcessInputs:182</a>] Queued input is in the future! Time being updated to: 29.2387492749999, input time: 29.238935223
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="167">BaseEngine.cs:Update:167</a>] Input queue was not fully cleared!
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 56.304825834, input being queued: 56.304780982
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 56.304825834, input being queued: 56.304780982
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 61.1129418200001, input being queued: 61.112899582
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 81.7606228930001, input being queued: 81.7605945360001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 81.7606228930001, input being queued: 81.7605945360001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 103.760279479, input being queued: 103.760213701
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 103.760279479, input being queued: 103.760213701
+[<a href="Assets/Script/Gameplay/GameManager.cs" line="171">GameManager.cs:OnDestroy:171</a>] Exiting song
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="108">GameManager.Loading.cs:Start:108</a>] Loading song Ego Brain - System of a Down
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Avery on FiveFretGuitar: 0
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Vocals on Vocals: 0
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: -1.76983223299997, input being queued: -1.76988068400008
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: -1.76983223299997, input being queued: -1.76988068400008
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: -1.202275094, input being queued: -1.20231170500004
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: -1.202275094, input being queued: -1.20231170500004
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 0.0222827370000869, input being queued: 0.0222460929999397
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 0.0222827370000869, input being queued: 0.0222460929999397
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 0.0222827370000869, input being queued: 0.0222460929999397
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 0.0222827370000869, input being queued: 0.0222460929999397
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 6.57437358499989, input being queued: 6.57433784399997
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 6.57437358499989, input being queued: 6.57433784399997
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 10.9498729980001, input being queued: 10.949790483
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 14.422279554, input being queued: 14.422269785
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.422279554, input being queued: 14.422269785
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 14.422279554, input being queued: 14.422269785
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 18.3978864569999, input being queued: 18.3978607689999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 19.5738080900001, input being queued: 19.573755742
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 19.7495406870001, input being queued: 19.749501625
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 21.8220717320001, input being queued: 21.8220231129999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 21.8220717320001, input being queued: 21.8220231129999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 22.022028716, input being queued: 22.0220139179999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 33.270064799, input being queued: 33.2700112580001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 33.270064799, input being queued: 33.2700112580001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 33.270064799, input being queued: 33.2700112580001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 37.4460081689999, input being queued: 37.446007414
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 43.8700952259999, input being queued: 43.8700382990001
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 72.045788057, input being queued: 72.0457424649999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 72.045788057, input being queued: 72.0457424649999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 72.045788057, input being queued: 72.0457424649999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 76.0696889880001, input being queued: 76.069659837
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 76.0696889880001, input being queued: 76.069659837
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 76.0696889880001, input being queued: 76.069659837
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 85.0700863309999, input being queued: 85.070069093
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 85.0700863309999, input being queued: 85.070069093
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 115.693623274, input being queued: 115.693595831
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 115.693623274, input being queued: 115.693595831
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 117.094404151, input being queued: 117.094335155
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 137.566040216, input being queued: 137.566027094
+[<a href="Assets/Script/Gameplay/GameManager.cs" line="171">GameManager.cs:OnDestroy:171</a>] Exiting song
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 7 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 7 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 8 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 8 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="108">GameManager.Loading.cs:Start:108</a>] Loading song Dragula - Rob Zombie
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.Sng.cs" line="238">SongEntry.Sng.cs:CreateAudioMixer:238</a>] Loaded 5 stems
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Avery on FiveFretGuitar: 0
+[<a href="Assets/Script/Gameplay/GameManager.Loading.cs" line="378">GameManager.Loading.cs:CreatePlayers:378</a>] Current high score for player Vocals on Vocals: 0
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object 'singer') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'guitar') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Closeup Head') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Guitar') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Drums') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object 'Drums Kick') is missing!
+The referenced script on this Behaviour (Game Object 'Drums Closeup Hand') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script on this Behaviour (Game Object 'Bass Vocals') is missing!
+The referenced script on this Behaviour (Game Object 'Drums Closeup Head') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Guitar Behind') is missing!
+The referenced script on this Behaviour (Game Object 'Bass Closeup') is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Vocals') is missing!
+The referenced script on this Behaviour (Game Object 'Bass') is missing!
+The referenced script on this Behaviour (Game Object 'Bass Behind') is missing!
+The referenced script on this Behaviour (Game Object 'Vocals Bass Behind') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'All Far') is missing!
+The referenced script on this Behaviour (Game Object 'Stage Cam') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Behind') is missing!
+The referenced script on this Behaviour (Game Object 'Bass Drums') is missing!
+The referenced script on this Behaviour (Game Object 'Drums Behind') is missing!
+The referenced script on this Behaviour (Game Object 'Guitar') is missing!
+The referenced script on this Behaviour (Game Object 'Behind No Drum') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object 'Vocals') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Crowd') is missing!
+The referenced script (YARG.Venue.Characters.CharacterManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Band') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Closeup') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'All Near') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Closeup Head') is missing!
+The referenced script (YARG.Venue.Characters.VenueCharacter) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'singer') is missing!
+The referenced script (YARG.Venue.Characters.VenueCharacter) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'bassplaying') is missing!
+The referenced script (YARG.Venue.Characters.VenueCharacter) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'guitar') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Closeup Head') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Vocals Drums') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Guitar') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Drums') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Vocals Closeup') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Drums Kick') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Drums Closeup Hand') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Vocals Guitar Behind') is missing!
+The referenced script (YARG.Venue.VenueCamera.CameraManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Camera Manager') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Vocals Behind') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Near No Drum') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Vocals') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Drums Closeup Head') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Guitar Behind') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Closeup') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Vocals') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Behind') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Vocals Bass Behind') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'All Far') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Stage Cam') is missing!
+The referenced script (YARG.Venue.Characters.VenueCharacter) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'drummer') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Drums') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar Behind') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Bass Drums') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Drums Behind') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Guitar') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Behind No Drum') is missing!
+The referenced script (YARG.Venue.VenueCamera.VenueCamera) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'Vocals') is missing!
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 15.9869320339999, input being queued: 15.9868934029999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 15.9869320339999, input being queued: 15.9868934029999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 28.259752209, input being queued: 28.259748297
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 39.3152574999999, input being queued: 39.3151921189999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 44.8916899569999, input being queued: 44.8915982369999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 44.8916899569999, input being queued: 44.8915982369999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 45.0196976709999, input being queued: 45.0196786859999
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="316">BaseEngine.cs:QueueInput:316</a>] Engine was forced to move an input time! Current time: 48.5790498679999, input being queued: 48.578952523
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Engine/BaseEngine.cs" line="306">BaseEngine.cs:QueueInput:306</a>] Engine was forced to move an input time! Previous queued input: 48.5790498679999, input being queued: 48.578952523
+[<a href="Assets/Script/Gameplay/GameManager.cs" line="171">GameManager.cs:OnDestroy:171</a>] Exiting song
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.Sng.cs" line="238">SongEntry.Sng.cs:CreateAudioMixer:238</a>] Loaded 5 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.Sng.cs" line="238">SongEntry.Sng.cs:CreateAudioMixer:238</a>] Loaded 5 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 2 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems
+[<a href="/home/runner/work/YARG-BleedingEdge/YARG-BleedingEdge/YARG.Core/YARG.Core/Song/Entries/Ini/SongEntry.UnpackedIni.cs" line="76">SongEntry.UnpackedIni.cs:LoadAudio:76</a>] Loaded 1 stems

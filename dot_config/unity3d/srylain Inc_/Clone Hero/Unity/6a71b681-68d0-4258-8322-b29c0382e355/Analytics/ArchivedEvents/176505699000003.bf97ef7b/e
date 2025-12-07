@@ -1,0 +1,4 @@
+(s)|{"appid":"6a71b681-68d0-4258-8322-b29c0382e355","userid":"a2d171026e6962da6add3ea679a9e53b","sessionid":6071436077607140770,"platform":"LinuxPlayer","platformid":13,"sdk_ver":"u2021.3.14f1","sdk_rev":"eee1884e7226","session_count":3,"localprojectid":"55b182d504263c24fb4406cf81997ac1","build_guid":"40f39b612ba4c324bb72fbfd602884bc","deviceid":"4cbf414fef81479193c1c2618ff99e81","identity_token":"a2d171026e6962da6add3ea679a9e53b"}
+(g)|2
+{"type":"analytics.appRunning.v1","msg":{"duration":1589,"local_time_offset":28800000,"ts":1765056990504,"t_since_start":1592166227}}
+(1){"type":"analytics.appStop.v1","msg":{"ts":1765056990504,"t_since_start":1592166333}}
