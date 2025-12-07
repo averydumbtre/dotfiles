@@ -132,6 +132,66 @@ panelVisibility=1
 [PlasmaViews][Panel 401][Defaults]
 thickness=100
 
+[PlasmaViews][Panel 424]
+alignment=1
+floating=0
+panelLengthMode=0
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 424][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 439]
+alignment=2
+floating=0
+panelLengthMode=1
+panelOpacity=1
+panelVisibility=1
+
+[PlasmaViews][Panel 439][Defaults]
+thickness=100
+
+[PlasmaViews][Panel 462]
+alignment=2
+floating=0
+panelLengthMode=1
+panelOpacity=1
+panelVisibility=1
+
+[PlasmaViews][Panel 462][Defaults]
+thickness=100
+
+[PlasmaViews][Panel 485]
+alignment=2
+floating=0
+panelLengthMode=1
+panelOpacity=1
+panelVisibility=1
+
+[PlasmaViews][Panel 485][Defaults]
+thickness=100
+
+[PlasmaViews][Panel 508]
+alignment=1
+floating=0
+panelLengthMode=0
+panelOpacity=0
+panelVisibility=0
+
+[PlasmaViews][Panel 508][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 523]
+alignment=2
+floating=0
+panelLengthMode=1
+panelOpacity=1
+panelVisibility=1
+
+[PlasmaViews][Panel 523][Defaults]
+thickness=100
+
 [PlasmaViews][Panel 9]
 alignment=1
 floating=0
