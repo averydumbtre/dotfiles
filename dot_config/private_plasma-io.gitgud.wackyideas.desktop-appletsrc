@@ -232,12 +232,10 @@ DialogWidth=720
 
 [Containments][340][Applets][354][Configuration][General]
 disableJumplists=true
-highlightWindows=false
 launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
-showPreviews=false
 
 [Containments][340][General]
 AppletOrder=341;354;351;350;349;348;347;353;352;345;343;346;344;342
