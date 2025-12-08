@@ -28,6 +28,23 @@
           116.533691
         ]
       }
+    },
+    "Practice": {
+      "Version": 1,
+      "ElementPositions": {
+        "songInfo": [
+          96.0,
+          -150.0
+        ],
+        "scoreDisplay": [
+          -50.0,
+          -150.0
+        ],
+        "soloBox": [
+          0.0,
+          229.042664
+        ]
+      }
     }
   },
   "AudioCalibration": 0,

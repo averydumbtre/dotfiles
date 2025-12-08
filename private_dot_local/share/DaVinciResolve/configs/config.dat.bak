@@ -118,7 +118,6 @@ Red.GPU.Enable = 1
 IO.EasyDCPDecoder.Enable = 0
 Local.IO.EnableBMDCloudStreaming = 1
 
-Local.GPU.Mode = CUDA
 Local.DNE.Mode = 0
 Local.OpenVINO.Enable = 0
 Local.DirectML.Enable = 0

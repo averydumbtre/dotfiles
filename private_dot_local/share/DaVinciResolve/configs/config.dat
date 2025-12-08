@@ -11,7 +11,7 @@ Site.1.Svc.5 = LsManager.1
 Site.1.Svc.6 = LsManager.2
 Site.1.Svc.7 = LsManager.3
 
-Site.1.FS.Count = 3
+Site.1.FS.Count = 4
 
 Site.1.FS.1.Type = IOFileSys
 Site.1.FS.1.Root = /home/avery
@@ -26,10 +26,16 @@ Site.1.FS.2.DIO = 0
 Site.1.FS.2.BrightClip = 0
 
 Site.1.FS.3.Type = IOFileSys
-Site.1.FS.3.Root = ResolveVirtual
+Site.1.FS.3.Root = /mnt/9c1b5651-fb99-4525-9716-4137b631551a/CLIPS
 Site.1.FS.3.MappedRoot = 
 Site.1.FS.3.DIO = 0
 Site.1.FS.3.BrightClip = 0
+
+Site.1.FS.4.Type = IOFileSys
+Site.1.FS.4.Root = ResolveVirtual
+Site.1.FS.4.MappedRoot = 
+Site.1.FS.4.DIO = 0
+Site.1.FS.4.BrightClip = 0
 
 Site.1.CmdRT.Count = 1
 Site.1.CmdRT.1.Type = Mem
@@ -73,7 +79,7 @@ Custom.LUT.Path.Count = 0
 
 Local.Resource.Processors.1 = 2
 
-Local.Resource.Buffers.1 = 5113
+Local.Resource.Buffers.1 = 5112
 
 Local.Resource.ResolveMemoryPercentage = 75
 Local.Resource.FusionMemoryPercentage = 57
