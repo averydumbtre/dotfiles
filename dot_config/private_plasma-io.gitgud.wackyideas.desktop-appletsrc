@@ -330,21 +330,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][401][Applets][402][Applets][417][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][401][Applets][402][Applets][418]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][401][Applets][402][Applets][418][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][401][Applets][402][Applets][419]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][401][Applets][402][Applets][419][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][401][Applets][402][Applets][420]
 immutability=1
@@ -358,7 +358,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][401][Applets][402][Applets][421][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][401][Applets][402][Applets][422]
 immutability=1
@@ -474,21 +474,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][485][Applets][486][Applets][501][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][485][Applets][486][Applets][502]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][485][Applets][486][Applets][502][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][485][Applets][486][Applets][503]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][485][Applets][486][Applets][503][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][485][Applets][486][Applets][504]
 immutability=1
@@ -502,7 +502,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][485][Applets][486][Applets][505][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][485][Applets][486][Applets][506]
 immutability=1
@@ -1080,4 +1080,4 @@ AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
