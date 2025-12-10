@@ -709,12 +709,10 @@ DialogWidth=720
 
 [Containments][508][Applets][522][Configuration][General]
 disableJumplists=true
-highlightWindows=false
 launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
-showPreviews=false
 
 [Containments][508][General]
 AppletOrder=509;522;519;518;517;516;515;521;520;513;511;514;512;510
@@ -880,7 +878,7 @@ DialogHeight=540
 DialogWidth=810
 
 [Containments][8][General]
-positions={"1080x1920":[],"1920x1080":["1","24","desktop:/Drawpile-2.3.0-x86_64.AppImage","0","1"],"2327x1309":[]}
+positions={"1080x1920":[],"1920x1080":["1","24"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][8][Wallpaper][org.kde.image][General]
@@ -945,7 +943,7 @@ plugin=org.kde.plasma.systemmonitor
 CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=60
 popupHeight=192
-popupWidth=102
+popupWidth=156
 
 [Containments][9][Applets][146][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -1037,12 +1035,10 @@ DialogWidth=720
 
 [Containments][9][Applets][240][Configuration][General]
 disableJumplists=true
-highlightWindows=false
 launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
-showPreviews=false
 
 [Containments][9][Applets][30]
 immutability=1
@@ -1080,4 +1076,4 @@ AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
