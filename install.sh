@@ -314,8 +314,8 @@ chmod u+x ~/Documents/skripts/SHUTDOWN.sh
 chmod u+x ~/Documents/skripts/STARTUP.sh
 echo
 sudo -i echo "bleh"
-sudo -i echo -e "[Unit]\nDescription=Pushes dotfiles to github before shutdown\nDefaultDependencies=no\nAfter=network.target paths.target timers.target sockets.target\nRequires=network.target paths.target timers.target sockets.target\n\n[Service]\nType=oneshot\nUser=$username\nRemainAfterExit=true\nExecStop=/home/$username/Documents/skripts/SHUTDOWN.sh\nTimeoutStartSec=0\n\n[Install]\nWantedBy=network.target paths.target timers.target sockets.target" | sudo -i tee -a /etc/systemd/system/chezmoi-before-shutdown.service
-sudo -i systemctl enable chezmoi-before-shutdown
+##sudo -i echo -e "[Unit]\nDescription=Pushes dotfiles to github before shutdown\nDefaultDependencies=no\nAfter=network.target paths.target timers.target sockets.target\nRequires=network.target paths.target timers.target sockets.target\n\n[Service]\nType=oneshot\nUser=$username\nRemainAfterExit=true\nExecStop=/home/$username/Documents/skripts/SHUTDOWN.sh\nTimeoutStartSec=0\n\n[Install]\nWantedBy=network.target paths.target timers.target sockets.target" | sudo -i tee -a /etc/systemd/system/chezmoi-before-shutdown.service
+##sudo -i systemctl enable chezmoi-before-shutdown
 sudo -i systemctl enable libvirtd
 sudo -i systemctl enable sshd
 systemctl --user enable mpd --now

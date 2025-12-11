@@ -22,7 +22,7 @@ DialogHeight=540
 DialogWidth=810
 
 [Containments][157][General]
-positions={"1920x1080":["4","24","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":[]}
+positions={"1920x1080":["4","24","desktop:/Freecad.AppImage","2","1","desktop:/Darktable.AppImage","3","2"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -32,8 +32,8 @@ SlidePaths=/usr/share/wallpapers/
 [Containments][175]
 ItemGeometries-1080x1920=
 ItemGeometries-1920x1080=
-ItemGeometries-2327x1309=
-ItemGeometriesHorizontal=
+ItemGeometries-2327x1309=Applet-560:1406,483,96,96,0;
+ItemGeometriesHorizontal=Applet-560:1406,483,96,96,0;
 ItemGeometriesVertical=
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
@@ -42,6 +42,10 @@ lastScreen=1
 location=0
 plugin=io.gitgud.wackyideas.desktopcontainment
 wallpaperplugin=org.kde.image
+
+[Containments][175][Applets][560]
+immutability=1
+plugin=io.gitgud.wackyideas.win7showdesktop
 
 [Containments][175][General]
 positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30","desktop:/Link to Application.desktop","0","0"]}
@@ -59,22 +63,6 @@ lastScreen=0
 location=4
 plugin=io.gitgud.wackyideas.panel
 wallpaperplugin=org.kde.image
-
-[Containments][340][Applets][341]
-immutability=1
-plugin=io.gitgud.wackyideas.SevenStart
-
-[Containments][340][Applets][341][Configuration]
-PreloadWeight=100
-popupHeight=534
-popupWidth=712
-
-[Containments][340][Applets][341][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][340][Applets][341][Configuration][General]
-favoritesPortedToKAstats=true
 
 [Containments][340][Applets][342]
 immutability=1
@@ -226,6 +214,10 @@ popupWidth=568
 immutability=1
 plugin=io.gitgud.wackyideas.seventasks
 
+[Containments][340][Applets][354][Configuration]
+popupHeight=400
+popupWidth=560
+
 [Containments][340][Applets][354][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -237,8 +229,19 @@ middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
 
+[Containments][340][Applets][561]
+immutability=1
+plugin=io.gitgud.wackyideas.SevenStart
+
+[Containments][340][Applets][561][Configuration]
+popupHeight=400
+popupWidth=560
+
+[Containments][340][Applets][561][Configuration][General]
+favoritesPortedToKAstats=true
+
 [Containments][340][General]
-AppletOrder=341;354;351;350;349;348;347;353;352;345;343;346;344;342
+AppletOrder=553;354;351;350;349;348;347;353;352;345;343;346;344;342
 
 [Containments][401]
 activityId=
@@ -330,21 +333,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][401][Applets][402][Applets][417][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][401][Applets][402][Applets][418]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][401][Applets][402][Applets][418][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][401][Applets][402][Applets][419]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][401][Applets][402][Applets][419][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][401][Applets][402][Applets][420]
 immutability=1
@@ -358,7 +361,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][401][Applets][402][Applets][421][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][401][Applets][402][Applets][422]
 immutability=1
@@ -474,21 +477,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][485][Applets][486][Applets][501][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][485][Applets][486][Applets][502]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][485][Applets][486][Applets][502][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][485][Applets][486][Applets][503]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][485][Applets][486][Applets][503][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][485][Applets][486][Applets][504]
 immutability=1
@@ -502,7 +505,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][485][Applets][486][Applets][505][Configuration]
-PreloadWeight=26
+PreloadWeight=10
 
 [Containments][485][Applets][486][Applets][506]
 immutability=1
@@ -807,21 +810,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][523][Applets][524][Applets][539][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][523][Applets][524][Applets][540]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][523][Applets][524][Applets][540][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][523][Applets][524][Applets][541]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][523][Applets][524][Applets][541][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][523][Applets][524][Applets][542]
 immutability=1
@@ -835,7 +838,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][523][Applets][524][Applets][543][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][523][Applets][524][Applets][544]
 immutability=1
@@ -893,22 +896,6 @@ lastScreen=1
 location=4
 plugin=io.gitgud.wackyideas.panel
 wallpaperplugin=org.kde.image
-
-[Containments][9][Applets][10]
-immutability=1
-plugin=io.gitgud.wackyideas.SevenStart
-
-[Containments][9][Applets][10][Configuration]
-PreloadWeight=100
-popupHeight=534
-popupWidth=712
-
-[Containments][9][Applets][10][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][9][Applets][10][Configuration][General]
-favoritesPortedToKAstats=true
 
 [Containments][9][Applets][14]
 immutability=1
@@ -1029,6 +1016,11 @@ popupWidth=568
 immutability=1
 plugin=io.gitgud.wackyideas.seventasks
 
+[Containments][9][Applets][240][Configuration]
+PreloadWeight=60
+popupHeight=432
+popupWidth=432
+
 [Containments][9][Applets][240][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -1071,9 +1063,20 @@ use24hFormat=2
 DialogHeight=540
 DialogWidth=720
 
+[Containments][9][Applets][559]
+immutability=1
+plugin=io.gitgud.wackyideas.SevenStart
+
+[Containments][9][Applets][559][Configuration]
+popupHeight=400
+popupWidth=560
+
+[Containments][9][Applets][559][Configuration][General]
+favoritesPortedToKAstats=true
+
 [Containments][9][General]
-AppletOrder=10;240;149;148;147;146;145;199;156;142;30;143;43;14
+AppletOrder=559;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622
