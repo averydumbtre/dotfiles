@@ -86,8 +86,8 @@ Word Completion Remove Tail=true
 1920x1080 screen: Width=944
 2 screens: Height=597
 2 screens: Width=1378
-3 screens: Height=309
-3 screens: Width=944
+3 screens: Height=1002
+3 screens: Width=1904
 
 [UiSettings]
 ColorScheme=BreezeDark

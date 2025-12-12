@@ -82,7 +82,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][340][Applets][344][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 popupHeight=466
 popupWidth=572
 
@@ -234,8 +234,8 @@ immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][561][Configuration]
-popupHeight=395
-popupWidth=556
+popupHeight=400
+popupWidth=560
 
 [Containments][340][Applets][561][Configuration][General]
 favoritesPortedToKAstats=true
@@ -1068,8 +1068,8 @@ immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][9][Applets][559][Configuration]
-popupHeight=395
-popupWidth=556
+popupHeight=400
+popupWidth=560
 
 [Containments][9][Applets][559][Configuration][General]
 favoritesPortedToKAstats=true
@@ -1079,4 +1079,4 @@ AppletOrder=559;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
