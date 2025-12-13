@@ -22,7 +22,7 @@ DialogHeight=540
 DialogWidth=810
 
 [Containments][157][General]
-positions={"1920x1080":["4","24","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":[]}
+positions={"1920x1080":["4","24","desktop:/Freecad.AppImage","2","1","desktop:/Darktable.AppImage","3","2"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -48,7 +48,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.win7showdesktop
 
 [Containments][175][General]
-positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30","desktop:/Link to Application.desktop","0","0"]}
+positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30","desktop:/Link to Application.desktop","0","1"]}
 sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
@@ -333,21 +333,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][401][Applets][402][Applets][417][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][401][Applets][402][Applets][418]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][401][Applets][402][Applets][418][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][401][Applets][402][Applets][419]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][401][Applets][402][Applets][419][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][401][Applets][402][Applets][420]
 immutability=1
@@ -361,7 +361,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][401][Applets][402][Applets][421][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][401][Applets][402][Applets][422]
 immutability=1
@@ -477,21 +477,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][485][Applets][486][Applets][501][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][485][Applets][486][Applets][502]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][485][Applets][486][Applets][502][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][485][Applets][486][Applets][503]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][485][Applets][486][Applets][503][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][485][Applets][486][Applets][504]
 immutability=1
@@ -505,7 +505,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][485][Applets][486][Applets][505][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][485][Applets][486][Applets][506]
 immutability=1
@@ -810,21 +810,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][523][Applets][524][Applets][539][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][523][Applets][524][Applets][540]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][523][Applets][524][Applets][540][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][523][Applets][524][Applets][541]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][523][Applets][524][Applets][541][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][523][Applets][524][Applets][542]
 immutability=1
@@ -838,7 +838,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][523][Applets][524][Applets][543][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][523][Applets][524][Applets][544]
 immutability=1
@@ -1079,4 +1079,4 @@ AppletOrder=559;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
