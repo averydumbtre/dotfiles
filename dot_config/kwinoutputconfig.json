@@ -118,6 +118,35 @@
                 "uuid": "bfd020cf-32e4-405c-8e14-6985d1d10da9",
                 "vrrPolicy": "Never",
                 "wideColorGamut": false
+            },
+            {
+                "allowDdcCi": true,
+                "allowSdrSoftwareBrightness": true,
+                "autoRotation": "InTabletMode",
+                "brightness": 1,
+                "colorPowerTradeoff": "PreferEfficiency",
+                "colorProfileSource": "sRGB",
+                "connectorName": "DP-1",
+                "detectedDdcCi": false,
+                "edidHash": "47a2ff926b20a50fa955d4e855878f11",
+                "edidIdentifier": "NVD 0 0 0 0 0",
+                "edrPolicy": "always",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 480,
+                    "refreshRate": 59940,
+                    "width": 640
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "uuid": "be07bd38-ecb4-4021-b075-df7e6b4db1ee",
+                "vrrPolicy": "Never",
+                "wideColorGamut": false
             }
         ],
         "name": "outputs"
@@ -240,6 +269,31 @@
                             "y": 0
                         },
                         "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 2,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 4,
+                        "position": {
+                            "x": 2328,
+                            "y": 0
+                        },
+                        "priority": 1,
                         "replicationSource": ""
                     }
                 ]
