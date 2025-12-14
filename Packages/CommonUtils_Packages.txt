@@ -96,3 +96,5 @@ libvirt
 virt-install
 vlc
 wine
+kdeconnect
+sshfs
