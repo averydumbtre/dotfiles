@@ -22,7 +22,7 @@ DialogHeight=540
 DialogWidth=810
 
 [Containments][157][General]
-positions={"1920x1080":["4","24","desktop:/Freecad.AppImage","2","1","desktop:/Darktable.AppImage","3","2"],"2327x1309":[]}
+positions={"1920x1080":["4","24","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -376,13 +376,17 @@ PreloadWeight=0
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
+[Containments][401][Applets][402][Applets][568]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][401][Applets][402][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][401][Applets][402][General]
-extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller
-knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness
+extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller,org.kde.kdeconnect
+knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.kdeconnect
 
 [Containments][401][Applets][423]
 immutability=1
@@ -520,13 +524,17 @@ PreloadWeight=0
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
+[Containments][485][Applets][486][Applets][569]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][485][Applets][486][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][485][Applets][486][General]
-extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller
-knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness
+extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller,org.kde.kdeconnect
+knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.kdeconnect
 
 [Containments][485][Applets][507]
 immutability=1
@@ -853,13 +861,17 @@ PreloadWeight=26
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
+[Containments][523][Applets][524][Applets][570]
+immutability=1
+plugin=org.kde.kdeconnect
+
 [Containments][523][Applets][524][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][523][Applets][524][General]
-extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller
-knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness
+extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.mediacontroller,org.kde.plasma.mediacontroller,org.kde.kdeconnect
+knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.kdeconnect
 
 [Containments][523][Applets][545]
 immutability=1
