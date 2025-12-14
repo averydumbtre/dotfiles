@@ -251,6 +251,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][340][Applets][573][Configuration]
+PreloadWeight=90
 popupHeight=400
 popupWidth=560
 
