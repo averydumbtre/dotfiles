@@ -230,24 +230,24 @@ middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
 
-[Containments][340][Applets][563]
+[Containments][340][Applets][567]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][340][Applets][563][Configuration]
+[Containments][340][Applets][567][Configuration]
 PreloadWeight=100
 popupHeight=431
 popupWidth=298
 
-[Containments][340][Applets][563][Configuration][ConfigDialog]
+[Containments][340][Applets][567][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][340][Applets][563][Configuration][General]
+[Containments][340][Applets][567][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][340][General]
-AppletOrder=563;354;351;350;349;348;347;353;352;345;343;346;344;342
+AppletOrder=567;354;351;350;349;348;347;353;352;345;343;346;344;342
 
 [Containments][401]
 activityId=
@@ -1072,20 +1072,20 @@ use24hFormat=2
 DialogHeight=540
 DialogWidth=720
 
-[Containments][9][Applets][565]
+[Containments][9][Applets][569]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][9][Applets][565][Configuration]
+[Containments][9][Applets][569][Configuration]
 popupHeight=400
 popupWidth=560
 
-[Containments][9][Applets][565][Configuration][General]
+[Containments][9][Applets][569][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][9][General]
-AppletOrder=565;240;149;148;147;146;145;199;156;142;30;143;43;14
+AppletOrder=569;240;149;148;147;146;145;199;156;142;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
