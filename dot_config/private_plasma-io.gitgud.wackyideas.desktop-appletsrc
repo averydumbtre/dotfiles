@@ -22,7 +22,7 @@ DialogHeight=540
 DialogWidth=810
 
 [Containments][157][General]
-positions={"1920x1080":["4","24","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":[]}
+positions={"1920x1080":["4","24","desktop:/Freecad.AppImage","2","1","desktop:/Darktable.AppImage","3","2"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -251,7 +251,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][340][Applets][573][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
@@ -569,22 +569,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][508][Applets][509]
-immutability=1
-plugin=io.gitgud.wackyideas.SevenStart
-
-[Containments][508][Applets][509][Configuration]
-PreloadWeight=100
-popupHeight=529
-popupWidth=708
-
-[Containments][508][Applets][509][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][508][Applets][509][Configuration][General]
-favoritesPortedToKAstats=true
-
 [Containments][508][Applets][510]
 immutability=1
 plugin=io.gitgud.wackyideas.win7showdesktop
@@ -746,8 +730,32 @@ middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
 
+[Containments][508][Applets][577]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][508][Applets][577][Configuration]
+popupHeight=400
+popupWidth=560
+
+[Containments][508][Applets][579]
+immutability=1
+plugin=io.gitgud.wackyideas.SevenStart
+
+[Containments][508][Applets][579][Configuration]
+PreloadWeight=100
+popupHeight=529
+popupWidth=708
+
+[Containments][508][Applets][579][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][508][Applets][579][Configuration][General]
+favoritesPortedToKAstats=true
+
 [Containments][508][General]
-AppletOrder=509;522;519;518;517;516;515;521;520;513;511;514;512;510
+AppletOrder=579;522;519;518;517;516;515;521;520;513;577;511;514;512;510
 
 [Containments][523]
 activityId=
@@ -839,21 +847,21 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][523][Applets][524][Applets][539][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][523][Applets][524][Applets][540]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][523][Applets][524][Applets][540][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][523][Applets][524][Applets][541]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][523][Applets][524][Applets][541][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][523][Applets][524][Applets][542]
 immutability=1
@@ -867,7 +875,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][523][Applets][524][Applets][543][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][523][Applets][524][Applets][544]
 immutability=1
@@ -1119,5 +1127,5 @@ popupWidth=560
 AppletOrder=575;240;149;148;147;146;145;199;156;142;576;30;143;43;14
 
 [ScreenMapping]
-itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,2,6d66ba13-baae-4ebd-973e-324a2d00c622
