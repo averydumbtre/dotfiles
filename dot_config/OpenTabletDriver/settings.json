@@ -1,5 +1,5 @@
 {
-  "Revision": "0.6.6.2",
+  "Revision": "0.6.6.2-r247.gada667ba",
   "Profiles": [
     {
       "Tablet": "Huion H951P",
@@ -183,8 +183,13 @@
           }
         ],
         "MouseButtons": [],
+        "WheelButtons": [],
         "MouseScrollUp": null,
         "MouseScrollDown": null,
+        "ClockwiseRotation": null,
+        "ClockwiseActivationThreshold": 15.0,
+        "CounterClockwiseRotation": null,
+        "CounterClockwiseActivationThreshold": 15.0,
         "DisablePressure": false,
         "DisableTilt": false
       }
@@ -192,7 +197,7 @@
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Path": "OTD.EnhancedOutputMode.Output.EnhancedLinuxArtistMode",
         "Settings": [],
         "Enable": true
       },
@@ -250,6 +255,36 @@
             {
               "Property": "OuterRadius",
               "Value": 0.5
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "OTD.EnhancedOutputMode.Lib.Tools.TouchSettings",
+          "Settings": [
+            {
+              "Property": "IsTouchToggled",
+              "Value": true
+            },
+            {
+              "Property": "DisableWhenPenInRange",
+              "Value": false
+            },
+            {
+              "Property": "PenResetTime",
+              "Value": 100
+            },
+            {
+              "Property": "MatchPenSensibilityInRelativeMode",
+              "Value": false
+            },
+            {
+              "Property": "MaxX",
+              "Value": 4095
+            },
+            {
+              "Property": "MaxY",
+              "Value": 4095
             }
           ],
           "Enable": false
@@ -399,8 +434,31 @@
           null
         ],
         "MouseButtons": [],
+        "WheelButtons": [],
         "MouseScrollUp": null,
         "MouseScrollDown": null,
+        "ClockwiseRotation": {
+          "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+          "Settings": [
+            {
+              "Property": "Key",
+              "Value": "VolumeUp"
+            }
+          ],
+          "Enable": true
+        },
+        "ClockwiseActivationThreshold": 4.0,
+        "CounterClockwiseRotation": {
+          "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+          "Settings": [
+            {
+              "Property": "Key",
+              "Value": "VolumeDown"
+            }
+          ],
+          "Enable": true
+        },
+        "CounterClockwiseActivationThreshold": 4.0,
         "DisablePressure": false,
         "DisableTilt": false
       }
