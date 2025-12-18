@@ -1,10 +1,17 @@
+[ButtonRebinds][TabletTool][OpenTabletDriver Virtual Artist Tablet]
+329=MouseButton,274
+
 [Keyboard]
 RepeatDelay=400
 RepeatRate=45
 
+[Libinput][0][0][OpenTabletDriver Virtual Artist Tablet]
+TabletToolRelativeMode=false
+
 [Libinput][1133][16500][Logitech G305]
 PointerAcceleration=-0.400
 PointerAccelerationProfile=1
+ScrollMethod=4
 
 [Libinput][1739][32183][SYNA7DB5:00 06CB:7DB7 Mouse]
 PointerAcceleration=0.000
@@ -12,6 +19,9 @@ PointerAccelerationProfile=1
 
 [Libinput][1739][32183][SYNA7DB5:00 06CB:7DB7 Touchpad]
 NaturalScroll=true
+
+[Libinput][7847][2311][SEMITEK USB-HID Gaming Keyboard]
+ScrollMethod=4
 
 [Mouse]
 cursorSize=48

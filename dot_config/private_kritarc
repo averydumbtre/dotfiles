@@ -44,8 +44,8 @@ Krita/Ocio/OcioConfigPath=
 Krita/Ocio/OcioLockColorVisualRepresentation=false
 Krita/Ocio/OcioLutPath=
 Krita/Ocio/UseOcio=false
-LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" b="0" r="0" g="0"/>\n</LastBackGroundColor>\n
-LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB space="sRGB-elle-V2-srgbtrc.icc" b="0.862745106220245" r="0.878431379795074" g="0.862745106220245"/>\n</LastForeGroundColor>\n
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="0" g="0" space="sRGB-elle-V2-srgbtrc.icc" r="0"/>\n</LastBackGroundColor>\n
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0.862745106220245" g="0.862745106220245" space="sRGB-elle-V2-srgbtrc.icc" r="0.878431379795074"/>\n</LastForeGroundColor>\n
 LastPreset=a) Eraser Circle
 LastPreset_-1=a) Eraser Circle
 LineSmoothingDelayDistance=50

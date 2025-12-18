@@ -154,6 +154,30 @@ ordering=
 [Favorites-org.kde.plasma.kicker.favorites.instance-583-global]
 ordering=
 
+[Favorites-org.kde.plasma.kicker.favorites.instance-585-6d66ba13-baae-4ebd-973e-324a2d00c622]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-585-global]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-587-6d66ba13-baae-4ebd-973e-324a2d00c622]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-587-global]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-589-6d66ba13-baae-4ebd-973e-324a2d00c622]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-589-global]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-591-6d66ba13-baae-4ebd-973e-324a2d00c622]
+ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-591-global]
+ordering=
+
 [Favorites-org.kde.plasma.kickoff.favorites.instance-24-6d66ba13-baae-4ebd-973e-324a2d00c622]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,org.kde.discover.desktop
 
