@@ -239,24 +239,24 @@ PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
-[Containments][340][Applets][611]
+[Containments][340][Applets][615]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][340][Applets][611][Configuration]
+[Containments][340][Applets][615][Configuration]
 PreloadWeight=100
 popupHeight=426
 popupWidth=294
 
-[Containments][340][Applets][611][Configuration][ConfigDialog]
+[Containments][340][Applets][615][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][340][Applets][611][Configuration][General]
+[Containments][340][Applets][615][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][340][General]
-AppletOrder=611;354;351;350;349;348;347;353;352;345;573;343;346;344;342
+AppletOrder=615;354;351;350;349;348;347;353;352;345;573;343;346;344;342
 
 [Containments][401]
 activityId=
@@ -1112,24 +1112,24 @@ plugin=org.kde.kdeconnect
 popupHeight=400
 popupWidth=560
 
-[Containments][9][Applets][613]
+[Containments][9][Applets][617]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][9][Applets][613][Configuration]
+[Containments][9][Applets][617][Configuration]
 popupHeight=390
 popupWidth=552
 
-[Containments][9][Applets][613][Configuration][ConfigDialog]
+[Containments][9][Applets][617][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][9][Applets][613][Configuration][General]
+[Containments][9][Applets][617][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][9][General]
-AppletOrder=613;240;149;148;147;146;145;199;156;142;576;30;143;43;14
+AppletOrder=617;240;149;148;147;146;145;199;156;142;576;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
