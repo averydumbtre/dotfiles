@@ -381,26 +381,8 @@
             ],
             "Enable": true
           },
-          {
-            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
-            "Settings": [
-              {
-                "Property": "Keys",
-                "Value": "Control+Plus"
-              }
-            ],
-            "Enable": true
-          },
-          {
-            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
-            "Settings": [
-              {
-                "Property": "Keys",
-                "Value": "Control+Minus"
-              }
-            ],
-            "Enable": true
-          },
+          null,
+          null,
           {
             "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
             "Settings": [
@@ -438,22 +420,22 @@
         "MouseScrollUp": null,
         "MouseScrollDown": null,
         "ClockwiseRotation": {
-          "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
           "Settings": [
             {
-              "Property": "Key",
-              "Value": "VolumeUp"
+              "Property": "Keys",
+              "Value": "Control+Add"
             }
           ],
           "Enable": true
         },
         "ClockwiseActivationThreshold": 4.0,
         "CounterClockwiseRotation": {
-          "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
           "Settings": [
             {
-              "Property": "Key",
-              "Value": "VolumeDown"
+              "Property": "Keys",
+              "Value": "Control+Minus"
             }
           ],
           "Enable": true

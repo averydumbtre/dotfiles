@@ -11,7 +11,7 @@ TabletToolRelativeMode=false
 [Libinput][1133][16500][Logitech G305]
 PointerAcceleration=-0.400
 PointerAccelerationProfile=1
-ScrollMethod=4
+ScrollMethod=0
 
 [Libinput][1739][32183][SYNA7DB5:00 06CB:7DB7 Mouse]
 PointerAcceleration=0.000
@@ -21,7 +21,7 @@ PointerAccelerationProfile=1
 NaturalScroll=true
 
 [Libinput][7847][2311][SEMITEK USB-HID Gaming Keyboard]
-ScrollMethod=4
+ScrollMethod=0
 
 [Mouse]
 cursorSize=48
