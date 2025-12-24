@@ -1135,4 +1135,4 @@ AppletOrder=633;240;149;148;147;146;145;199;156;142;576;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
