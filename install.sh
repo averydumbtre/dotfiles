@@ -303,6 +303,7 @@ sudo -i rm /etc/ly/config.ini
 sudo -i cp ~/.local/share/chezmoi/ly/config.ini /etc/ly/config.ini
 sudo -i systemctl enable ly.service
 sudo -i systemctl enable cronie --now
+sudo systemctl enable --now lactd
 cd
 sudo -i crontab -u $username -e
 echo -e '@reboot  sleep 15 && env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) systemd-run --user --quiet --collect ~/Documents/skripts/STARTUP.sh' >> mycron
