@@ -242,24 +242,24 @@ PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
-[Containments][340][Applets][635]
+[Containments][340][Applets][639]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][340][Applets][635][Configuration]
+[Containments][340][Applets][639][Configuration]
 PreloadWeight=100
 popupHeight=426
 popupWidth=294
 
-[Containments][340][Applets][635][Configuration][ConfigDialog]
+[Containments][340][Applets][639][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][340][Applets][635][Configuration][General]
+[Containments][340][Applets][639][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][340][General]
-AppletOrder=635;354;351;350;349;348;347;353;352;345;573;343;346;344;342
+AppletOrder=639;354;351;350;349;348;347;353;352;345;573;343;346;344;342
 
 [Containments][401]
 activityId=
@@ -1115,23 +1115,23 @@ plugin=org.kde.kdeconnect
 popupHeight=400
 popupWidth=560
 
-[Containments][9][Applets][633]
+[Containments][9][Applets][637]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][9][Applets][633][Configuration]
+[Containments][9][Applets][637][Configuration]
 popupHeight=390
 popupWidth=552
 
-[Containments][9][Applets][633][Configuration][ConfigDialog]
+[Containments][9][Applets][637][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][9][Applets][633][Configuration][General]
+[Containments][9][Applets][637][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][9][General]
-AppletOrder=633;240;149;148;147;146;145;199;156;142;576;30;143;43;14
+AppletOrder=637;240;149;148;147;146;145;199;156;142;576;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
