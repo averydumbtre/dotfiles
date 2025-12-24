@@ -98,3 +98,4 @@ vlc
 wine
 kdeconnect
 sshfs
+lact
