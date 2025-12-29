@@ -9,12 +9,12 @@ Rows=1
 [Effect-aeroglassblur]
 AccentColorGroup=7
 AccentColorName=0
-AeroBrightness=100
-AeroHue=36
-AeroIntensity=35
-AeroSaturation=100
+AeroBrightness=98
+AeroHue=210
+AeroIntensity=175
+AeroSaturation=53
 BasicColorization=true
-CustomColor=#23ff9900
+CustomColor=#af75b7f9
 
 [Effect-blur]
 BlurStrength=5

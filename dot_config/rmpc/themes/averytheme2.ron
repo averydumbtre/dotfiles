@@ -12,17 +12,17 @@
     header_background_color: None,
     modal_background_color: None,
     modal_backdrop: false,
-    preview_label_style: (fg: "yellow"),
-    preview_metadata_group_style: (fg: "yellow", modifiers: "Bold"),
+    preview_label_style: (fg: "white"),
+    preview_metadata_group_style: (fg: "white", modifiers: "Bold"),
     tab_bar: (
         enabled: true,
-        active_style: (fg: "black", bg: "#dbbf4e", modifiers: "Bold"),
+        active_style: (fg: "black", bg: "#23efde", modifiers: "Bold"),
         inactive_style: (),
     ),
-    highlighted_item_style: (fg: "#dbbf4e", modifiers: "Bold"),
-    current_item_style: (fg: "black", bg: "#dbbf4e", modifiers: "Bold"),
-    borders_style: (fg: "#dbbf4e"),
-    highlight_border_style: (fg: "#dbbf4e"),
+    highlighted_item_style: (fg: "#23efde", modifiers: "Bold"),
+    current_item_style: (fg: "black", bg: "#23efde", modifiers: "Bold"),
+    borders_style: (fg: "#23efde"),
+    highlight_border_style: (fg: "#23efde"),
     symbols: (
         song: "󰝚 ",
         dir: " ",
@@ -41,23 +41,23 @@
     bar_color: Single("white"),
     ),
     level_styles: (
-        info: (fg: "#dbbf4e", bg: "black"),
-        warn: (fg: "yellow", bg: "black"),
+        info: (fg: "#23efde", bg: "black"),
+        warn: (fg: "white", bg: "black"),
         error: (fg: "red", bg: "black"),
         debug: (fg: "light_green", bg: "black"),
         trace: (fg: "magenta", bg: "black"),
     ),
     progress_bar: (
         symbols: ["", "█", "█", " ", ""],
-        track_style: (fg: "#1e2030"),
-        elapsed_style: (fg: "#dbbf4e"),
-        thumb_style: (fg: "#dbbf4e", bg: "#1e2030"),
+        track_style: (fg: "#23efde"),
+        elapsed_style: (fg: "#23efde"),
+        thumb_style: (fg: "#23efde", bg: "#23efde"),
     ),
     scrollbar: (
         symbols: ["│", "█", "▲", "▼"],
         track_style: (),
         ends_style: (),
-        thumb_style: (fg: "#dbbf4e"),
+        thumb_style: (fg: "#23efde"),
     ),
     song_table_format: [
         (
@@ -115,9 +115,9 @@
         rows: [
             (
                 left: [
-                    (kind: Text("["), style: (fg: "yellow", modifiers: "Bold")),
-                    (kind: Property(Status(StateV2(playing_label: "Playing", paused_label: "Paused", stopped_label: "Stopped"))), style: (fg: "yellow", modifiers: "Bold")),
-                    (kind: Text("]"), style: (fg: "yellow", modifiers: "Bold"))
+                    (kind: Text("["), style: (fg: "white", modifiers: "Bold")),
+                    (kind: Property(Status(StateV2(playing_label: "Playing", paused_label: "Paused", stopped_label: "Stopped"))), style: (fg: "white", modifiers: "Bold")),
+                    (kind: Text("]"), style: (fg: "white", modifiers: "Bold"))
                 ],
                 center: [
                     (kind: Property(Song(Title)), style: (modifiers: "Bold"),
@@ -125,8 +125,8 @@
                     )
                 ],
                 right: [
-                    (kind: Property(Widget(ScanStatus)), style: (fg: "#dbbf4e")),
-                    (kind: Property(Widget(Volume)), style: (fg: "#dbbf4e"))
+                    (kind: Property(Widget(ScanStatus)), style: (fg: "#23efde")),
+                    (kind: Property(Widget(Volume)), style: (fg: "#23efde"))
                 ]
             ),
             (
@@ -139,8 +139,8 @@
                     (kind: Text(" kbps)"))
                 ],
                 center: [
-                    (kind: Property(Song(Artist)), style: (fg: "yellow", modifiers: "Bold"),
-                        default: (kind: Text("Unknown"), style: (fg: "yellow", modifiers: "Bold"))
+                    (kind: Property(Song(Artist)), style: (fg: "white", modifiers: "Bold"),
+                        default: (kind: Text("Unknown"), style: (fg: "white", modifiers: "Bold"))
                     ),
                     (kind: Text(" - ")),
                     (kind: Property(Song(Album)),

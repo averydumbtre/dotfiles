@@ -26,7 +26,7 @@ positions={"1920x1080":["4","24","desktop:/Freecad.AppImage","2","1","desktop:/D
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
-Image=file:///home/avery/Documents/2025-11-27-FUJIFILM-X-S10-463.png
+Image=file:///home/avery/Pictures/pictures/2025-12-28-FUJIFILM-X-S10-493.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][175]
@@ -48,12 +48,16 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=io.gitgud.wackyideas.win7showdesktop
 
+[Containments][175][ConfigDialog]
+DialogHeight=540
+DialogWidth=810
+
 [Containments][175][General]
 positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30","desktop:/Link to Application.desktop","0","1"]}
 sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
-Image=file:///home/avery/Documents/2025-11-27-FUJIFILM-X-S10-463.png
+Image=file:///home/avery/Pictures/pictures/2025-12-28-FUJIFILM-X-S10-493.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][340]
@@ -132,7 +136,7 @@ plugin=org.kde.plasma.systemmonitor
 CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=60
 popupHeight=187
-popupWidth=98
+popupWidth=156
 
 [Containments][340][Applets][348][Configuration][Appearance]
 chartFace=org.kde.ksysguard.textonly
@@ -242,24 +246,24 @@ PreloadWeight=100
 popupHeight=400
 popupWidth=560
 
-[Containments][340][Applets][639]
+[Containments][340][Applets][649]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][340][Applets][639][Configuration]
+[Containments][340][Applets][649][Configuration]
 PreloadWeight=100
 popupHeight=426
 popupWidth=294
 
-[Containments][340][Applets][639][Configuration][ConfigDialog]
+[Containments][340][Applets][649][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][340][Applets][639][Configuration][General]
+[Containments][340][Applets][649][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][340][General]
-AppletOrder=639;354;351;350;349;348;347;353;352;345;573;343;346;344;342
+AppletOrder=649;354;351;350;349;348;347;353;352;345;573;343;346;344;342
 
 [Containments][401]
 activityId=
@@ -408,7 +412,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][401][Applets][423][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 popupHeight=355
 popupWidth=356
 
@@ -1112,28 +1116,28 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][9][Applets][576][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 popupHeight=400
 popupWidth=560
 
-[Containments][9][Applets][637]
+[Containments][9][Applets][651]
 immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
-[Containments][9][Applets][637][Configuration]
+[Containments][9][Applets][651][Configuration]
 popupHeight=390
 popupWidth=552
 
-[Containments][9][Applets][637][Configuration][ConfigDialog]
+[Containments][9][Applets][651][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][9][Applets][637][Configuration][General]
+[Containments][9][Applets][651][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][9][General]
-AppletOrder=637;240;149;148;147;146;145;199;156;142;576;30;143;43;14
+AppletOrder=651;240;149;148;147;146;145;199;156;142;576;30;143;43;14
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
