@@ -301,7 +301,7 @@ read -p "whats your username? (avery) " username
 sudo -i echo "bleh"
 sudo -i rm /etc/ly/config.ini
 sudo -i cp ~/.local/share/chezmoi/ly/config.ini /etc/ly/config.ini
-sudo -i systemctl enable ly.service
+sudo -i systemctl enable ly@tty1.service
 sudo -i systemctl enable cronie --now
 sudo systemctl enable --now lactd
 cd
