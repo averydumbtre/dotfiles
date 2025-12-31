@@ -69,6 +69,10 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=io.gitgud.wackyideas.win7showdesktop
 
+[Containments][340][Applets][342][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][340][Applets][354]
 immutability=1
 plugin=io.gitgud.wackyideas.seventasks
@@ -158,17 +162,29 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][340][Applets][653][Applets][659][Configuration]
+PreloadWeight=55
+
 [Containments][340][Applets][653][Applets][660]
 immutability=1
 plugin=org.kde.kdeconnect
+
+[Containments][340][Applets][653][Applets][660][Configuration]
+PreloadWeight=55
 
 [Containments][340][Applets][653][Applets][661]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][340][Applets][653][Applets][661][Configuration]
+PreloadWeight=55
+
 [Containments][340][Applets][653][Applets][662]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][340][Applets][653][Applets][662][Configuration]
+PreloadWeight=55
 
 [Containments][340][Applets][653][Applets][663]
 immutability=1
@@ -177,6 +193,13 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][340][Applets][653][Applets][664]
 immutability=1
 plugin=org.kde.plasma.weather
+
+[Containments][340][Applets][653][Applets][664][Configuration]
+PreloadWeight=55
+
+[Containments][340][Applets][653][Applets][664][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][340][Applets][653][Applets][665]
 immutability=1
@@ -213,25 +236,28 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][340][Applets][653][Applets][671][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][340][Applets][653][Applets][672]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][340][Applets][653][Applets][672][Configuration]
-PreloadWeight=55
+PreloadWeight=70
 
 [Containments][340][Applets][653][Applets][673]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][340][Applets][653][Applets][673][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][340][Applets][653][Applets][674]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][340][Applets][653][Applets][674][Configuration]
+PreloadWeight=42
 
 [Containments][340][Applets][653][ConfigDialog]
 DialogHeight=574
@@ -415,6 +441,9 @@ PreloadWeight=60
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][675][Applets][680][Applets][701][Configuration]
+PreloadWeight=42
+
 [Containments][675][Applets][680][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -553,6 +582,9 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][702][Applets][707][Applets][720][Configuration]
+PreloadWeight=55
+
 [Containments][702][Applets][707][Applets][721]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -633,5 +665,5 @@ Image=file:///home/avery/Documents/2025-11-27-FUJIFILM-X-S10-463.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
+screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
