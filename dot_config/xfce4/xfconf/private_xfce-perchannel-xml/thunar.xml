@@ -19,8 +19,13 @@
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
   <property name="misc-expandable-folders" type="bool" value="true"/>
   <property name="last-renamer-dialog-maximized" type="bool" value="false"/>
+<<<<<<< HEAD
   <property name="last-window-width" type="int" value="944"/>
   <property name="last-window-height" type="int" value="1002"/>
+=======
+  <property name="last-window-width" type="int" value="1148"/>
+  <property name="last-window-height" type="int" value="1231"/>
+>>>>>>> 12b07f8 (automated commit)
   <property name="last-side-pane" type="string" value="THUNAR_SIDEPANE_TYPE_SHORTCUTS"/>
   <property name="last-splitview-separator-position" type="int" value="-1"/>
   <property name="last-renamer-dialog-width" type="int" value="979"/>
