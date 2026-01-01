@@ -27,6 +27,10 @@ MoveResize=71
 CommandAll2=Minimize
 CommandAllWheel=Change Opacity
 
+[NightColor]
+Active=true
+NightTemperature=5700
+
 [Plugins]
 aeroglassblurEnabled=true
 aeroglideEnabled=true

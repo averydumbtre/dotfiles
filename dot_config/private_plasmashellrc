@@ -212,6 +212,12 @@ panelVisibility=0
 [PlasmaViews][Panel 702][Defaults]
 thickness=40
 
+[PlasmaViews][Panel 729]
+floating=0
+
+[PlasmaViews][Panel 729][Defaults]
+thickness=40
+
 [PlasmaViews][Panel 9]
 alignment=1
 floating=0

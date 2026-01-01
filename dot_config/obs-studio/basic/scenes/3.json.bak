@@ -15,7 +15,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 41,
+                "id_counter": 42,
                 "custom_size": false,
                 "items": [
                     {
@@ -351,7 +351,7 @@
                     {
                         "name": "Game Capture",
                         "source_uuid": "7054e5a0-d64a-4124-9f76-47fdef4c1f49",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -459,6 +459,61 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "Screen Capture (PipeWire) 2",
+                        "source_uuid": "6741d619-339e-4c4a-bfa3-c3d339e26045",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 42,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "Screen Capture (PipeWire)",
                         "source_uuid": "ab10a11d-5afe-476b-abe5-0e3f510f62d3",
                         "visible": true,
@@ -469,7 +524,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 2,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -495,12 +550,12 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 3.555555582046509,
+                            "y": 2.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -545,7 +600,9 @@
                 "libobs.show_scene_item.40": [],
                 "libobs.hide_scene_item.40": [],
                 "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": []
+                "libobs.hide_scene_item.41": [],
+                "libobs.show_scene_item.42": [],
+                "libobs.hide_scene_item.42": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -837,7 +894,65 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "ece0642f-8288-4b3d-b6a4-d4f3bae344e0"
+                "RestoreToken": "11993fe3-3ccc-4291-b7a7-6dbd10c5d1f2"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 536870914,
+                    "name": "Crop/Pad",
+                    "uuid": "0aea1186-968e-4c61-b88f-bb67bbf92032",
+                    "id": "crop_filter",
+                    "versioned_id": "crop_filter",
+                    "settings": {
+                        "left": 600,
+                        "relative": true,
+                        "right": 500,
+                        "top": 400,
+                        "bottom": 400
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 536870914,
+            "name": "Screen Capture (PipeWire) 2",
+            "uuid": "6741d619-339e-4c4a-bfa3-c3d339e26045",
+            "id": "pipewire-screen-capture-source",
+            "versioned_id": "pipewire-screen-capture-source",
+            "settings": {
+                "RestoreToken": "3b765a15-8d75-40b5-abb6-3168a012a84b"
             },
             "mixers": 0,
             "sync": 0,
@@ -888,7 +1003,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": 0,
+    "scaling_level": -2,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {

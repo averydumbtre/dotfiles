@@ -136,6 +136,13 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=io.gitgud.wackyideas.volume
 
+[Containments][340][Applets][653][Applets][654][Configuration]
+PreloadWeight=60
+
+[Containments][340][Applets][653][Applets][654][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][340][Applets][653][Applets][654][Configuration][General]
 migrated=true
 
@@ -177,7 +184,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][340][Applets][653][Applets][661][Configuration]
-PreloadWeight=55
+PreloadWeight=95
 
 [Containments][340][Applets][653][Applets][662]
 immutability=1
@@ -210,7 +217,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][340][Applets][653][Applets][666][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][340][Applets][653][Applets][667]
 immutability=1
@@ -227,6 +234,9 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][340][Applets][653][Applets][669][Configuration]
+PreloadWeight=34
+
 [Containments][340][Applets][653][Applets][670]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
@@ -236,28 +246,28 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][340][Applets][653][Applets][671][Configuration]
-PreloadWeight=60
+PreloadWeight=54
 
 [Containments][340][Applets][653][Applets][672]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][340][Applets][653][Applets][672][Configuration]
-PreloadWeight=70
+PreloadWeight=84
 
 [Containments][340][Applets][653][Applets][673]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][340][Applets][653][Applets][673][Configuration]
-PreloadWeight=70
+PreloadWeight=69
 
 [Containments][340][Applets][653][Applets][674]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][340][Applets][653][Applets][674][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][340][Applets][653][ConfigDialog]
 DialogHeight=574
@@ -377,6 +387,9 @@ plugin=org.kde.kdeconnect
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][675][Applets][680][Applets][688][Configuration]
+PreloadWeight=80
+
 [Containments][675][Applets][680][Applets][689]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -412,6 +425,9 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][675][Applets][680][Applets][696][Configuration]
+PreloadWeight=34
+
 [Containments][675][Applets][680][Applets][697]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
@@ -421,28 +437,28 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][675][Applets][680][Applets][698][Configuration]
-PreloadWeight=55
+PreloadWeight=39
 
 [Containments][675][Applets][680][Applets][699]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][675][Applets][680][Applets][699][Configuration]
-PreloadWeight=55
+PreloadWeight=39
 
 [Containments][675][Applets][680][Applets][700]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][675][Applets][680][Applets][700][Configuration]
-PreloadWeight=60
+PreloadWeight=44
 
 [Containments][675][Applets][680][Applets][701]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][675][Applets][680][Applets][701][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][675][Applets][680][ConfigDialog]
 DialogHeight=540
@@ -666,4 +682,4 @@ SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
