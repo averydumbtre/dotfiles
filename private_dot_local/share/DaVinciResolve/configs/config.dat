@@ -11,7 +11,7 @@ Site.1.Svc.5 = LsManager.1
 Site.1.Svc.6 = LsManager.2
 Site.1.Svc.7 = LsManager.3
 
-Site.1.FS.Count = 4
+Site.1.FS.Count = 5
 
 Site.1.FS.1.Type = IOFileSys
 Site.1.FS.1.Root = /home/avery
@@ -32,10 +32,16 @@ Site.1.FS.3.DIO = 0
 Site.1.FS.3.BrightClip = 0
 
 Site.1.FS.4.Type = IOFileSys
-Site.1.FS.4.Root = ResolveVirtual
+Site.1.FS.4.Root = /run/media/avery
 Site.1.FS.4.MappedRoot = 
 Site.1.FS.4.DIO = 0
 Site.1.FS.4.BrightClip = 0
+
+Site.1.FS.5.Type = IOFileSys
+Site.1.FS.5.Root = ResolveVirtual
+Site.1.FS.5.MappedRoot = 
+Site.1.FS.5.DIO = 0
+Site.1.FS.5.BrightClip = 0
 
 Site.1.CmdRT.Count = 1
 Site.1.CmdRT.1.Type = Mem

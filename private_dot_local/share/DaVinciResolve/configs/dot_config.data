@@ -1,4 +1,4 @@
-IoFsNum = 3
+IoFsNum = 4
 IoFsMount_1 = /home/avery
 IoFsMappedMount_1 = 
 IoFsDirectIO_1 = 0
@@ -8,6 +8,9 @@ IoFsDirectIO_2 = 0
 IoFsMount_3 = /mnt/9c1b5651-fb99-4525-9716-4137b631551a/CLIPS
 IoFsMappedMount_3 = 
 IoFsDirectIO_3 = 0
+IoFsMount_4 = /run/media/avery
+IoFsMappedMount_4 = 
+IoFsDirectIO_4 = 0
 CustomLutNum = 0
 Panels = none
 JLCooperConfig = 192.168.254.101:23

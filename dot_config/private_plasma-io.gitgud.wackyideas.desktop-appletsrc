@@ -177,21 +177,21 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][340][Applets][653][Applets][660][Configuration]
-PreloadWeight=55
+PreloadWeight=75
 
 [Containments][340][Applets][653][Applets][661]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][340][Applets][653][Applets][661][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][340][Applets][653][Applets][662]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][340][Applets][653][Applets][662][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][340][Applets][653][Applets][663]
 immutability=1
@@ -217,7 +217,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][340][Applets][653][Applets][666][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][340][Applets][653][Applets][667]
 immutability=1
@@ -241,26 +241,29 @@ PreloadWeight=34
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
+[Containments][340][Applets][653][Applets][670][Configuration]
+PreloadWeight=55
+
 [Containments][340][Applets][653][Applets][671]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][340][Applets][653][Applets][671][Configuration]
-PreloadWeight=54
+PreloadWeight=59
 
 [Containments][340][Applets][653][Applets][672]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][340][Applets][653][Applets][672][Configuration]
-PreloadWeight=84
+PreloadWeight=89
 
 [Containments][340][Applets][653][Applets][673]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][340][Applets][653][Applets][673][Configuration]
-PreloadWeight=69
+PreloadWeight=89
 
 [Containments][340][Applets][653][Applets][674]
 immutability=1
@@ -388,7 +391,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][675][Applets][680][Applets][688][Configuration]
-PreloadWeight=80
+PreloadWeight=90
 
 [Containments][675][Applets][680][Applets][689]
 immutability=1

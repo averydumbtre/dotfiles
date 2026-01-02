@@ -49,7 +49,7 @@
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="MIDI_CONTROLLER_OUTPUT" value="0"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="MIDI_CONTROLLER_ENABLED" value="0"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="AUDIO_BLOCK_SIZE" value="0"/>
-	<SystemParameter module="MT_SYSTEM" index="0" parameter="PERSISTENT_CR_VOL" value="0"/>
+	<SystemParameter module="MT_SYSTEM" index="0" parameter="PERSISTENT_CR_VOL" value="-338"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="PERSISTENT_CR_MUTE" value="0"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="PERSISTENT_CR_DIM" value="0"/>
 	<SystemParameter module="MT_MACHINE" index="0" parameter="LOCATE_METHOD" value="0"/>
