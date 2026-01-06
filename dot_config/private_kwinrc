@@ -29,7 +29,7 @@ CommandAllWheel=Change Opacity
 
 [NightColor]
 Active=true
-NightTemperature=5700
+NightTemperature=5600
 
 [Plugins]
 aeroglassblurEnabled=true
