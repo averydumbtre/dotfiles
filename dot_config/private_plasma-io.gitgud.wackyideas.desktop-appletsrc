@@ -137,7 +137,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.volume
 
 [Containments][340][Applets][653][Applets][654][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][340][Applets][653][Applets][654][Configuration][ConfigDialog]
 DialogHeight=540
@@ -217,11 +217,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][340][Applets][653][Applets][666][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][340][Applets][653][Applets][667]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][340][Applets][653][Applets][667][Configuration]
+PreloadWeight=65
 
 [Containments][340][Applets][653][Applets][667][Configuration][General]
 migrated=true
@@ -358,6 +361,10 @@ wallpaperplugin=org.kde.image
 [Containments][675][Applets][680][Applets][681]
 immutability=1
 plugin=io.gitgud.wackyideas.volume
+
+[Containments][675][Applets][680][Applets][681][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][675][Applets][680][Applets][681][Configuration][General]
 migrated=true

@@ -5,6 +5,11 @@ ctime=1765340173
 done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_option_v2
 mtime=1765281941
 
+[kalarm.upd]
+ctime=1767661529
+done=3.10.0-run_mode
+mtime=1764958176
+
 [kwin.upd]
 ctime=1765930138
 done=remove_deprecated_gtk4_option_v2,kwin-6.0-reset-active-mouse-screen,kwin-6.0-delete-desktop-switching-shortcuts,kwin-6.0-remove-breeze-tabbox-default,kwin-6.1-remove-gridview-expose-shortcuts,kwin-6.5-showpaint-changes
