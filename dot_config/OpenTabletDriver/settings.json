@@ -197,7 +197,7 @@
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
       "OutputMode": {
-        "Path": "OTD.EnhancedOutputMode.Output.EnhancedLinuxArtistMode",
+        "Path": "OTD.EnhancedOutputMode.Output.EnhancedAbsoluteOutputMode",
         "Settings": [],
         "Enable": true
       },
@@ -292,10 +292,10 @@
       ],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 6167.0,
-          "Height": 1309.0,
-          "X": 3083.5,
-          "Y": 654.5,
+          "Width": 1920.0,
+          "Height": 1080.0,
+          "X": 960.0,
+          "Y": 540.0,
           "Rotation": 0.0
         },
         "Tablet": {
@@ -420,22 +420,38 @@
         "MouseScrollUp": null,
         "MouseScrollDown": null,
         "ClockwiseRotation": {
-          "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
           "Settings": [
             {
-              "Property": "Keys",
-              "Value": "Control+Add"
+              "Property": "Direction",
+              "Value": "Vertical"
+            },
+            {
+              "Property": "Interval",
+              "Value": 5
+            },
+            {
+              "Property": "Amount",
+              "Value": -120
             }
           ],
           "Enable": true
         },
         "ClockwiseActivationThreshold": 4.0,
         "CounterClockwiseRotation": {
-          "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
           "Settings": [
             {
-              "Property": "Keys",
-              "Value": "Control+Minus"
+              "Property": "Direction",
+              "Value": "Vertical"
+            },
+            {
+              "Property": "Amount",
+              "Value": 120
+            },
+            {
+              "Property": "Interval",
+              "Value": 5
             }
           ],
           "Enable": true

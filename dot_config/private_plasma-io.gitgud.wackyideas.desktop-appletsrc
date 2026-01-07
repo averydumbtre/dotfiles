@@ -217,7 +217,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][340][Applets][653][Applets][666][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][340][Applets][653][Applets][667]
 immutability=1
@@ -238,35 +238,35 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][340][Applets][653][Applets][669][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][340][Applets][653][Applets][670]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][340][Applets][653][Applets][670][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][340][Applets][653][Applets][671]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][340][Applets][653][Applets][671][Configuration]
-PreloadWeight=61
+PreloadWeight=58
 
 [Containments][340][Applets][653][Applets][672]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][340][Applets][653][Applets][672][Configuration]
-PreloadWeight=91
+PreloadWeight=83
 
 [Containments][340][Applets][653][Applets][673]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][340][Applets][653][Applets][673][Configuration]
-PreloadWeight=81
+PreloadWeight=78
 
 [Containments][340][Applets][653][Applets][674]
 immutability=1
@@ -398,7 +398,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][675][Applets][680][Applets][688][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][675][Applets][680][Applets][689]
 immutability=1
@@ -436,7 +436,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][675][Applets][680][Applets][696][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][675][Applets][680][Applets][697]
 immutability=1
@@ -447,21 +447,21 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][675][Applets][680][Applets][698][Configuration]
-PreloadWeight=31
+PreloadWeight=23
 
 [Containments][675][Applets][680][Applets][699]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][675][Applets][680][Applets][699][Configuration]
-PreloadWeight=31
+PreloadWeight=23
 
 [Containments][675][Applets][680][Applets][700]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][675][Applets][680][Applets][700][Configuration]
-PreloadWeight=36
+PreloadWeight=28
 
 [Containments][675][Applets][680][Applets][701]
 immutability=1
@@ -697,5 +697,5 @@ Image=file:///home/avery/Pictures/pictures/2025-12-28-FUJIFILM-X-S10-493.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
-itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,2,6d66ba13-baae-4ebd-973e-324a2d00c622
