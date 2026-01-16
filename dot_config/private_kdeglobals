@@ -140,7 +140,6 @@ View Style=DetailTree
 
 [KScreen]
 ScreenScaleFactors=DP-1=1;DP-2=1;
-XwaylandClientsScale=false
 
 [Shortcuts]
 ShowHideHiddenFiles=

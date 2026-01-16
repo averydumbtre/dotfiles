@@ -599,10 +599,10 @@
                 "libobs.hide_scene_item.16": [],
                 "libobs.show_scene_item.40": [],
                 "libobs.hide_scene_item.40": [],
-                "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": [],
                 "libobs.show_scene_item.42": [],
-                "libobs.hide_scene_item.42": []
+                "libobs.hide_scene_item.42": [],
+                "libobs.show_scene_item.41": [],
+                "libobs.hide_scene_item.41": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -648,7 +648,7 @@
             "id": "pulse_input_capture",
             "versioned_id": "pulse_input_capture",
             "settings": {
-                "device_id": "easyeffects_source"
+                "device_id": "NoiseTorch Microphone for Easy Effects Source"
             },
             "mixers": 208,
             "sync": 0,
@@ -921,10 +921,10 @@
                     "versioned_id": "crop_filter",
                     "settings": {
                         "left": 600,
-                        "relative": true,
                         "right": 500,
                         "top": 400,
-                        "bottom": 400
+                        "bottom": 400,
+                        "relative": true
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -1003,7 +1003,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -2,
+    "scaling_level": -17,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {

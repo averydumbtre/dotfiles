@@ -648,12 +648,12 @@
             "id": "pulse_input_capture",
             "versioned_id": "pulse_input_capture",
             "settings": {
-                "device_id": "easyeffects_source"
+                "device_id": "NoiseTorch Microphone for Easy Effects Source"
             },
             "mixers": 208,
             "sync": 0,
             "flags": 2,
-            "volume": 0.6690263748168945,
+            "volume": 0.015337103046476841,
             "balance": 0.5,
             "enabled": true,
             "muted": true,
@@ -1003,7 +1003,7 @@
     "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -46,
+    "scaling_level": -17,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {

@@ -53,13 +53,13 @@ video/x-ogm+ogg=mpv.desktop;
 video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
-image/png=krita_png.desktop;gimp.desktop;com.interversehq.qView.desktop;org.darktable.darktable.desktop;
+image/png=com.interversehq.qView.desktop;gimp.desktop;krita_png.desktop;org.darktable.darktable.desktop;
 application/x-zerosize=org.kde.kate.desktop;
-image/jpeg=com.interversehq.qView.desktop;gimp.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
+image/jpeg=gimp.desktop;com.interversehq.qView.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
 image/x-canon-cr2=com.interversehq.qView.desktop;
 application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
-application/pdf=gimp.desktop;librewolf.desktop;
+application/pdf=librewolf.desktop;gimp.desktop;
 application/epub+zip=calibre-ebook-viewer.desktop;
 
 [Default Applications]
