@@ -197,7 +197,7 @@
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Path": "OTD.EnhancedOutputMode.Output.EnhancedLinuxArtistMode",
         "Settings": [],
         "Enable": true
       },

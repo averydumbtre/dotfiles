@@ -72,9 +72,10 @@
                 "edidHash": "7ab6080f4c3b71bd9a6e2272c754dd4f",
                 "edidIdentifier": "AUS 10426 343323 44 2020 0",
                 "edrPolicy": "always",
-                "highDynamicRange": false,
+                "highDynamicRange": true,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
+                "maxPeakBrightnessOverride": 200,
                 "mode": {
                     "height": 2160,
                     "refreshRate": 59997,
@@ -83,12 +84,12 @@
                 "overscan": 0,
                 "rgbRange": "Automatic",
                 "scale": 1.65,
-                "sdrBrightness": 315,
+                "sdrBrightness": 180,
                 "sdrGamutWideness": 0,
                 "transform": "Normal",
                 "uuid": "8ef4fd04-bc00-4d8e-9a17-0f65e23c660d",
                 "vrrPolicy": "Never",
-                "wideColorGamut": false
+                "wideColorGamut": true
             },
             {
                 "allowDdcCi": true,

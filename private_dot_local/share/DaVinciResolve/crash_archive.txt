@@ -298,3 +298,41 @@ davinci-resolve-studio() [0x34ffeec]
 davinci-resolve-studio() [0x34fe35e]
 Signal Number = 1
 
+----------------------------------------------------------------------
+#TIME Tue Jan 20 17:21:13 2026 - Uptime 00:12:47 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.3.0.0010 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 52e43383-b1eb-489f-b188-7b213abcaee8
+#BMD_GIT_COMMIT 096a2a093e9b34f1799dee1ec2102680026a60f5
+#BMD_UTIL_VERSION 20.3.0.0010
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x60873e9]
+/opt/resolve/bin/resolve() [0x60865b2]
+/usr/lib/libc.so.6(+0x3e4d0) [0x7f6de1a3e4d0]
+/opt/resolve/bin/../libs/libProResRAW.so(_ZNSt10filesystem7__cxx114path14_M_split_cmptsEv+0x38) [0x7f6decada708]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0xa495ea) [0x7f6bbae495ea]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0xa3502d) [0x7f6bbae3502d]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0xa3f7ae) [0x7f6bbae3f7ae]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0xa26b4c) [0x7f6bbae26b4c]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0xa1aa05) [0x7f6bbae1aa05]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0xa0fa55) [0x7f6bbae0fa55]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0xa11469) [0x7f6bbae11469]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0x41a2a9) [0x7f6bba81a2a9]
+/home/avery/.local/share/envision/9a1812c7-6448-4da6-bc38-18ec5b0947bb/xrizer/target/release/bin/linux64/vrclient.so(+0x433434) [0x7f6bba833434]
+/opt/resolve/libs/Fusion/Plugins/libopenvr_api.so(VR_InitInternal2+0x35) [0x7f6d38e063b5]
+/opt/resolve/libs/Fusion/Plugins/openvr.plugin(+0x2ab27) [0x7f6dee25cb27]
+/opt/resolve/libs/Fusion/Plugins/openvr.plugin(+0x25fe9) [0x7f6dee257fe9]
+/opt/resolve/libs/Fusion/Plugins/openvr.plugin(+0x1c3e5) [0x7f6dee24e3e5]
+/opt/resolve/libs/Fusion/Plugins/openvr.plugin(+0x1c6ca) [0x7f6dee24e6ca]
+/opt/resolve/libs/Fusion/libfusionsystem.so(+0x174fb5b) [0x7f6d63d4fb5b]
+/opt/resolve/libs/Fusion/libfusionsystem.so(_ZN6Fusion6Output14SetRequestDataEPNS_7RequestEPNS_9ParameterEdRKNS_10TimeExtentEjdPNS_7TagListE+0xef0) [0x7f6d640b4d20]
+/opt/resolve/libs/Fusion/libfusionsystem.so(_ZN6Fusion6Output6PutMsgEPNS_7MessageE+0x1447) [0x7f6d640b74b7]
+/opt/resolve/libs/Fusion/libfusionsystem.so(+0x1abbb9f) [0x7f6d640bbb9f]
+/opt/resolve/libs/Fusion/libfusionsystem.so(+0x1af5e5f) [0x7f6d640f5e5f]
+/opt/resolve/libs/Fusion/libfusionsystem.so(+0x1af5c7a) [0x7f6d640f5c7a]
+/opt/resolve/bin/../libs/Fusion/fusionscript.so(+0x1fb095) [0x7f6e1effb095]
+/usr/lib/libc.so.6(+0x9698b) [0x7f6de1a9698b]
+/usr/lib/libc.so.6(+0x11aa0c) [0x7f6de1b1aa0c]
+Signal Number = 11
+
