@@ -120,3 +120,4 @@ x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
 x-scheme-handler/discord=vesktop.desktop
 application/x-zerosize=org.kde.kate.desktop
 application/octet-stream=org.kde.kate.desktop
+x-scheme-handler/ror2mm=r2modman.desktop

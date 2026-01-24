@@ -18,15 +18,15 @@ plugin=io.gitgud.wackyideas.desktopcontainment
 wallpaperplugin=org.kde.image
 
 [Containments][157][ConfigDialog]
-DialogHeight=540
-DialogWidth=810
+DialogHeight=591
+DialogWidth=1019
 
 [Containments][157][General]
 positions={"1920x1080":["4","24","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
-Image=file:///home/avery/Pictures/pictures/2025-12-28-FUJIFILM-X-S10-493.png
+Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][175]
@@ -53,7 +53,7 @@ positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30","de
 sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
-Image=file:///home/avery/Pictures/pictures/2025-12-28-FUJIFILM-X-S10-493.png
+Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][340]
@@ -245,7 +245,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][340][Applets][653][Applets][670][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][340][Applets][653][Applets][671]
 immutability=1
@@ -273,7 +273,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][340][Applets][653][Applets][674][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][340][Applets][653][ConfigDialog]
 DialogHeight=574
@@ -421,7 +421,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][675][Applets][680][Applets][693][Configuration]
-PreloadWeight=60
+PreloadWeight=75
 
 [Containments][675][Applets][680][Applets][694]
 immutability=1
@@ -446,7 +446,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][675][Applets][680][Applets][697][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][675][Applets][680][Applets][698]
 immutability=1
@@ -707,4 +707,4 @@ SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622

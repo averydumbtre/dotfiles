@@ -21,12 +21,13 @@ BlurNonMatching=true
 BlurStrength=3
 Contrast=115
 NoiseStrength=9
-RefractionCornerRadius=160
+RefractionCornerRadius=143
 RefractionEdgeSize=30
 RefractionMode=1
-RefractionNormalPow=12
-RefractionRGBFringing=7
+RefractionNormalPow=11
+RefractionRGBFringing=6
 RefractionStrength=30
+RefractionTextureRepeatMode=1
 Saturation=100
 WindowClasses=
 

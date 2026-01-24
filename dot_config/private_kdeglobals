@@ -105,7 +105,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=128,0,128
 
 [General]
-ColorSchemeHash=60afd72ab97c4b4de2f11aaf577d577b0bad2de0
+ColorScheme=Aero
+ColorSchemeHash=af87581f671b700f5ba604ce8fa8d37ddaafab18
 LastUsedCustomAccentColor=233,58,154
 UseSystemBell=true
 XftAntialias=true
