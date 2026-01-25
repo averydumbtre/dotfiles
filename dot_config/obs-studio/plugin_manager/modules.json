@@ -26,5 +26,19 @@
             "pipewire_audio_application_capture"
         ],
         "version": ""
+    },
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "obs-shaderfilter",
+        "outputs": [],
+        "services": [],
+        "sources": [
+            "shader_filter",
+            "shader_transition"
+        ],
+        "version": ""
     }
 ]

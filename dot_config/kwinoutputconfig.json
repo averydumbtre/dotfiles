@@ -84,7 +84,7 @@
                 "overscan": 0,
                 "rgbRange": "Automatic",
                 "scale": 1.65,
-                "sdrBrightness": 180,
+                "sdrBrightness": 150,
                 "sdrGamutWideness": 0,
                 "transform": "Normal",
                 "uuid": "8ef4fd04-bc00-4d8e-9a17-0f65e23c660d",

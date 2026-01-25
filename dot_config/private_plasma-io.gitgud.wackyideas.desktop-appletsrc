@@ -191,7 +191,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][340][Applets][653][Applets][662][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 
 [Containments][340][Applets][653][Applets][663]
 immutability=1
@@ -421,7 +421,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][675][Applets][680][Applets][693][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][675][Applets][680][Applets][694]
 immutability=1
@@ -446,7 +446,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][675][Applets][680][Applets][697][Configuration]
-PreloadWeight=60
+PreloadWeight=80
 
 [Containments][675][Applets][680][Applets][698]
 immutability=1
@@ -563,6 +563,9 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=io.gitgud.wackyideas.volume
 
+[Containments][702][Applets][707][Applets][708][Configuration]
+PreloadWeight=55
+
 [Containments][702][Applets][707][Applets][708][Configuration][General]
 migrated=true
 
@@ -618,7 +621,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][702][Applets][707][Applets][720][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][702][Applets][707][Applets][721]
 immutability=1
@@ -654,7 +657,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][702][Applets][707][Applets][726][Configuration]
-PreloadWeight=23
+PreloadWeight=28
 
 [Containments][702][Applets][707][Applets][727]
 immutability=1
@@ -702,9 +705,9 @@ positions={"1080x1920":[],"1920x1080":["1","24"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][8][Wallpaper][org.kde.image][General]
-Image=file:///home/avery/Pictures/pictures/2025-12-28-FUJIFILM-X-S10-493.png
+Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
