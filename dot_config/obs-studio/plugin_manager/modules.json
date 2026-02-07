@@ -40,5 +40,18 @@
             "shader_transition"
         ],
         "version": ""
+    },
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "obs-retro-effects",
+        "outputs": [],
+        "services": [],
+        "sources": [
+            "obs_retro_effects_filter"
+        ],
+        "version": ""
     }
 ]

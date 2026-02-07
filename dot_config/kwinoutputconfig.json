@@ -72,7 +72,7 @@
                 "edidHash": "7ab6080f4c3b71bd9a6e2272c754dd4f",
                 "edidIdentifier": "AUS 10426 343323 44 2020 0",
                 "edrPolicy": "always",
-                "highDynamicRange": true,
+                "highDynamicRange": false,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "maxPeakBrightnessOverride": 200,
@@ -89,13 +89,13 @@
                 "transform": "Normal",
                 "uuid": "8ef4fd04-bc00-4d8e-9a17-0f65e23c660d",
                 "vrrPolicy": "Never",
-                "wideColorGamut": true
+                "wideColorGamut": false
             },
             {
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoRotation": "InTabletMode",
-                "brightness": 0.5,
+                "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "sRGB",
                 "connectorName": "HDMI-A-1",

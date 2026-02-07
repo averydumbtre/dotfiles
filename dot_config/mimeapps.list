@@ -60,7 +60,8 @@ image/x-adobe-dng=com.interversehq.qView.desktop;
 image/x-canon-cr2=com.interversehq.qView.desktop;
 application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
 application/pdf=librewolf.desktop;gimp.desktop;
-application/epub+zip=calibre-ebook-viewer.desktop;
+application/epub+zip=calibre-gui.desktop;calibre-ebook-viewer.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;org.kde.ark.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;

@@ -15,7 +15,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 42,
+                "id_counter": 43,
                 "custom_size": false,
                 "items": [
                     {
@@ -39,7 +39,7 @@
                         "id": 15,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
+                            "x": 1.0,
                             "y": 0.0
                         },
                         "pos_rel": {
@@ -47,8 +47,8 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
+                            "x": 2.0,
+                            "y": 2.0
                         },
                         "scale_rel": {
                             "x": 1.0,
@@ -94,7 +94,7 @@
                         "id": 7,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
+                            "x": 1.0,
                             "y": 0.0
                         },
                         "pos_rel": {
@@ -102,8 +102,8 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
+                            "x": 2.0,
+                            "y": 2.0
                         },
                         "scale_rel": {
                             "x": 1.0,
@@ -149,7 +149,7 @@
                         "id": 14,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
+                            "x": 1.0,
                             "y": 0.0
                         },
                         "pos_rel": {
@@ -157,8 +157,8 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
+                            "x": 2.0,
+                            "y": 2.0
                         },
                         "scale_rel": {
                             "x": 1.0,
@@ -204,7 +204,7 @@
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
+                            "x": 1.0,
                             "y": 0.0
                         },
                         "pos_rel": {
@@ -212,8 +212,8 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
+                            "x": 2.0,
+                            "y": 2.0
                         },
                         "scale_rel": {
                             "x": 1.0,
@@ -259,7 +259,7 @@
                         "id": 8,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
+                            "x": 1.0,
                             "y": 0.0
                         },
                         "pos_rel": {
@@ -267,8 +267,8 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.3333333730697632,
-                            "y": 1.3333333730697632
+                            "x": 2.0,
+                            "y": 2.0
                         },
                         "scale_rel": {
                             "x": 1.0,
@@ -314,7 +314,7 @@
                         "id": 19,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
+                            "x": 1.0,
                             "y": 0.0
                         },
                         "pos_rel": {
@@ -322,8 +322,8 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 2.0,
-                            "y": 2.0
+                            "x": 3.0,
+                            "y": 3.0
                         },
                         "scale_rel": {
                             "x": 1.0,
@@ -369,24 +369,24 @@
                         "id": 16,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 76.0,
-                            "y": 0.0
+                            "x": 115.0,
+                            "y": -1.0
                         },
                         "pos_rel": {
                             "x": -1.6722222566604614,
-                            "y": -1.0
+                            "y": -1.000925898551941
                         },
                         "scale": {
-                            "x": 2.0,
-                            "y": 2.0
+                            "x": 3.0,
+                            "y": 3.0
                         },
                         "scale_rel": {
                             "x": 1.5,
                             "y": 1.5
                         },
                         "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
+                            "x": 3840.0,
+                            "y": 2160.0
                         },
                         "bounds_rel": {
                             "x": 3.555555582046509,
@@ -425,23 +425,23 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 4.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
+                            "x": -1.7787036895751953,
+                            "y": -0.9962962865829468
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 1.5,
+                            "y": 1.5
                         },
                         "scale_rel": {
                             "x": 0.75,
                             "y": 0.75
                         },
                         "bounds": {
-                            "x": 2560.0,
-                            "y": 1440.0
+                            "x": 3840.0,
+                            "y": 2160.0
                         },
                         "bounds_rel": {
                             "x": 3.555555582046509,
@@ -756,7 +756,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "a0881c76-4ed5-43e9-a6c1-ba5e92cef214"
+                "RestoreToken": "6ed7cc8d-0667-4473-8122-1939f64170e2"
             },
             "mixers": 0,
             "sync": 0,
@@ -777,17 +777,19 @@
             "filters": [
                 {
                     "prev_ver": 536870916,
-                    "name": "User-defined shader",
-                    "uuid": "5828d1b3-bac1-4ace-933b-8c55b8e72fa2",
-                    "id": "shader_filter",
-                    "versioned_id": "shader_filter",
+                    "name": "Retro Effects 2",
+                    "uuid": "573c01dd-28d0-41f7-83cc-d28782d25b2c",
+                    "id": "obs_retro_effects_filter",
+                    "versioned_id": "obs_retro_effects_filter",
                     "settings": {
-                        "from_file": true,
-                        "override_entire_effect": false,
-                        "shader_file_name": "/usr/share/obs/obs-plugins/obs-shaderfilter/examples/tv-crt-subpixel.shader",
-                        "channelHeight": 3,
-                        "channelWidth": 1,
-                        "hGap": 1
+                        "filter_type": 7,
+                        "ntsc_tuning_offset": 0.2,
+                        "ntsc_luma_noise": 4.2,
+                        "ntsc_chroma_bleed_size": 23.1,
+                        "ntsc_chroma_bleed_strength": 29.4,
+                        "ntsc_chroma_bleed_steps": 1,
+                        "ntsc_brightness": 96.7,
+                        "ntsc_saturation": 92.5
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -808,23 +810,84 @@
                 },
                 {
                     "prev_ver": 536870916,
-                    "name": "User-defined shader 2",
-                    "uuid": "e5e7bd67-367e-4dfc-90d8-30a3a912e658",
-                    "id": "shader_filter",
-                    "versioned_id": "shader_filter",
+                    "name": "Crop/Pad",
+                    "uuid": "fdfbdf88-9b9f-4d5c-b88a-f1f958513ca2",
+                    "id": "crop_filter",
+                    "versioned_id": "crop_filter",
                     "settings": {
-                        "from_file": true,
-                        "shader_file_name": "/usr/share/obs/obs-plugins/obs-shaderfilter/examples/crt-curvature.shader",
-                        "override_entire_effect": false,
-                        "strength": 23.97,
-                        "feathering": 0.0
+                        "left": 8,
+                        "right": 8,
+                        "bottom": 7,
+                        "top": 29
                     },
                     "mixers": 0,
                     "sync": 0,
                     "flags": 0,
                     "volume": 1.0,
                     "balance": 0.5,
-                    "enabled": false,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 536870916,
+                    "name": "Retro Effects",
+                    "uuid": "aff2d2c6-c729-40f0-91e0-152eafe4479f",
+                    "id": "obs_retro_effects_filter",
+                    "versioned_id": "obs_retro_effects_filter",
+                    "settings": {
+                        "filter_type": 6,
+                        "crt_phosphor_type": 16,
+                        "crt_mask_intensity": 51.5,
+                        "crt_bloom": 12.0,
+                        "crt_bloom_threshold": 51.7,
+                        "crt_bloom_intensity": 22.5,
+                        "crt_corner_radius": 0.0,
+                        "crt_barrel_distort": 0.0,
+                        "crt_vignette": 0.0,
+                        "crt_black_level": 0.0,
+                        "crt_white_level": 237.1
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 536870916,
+                    "name": "Color Correction",
+                    "uuid": "381146ff-2d33-4674-9600-986459e294e4",
+                    "id": "color_filter",
+                    "versioned_id": "color_filter_v2",
+                    "settings": {
+                        "gamma": 0.12
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
                     "muted": false,
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
@@ -869,8 +932,8 @@
     "current_transition": "Fade",
     "transition_duration": 300,
     "preview_locked": false,
-    "scaling_enabled": false,
-    "scaling_level": -4,
+    "scaling_enabled": true,
+    "scaling_level": 0,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
