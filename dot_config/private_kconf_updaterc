@@ -6,9 +6,9 @@ done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_op
 mtime=1768334489
 
 [kalarm.upd]
-ctime=1768713906
+ctime=1770446539
 done=3.10.0-run_mode
-mtime=1767859205
+mtime=1770147149
 
 [kwin.upd]
 ctime=1770186973

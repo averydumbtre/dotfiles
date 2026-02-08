@@ -100,3 +100,4 @@ kdeconnect
 sshfs
 lact
 kalarm
+detox
