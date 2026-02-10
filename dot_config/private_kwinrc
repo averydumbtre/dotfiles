@@ -185,9 +185,6 @@ ElectricBorderTiling=false
 FocusPolicy=FocusFollowsMouse
 NextFocusPrefersMouse=true
 
-[Xwayland]
-Scale=1.65
-
 [org.kde.kdecoration2]
 BorderSize=Normal
 ButtonsOnRight=HIX
