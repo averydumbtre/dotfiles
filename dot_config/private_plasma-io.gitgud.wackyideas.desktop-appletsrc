@@ -87,7 +87,7 @@ DialogWidth=720
 
 [Containments][340][Applets][354][Configuration][General]
 disableJumplists=true
-launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:io.element.Element.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
@@ -316,7 +316,7 @@ DialogWidth=720
 
 [Containments][675][Applets][677][Configuration][General]
 disableJumplists=true
-launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:io.element.Element.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
