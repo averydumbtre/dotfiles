@@ -22,7 +22,7 @@ DialogHeight=591
 DialogWidth=1019
 
 [Containments][157][General]
-positions={"1920x1080":["4","24","desktop:/Link to Application.desktop","0","0","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":[]}
+positions={"1920x1080":["4","24","desktop:/Hot Dogs, Horseshoes & Hand Grenades.desktop","0","2","desktop:/rotate left.sh","0","0","desktop:/rotate normal.sh","0","1","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -49,7 +49,7 @@ DialogHeight=540
 DialogWidth=810
 
 [Containments][175][General]
-positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30"]}
+positions={"1080x1920":[],"1422x800":[],"1920x1080":[],"2327x1309":["1","30","desktop:/Link to Application.desktop","0","1"]}
 sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
@@ -137,7 +137,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.volume
 
 [Containments][340][Applets][653][Applets][654][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][340][Applets][653][Applets][654][Configuration][ConfigDialog]
 DialogHeight=540
@@ -224,7 +224,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][340][Applets][653][Applets][667][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][340][Applets][653][Applets][667][Configuration][General]
 migrated=true
@@ -239,6 +239,9 @@ plugin=org.kde.plasma.bluetooth
 
 [Containments][340][Applets][653][Applets][669][Configuration]
 PreloadWeight=0
+
+[Containments][340][Applets][653][Applets][669][Configuration][General]
+showNumberOfConnectedDevices=true
 
 [Containments][340][Applets][653][Applets][670]
 immutability=1
@@ -259,7 +262,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][340][Applets][653][Applets][672][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][340][Applets][653][Applets][673]
 immutability=1
@@ -273,7 +276,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][340][Applets][653][Applets][674][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][340][Applets][653][ConfigDialog]
 DialogHeight=574
@@ -446,7 +449,7 @@ immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
 [Containments][675][Applets][680][Applets][697][Configuration]
-PreloadWeight=80
+PreloadWeight=90
 
 [Containments][675][Applets][680][Applets][698]
 immutability=1
@@ -639,7 +642,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][702][Applets][707][Applets][723][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][702][Applets][707][Applets][724]
 immutability=1
@@ -650,21 +653,21 @@ immutability=1
 plugin=io.gitgud.wackyideas.battery
 
 [Containments][702][Applets][707][Applets][725][Configuration]
-PreloadWeight=15
+PreloadWeight=7
 
 [Containments][702][Applets][707][Applets][726]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][702][Applets][707][Applets][726][Configuration]
-PreloadWeight=20
+PreloadWeight=12
 
 [Containments][702][Applets][707][Applets][727]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][702][Applets][707][Applets][727][Configuration]
-PreloadWeight=20
+PreloadWeight=12
 
 [Containments][702][Applets][707][Applets][728]
 immutability=1
@@ -703,7 +706,7 @@ DialogHeight=540
 DialogWidth=810
 
 [Containments][8][General]
-positions={"1080x1920":["1","14","desktop:/rotate normal.sh","0","0","desktop:/rotate left.sh","0","4"],"1920x1080":["2","24","desktop:/rotate left.sh","0","3","desktop:/rotate normal.sh","1","2"],"2327x1309":[]}
+positions={"1080x1920":["1","14","desktop:/rotate normal.sh","0","0","desktop:/rotate left.sh","0","4"],"1920x1080":["2","24","desktop:/rotate left.sh","1","1","desktop:/rotate normal.sh","0","3"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][8][Wallpaper][org.kde.image][General]
@@ -711,5 +714,5 @@ Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
-itemsOnDisabledScreens=1,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Link to Application.desktop
-screenMapping=desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,2,desktop:/rotate left.sh,desktop:/rotate normal.sh
+screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Hot Dogs\\, Horseshoes & Hand Grenades.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622

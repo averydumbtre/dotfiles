@@ -1,0 +1,465 @@
+{
+    "setting_defaults": {
+        "custom_themes": [
+            {
+                "name": "Discord Black",
+                "is_dark": true,
+                "colors": {
+                    "accent-color": "#747ff4",
+                    "accent": "#747ff4",
+                    "primary-color": "#00aff4",
+                    "warning-color": "#faa81ad9",
+                    "alert": "#faa81ad9",
+
+                    "sidebar-color": "#000000",
+                    "roomlist-background-color": "#191919",
+                    "roomlist-text-color": "#dcddde",
+                    "roomlist-text-secondary-color": "#8e9297",
+                    "roomlist-highlights-color": "#4f545c52",
+                    "roomlist-separator-color": "#40444b",
+
+                    "timeline-background-color": "#000000",
+                    "timeline-text-color": "#dcddde",
+                    "secondary-content": "#dcddde",
+                    "tertiary-content": "#dcddde",
+                    "timeline-text-secondary-color": "#b9bbbe",
+                    "timeline-highlights-color": "#04040512",
+
+                    "reaction-row-button-selected-bg-color": "#4752c4",
+                    "menu-selected-color": "#4752c4",
+                    "focus-bg-color": "#4752c4",
+                    "room-highlight-color": "#4752c4",
+                    "other-user-pill-bg-color": "#4752c4",
+                    "togglesw-off-color": "#72767d"
+                }
+            },
+            {
+                "name": "Discord Dark",
+                "is_dark": true,
+                "colors": {
+                    "accent-color": "#747ff4",
+                    "accent": "#747ff4",
+                    "primary-color": "#00aff4",
+                    "warning-color": "#faa81ad9",
+                    "alert": "#faa81ad9",
+
+                    "sidebar-color": "#202225",
+                    "roomlist-background-color": "#2f3136",
+                    "roomlist-text-color": "#dcddde",
+                    "roomlist-text-secondary-color": "#8e9297",
+                    "roomlist-highlights-color": "#4f545c52",
+                    "roomlist-separator-color": "#40444b",
+
+                    "timeline-background-color": "#36393f",
+                    "timeline-text-color": "#dcddde",
+                    "secondary-content": "#dcddde",
+                    "tertiary-content": "#dcddde",
+                    "timeline-text-secondary-color": "#b9bbbe",
+                    "timeline-highlights-color": "#04040512",
+
+                    "reaction-row-button-selected-bg-color": "#4752c4",
+                    "menu-selected-color": "#4752c4",
+                    "focus-bg-color": "#4752c4",
+                    "room-highlight-color": "#4752c4",
+                    "other-user-pill-bg-color": "#4752c4",
+                    "togglesw-off-color": "#72767d"
+                },
+                "compound": {
+                    "--cpd-color-theme-bg": "#0019ff",
+                    "--cpd-color-bg-canvas-default": "#2f3136",
+                    "--cpd-color-bg-subtle-secondary": "#2f3136",
+                    "--cpd-color-bg-subtle-primary": "#4f545c52",
+                    "--cpd-color-bg-action-primary-rest": "#dcddde",
+                    "--cpd-color-bg-action-secondary-rest": "#2f3136",
+                    "--cpd-color-bg-critical-primary": "#fd3f3c",
+                    "--cpd-color-bg-critical-subtle": "#745862",
+                    "--cpd-color-bg-critical-hovered": "#fd3f3c",
+                    "--cpd-color-bg-accent-rest": "#4cb387",
+                    "--cpd-color-text-primary": "#dcddde",
+                    "--cpd-color-text-secondary": "#b9bbbe",
+                    "--cpd-color-text-action-accent": "#b9bbbe",
+                    "--cpd-color-text-critical-primary": "#fd3f3c",
+                    "--cpd-color-text-success-primary": "#4cb387",
+                    "--cpd-color-icon-primary": "#dcddde",
+                    "--cpd-color-icon-secondary": "#dcddde",
+                    "--cpd-color-icon-tertiary": "#a7a0a7",
+                    "--cpd-color-icon-accent-tertiary": "#4cb387",
+                    "--cpd-color-border-interactive-primary": "#5d6064",
+                    "--cpd-color-border-interactive-secondary": "#5d6064",
+                    "--cpd-color-border-critical-primary": "#fd3f3c",
+                    "--cpd-color-border-success-subtle": "#4cb387"
+                }
+            },
+                {
+                "name": "Nord dark theme",
+                "is_dark": true,
+                "colors": {
+                    "accent-color": "#a3be8c",
+                    "primary-color": "#88c0d0",
+                    "warning-color": "#bf616a",
+                    "sidebar-color": "#2e3440",
+                    "roomlist-background-color": "#3b4252",
+                    "roomlist-text-color": "#ebcb8b",
+                    "roomlist-text-secondary-color": "#e5e9f0",
+                    "roomlist-highlights-color": "#2e3440",
+                    "roomlist-separator-color": "#434c5e",
+                    "timeline-background-color": "#434c5e",
+                    "timeline-text-color": "#eceff4",
+                    "secondary-content": "#eceff4",
+                    "tertiary-content": "#eceff4",
+                    "timeline-text-secondary-color": "#81a1c1",
+                    "timeline-highlights-color": "#3b4252",
+                    "reaction-row-button-selected-bg-color": "#bf616a"
+                },
+                "compound": {
+                    "--cpd-color-theme-bg": "#2e3440",
+                    "--cpd-color-bg-canvas-default": "#434c5e",
+                    "--cpd-color-bg-subtle-secondary": "#2e3440",
+                    "--cpd-color-bg-subtle-primary": "#3b4252",
+                    "--cpd-color-bg-action-primary-rest": "#88c0d0",
+                    "--cpd-color-bg-critical-primary": "#bf616a",
+                    "--cpd-color-bg-accent-rest": "#a3be8c",
+                    "--cpd-color-text-primary": "#eceff4",
+                    "--cpd-color-text-secondary": "#81a1c1",
+                    "--cpd-color-text-action-accent": "#88c0d0",
+                    "--cpd-color-text-critical-primary": "#bf616a",
+                    "--cpd-color-text-success-primary": "#a3be8c",
+                    "--cpd-color-icon-primary": "#eceff4",
+                    "--cpd-color-icon-secondary": "#81a1c1",
+                    "--cpd-color-icon-tertiary": "#e5e9f0",
+                    "--cpd-color-icon-accent-tertiary": "#a3be8c",
+                    "--cpd-color-border-interactive-primary": "#434c5e",
+                    "--cpd-color-border-critical-primary": "#bf616a",
+                    "--cpd-color-border-success-subtle": "#a3be8c"
+                }
+                },
+                {
+                    "name": "Selenized black theme",
+                    "is_dark": true,
+                    "colors": {
+                        "accent-color": "#70b433",
+                        "primary-color": "#4695f7",
+                        "warning-color": "#ed4a46",
+
+                        "sidebar-color": "#181818",
+                        "roomlist-background-color": "#252525",
+                        "roomlist-text-color": "#ffffff",
+                        "roomlist-text-secondary-color": "#b9b9b9",
+                        "roomlist-highlights-color": "#3b3b3b",
+                        "roomlist-separator-color": "#121212",
+
+                        "timeline-background-color": "#181818",
+                        "timeline-text-color": "#FFFFFF",
+                        "secondary-content": "#FFFFFF",
+                        "tertiary-content": "#FFFFFF",
+                        "timeline-text-secondary-color": "#777777",
+                        "timeline-highlights-color": "#252525",
+                        "reaction-row-button-selected-bg-color": "#4695f7"
+                    }
+
+            },
+            {
+                "name": "Geeko dark theme",
+                "is_dark": true,
+                "colors": {
+                    "accent-color": "#73ba25",
+                    "primary-color": "#35b9ab",
+                    "warning-color": "#bf616a",
+
+                    "sidebar-color": "#2a2a2a",
+                    "roomlist-background-color": "#4a4a4a",
+                    "roomlist-text-color": "#ffffff",
+                    "roomlist-text-secondary-color": "#dddddd",
+                    "roomlist-highlights-color": "#2a2a2a",
+                    "roomlist-separator-color": "#3a3a3a",
+
+                    "timeline-background-color": "#3a3a3a",
+                    "timeline-text-color": "#eeeeee",
+                    "secondary-content": "#eeeeee",
+                    "tertiary-content": "#eeeeee",
+                    "timeline-text-secondary-color": "#6da741",
+                    "timeline-highlights-color": "#bf616a",
+                    "reaction-row-button-selected-bg-color": "#bf616a"
+                }
+            },
+            {
+                    "name": "Dracula",
+                    "is_dark": true,
+                    "colors": {
+                    "accent-color": "#bd93f9",
+                    "primary-color": "#bd93f9",
+                    "warning-color": "#bd93f9",
+                    "sidebar-color": "#1e1f29",
+                    "roomlist-background-color": "#1e1f29",
+                    "roomlist-text-color": "#eeeeee",
+                    "roomlist-text-secondary-color": "#eeeeee",
+                    "roomlist-highlights-color": "#00000030",
+                    "roomlist-separator-color": "#4d4d4d90",
+                    "timeline-background-color": "#282A36",
+                    "timeline-text-color": "#eeeeee",
+                    "secondary-content": "#eeeeee",
+                    "tertiary-content": "#eeeeee",
+                    "timeline-text-secondary-color": "#dddddd",
+                    "timeline-highlights-color": "#00000030",
+                    "reaction-row-button-selected-bg-color": "#b9bbbe"
+                    }
+            },
+            {
+            "name": "Gruvbox Dark",
+            "is_dark": true,
+            "colors": {
+                "accent-color": "#bd93f9",
+                "primary-color": "#fe8019",
+                "warning-color": "#fb4934",
+                "sidebar-color": "#282828",
+                "roomlist-background-color": "#1d2021",
+                "roomlist-text-color": "#a89984",
+                "roomlist-text-secondary-color": "#00ff00",
+                "roomlist-highlights-color": "#00000030",
+                "roomlist-separator-color": "#4d4d4d90",
+                "timeline-background-color": "#282828",
+                "timeline-text-color": "#ebdbb2",
+                "secondary-content": "#928374",
+                "tertiary-content": "#928374",
+                "quinary-content": "#504945",
+                "timeline-text-secondary-color": "#a89984",
+                "timeline-highlights-color": "#00000030",
+                "reaction-row-button-selected-bg-color": "#689d6a",
+                "menu-selected-color": "#504945",
+                "icon-button-color": "#928374",
+                "accent": "#689d6a",
+                "alert": "#cc241d",
+                "username-colors": [
+                "#cc241d",
+                "#98971a",
+                "#d79921",
+                "#458588",
+                "#b16286",
+                "#689d6a",
+                "#a89984",
+                "#d65d0e"
+                ],
+                "avatar-background-colors": ["#458588", "#b16286", "#689d6a"]
+            }
+            },
+            {
+            "name": "Covalence",
+            "is_dark": true,
+            "colors": {
+                "accent-color": "#25863c",
+                "primary-color": "#4695f7",
+                "warning-color": "#ed4a46",
+                "sidebar-color": "#161b22",
+                "roomlist-background-color": "#0d1117",
+                "roomlist-text-color": "#c9d1d9",
+                "roomlist-text-secondary-color": "#b9b9b9",
+                "roomlist-highlights-color": "#161b22",
+                "roomlist-separator-color": "#21262d",
+                "timeline-background-color": "#0d1117",
+                "timeline-text-color": "#c9d1d9",
+                "secondary-content": "#c9d1d9",
+                "tertiary-content": "#c9d1d9",
+                "timeline-text-secondary-color": "#8b949e",
+                "timeline-highlights-color": "#252525",
+                "reaction-row-button-selected-bg-color": "#132338",
+                "username-colors": [
+                "#f85149",
+                "#d29922",
+                "#42b958",
+                "#58a6fc",
+                "#a271f3",
+                "#f9524a",
+                "#43ba59",
+                "#a372f4"
+                ]
+            }
+            },
+            {
+            "name": "Monokai Pro",
+            "is_dark": true,
+            "colors": {
+                "accent-color": "#fff1f3",
+                "primary-color": "#f38d70",
+                "warning-color": "#fd6883",
+                "sidebar-color": "#2d2a2e",
+                "roomlist-background-color": "#221f22",
+                "roomlist-text-color": "#fff1ff",
+                "roomlist-text-secondary-color": "#f9cc6c",
+                "roomlist-highlights-color": "#3b394a",
+                "roomlist-separator-color": "#2D2a2e",
+                "timeline-background-color": "#2D2a2e",
+                "timeline-text-color": "#fff1ff",
+                "secondary-content": "#fff1f3",
+                "tertiary-content": "#fff1f3",
+                "quinary-content": "#221f22",
+                "timeline-text-secondary-color": "#fff1ff",
+                "timeline-highlights-color": "#00000030",
+                "reaction-row-button-selected-bg-color": "#adda78",
+                "menu-selected-color": "#f9cc6c",
+                "icon-button-color": "#f9cc6c",
+                "accent": "#fd6883",
+                "alert": "#fd6883",
+                "username-colors": [
+                "#cc241d",
+                "#689d6a",
+                "#f9cc6c",
+                "#b16286",
+                "#85dacc",
+                "#adda78",
+                "#a89984",
+                "#f38d70"
+                ],
+                "avatar-background-colors": ["#458588", "#b16286", "#adda78"]
+            }
+            },
+            {
+            "name": "Catppuccin Frappe",
+            "is_dark": true,
+            "colors": {
+                "accent-color": "#babbf1",
+                "primary-color": "#babbf1",
+                "warning-color": "#e78284",
+                "alert": "#faa81a",
+                "sidebar-color": "#232634",
+                "roomlist-background-color": "#292c3c",
+                "roomlist-text-color": "#c6d0f5",
+                "roomlist-text-secondary-color": "#303446",
+                "roomlist-highlights-color": "#51576d",
+                "roomlist-separator-color": "#838ba7",
+                "timeline-background-color": "#303446",
+                "timeline-text-color": "#c6d0f5",
+                "secondary-content": "#c6d0f5",
+                "tertiary-content": "#c6d0f5",
+                "timeline-text-secondary-color": "#a5adce",
+                "timeline-highlights-color": "#292c3c",
+                "reaction-row-button-selected-bg-color": "#51576d",
+                "menu-selected-color": "#51576d",
+                "focus-bg-color": "#626880",
+                "room-highlight-color": "#99d1db",
+                "togglesw-off-color": "#949cbb",
+                "other-user-pill-bg-color": "#99d1db",
+                "username-colors": [
+                "#ca9ee6",
+                "#ea999c",
+                "#ef9f76",
+                "#a6d189",
+                "#81c8be",
+                "#99d1db",
+                "#85c1dc",
+                "#babbf1"
+                ],
+                "avatar-background-colors": [
+                "#8caaee",
+                "#ca9ee6",
+                "#a6d189"
+                ]
+            }
+            },
+            {
+            "name": "Catppuccin Macchiato",
+            "is_dark": true,
+            "colors": {
+                "accent-color": "#b7bdf8",
+                "primary-color": "#b7bdf8",
+                "warning-color": "#ed8796",
+                "alert": "#eed49f",
+                "sidebar-color": "#181926",
+                "roomlist-background-color": "#1e2030",
+                "roomlist-text-color": "#cad3f5",
+                "roomlist-text-secondary-color": "#24273a",
+                "roomlist-highlights-color": "#494d64",
+                "roomlist-separator-color": "#8087a2",
+                "timeline-background-color": "#24273a",
+                "timeline-text-color": "#cad3f5",
+                "secondary-content": "#cad3f5",
+                "tertiary-content": "#cad3f5",
+                "timeline-text-secondary-color": "#a5adcb",
+                "timeline-highlights-color": "#1e2030",
+                "reaction-row-button-selected-bg-color": "#494d64",
+                "menu-selected-color": "#494d64",
+                "focus-bg-color": "#5b6078",
+                "room-highlight-color": "#91d7e3",
+                "togglesw-off-color": "#939ab7",
+                "other-user-pill-bg-color": "#91d7e3",
+                "username-colors": [
+                "#c6a0f6",
+                "#ee99a0",
+                "#f5a97f",
+                "#a6da95",
+                "#8bd5ca",
+                "#91d7e3",
+                "#7dc4e4",
+                "#b7bdf8"
+                ],
+                "avatar-background-colors": [
+                "#8aadf4",
+                "#c6a0f6",
+                "#a6da95"
+                ]
+            }
+            },
+            {
+            "name": "Catppuccin Mocha",
+            "is_dark": true,
+            "colors": {
+                "accent-color": "#b4befe",
+                "primary-color": "#b4befe",
+                "warning-color": "#f38ba8",
+                "alert": "#e5c890",
+                "sidebar-color": "#11111b",
+                "roomlist-background-color": "#181825",
+                "roomlist-text-color": "#cdd6f4",
+                "roomlist-text-secondary-color": "#313234",
+                "roomlist-highlights-color": "#45475a",
+                "roomlist-separator-color": "#7f849c",
+                "timeline-background-color": "#1e1e2e",
+                "timeline-text-color": "#cdd6f4",
+                "secondary-content": "#cdd6f4",
+                "tertiary-content": "#cdd6f4",
+                "timeline-text-secondary-color": "#a6adc8",
+                "timeline-highlights-color": "#181825",
+                "reaction-row-button-selected-bg-color": "#585b70",
+                "menu-selected-color": "#45475a",
+                "focus-bg-color": "#585b70",
+                "room-highlight-color": "#89dceb",
+                "togglesw-off-color": "#9399b2",
+                "other-user-pill-bg-color": "#89dceb",
+                "username-colors": [
+                "#cba6f7",
+                "#eba0ac",
+                "#fab387",
+                "#a6e3a1",
+                "#94e2d5",
+                "#89dceb",
+                "#74c7ec",
+                "#b4befe"
+                ],
+                "avatar-background-colors": [
+                "#89b4fa",
+                "#cba6f7",
+                "#a6e3a1"
+                ]
+            }
+            },
+                                    {
+                "name": "Another theme",
+                "colors": {
+                    "primary-color": "#526A9E"
+                }
+            },
+                                    {
+                "name": "Another theme",
+                "colors": {
+                    "primary-color": "#526A9E"
+                }
+            },
+                        {
+                "name": "Another theme",
+                "colors": {
+                    "primary-color": "#526A9E"
+                }
+            }
+        ]
+    },
+    "show_labs_settings": true
+}
