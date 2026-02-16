@@ -101,3 +101,4 @@ sshfs
 lact
 kalarm
 detox
+element-desktop
