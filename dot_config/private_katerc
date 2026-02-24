@@ -87,10 +87,10 @@ Word Completion Remove Tail=true
 1280x1024 screen: Window-Maximized=true
 1920x1080 screen: Height=1002
 1920x1080 screen: Width=944
-2 screens: Height=617
-2 screens: Width=1411
-3 screens: Height=857
-3 screens: Width=816
+2 screens: Height=882
+2 screens: Width=689
+3 screens: Height=882
+3 screens: Width=689
 
 [UiSettings]
 ColorScheme=BreezeDark

@@ -22,7 +22,7 @@ DialogHeight=591
 DialogWidth=1019
 
 [Containments][157][General]
-positions={"1920x1080":["4","24","desktop:/Hot Dogs, Horseshoes & Hand Grenades.desktop","0","2","desktop:/rotate normal.sh","0","1","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0"],"2327x1309":[]}
+positions={"1920x1080":["4","24","desktop:/Freecad.AppImage","2","1","desktop:/Darktable.AppImage","3","2"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -97,7 +97,6 @@ immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][340][Applets][649][Configuration]
-PreloadWeight=100
 popupHeight=426
 popupWidth=294
 
@@ -136,9 +135,6 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=io.gitgud.wackyideas.volume
 
-[Containments][340][Applets][653][Applets][654][Configuration]
-PreloadWeight=100
-
 [Containments][340][Applets][653][Applets][654][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -154,9 +150,6 @@ plugin=org.kde.plasma.cameraindicator
 immutability=1
 plugin=org.kde.plasma.clipboard
 
-[Containments][340][Applets][653][Applets][656][Configuration]
-PreloadWeight=100
-
 [Containments][340][Applets][653][Applets][657]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
@@ -169,29 +162,17 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.plasma.vault
 
-[Containments][340][Applets][653][Applets][659][Configuration]
-PreloadWeight=55
-
 [Containments][340][Applets][653][Applets][660]
 immutability=1
 plugin=org.kde.kdeconnect
-
-[Containments][340][Applets][653][Applets][660][Configuration]
-PreloadWeight=100
 
 [Containments][340][Applets][653][Applets][661]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][340][Applets][653][Applets][661][Configuration]
-PreloadWeight=100
-
 [Containments][340][Applets][653][Applets][662]
 immutability=1
 plugin=org.kde.plasma.notifications
-
-[Containments][340][Applets][653][Applets][662][Configuration]
-PreloadWeight=100
 
 [Containments][340][Applets][653][Applets][663]
 immutability=1
@@ -200,9 +181,6 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][340][Applets][653][Applets][664]
 immutability=1
 plugin=org.kde.plasma.weather
-
-[Containments][340][Applets][653][Applets][664][Configuration]
-PreloadWeight=55
 
 [Containments][340][Applets][653][Applets][664][Configuration][ConfigDialog]
 DialogHeight=540
@@ -216,15 +194,9 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][340][Applets][653][Applets][666][Configuration]
-PreloadWeight=100
-
 [Containments][340][Applets][653][Applets][667]
 immutability=1
 plugin=org.kde.plasma.volume
-
-[Containments][340][Applets][653][Applets][667][Configuration]
-PreloadWeight=75
 
 [Containments][340][Applets][653][Applets][667][Configuration][General]
 migrated=true
@@ -237,9 +209,6 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
-[Containments][340][Applets][653][Applets][669][Configuration]
-PreloadWeight=0
-
 [Containments][340][Applets][653][Applets][669][Configuration][General]
 showNumberOfConnectedDevices=true
 
@@ -247,44 +216,29 @@ showNumberOfConnectedDevices=true
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
 
-[Containments][340][Applets][653][Applets][670][Configuration]
-PreloadWeight=100
-
 [Containments][340][Applets][653][Applets][671]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
-
-[Containments][340][Applets][653][Applets][671][Configuration]
-PreloadWeight=0
 
 [Containments][340][Applets][653][Applets][672]
 immutability=1
 plugin=org.kde.plasma.brightness
 
-[Containments][340][Applets][653][Applets][672][Configuration]
-PreloadWeight=0
-
 [Containments][340][Applets][653][Applets][673]
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][340][Applets][653][Applets][673][Configuration]
-PreloadWeight=0
-
 [Containments][340][Applets][653][Applets][674]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
-
-[Containments][340][Applets][653][Applets][674][Configuration]
-PreloadWeight=0
 
 [Containments][340][Applets][653][ConfigDialog]
 DialogHeight=574
 DialogWidth=1134
 
 [Containments][340][Applets][653][General]
-extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
-knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
+extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,io.gitgud.wackyideas.notifications
+knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,io.gitgud.wackyideas.notifications
 
 [Containments][340][General]
 AppletOrder=649;354;653;652;342
@@ -301,6 +255,10 @@ wallpaperplugin=org.kde.image
 [Containments][675][Applets][676]
 immutability=1
 plugin=io.gitgud.wackyideas.win7showdesktop
+
+[Containments][675][Applets][676][Configuration]
+popupHeight=400
+popupWidth=560
 
 [Containments][675][Applets][677]
 immutability=1
@@ -326,7 +284,6 @@ immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][675][Applets][678][Configuration]
-PreloadWeight=100
 popupHeight=426
 popupWidth=294
 
@@ -400,9 +357,6 @@ plugin=org.kde.kdeconnect
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][675][Applets][680][Applets][688][Configuration]
-PreloadWeight=100
-
 [Containments][675][Applets][680][Applets][689]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -423,9 +377,6 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][675][Applets][680][Applets][693][Configuration]
-PreloadWeight=100
-
 [Containments][675][Applets][680][Applets][694]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -441,51 +392,33 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
-[Containments][675][Applets][680][Applets][696][Configuration]
-PreloadWeight=0
-
 [Containments][675][Applets][680][Applets][697]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
-
-[Containments][675][Applets][680][Applets][697][Configuration]
-PreloadWeight=90
 
 [Containments][675][Applets][680][Applets][698]
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
-[Containments][675][Applets][680][Applets][698][Configuration]
-PreloadWeight=0
-
 [Containments][675][Applets][680][Applets][699]
 immutability=1
 plugin=org.kde.plasma.brightness
-
-[Containments][675][Applets][680][Applets][699][Configuration]
-PreloadWeight=0
 
 [Containments][675][Applets][680][Applets][700]
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][675][Applets][680][Applets][700][Configuration]
-PreloadWeight=0
-
 [Containments][675][Applets][680][Applets][701]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
-
-[Containments][675][Applets][680][Applets][701][Configuration]
-PreloadWeight=0
 
 [Containments][675][Applets][680][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][675][Applets][680][General]
-extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
-knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
+extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,io.gitgud.wackyideas.notifications
+knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,io.gitgud.wackyideas.notifications
 
 [Containments][675][General]
 AppletOrder=678;677;680;679;676
@@ -527,7 +460,6 @@ immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][702][Applets][705][Configuration]
-PreloadWeight=100
 popupHeight=426
 popupWidth=294
 
@@ -566,9 +498,6 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=io.gitgud.wackyideas.volume
 
-[Containments][702][Applets][707][Applets][708][Configuration]
-PreloadWeight=55
-
 [Containments][702][Applets][707][Applets][708][Configuration][General]
 migrated=true
 
@@ -600,9 +529,6 @@ plugin=org.kde.kdeconnect
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
-[Containments][702][Applets][707][Applets][715][Configuration]
-PreloadWeight=100
-
 [Containments][702][Applets][707][Applets][716]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -623,9 +549,6 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
-[Containments][702][Applets][707][Applets][720][Configuration]
-PreloadWeight=65
-
 [Containments][702][Applets][707][Applets][721]
 immutability=1
 plugin=org.kde.plasma.volume
@@ -641,9 +564,6 @@ plugin=org.kde.plasma.printmanager
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
-[Containments][702][Applets][707][Applets][723][Configuration]
-PreloadWeight=0
-
 [Containments][702][Applets][707][Applets][724]
 immutability=1
 plugin=io.gitgud.wackyideas.networkmanagement
@@ -652,37 +572,25 @@ plugin=io.gitgud.wackyideas.networkmanagement
 immutability=1
 plugin=io.gitgud.wackyideas.battery
 
-[Containments][702][Applets][707][Applets][725][Configuration]
-PreloadWeight=7
-
 [Containments][702][Applets][707][Applets][726]
 immutability=1
 plugin=org.kde.plasma.brightness
-
-[Containments][702][Applets][707][Applets][726][Configuration]
-PreloadWeight=12
 
 [Containments][702][Applets][707][Applets][727]
 immutability=1
 plugin=org.kde.plasma.battery
 
-[Containments][702][Applets][707][Applets][727][Configuration]
-PreloadWeight=12
-
 [Containments][702][Applets][707][Applets][728]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
-
-[Containments][702][Applets][707][Applets][728][Configuration]
-PreloadWeight=0
 
 [Containments][702][Applets][707][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][702][Applets][707][General]
-extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
-knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager
+extraItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,io.gitgud.wackyideas.notifications
+knownItems=io.gitgud.wackyideas.battery,io.gitgud.wackyideas.networkmanagement,io.gitgud.wackyideas.volume,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.printmanager,io.gitgud.wackyideas.notifications
 
 [Containments][702][General]
 AppletOrder=705;704;707;706;703
@@ -714,5 +622,5 @@ Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
 SlidePaths=/usr/share/wallpapers/
 
 [ScreenMapping]
-itemsOnDisabledScreens=2,6d66ba13-baae-4ebd-973e-324a2d00c622,2,desktop:/rotate left.sh,desktop:/rotate normal.sh
-screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Hot Dogs\\, Horseshoes & Hand Grenades.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=
+screenMapping=desktop:/rotate left.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
