@@ -27,7 +27,7 @@ sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
 Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
-SlidePaths=/usr/share/wallpapers/
+SlidePaths=/home/avery/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][175]
 ItemGeometries-1080x1920=
@@ -54,7 +54,7 @@ sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
 Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
-SlidePaths=/usr/share/wallpapers/
+SlidePaths=/home/avery/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][340]
 activityId=
@@ -619,7 +619,7 @@ sortMode=-1
 
 [Containments][8][Wallpaper][org.kde.image][General]
 Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
-SlidePaths=/usr/share/wallpapers/
+SlidePaths=/home/avery/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=

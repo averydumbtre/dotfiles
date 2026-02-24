@@ -5,7 +5,11 @@ floating=0
 thickness=38
 
 [PlasmaViews][Panel 675]
-floating=1
+floating=0
+panelVisibility=1
+
+[PlasmaViews][Panel 675][Defaults]
+thickness=38
 
 [PlasmaViews][Panel 702]
 floating=1

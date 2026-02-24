@@ -14,15 +14,14 @@ Rows=1
 [Effect-aeroglassblur]
 AccentColorGroup=7
 AccentColorName=0
-AeroBrightness=99
-AeroHue=210
-AeroIntensity=91
-AeroSaturation=74
+AeroBrightness=33
+AeroIntensity=75
+AeroSaturation=0
 BlurDocks=true
 BlurMenus=true
-BlurStrength=2
-CustomColor=#5b429ffc
-ReflectionIntensity=0
+BlurStrength=4
+CustomColor=#4b545454
+ReflectionIntensity=70
 
 [Effect-better-blur-dx]
 BlurMatching=false
@@ -62,9 +61,11 @@ Inactive=74
 IndividualMenuConfig=true
 
 [Plugins]
+aeroglassblurEnabled=true
 better_blur_dxEnabled=true
 blurEnabled=false
 contrastEnabled=false
+cubeEnabled=true
 krohnkiteEnabled=true
 
 [Tiling][36b42cf2-3097-4286-b0f5-b72f1f8bb7a0][8ef4fd04-bc00-4d8e-9a17-0f65e23c660d]
