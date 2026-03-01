@@ -126,7 +126,7 @@
                 "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "sRGB",
+                "colorProfileSource": "EDID",
                 "connectorName": "HDMI-A-1",
                 "detectedDdcCi": true,
                 "edidHash": "12fbfd53829125e1681f8d58980555fb",
@@ -134,7 +134,6 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 0,
                 "mode": {
                     "height": 1080,
                     "refreshRate": 60000,
@@ -144,9 +143,9 @@
                 "rgbRange": "Automatic",
                 "scale": 1,
                 "sdrBrightness": 200,
-                "sdrGamutWideness": 0,
+                "sdrGamutWideness": 0.8,
                 "sharpness": 0,
-                "transform": "Rotated90",
+                "transform": "Normal",
                 "uuid": "bfd020cf-32e4-405c-8e14-6985d1d10da9",
                 "vrrPolicy": "Never",
                 "wideColorGamut": false
@@ -225,7 +224,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 0,
+                        "priority": 1,
                         "replicationSource": ""
                     },
                     {
@@ -235,7 +234,7 @@
                             "x": 1920,
                             "y": 0
                         },
-                        "priority": 1,
+                        "priority": 2,
                         "replicationSource": ""
                     }
                 ]
@@ -277,20 +276,20 @@
                         "enabled": true,
                         "outputIndex": 1,
                         "position": {
-                            "x": 1080,
+                            "x": 1920,
                             "y": 0
                         },
-                        "priority": 0,
+                        "priority": 1,
                         "replicationSource": ""
                     },
                     {
                         "enabled": true,
                         "outputIndex": 2,
                         "position": {
-                            "x": 3000,
+                            "x": 3840,
                             "y": 0
                         },
-                        "priority": 1,
+                        "priority": 2,
                         "replicationSource": ""
                     },
                     {
@@ -300,7 +299,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 2,
+                        "priority": 3,
                         "replicationSource": ""
                     }
                 ]

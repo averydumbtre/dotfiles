@@ -336,3 +336,130 @@ Signal Number = 1
 /usr/lib/libc.so.6(+0x11aa0c) [0x7f6de1b1aa0c]
 Signal Number = 11
 
+----------------------------------------------------------------------
+#TIME Fri Feb 27 23:10:37 2026 - Uptime 06:08:08 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.3.0.0010 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 52e43383-b1eb-489f-b188-7b213abcaee8
+#BMD_GIT_COMMIT 096a2a093e9b34f1799dee1ec2102680026a60f5
+#BMD_UTIL_VERSION 20.3.0.0010
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x60873e9]
+/opt/resolve/bin/resolve() [0x60865b2]
+/usr/lib/libc.so.6(+0x3e2d0) [0x7f9283a4d2d0]
+/usr/lib/libc.so.6(+0x98a2c) [0x7f9283aa7a2c]
+/usr/lib/libc.so.6(gsignal+0x20) [0x7f9283a4d1a0]
+/usr/lib/libc.so.6(abort+0x26) [0x7f9283a345fe]
+/usr/lib/libudev.so.1(+0x214d7) [0x7f92a88994d7]
+/usr/lib/libudev.so.1(+0x2162e) [0x7f92a889962e]
+/usr/lib/libudev.so.1(+0xa6d2) [0x7f92a88826d2]
+/usr/lib/libudev.so.1(udev_monitor_unref+0x3d) [0x7f92a888a1bd]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15HIDLinuxManager4StopEv+0x64) [0x7f9277ac6c94]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15HIDLinuxManagerD1Ev+0x20) [0x7f9277ac79b0]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15HIDLinuxManagerD0Ev+0x9) [0x7f9277ac7a39]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN10HIDManager20UnregisterDispatcherERKNS_3KeyEP13HIDDispatcher+0xae) [0x7f9277ac593e]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN18BMDLightDispatcherD1Ev+0x19b) [0x7f9277acedbb]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN18BMDLightDispatcherD0Ev+0x9) [0x7f9277acefe9]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15PanelControllerD1Ev+0x3f) [0x7f9277a2bcff]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_Z22BMD_DVP_RunPanelDaemoniPPc+0x169) [0x7f9277bac469]
+/opt/resolve/bin/resolve() [0x888fbd3]
+/opt/resolve/bin/resolve() [0x384bb98]
+/usr/lib/libc.so.6(+0x9697a) [0x7f9283aa597a]
+/usr/lib/libc.so.6(+0x11a2bc) [0x7f9283b292bc]
+Signal Number = 6
+
+----------------------------------------------------------------------
+#TIME Sat Feb 28 11:36:01 2026 - Uptime 00:54:31 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.3.0.0010 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 52e43383-b1eb-489f-b188-7b213abcaee8
+#BMD_GIT_COMMIT 096a2a093e9b34f1799dee1ec2102680026a60f5
+#BMD_UTIL_VERSION 20.3.0.0010
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x60873e9]
+/opt/resolve/bin/resolve() [0x60865b2]
+/usr/lib/libc.so.6(+0x3e2d0) [0x7f962444d2d0]
+/usr/lib/libc.so.6(+0x98a2c) [0x7f96244a7a2c]
+/usr/lib/libc.so.6(gsignal+0x20) [0x7f962444d1a0]
+/usr/lib/libc.so.6(abort+0x26) [0x7f96244345fe]
+/usr/lib/libnvidia-glcore.so.590.48.01(+0x2edcdc) [0x7f956deedcdc]
+/usr/lib/libnvidia-glcore.so.590.48.01(+0xaef92a) [0x7f956e6ef92a]
+/usr/lib/libnvidia-glcore.so.590.48.01(+0x9e26d9) [0x7f956e5e26d9]
+/usr/lib/libGLX_nvidia.so.0(+0xa481c) [0x7f95a817981c]
+/usr/lib/libGLX_nvidia.so.0(+0x72b00) [0x7f95a8147b00]
+/opt/resolve/libs/plugins/xcbglintegrations/libqxcb-glx-integration.so(+0xc8c1) [0x7f961a8238c1]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN14QOpenGLContext11swapBuffersEP8QSurface+0x21d) [0x7f960f7646ed]
+/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN21QPlatformBackingStore15composeAndFlushEP7QWindowRK7QRegionRK6QPointP20QPlatformTextureListb+0x1120) [0x7f960fa1f1f0]
+/opt/resolve/libs/libQt5XcbQpa.so.5(+0x58b21) [0x7f95af6edb21]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x17539f) [0x7f960c97539f]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x177826) [0x7f960c977826]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x1767ad) [0x7f960c9767ad]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x176e44) [0x7f960c976e44]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN14QWidgetPrivate16syncBackingStoreEv+0x4c) [0x7f960c99174c]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0xa1e) [0x7f960c9a243e]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x100) [0x7f960c96ac80]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x1da) [0x7f960c96c0ba]
+/opt/resolve/bin/resolve() [0x35bd2dc]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7f960d35d560]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN23QCoreApplicationPrivate16sendPostedEventsEP7QObjectiP11QThreadData+0x318) [0x7f960d35e438]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3b1743) [0x7f960d3b1743]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x5ef4d) [0x7f9627306f4d]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x60617) [0x7f9627308617]
+/opt/resolve/bin/../libs/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7f9627308825]
+/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7f960d3b1208]
+/opt/resolve/bin/resolve() [0x5ad14be]
+/opt/resolve/bin/resolve() [0x5a678ef]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7f960d3918d4]
+/opt/resolve/bin/resolve() [0x5a6a45c]
+/opt/resolve/bin/resolve() [0x5b0ac48]
+/opt/resolve/bin/resolve() [0x5b2301d]
+/opt/resolve/bin/resolve() [0x5b209a0]
+/opt/resolve/bin/resolve() [0x5ab9e82]
+/opt/resolve/bin/resolve() [0x5ab8160]
+/opt/resolve/bin/resolve() [0x5af51cf]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3917b2) [0x7f960d3917b2]
+/opt/resolve/bin/resolve() [0x5a6c99d]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7f960d3918d4]
+/opt/resolve/bin/resolve() [0x5a65fff]
+/opt/resolve/bin/resolve() [0x5a81b5b]
+/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7f960d3918d4]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x254e31) [0x7f960ca54e31]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x254c85) [0x7f960ca54c85]
+/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN15QAbstractButton17mouseReleaseEventEP11QMouseEvent+0x10f) [0x7f960ca55bdf]
+Signal Number = 6
+
+----------------------------------------------------------------------
+#TIME Sat Feb 28 14:07:05 2026 - Uptime 01:49:38 (hh:mm:ss)
+#PROGRAM_NAME DaVinci Resolve Studio v20.3.0.0010 (Linux/Clang x86_64)
+#BMD_ARCHITECTURE x86_64
+#BMD_BUILD_UUID 52e43383-b1eb-489f-b188-7b213abcaee8
+#BMD_GIT_COMMIT 096a2a093e9b34f1799dee1ec2102680026a60f5
+#BMD_UTIL_VERSION 20.3.0.0010
+#OS Linux
+
+/opt/resolve/bin/resolve() [0x60873e9]
+/opt/resolve/bin/resolve() [0x60865b2]
+/usr/lib/libc.so.6(+0x3e2d0) [0x7f67e784d2d0]
+/usr/lib/libc.so.6(+0x98a2c) [0x7f67e78a7a2c]
+/usr/lib/libc.so.6(gsignal+0x20) [0x7f67e784d1a0]
+/usr/lib/libc.so.6(abort+0x26) [0x7f67e78345fe]
+/usr/lib/libudev.so.1(+0x214d7) [0x7f68116bb4d7]
+/usr/lib/libudev.so.1(+0x2162e) [0x7f68116bb62e]
+/usr/lib/libudev.so.1(+0xa6d2) [0x7f68116a46d2]
+/usr/lib/libudev.so.1(udev_monitor_unref+0x3d) [0x7f68116ac1bd]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15HIDLinuxManager4StopEv+0x64) [0x7f67e0cc6c94]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15HIDLinuxManagerD1Ev+0x20) [0x7f67e0cc79b0]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15HIDLinuxManagerD0Ev+0x9) [0x7f67e0cc7a39]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN10HIDManager20UnregisterDispatcherERKNS_3KeyEP13HIDDispatcher+0xae) [0x7f67e0cc593e]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN18BMDLightDispatcherD1Ev+0x19b) [0x7f67e0ccedbb]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN18BMDLightDispatcherD0Ev+0x9) [0x7f67e0ccefe9]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_ZN15PanelControllerD1Ev+0x3f) [0x7f67e0c2bcff]
+/opt/resolve/bin/../libs/libDaVinciPanels.so(_Z22BMD_DVP_RunPanelDaemoniPPc+0x169) [0x7f67e0dac469]
+/opt/resolve/bin/resolve() [0x888fbd3]
+/opt/resolve/bin/resolve() [0x384bb98]
+/usr/lib/libc.so.6(+0x9697a) [0x7f67e78a597a]
+/usr/lib/libc.so.6(+0x11a2bc) [0x7f67e79292bc]
+Signal Number = 6
+
