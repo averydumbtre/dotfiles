@@ -62,6 +62,7 @@ application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
 application/pdf=librewolf.desktop;gimp.desktop;
 application/epub+zip=calibre-gui.desktop;calibre-ebook-viewer.desktop;
 application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;org.kde.ark.desktop;
+image/vnd.adobe.photoshop=krita_psd.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;
