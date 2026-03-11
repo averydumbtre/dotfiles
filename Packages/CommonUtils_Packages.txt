@@ -51,7 +51,6 @@ mesa-utils
 mesa
 mpv
 nethogs
-nheko
 obs-pipewire-audio-capture-bin
 obs-studio
 obs-vkcapture
@@ -101,4 +100,4 @@ sshfs
 lact
 kalarm
 detox
-element-desktop
+nheko

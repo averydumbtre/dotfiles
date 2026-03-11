@@ -24,7 +24,7 @@ DialogWidth=1019
 [Containments][157][General]
 changedPositions={}
 lastResolution=1920x1080
-positions={"1920x1080":["4","24","desktop:/Freecad.AppImage","2","1","desktop:/Darktable.AppImage","3","2"],"2327x1309":["1","30"]}
+positions={"1080x1920":["4","14","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Darktable.AppImage","3","2","desktop:/rotate normal.sh","0","1"],"1920x1080":["4","24","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1"],"2327x1309":["1","30"]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -91,7 +91,7 @@ DialogWidth=720
 
 [Containments][340][Applets][354][Configuration][General]
 disableJumplists=true
-launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:io.element.Element.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop,applications:nheko.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
@@ -282,7 +282,7 @@ DialogWidth=720
 
 [Containments][675][Applets][677][Configuration][General]
 disableJumplists=true
-launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:io.element.Element.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,applications:thunar.desktop,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 middleClickAction=Close
 showMuteBtn=true
 showOnlyCurrentScreen=true
@@ -627,8 +627,8 @@ DialogWidth=810
 
 [Containments][8][General]
 changedPositions={}
-lastResolution=1920x1080
-positions={"1080x1920":["1","14","desktop:/rotate normal.sh","0","0","desktop:/rotate left.sh","0","4"],"1920x1080":["2","24","desktop:/rotate left.sh","1","1","desktop:/rotate normal.sh","0","3"],"2327x1309":[]}
+lastResolution=1080x1920
+positions={"1080x1920":["1","14","desktop:/rotate left.sh","0","4","desktop:/rotate normal.sh","0","0"],"1920x1080":["2","24","desktop:/rotate left.sh","1","1","desktop:/rotate normal.sh","0","3"],"2327x1309":[]}
 sortMode=-1
 
 [Containments][8][Wallpaper][org.kde.image][General]
@@ -637,4 +637,4 @@ SlidePaths=/home/avery/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,2,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
