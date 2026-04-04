@@ -1,0 +1,12 @@
+aerothemeplasma-desktop-git
+aerothemeplasma-desktop-x11-git
+aerothemeplasma-icons-git
+aerothemeplasma-sounds-git
+aeroshell-workspace-git
+aeroshell-kwin-components-x11-git
+aeroshell-kwin-components-git
+aeroshell-smodglow-x11-git
+aeroshell-smod-git
+aeroshell-libplasma-git
+uac-polkit-agent-git 
+

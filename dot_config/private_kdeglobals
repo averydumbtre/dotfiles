@@ -139,7 +139,29 @@ ScreenScaleFactors=DP-1=1;DP-2=1;HDMI-A-1=1;
 XwaylandClientsScale=false
 
 [Shortcuts]
+AboutApp=
+AboutKDE=
+Clear=
+ConfigureNotifications=
+ConfigureToolbars=
+Donate=
+EditBookmarks=
+FitToHeight=
+FitToPage=
+FitToWidth=
+Goto=
+GotoPage=
+Mail=
+OpenRecent=
+PrintPreview=
+ReportBug=
+Revert=
 ShowHideHiddenFiles=
+ShowStatusbar=
+ShowToolbar=
+Spelling=
+SwitchApplicationLanguage=
+Zoom=
 
 [Sounds]
 Theme=Windows 7
