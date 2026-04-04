@@ -49,3 +49,4 @@ x264
 x265
 zip
 plasma-wayland-protocols
+firewalld
