@@ -193,12 +193,21 @@
             "Settings": [
               {
                 "Property": "Keys",
-                "Value": "Application+Shift+O"
+                "Value": "Control+Shift+Z"
               }
             ],
             "Enable": true
           },
-          null,
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "LeftControl"
+              }
+            ],
+            "Enable": true
+          },
           null,
           {
             "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
@@ -220,7 +229,16 @@
             ],
             "Enable": true
           },
-          null
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
+            "Settings": [
+              {
+                "Property": "Keys",
+                "Value": "Application+LeftShift+O"
+              }
+            ],
+            "Enable": true
+          }
         ],
         "MouseButtons": [],
         "WheelButtons": [],

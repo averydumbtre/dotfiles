@@ -344,7 +344,7 @@ _launch=Meta+Shift+O
 
 [services][org.kde.krunner.desktop]
 RunClipboard=
-_launch=
+_launch=Meta
 
 [services][org.kde.kscreen.desktop]
 ShowOSD=Display
@@ -357,7 +357,9 @@ _launch=
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=
+CurrentMonitorScreenShot=
 FullScreenScreenShot=
+OpenWithoutScreenshot=
 RecordRegion=
 RecordScreen=
 RecordWindow=

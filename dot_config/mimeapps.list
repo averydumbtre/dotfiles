@@ -53,9 +53,9 @@ video/x-ogm+ogg=mpv.desktop;
 video/x-theora=mpv.desktop;
 video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
-image/png=com.interversehq.qView.desktop;gimp.desktop;gmic_qt.desktop;krita_png.desktop;org.darktable.darktable.desktop;
+image/png=gimp.desktop;com.interversehq.qView.desktop;gmic_qt.desktop;krita_png.desktop;org.darktable.darktable.desktop;
 application/x-zerosize=org.kde.kate.desktop;
-image/jpeg=gimp.desktop;com.interversehq.qView.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
+image/jpeg=com.interversehq.qView.desktop;gimp.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
 image/x-canon-cr2=com.interversehq.qView.desktop;
 application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
@@ -70,6 +70,9 @@ image/x-xcf=gimp.desktop;
 image/tiff=gimp.desktop;
 image/avif=com.interversehq.qView.desktop;gimp.desktop;krita_heif.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+text/x-csrc=org.kde.kate.desktop;
+image/x-hdr=gimp.desktop;
+image/x-dds=gimp.desktop;com.interversehq.qView.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;
@@ -136,3 +139,5 @@ x-scheme-handler/element=io.element.Element.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop
 message/rfc822=userapp-Thunderbird-IAKJM3.desktop
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop
+image/x-hdr=gimp.desktop
+image/x-dds=com.interversehq.qView.desktop

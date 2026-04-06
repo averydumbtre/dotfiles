@@ -1,0 +1,223 @@
+{
+  "sets": [
+    {
+      "name": "",
+      "overlays": {},
+      "hidden_overlays": {
+        "DP-1": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Floating",
+          "curvature": 0.22,
+          "additive": false,
+          "saved_transform": [
+            2.5349102,
+            0.33498752,
+            -1.4297283,
+            -0.07971168,
+            2.879464,
+            0.5333339,
+            1.466283,
+            -0.4225899,
+            2.500708,
+            -1.1627115,
+            0.33525586,
+            -1.9837757
+          ],
+          "block_input": true,
+          "angle_fade": false
+        },
+        "kbd": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        },
+        "DP-2": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Floating",
+          "curvature": 0.14999999,
+          "additive": false,
+          "saved_transform": [
+            0.7658609,
+            -0.03558076,
+            0.64201474,
+            -0.018737437,
+            0.9968047,
+            0.07759533,
+            -0.6427268,
+            -0.07145724,
+            0.76275015,
+            0.76856273,
+            0.085320115,
+            -0.91447985
+          ],
+          "block_input": true,
+          "angle_fade": false
+        }
+      }
+    },
+    {
+      "name": "",
+      "overlays": {
+        "DP-1": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        },
+        "kbd": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        }
+      },
+      "hidden_overlays": {
+        "kbd": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        },
+        "DP-1": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": [
+            1.4316906,
+            -0.3111304,
+            -0.32166383,
+            0.38003215,
+            1.4146115,
+            0.3231965,
+            0.23631537,
+            -0.3899728,
+            1.4290154,
+            -0.08313891,
+            0.42808056,
+            -0.36451846
+          ],
+          "block_input": true,
+          "angle_fade": false
+        },
+        "DP-2": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
+          "additive": false,
+          "saved_transform": [
+            1.0962424,
+            -0.50066257,
+            0.89308196,
+            0.39973617,
+            1.4138753,
+            0.30195063,
+            -0.9425865,
+            0.01732403,
+            1.1667204,
+            1.3509705,
+            -0.024829745,
+            -0.026689015
+          ],
+          "block_input": true,
+          "angle_fade": false
+        }
+      }
+    }
+  ],
+  "global_set": {
+    "watch": {
+      "alpha": 0.02,
+      "grabbable": false,
+      "interactable": true,
+      "positioning": {
+        "FollowHand": {
+          "hand": "Left",
+          "lerp": 1.0,
+          "align_to_hmd": false
+        }
+      },
+      "curvature": null,
+      "additive": false,
+      "saved_transform": null,
+      "block_input": true,
+      "angle_fade": true
+    }
+  },
+  "last_set": 0,
+  "attribs": [
+    [
+      "avery - Thunar",
+      []
+    ],
+    [
+      "Element",
+      []
+    ],
+    [
+      "toast",
+      []
+    ],
+    [
+      "DP-1",
+      [
+        {
+          "StereoFullFrame": true
+        }
+      ]
+    ],
+    [
+      "DP-2",
+      []
+    ],
+    [
+      "kbd",
+      []
+    ],
+    [
+      "anchor",
+      []
+    ],
+    [
+      "watch",
+      []
+    ],
+    [
+      "Dashboard",
+      []
+    ],
+    [
+      "grab-help",
+      []
+    ]
+  ]
+}

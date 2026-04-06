@@ -1,708 +1,361 @@
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:54,197 | Running DaVinci Resolve Studio v20.3.0.0010 (Linux/Clang x86_64)
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:54,197 | BMD_BUILD_UUID 52e43383-b1eb-489f-b188-7b213abcaee8
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:54,197 | BMD_GIT_COMMIT 096a2a093e9b34f1799dee1ec2102680026a60f5
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,197 | Starting GPUDetect 1.2_9-a4
-0x7fb54e08b000 | GPUDetect            | WARN  | 2026-03-28 19:15:54,245 | X11 logs not found.
-0x7fb54e08b000 | GPUDetect            | ERROR | 2026-03-28 19:15:54,264 | No Main Display GPU found and no monitors found to match, defaulting to gpu:598eeef9.cd75a979.
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 | Done in 66 ms.
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 | Detected System:
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |   - OS: Linux Arch
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |   - Model: HP 8767
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |   - System ID: 4cbf414fef81479193c1c2618ff99e81
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |   - CPU: Intel Core i5-10400F, 12 threads, x86-64
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |   - RAM: 5.8 GiB used of 15.5 GiB
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 | Detected 1 GPUs:
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) <- Main Display GPU
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |     Discrete, 11.6 GiB VRAM, PCI:1:0
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 |     Matches: CUDA, NVML, OpenCL
-0x7fb54e08b000 | GPUDetect            | INFO  | 2026-03-28 19:15:54,264 | Detected 1 monitors:
-0x7fb54e08b000 | Main.GPUConfig       | INFO  | 2026-03-28 19:15:54,264 | Compute API set to automatic, defaulting to CUDA.
-0x7fb54e08b000 | Main.GPUConfig       | INFO  | 2026-03-28 19:15:54,264 | Selected compute API: CUDA
-0x7fb54e08b000 | Main.GPUConfig       | INFO  | 2026-03-28 19:15:54,264 | Automatic GPU Selection:
-0x7fb54e08b000 | Main.GPUConfig       | INFO  | 2026-03-28 19:15:54,264 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979)
-0x7fb54e08b000 | IO                   | INFO  | 2026-03-28 19:15:54,264 | RED InitializeSdk with library path at /opt/resolve/libs
-0x7fb54e08b000 | IO                   | INFO  | 2026-03-28 19:15:54,473 | R3DAPI 9.1.1-57f6471 (20251008 Lx64S OpenCL-Fix) R3DSDK 9.1.1-57f6471 (20251008 Lx64D C3B3 OpenCL-Fix) RED CUDA 9.1.2-0 (20251008) [/opt/resolve/libs/] init is successful
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:08,902 | Running DaVinci Resolve Studio v20.3.0.0010 (Linux/Clang x86_64)
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:08,902 | BMD_BUILD_UUID 52e43383-b1eb-489f-b188-7b213abcaee8
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:08,902 | BMD_GIT_COMMIT 096a2a093e9b34f1799dee1ec2102680026a60f5
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,902 | Starting GPUDetect 1.2_9-a4
+0x7f3d05242000 | GPUDetect            | WARN  | 2026-04-05 15:22:08,968 | X11 logs not found.
+0x7f3d05242000 | GPUDetect            | ERROR | 2026-04-05 15:22:08,991 | No Main Display GPU found and no monitors found to match, defaulting to gpu:598eeef9.cd75a979.
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 | Done in 88 ms.
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 | Detected System:
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |   - OS: Linux Arch
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |   - Model: HP 8767
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |   - System ID: 4cbf414fef81479193c1c2618ff99e81
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |   - CPU: Intel Core i5-10400F, 12 threads, x86-64
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |   - RAM: 8.7 GiB used of 15.5 GiB
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 | Detected 1 GPUs:
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) <- Main Display GPU
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |     Discrete, 11.6 GiB VRAM, PCI:1:0
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 |     Matches: CUDA, NVML, OpenCL
+0x7f3d05242000 | GPUDetect            | INFO  | 2026-04-05 15:22:08,991 | Detected 1 monitors:
+0x7f3d05242000 | Main.GPUConfig       | INFO  | 2026-04-05 15:22:08,991 | Compute API set to automatic, defaulting to CUDA.
+0x7f3d05242000 | Main.GPUConfig       | INFO  | 2026-04-05 15:22:08,991 | Selected compute API: CUDA
+0x7f3d05242000 | Main.GPUConfig       | INFO  | 2026-04-05 15:22:08,991 | Automatic GPU Selection:
+0x7f3d05242000 | Main.GPUConfig       | INFO  | 2026-04-05 15:22:08,991 |   - "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979)
+0x7f3d05242000 | IO                   | INFO  | 2026-04-05 15:22:08,991 | RED InitializeSdk with library path at /opt/resolve/libs
+0x7f3d05242000 | IO                   | INFO  | 2026-04-05 15:22:12,395 | R3DAPI 9.1.1-57f6471 (20251008 Lx64S OpenCL-Fix) R3DSDK 9.1.1-57f6471 (20251008 Lx64D C3B3 OpenCL-Fix) RED CUDA 9.1.2-0 (20251008) [/opt/resolve/libs/] init is successful
 libDeckLinkAPI.so: cannot open shared object file: No such file or directory
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:54,474 | Decklink model name: '', version: ''
-0x7fb54e08b000 | DVIP                 | INFO  | 2026-03-28 19:15:54,475 | DVIP release/20.3 build 7 (21b750852f6d35050787c310db719a14e22e95d7). Release, version 20.3.0.
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:54,642 | Using DNxHR library v3.0.0.1312r
-0x7fb4c97ee000 | Fusion               | INFO  | 2026-03-28 19:15:54,937 | Fusion Build: 4ad513c8_0007 (Nov 28 2025 05:04:03)
-0x7fb4b1deb000 | Fusion               | INFO  | 2026-03-28 19:15:54,939 | fusionsystem: = "/opt/resolve/libs/Fusion/libfusionsystem.so"
-0x7fb4b1deb000 | Fusion               | INFO  | 2026-03-28 19:15:54,944 | FusionLibs: = "/opt/resolve/libs/Fusion/"
-0x7fb4b1deb000 | Fusion               | INFO  | 2026-03-28 19:15:54,944 | UserData:   = "/home/avery/.local/share/DaVinciResolve/Fusion"
-0x7fb4b1deb000 | Fusion               | INFO  | 2026-03-28 19:15:54,944 | Profiles:   = "UserData:Profiles/"
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:54,948 | NVDEC decodes H264, chroma 4:2:0, bitdepth 8, upto 4096 x 4096
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:15:54,982 | UI language is set to "en".
-0x7fb54e08b000 | DDM                  | INFO  | 2026-03-28 19:15:54,983 | Creating package storage directory '/opt/resolve/Extras'
-0x7fb54e08b000 | DDM                  | ERROR | 2026-03-28 19:15:54,983 | Failed to initialize DDM: failed to create storage dir '/opt/resolve/Extras' (error 'Permission denied')
-0x7fb54e08b000 | DownloadMgr          | ERROR | 2026-03-28 19:15:54,983 | DDM init failed.
-0x7fb4ae7be000 | DbCommon2            | INFO  | 2026-03-28 19:15:54,983 | Loading dblist file: /home/avery/.local/share/DaVinciResolve/configs/.dblist
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:54,984 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:54,993 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,004 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 12, upto 8192 x 8192
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:55,032 | Finished loading Application style sheet
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,033 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 8, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,041 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 10, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,048 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 12, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,058 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:55,064 | Show splash screen
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:55,064 | Show splash screen message: Starting Up
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,067 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,256 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,264 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,267 | Nvidia : driverVer(208), SDK(13:0)
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,278 | Nvidia GPU (0) is initialised as decoding and encoding device.
-0x7fb4c8fed000 | IO                   | ERROR | 2026-03-28 19:15:55,279 | Error initializing ArriImageSdk Some requested platforms could not be loaded. See log for details.
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,279 | Initialized ARRIImageSDK version 9.0.0
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,280 | Apple ProRes RAW plugin - Standard v1.3 [com.apple.proresraw.prrplugin.standardrawconversion]
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,280 | Found 1 Apple ProRes RAW plugins.
-0x7fb4c8fed000 | IO                   | ERROR | 2026-03-28 19:15:55,280 | ProRes RAW SDK raw conversion plug-in loading error(s): unable to open default plug-in directory /usr/local/lib/proresraw/plugins
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:55,280 | IO codec library load completed in 638 ms.
-0x7fb54e08b000 | UI.GLContext         | INFO  | 2026-03-28 19:15:55,342 | Creating shared OpenGL context for this thread (1 total).
-0x7fb54e08b000 | UI.GLContext         | INFO  | 2026-03-28 19:15:55,345 | Initialized OpenGL 4.5 (requested 4.5) on device 'NVIDIA Corporation NVIDIA GeForce RTX 3060/PCIe/SSE2'
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:55,345 | Show splash screen message: Checking Licenses
-sh: line 1: python2: command not found
-0x7fb46effd000 | Main                 | INFO  | 2026-03-28 19:15:56,514 | Local SysId:000072006500 Hostname:avery-aeropc Timezone:US/Pacific UTC-0700
-0x7fb46e7fc000 | Main                 | INFO  | 2026-03-28 19:15:56,516 | Started listener socket at port 15000
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:12,397 | Decklink model name: '', version: ''
+0x7f3d05242000 | DVIP                 | INFO  | 2026-04-05 15:22:12,397 | DVIP release/20.3 build 7 (21b750852f6d35050787c310db719a14e22e95d7). Release, version 20.3.0.
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,559 | Using DNxHR library v3.0.0.1312r
+0x7f3c7df6d000 | Fusion               | INFO  | 2026-04-05 15:22:12,789 | Fusion Build: 4ad513c8_0007 (Nov 28 2025 05:04:03)
+0x7f3c6b7f5000 | Fusion               | INFO  | 2026-04-05 15:22:12,794 | fusionsystem: = "/opt/resolve/libs/Fusion/libfusionsystem.so"
+0x7f3c6b7f5000 | Fusion               | INFO  | 2026-04-05 15:22:12,799 | FusionLibs: = "/opt/resolve/libs/Fusion/"
+0x7f3c6b7f5000 | Fusion               | INFO  | 2026-04-05 15:22:12,799 | UserData:   = "/home/avery/.local/share/DaVinciResolve/Fusion"
+0x7f3c6b7f5000 | Fusion               | INFO  | 2026-04-05 15:22:12,799 | Profiles:   = "UserData:Profiles/"
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,810 | NVDEC decodes H264, chroma 4:2:0, bitdepth 8, upto 4096 x 4096
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:12,837 | UI language is set to "en".
+0x7f3d05242000 | DDM                  | INFO  | 2026-04-05 15:22:12,838 | Creating package storage directory '/opt/resolve/Extras'
+0x7f3d05242000 | DDM                  | ERROR | 2026-04-05 15:22:12,838 | Failed to initialize DDM: failed to create storage dir '/opt/resolve/Extras' (error 'Permission denied')
+0x7f3d05242000 | DownloadMgr          | ERROR | 2026-04-05 15:22:12,838 | DDM init failed.
+0x7f3c616fc000 | DbCommon2            | INFO  | 2026-04-05 15:22:12,838 | Loading dblist file: /home/avery/.local/share/DaVinciResolve/configs/.dblist
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,845 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,852 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,860 | NVDEC decodes HEVC, chroma 4:2:0, bitdepth 12, upto 8192 x 8192
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:12,883 | Finished loading Application style sheet
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,891 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 8, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,899 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 10, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,907 | NVDEC decodes HEVC, chroma 4:4:4, bitdepth 12, upto 8192 x 8192
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:12,915 | Show splash screen
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:12,915 | Show splash screen message: Starting Up
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,915 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:12,923 | NVDEC decodes VP9, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,027 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 8, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,035 | NVDEC decodes AV1, chroma 4:2:0, bitdepth 10, upto 8192 x 8192
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,037 | Nvidia : driverVer(208), SDK(13:0)
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,048 | Nvidia GPU (0) is initialised as decoding and encoding device.
+0x7f3c7d76c000 | IO                   | ERROR | 2026-04-05 15:22:13,048 | Error initializing ArriImageSdk Some requested platforms could not be loaded. See log for details.
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,048 | Initialized ARRIImageSDK version 9.0.0
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,049 | Apple ProRes RAW plugin - Standard v1.3 [com.apple.proresraw.prrplugin.standardrawconversion]
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,049 | Found 1 Apple ProRes RAW plugins.
+0x7f3c7d76c000 | IO                   | ERROR | 2026-04-05 15:22:13,049 | ProRes RAW SDK raw conversion plug-in loading error(s): unable to open default plug-in directory /usr/local/lib/proresraw/plugins
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:13,049 | IO codec library load completed in 490 ms.
+0x7f3d05242000 | UI.GLContext         | INFO  | 2026-04-05 15:22:13,111 | Creating shared OpenGL context for this thread (1 total).
+0x7f3d05242000 | UI.GLContext         | INFO  | 2026-04-05 15:22:13,114 | Initialized OpenGL 4.5 (requested 4.5) on device 'NVIDIA Corporation NVIDIA GeForce RTX 3060/PCIe/SSE2'
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:13,114 | Show splash screen message: Checking Licenses
+0x7f3c4e402000 | Main                 | INFO  | 2026-04-05 15:22:13,125 | Started listener socket at port 15000
 libScannerAPI.so: cannot open shared object file: No such file or directory
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:56,522 | Application state changed to Active
-0x7fb4955ff000 | Fusion               | INFO  | 2026-03-28 19:15:56,616 | 371 templates scanned in 0.14 secs
-0x7fb54e08b000 | LeManager            | INFO  | 2026-03-28 19:15:56,745 | R_V:16.0.3.0
-0x7fb54e08b000 | BtCommon             | INFO  | 2026-03-28 19:15:56,750 | Memory config: reserved=5110M pinned=3832M log=0
-0x7fb54e08b000 | BtCommon             | INFO  | 2026-03-28 19:15:56,750 | Using default pooled memory manager
-0x7fb46bdf2000 | BtCommon             | INFO  | 2026-03-28 19:15:56,750 | BtResourceManager Process Thread Started
-0x7fb54e08b000 | SyManager            | INFO  | 2026-03-28 19:15:56,757 | Total: 20, NumDtThreads: 8, NumComms: 0, NumSites: 1
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:13,128 | Application state changed to Active
+sh: line 1: python2: command not found
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:13,163 | Local SysId:000072006500 Hostname:avery-aeropc Timezone:US/Pacific UTC-0700
+0x7f3d05242000 | LeManager            | INFO  | 2026-04-05 15:22:13,382 | R_V:16.0.3.0
+0x7f3d05242000 | BtCommon             | INFO  | 2026-04-05 15:22:14,066 | Memory config: reserved=5110M pinned=3832M log=0
+0x7f3d05242000 | BtCommon             | INFO  | 2026-04-05 15:22:14,066 | Using default pooled memory manager
+0x7f3c253fe000 | BtCommon             | INFO  | 2026-04-05 15:22:14,066 | BtResourceManager Process Thread Started
+0x7f3d05242000 | SyManager            | INFO  | 2026-04-05 15:22:14,070 | Total: 20, NumDtThreads: 8, NumComms: 0, NumSites: 1
 
-0x7fb54e08b000 | SyManager            | INFO  | 2026-03-28 19:15:56,757 | Lookaheads -> playback = 20, record = 20, stop = 2
+0x7f3d05242000 | SyManager            | INFO  | 2026-04-05 15:22:14,070 | Lookaheads -> playback = 20, record = 20, stop = 2
 
-Sy High Command Handler Thread ----- (140412855447552)
-SY high priority cmd handler thread starts: 6A5EF000
-Sy Low Command Handler Thread ----- (140412847054848)
-SY low priority cmd handler thread starts: 69DEE000
-Sy Data Handler Thread ----- (140412838662144)
-SY data handler thread starts: 695ED000
-Gs High Command Handler Thread ----- (140412821876736)
-GS high priority cmd handler thread starts: 685EB000
-Gs Low Command Handler Thread ----- (140412813484032)
-GS low priority cmd handler thread starts: 67DEA000
-0x7fb54e08b000 | DtManager            | INFO  | 2026-03-28 19:15:56,761 | Using 8 generic IO threads
-0x7fb54e08b000 | DtManager            | INFO  | 2026-03-28 19:15:56,761 | Total of 16 IO threads (including 8 generic and 8 Red decode threads)
-0x7fb4637ff000 | DtManager            | INFO  | 2026-03-28 19:15:56,762 | Dt Data Handler Thread Started
-DT data handler thread starts: 637FF000
-0x7fb4621fe000 | DtManager            | INFO  | 2026-03-28 19:15:56,762 | Dt Worker Thread Started
-0x7fb4619fd000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb4611fc000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb4609fb000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb4601fa000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb45f9f9000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb45f1f8000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-Dt High Command Handler Thread ----- (140412767432704)
-DT high priority cmd handler thhread starts: 651FF000
-0x7fb45e9f7000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb45e1f6000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb45d9f5000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb45d1f4000 | DtManager            | INFO  | 2026-03-28 19:15:56,763 | Dt Worker Thread Started
-0x7fb45c9f3000 | DtManager            | INFO  | 2026-03-28 19:15:56,764 | Dt Worker Thread Started
-0x7fb45c1f2000 | DtManager            | INFO  | 2026-03-28 19:15:56,764 | Dt Worker Thread Started
-0x7fb45b1f0000 | DtManager            | INFO  | 2026-03-28 19:15:56,764 | Dt Worker Thread Started
-0x7fb45a9ef000 | DtManager            | INFO  | 2026-03-28 19:15:56,764 | Dt Worker Thread Started
-0x7fb45a1ee000 | DtManager            | INFO  | 2026-03-28 19:15:56,765 | Dt Worker Thread Started
-Dp High Command Handler Thread ----- (140412796698624)
-DP high priority cmd handler thread starts: 66DE8000
-0x7fb4629ff000 | DtManager            | INFO  | 2026-03-28 19:15:56,766 | Dt Worker Thread Started
-0x7fb45b9f1000 | DtManager            | INFO  | 2026-03-28 19:15:56,766 | Dt Worker Thread Started
-Ls High Command Handler Thread ----- (140412555620352)
-Ls Low Command Handler Thread ----- (140412547227648)
-LS low priority cmd handler thread starts: 57FFE000
-Ls Data Handler Thread ----- (140412532551680)
-Ls High Command Handler Thread ----- (140412517871616)
-Dt Low Command Handler Thread ----- (140412759040000)
-DT low priority cmd handler thread starts: 649FE000
-Ls Low Command Handler Thread ----- (140412509478912)
-LS low priority cmd handler thread starts: 55BFE000
-LS data handler thread starts: 571FF000
-Ls Data Handler Thread ----- (140412501086208)
-LS data handler thread starts: 553FD000
-Ls High Command Handler Thread ----- (140412492693504)
-0x7fb4675e9000 | GsManager            | INFO  | 2026-03-28 19:15:56,768 | Gs Processor Thread ----- (140412805091328)
+Sy High Command Handler Thread ----- (139896266137600)
+SY high priority cmd handler thread starts: 233FA000
+Sy Low Command Handler Thread ----- (139896257744896)
+SY low priority cmd handler thread starts: 22BF9000
+Sy Data Handler Thread ----- (139896249352192)
+SY data handler thread starts: 223F8000
+Gs High Command Handler Thread ----- (139896232566784)
+GS high priority cmd handler thread starts: 213F6000
+Gs Low Command Handler Thread ----- (139896224174080)
+GS low priority cmd handler thread starts: 20BF5000
+0x7f3c203f4000 | GsManager            | INFO  | 2026-04-05 15:22:14,071 | Gs Processor Thread ----- (139896215781376)
 
-GS processor thread starts: 675E9000
-Ls Low Command Handler Thread ----- (140412484300800)
-LS low priority cmd handler thread starts: 543FB000
-Mem data transmitter thread starts: 52DFE000
-Ls Data Handler Thread ----- (140412469637120)
-Mem Data Transmitter Thread ----- (140412461244416)
-Dp Low Command Handler Thread ----- (140412782112768)
-DP low priority cmd handler thread starts: 65FFF000
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:56,769 | Show splash screen message: Loading Project Libraries
-0x7fb4535ff000 | GPU.MultiBoardMgr    | INFO  | 2026-03-28 19:15:56,771 | Let There Be CUDA Light!
-0x7fb4535ff000 | GPU.MultiBoardMgr    | INFO  | 2026-03-28 19:15:56,771 | Initializing CUDA board manager for Main Display GPU gpu:598eeef9.cd75a979.
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:56,771 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:56,773 | Show splash screen message: Initializing system components
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:56,777 | Show splash screen message: Loading video codecs
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:56,778 | Show splash screen message: Loading video plugins
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:56,780 | Show splash screen message: Loading Fairlight Engine
-0x7fb451dfc000 | GPU.SingleBoardMgr   | INFO  | 2026-03-28 19:15:56,785 | Board manager thread for "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) is ready.
-0x7fb4535ff000 | UI.GLInterop         | INFO  | 2026-03-28 19:15:56,785 | OpenGL interop was initialized.
-0x7fb4535ff000 | UI.GLInterop         | INFO  | 2026-03-28 19:15:56,785 | OpenGL interop was initialized.
-0x7fb4535ff000 | GPU.MultiBoardMgr    | INFO  | 2026-03-28 19:15:56,785 | Enabled CUDA pinned memory.
-LS data handler thread starts: 535FF000
-0x7fb4c8fed000 | IO                   | INFO  | 2026-03-28 19:15:56,793 | IO codec initialization completed in 15 ms.
-0x7fb54e08b000 | BtCommon             | ERROR | 2026-03-28 19:15:56,997 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
-0x7fb54e08b000 | BtCommon             | ERROR | 2026-03-28 19:15:57,417 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
-0x7fb54e08b000 | BtCommon             | ERROR | 2026-03-28 19:15:57,605 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
-0x7fb54e08b000 | Fairlight            | INFO  | 2026-03-28 19:15:57,619 | 00.00.00.834(002): Running Fairlight (ce418cc1371add55fc6a5810202fa4b453aadc15)
-0x7fb54e08b000 | FairlightLoader      | INFO  | 2026-03-28 19:15:57,619 | Fairlight lib initialized in 838 ms.
-0x7fb4c97ee000 | UI.GLContext         | INFO  | 2026-03-28 19:15:57,619 | Creating shared OpenGL context for this thread (2 total).
-0x7fb4c97ee000 | UI.GLIO              | INFO  | 2026-03-28 19:15:57,685 | Initialized MainPlayer OpenGL I/O on CUDA device 'NVIDIA GeForce RTX 3060'
-0x7fb54e08b000 | UI.GLIO              | INFO  | 2026-03-28 19:15:57,685 | MainPlayer: OpenGL I/O setup done.
-0x7fb3f1dfd000 | UI.GLContext         | INFO  | 2026-03-28 19:15:57,686 | Creating shared OpenGL context for this thread (3 total).
-0x7fb3f1dfd000 | UI.GLIO              | INFO  | 2026-03-28 19:15:57,735 | Initialized AuxPlayer OpenGL I/O on CUDA device 'NVIDIA GeForce RTX 3060'
-0x7fb54e08b000 | UI.GLIO              | INFO  | 2026-03-28 19:15:57,735 | AuxPlayer: OpenGL I/O setup done.
-0x7fb407452000 | UI.GLContext         | INFO  | 2026-03-28 19:15:57,735 | Creating shared OpenGL context for this thread (4 total).
-0x7fb407452000 | UI.Scopes            | INFO  | 2026-03-28 19:15:57,779 | Initialized GPU Scopes Manager on CUDA device 'NVIDIA GeForce RTX 3060'
-0x7fb3e7e8a000 | SyManager            | ERROR | 2026-03-28 19:15:57,784 | Failed to connect to panel socket
-0x7fb3e7e8a000 | SyManager            | ERROR | 2026-03-28 19:15:57,784 | DRIVER: open /var/tmp/davinci_socket failed
-SY panel handler thread starts: E7E8A000
-0x7fb3e6687000 | SyManager            | INFO  | 2026-03-28 19:15:57,803 | Starting keyboard device monitor thread...
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:57,804 | Show splash screen message: Loading Project Settings
+GS processor thread starts: 203F4000
+Dp High Command Handler Thread ----- (139896207388672)
+DP high priority cmd handler thread starts: 1FBF3000
+Dp Low Command Handler Thread ----- (139896198995968)
+DP low priority cmd handler thread starts: 1F3F2000
+Dt High Command Handler Thread ----- (139896190603264)
+DT high priority cmd handler thhread starts: 1EBF1000
+Dt Low Command Handler Thread ----- (139896182210560)
+DT low priority cmd handler thread starts: 1E3F0000
+0x7f3d05242000 | DtManager            | INFO  | 2026-04-05 15:22:14,071 | Using 8 generic IO threads
+0x7f3c1dbef000 | DtManager            | INFO  | 2026-04-05 15:22:14,071 | Dt Data Handler Thread Started
+DT data handler thread starts: 1DBEF000
+0x7f3d05242000 | DtManager            | INFO  | 2026-04-05 15:22:14,071 | Total of 16 IO threads (including 8 generic and 8 Red decode threads)
+0x7f3c1d3ee000 | DtManager            | INFO  | 2026-04-05 15:22:14,071 | Dt Worker Thread Started
+0x7f3c1cbed000 | DtManager            | INFO  | 2026-04-05 15:22:14,071 | Dt Worker Thread Started
+0x7f3c1c3ec000 | DtManager            | INFO  | 2026-04-05 15:22:14,071 | Dt Worker Thread Started
+0x7f3c1bbeb000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c1b3ea000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c1abe9000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c1a3e8000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c19be7000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c193e6000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c18be5000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c183e4000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c17be3000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c173e2000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c169de000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c161dd000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c159dc000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3c151db000 | DtManager            | INFO  | 2026-04-05 15:22:14,072 | Dt Worker Thread Started
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:14,074 | Show splash screen message: Loading Project Libraries
+Ls Low Command Handler Thread ----- (139895991431168)
+Ls Data Handler Thread ----- (139895945293824)
+Ls Data Handler Thread ----- (139895976751104)
+Ls High Command Handler Thread ----- (139895968358400)
+Ls Low Command Handler Thread ----- (139895959965696)
+Ls Low Command Handler Thread ----- (139895922221056)
+0x7f3c149da000 | DtManager            | INFO  | 2026-04-05 15:22:14,076 | Dt Worker Thread Started
+LS data handler thread starts: 101FF000
+LS low priority cmd handler thread starts: 10FFD000
+LS low priority cmd handler thread starts: 0EBFE000
+LS low priority cmd handler thread starts: 12DFF000
+Mem data transmitter thread starts: 0D5FE000
+LS data handler thread starts: 11FFF000
+Ls Data Handler Thread ----- (139895907545088)
+Mem Data Transmitter Thread ----- (139895899152384)
+Ls High Command Handler Thread ----- (139895930613760)
+Ls High Command Handler Thread ----- (139896006111232)
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:14,079 | Show splash screen message: Initializing system components
+0x7f3c0ddff000 | GPU.MultiBoardMgr    | INFO  | 2026-04-05 15:22:14,079 | Let There Be CUDA Light!
+0x7f3c0ddff000 | GPU.MultiBoardMgr    | INFO  | 2026-04-05 15:22:14,079 | Initializing CUDA board manager for Main Display GPU gpu:598eeef9.cd75a979.
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:14,081 | Show splash screen message: Loading video codecs
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:14,082 | Show splash screen message: Loading video plugins
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:14,087 | Show splash screen message: Loading Fairlight Engine
+0x7f3c0a3fe000 | GPU.SingleBoardMgr   | INFO  | 2026-04-05 15:22:14,092 | Board manager thread for "NVIDIA GeForce RTX 3060" (gpu:598eeef9.cd75a979) is ready.
+0x7f3c0ddff000 | UI.GLInterop         | INFO  | 2026-04-05 15:22:14,092 | OpenGL interop was initialized.
+0x7f3c0ddff000 | UI.GLInterop         | INFO  | 2026-04-05 15:22:14,092 | OpenGL interop was initialized.
+0x7f3c0ddff000 | GPU.MultiBoardMgr    | INFO  | 2026-04-05 15:22:14,092 | Enabled CUDA pinned memory.
+0x7f3c7d76c000 | IO                   | INFO  | 2026-04-05 15:22:14,094 | IO codec initialization completed in 13 ms.
+LS data handler thread starts: 0DDFF000
+0x7f3d05242000 | BtCommon             | ERROR | 2026-04-05 15:22:14,303 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f3c495ff000 | Fusion               | INFO  | 2026-04-05 15:22:14,511 | 371 templates scanned in 0.14 secs
+0x7f3d05242000 | BtCommon             | ERROR | 2026-04-05 15:22:14,652 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f3d05242000 | BtCommon             | ERROR | 2026-04-05 15:22:14,845 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f3d05242000 | Fairlight            | INFO  | 2026-04-05 15:22:14,858 | 00.00.00.765(001): Running Fairlight (ce418cc1371add55fc6a5810202fa4b453aadc15)
+0x7f3d05242000 | FairlightLoader      | INFO  | 2026-04-05 15:22:14,858 | Fairlight lib initialized in 770 ms.
+0x7f3c7df6d000 | UI.GLContext         | INFO  | 2026-04-05 15:22:14,858 | Creating shared OpenGL context for this thread (2 total).
+0x7f3c7df6d000 | UI.GLIO              | INFO  | 2026-04-05 15:22:14,917 | Initialized MainPlayer OpenGL I/O on CUDA device 'NVIDIA GeForce RTX 3060'
+0x7f3d05242000 | UI.GLIO              | INFO  | 2026-04-05 15:22:14,917 | MainPlayer: OpenGL I/O setup done.
+0x7f3baebfa000 | UI.GLContext         | INFO  | 2026-04-05 15:22:14,917 | Creating shared OpenGL context for this thread (3 total).
+0x7f3baebfa000 | UI.GLIO              | INFO  | 2026-04-05 15:22:14,968 | Initialized AuxPlayer OpenGL I/O on CUDA device 'NVIDIA GeForce RTX 3060'
+0x7f3d05242000 | UI.GLIO              | INFO  | 2026-04-05 15:22:14,968 | AuxPlayer: OpenGL I/O setup done.
+0x7f3bbdbb3000 | UI.GLContext         | INFO  | 2026-04-05 15:22:14,969 | Creating shared OpenGL context for this thread (4 total).
+0x7f3bbdbb3000 | UI.Scopes            | INFO  | 2026-04-05 15:22:15,013 | Initialized GPU Scopes Manager on CUDA device 'NVIDIA GeForce RTX 3060'
+0x7f3b9cdfb000 | SyManager            | ERROR | 2026-04-05 15:22:15,017 | Failed to connect to panel socket
+0x7f3b9cdfb000 | SyManager            | ERROR | 2026-04-05 15:22:15,017 | DRIVER: open /var/tmp/davinci_socket failed
+SY panel handler thread starts: 9CDFB000
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:15,034 | Show splash screen message: Loading Project Settings
 Opening communication to resolve..
+0x7f3b9a5f6000 | SyManager            | INFO  | 2026-04-05 15:22:15,036 | Starting keyboard device monitor thread...
 Failed to create listener
 Unsupported DaVinci Panel API Version (0.0), please update
-0x7fb54e08b000 | UI.MenuBar           | WARN  | 2026-03-28 19:15:58,152 | Main menu action [workspaceLayoutFusion_sub001Default]'s slot is not defined: workspaceLayoutFusion_sub001Default_triggered()
-0x7fb54e08b000 | FusionUtils          | WARN  | 2026-03-28 19:15:58,160 | Fusion DoAction ACTION_SET_FUSION_HOTKEY ignored, init not completed
-0x7fb54e08b000 | SyManager            | ERROR | 2026-03-28 19:15:58,174 | RemoteStream() - Access token is empty
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:58,482 | Show splash screen message: Loading Media Page
-0x7fb54e08b000 | UI.FairlightInterface | WARN  | 2026-03-28 19:15:58,709 | SetActionEnabled: Failed to find action [viewTimelineScrollingFixed]'s action connector for handler Id [1]
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:59,460 | Show splash screen message: Loading Cut Page
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:59,544 | Application state changed to Active
-0x7fb54e08b000 | UI.SpeedTimeline     | INFO  | 2026-03-28 19:15:59,546 | Replay UI is enabled.
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:15:59,807 | OFX - plugin not supported on this platform, is being skipped
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:15:59,809 | OFX - plugin not supported on this platform, is being skipped
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:15:59,843 | Show splash screen message: Loading Edit Page
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:00,246 | OFX - plugin not supported on this platform, is being skipped
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:00,247 | OFX - plugin not supported on this platform, is being skipped
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:00,260 | Show splash screen message: Loading Fusion Page
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:00,375 | Show splash screen message: Loading Fairlight Page
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:00,600 | Show splash screen message: Loading Color Page
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:00,765 | OFX - plugin not supported on this platform, is being skipped
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:00,765 | OFX - plugin not supported on this platform, is being skipped
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:02,233 | Show splash screen message: Loading Waveform Monitor
-0x7fb3e7e8a000 | SyManager            | INFO  | 2026-03-28 19:16:02,333 | Connected to panel socket at 99
-0x7fb3e7e8a000 | SyManager            | INFO  | 2026-03-28 19:16:02,333 | Connection to the panel server has been re-established
+0x7f3d05242000 | UI.MenuBar           | WARN  | 2026-04-05 15:22:15,376 | Main menu action [workspaceLayoutFusion_sub001Default]'s slot is not defined: workspaceLayoutFusion_sub001Default_triggered()
+0x7f3d05242000 | FusionUtils          | WARN  | 2026-04-05 15:22:15,383 | Fusion DoAction ACTION_SET_FUSION_HOTKEY ignored, init not completed
+0x7f3d05242000 | SyManager            | ERROR | 2026-04-05 15:22:15,397 | RemoteStream() - Access token is empty
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:15,712 | Show splash screen message: Loading Media Page
+0x7f3d05242000 | UI.FairlightInterface | WARN  | 2026-04-05 15:22:15,938 | SetActionEnabled: Failed to find action [viewTimelineScrollingFixed]'s action connector for handler Id [1]
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:16,692 | Show splash screen message: Loading Cut Page
+0x7f3d05242000 | UI.SpeedTimeline     | INFO  | 2026-04-05 15:22:16,776 | Replay UI is enabled.
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:17,054 | OFX - plugin not supported on this platform, is being skipped
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:17,056 | OFX - plugin not supported on this platform, is being skipped
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:17,091 | Show splash screen message: Loading Edit Page
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:17,800 | OFX - plugin not supported on this platform, is being skipped
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:17,800 | OFX - plugin not supported on this platform, is being skipped
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:17,814 | Show splash screen message: Loading Fusion Page
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:17,941 | Show splash screen message: Loading Fairlight Page
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:18,178 | Show splash screen message: Loading Color Page
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:18,345 | OFX - plugin not supported on this platform, is being skipped
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:18,345 | OFX - plugin not supported on this platform, is being skipped
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:19,574 | Show splash screen message: Loading Waveform Monitor
+0x7f3b9cdfb000 | SyManager            | INFO  | 2026-04-05 15:22:19,657 | Connected to panel socket at 99
+0x7f3b9cdfb000 | SyManager            | INFO  | 2026-04-05 15:22:19,657 | Connection to the panel server has been re-established
 Resolve discovery
 ****************** Flushing GPU Buffers
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:02,546 | Show splash screen message: Loading Audio Plugins
-0x7fb54e08b000 | SyManager            | INFO  | 2026-03-28 19:16:02,597 | Collaboration IP  Port 0
-0x7fb54e08b000 | DbCommon2            | INFO  | 2026-03-28 19:16:02,597 | Sm2SysIdEntry is not supported in local project library (xml) mode
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:02,598 | 83, 468
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:02,598 | 27, 1118
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:02,598 | 61, 1154, -149
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:02,605 | Show splash screen message: Loading Projects
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:02,622 | Application state changed to Inactive
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:02,637 | Current user pointer is changed
-0x7fb54e08b000 | UI                   | WARN  | 2026-03-28 19:16:02,789 | Failed to load [13] from Metadata widget.
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:19,873 | Show splash screen message: Loading Audio Plugins
+0x7f3d05242000 | SyManager            | INFO  | 2026-04-05 15:22:19,931 | Collaboration IP  Port 0
+0x7f3d05242000 | DbCommon2            | INFO  | 2026-04-05 15:22:19,931 | Sm2SysIdEntry is not supported in local project library (xml) mode
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:19,932 | 83, 468
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:19,932 | 27, 1118
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:19,932 | 61, 1154, -149
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:19,944 | Show splash screen message: Loading Projects
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:19,960 | Current user pointer is changed
+0x7f3d05242000 | UI                   | WARN  | 2026-04-05 15:22:20,113 | Failed to load [13] from Metadata widget.
 Resolve discovery
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:02,845 | 26, 442, -9
-0x7fb54e08b000 | BtCommon             | ERROR | 2026-03-28 19:16:03,064 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:16:03,426 | Start purging still caches
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:16:03,426 | Finish purging still caches
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:03,503 | Media pool relink status changed to 0
-0x7fb54e08b000 | FusionUtils          | WARN  | 2026-03-28 19:16:03,525 | Fusion DoAction ACTION_SET_FUSION_HOTKEY ignored, init not completed
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:03,530 | Launching project manager
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:03,531 | Main view page is changed to 12
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:03,548 | Show splash screen message: Ready
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:03,552 | Gallery pointer is changed, refreshing color gallery
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:03,623 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:03,629 | Close splash screen
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:03,630 | Launching main loop
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:04,041 | Fusion templates changed
-0x7fb54e08b000 | UI                   | WARN  | 2026-03-28 19:16:04,050 | Bin to remove [Titles/Subtitles/Animated] does not exist in the view []
-0x7fb54e08b000 | UI                   | WARN  | 2026-03-28 19:16:04,050 | Bin to remove [Titles/Subtitles] does not exist in the view []
-0x7fb54e08b000 | Fusion               | INFO  | 2026-03-28 19:16:04,271 | Started script server: 4267
+0x7f3d05242000 | BtCommon             | ERROR | 2026-04-05 15:22:20,406 | mkdir failed for directory '/opt/resolve/Fairlight' (errno 13)
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:22:20,739 | Start purging still caches
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:22:20,739 | Finish purging still caches
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:20,812 | Media pool relink status changed to 0
+0x7f3d05242000 | FusionUtils          | WARN  | 2026-04-05 15:22:20,833 | Fusion DoAction ACTION_SET_FUSION_HOTKEY ignored, init not completed
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:20,839 | Launching project manager
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:20,840 | Main view page is changed to 12
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:20,855 | Show splash screen message: Ready
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:20,857 | Gallery pointer is changed, refreshing color gallery
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:20,929 | Close splash screen
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:20,929 | Launching main loop
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:21,289 | 26, 442, -9
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:21,594 | Fusion templates changed
+0x7f3d05242000 | UI                   | WARN  | 2026-04-05 15:22:21,604 | Bin to remove [Titles/Subtitles/Animated] does not exist in the view []
+0x7f3d05242000 | UI                   | WARN  | 2026-04-05 15:22:21,604 | Bin to remove [Titles/Subtitles] does not exist in the view []
+0x7f3d05242000 | Fusion               | INFO  | 2026-04-05 15:22:21,825 | Started script server: 398618
 
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:04,283 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:06,493 | Application state changed to Active
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:08,117 | 63, 1148, -154
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:08,117 | 28, 1124
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:08,118 | 29, 1132
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:08,118 | 28, 1124
-0x7fb4adfbd000 | LeManager            | ERROR | 2026-03-28 19:16:08,118 | 29, 1132
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:10,623 | Start deleting project news vib
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/Resolve Project Backups/304462bd-8928-4b2c-a54c-afefb4a5cccd'
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:27,388 | 63, 1148, -154
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:27,388 | 28, 1124
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:27,388 | 29, 1132
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:27,388 | 28, 1124
+0x7f3c60efb000 | LeManager            | ERROR | 2026-04-05 15:22:27,388 | 29, 1132
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:34,112 | Current project pointer changed to (Untitled Project 2) from DB (Local Database : Local)
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:34,112 | Current timeline pointer () is changed
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:22:34,200 | Start purging still caches
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:22:34,200 | Finish purging still caches
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:34,249 | Media pool relink status changed to 0
+### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/Resolve Project Backups/266cb2b0-9c25-4dbb-8c66-a9ca3ae57ec8'
 ### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,636 | No reply received from file system, assume successfully deleted folder /home/avery/Resolve Project Backups/304462bd-8928-4b2c-a54c-afefb4a5cccd.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/CacheClip/304462bd-8928-4b2c-a54c-afefb4a5cccd'
+0x7f3d05242000 | SyManager            | WARN  | 2026-04-05 15:22:34,271 | No reply received from file system, assume successfully deleted folder /home/avery/Resolve Project Backups/266cb2b0-9c25-4dbb-8c66-a9ca3ae57ec8.
+### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/CacheClip/266cb2b0-9c25-4dbb-8c66-a9ca3ae57ec8'
 ### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,646 | No reply received from file system, assume successfully deleted folder /home/avery/CacheClip/304462bd-8928-4b2c-a54c-afefb4a5cccd.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/.gallery/304462bd-8928-4b2c-a54c-afefb4a5cccd'
+0x7f3d05242000 | SyManager            | WARN  | 2026-04-05 15:22:34,281 | No reply received from file system, assume successfully deleted folder /home/avery/CacheClip/266cb2b0-9c25-4dbb-8c66-a9ca3ae57ec8.
+### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/.gallery/266cb2b0-9c25-4dbb-8c66-a9ca3ae57ec8'
 ### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,657 | No reply received from file system, assume successfully deleted folder /home/avery/.gallery/304462bd-8928-4b2c-a54c-afefb4a5cccd.
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:10,657 | Deleting project took 46 ms
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:10,667 | Start deleting project Untitled Project 2
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/Resolve Project Backups/1ba8380d-4e95-4949-a7d3-d56225b5f94b'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,681 | No reply received from file system, assume successfully deleted folder /home/avery/Resolve Project Backups/1ba8380d-4e95-4949-a7d3-d56225b5f94b.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/CacheClip/1ba8380d-4e95-4949-a7d3-d56225b5f94b'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,691 | No reply received from file system, assume successfully deleted folder /home/avery/CacheClip/1ba8380d-4e95-4949-a7d3-d56225b5f94b.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/.gallery/1ba8380d-4e95-4949-a7d3-d56225b5f94b'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,701 | No reply received from file system, assume successfully deleted folder /home/avery/.gallery/1ba8380d-4e95-4949-a7d3-d56225b5f94b.
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:10,701 | Deleting project took 43 ms
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:10,712 | Start deleting project Untitled Project 1
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/Resolve Project Backups/5a4ca87e-0fc5-4dea-95a1-3468fa49c5b4'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,726 | No reply received from file system, assume successfully deleted folder /home/avery/Resolve Project Backups/5a4ca87e-0fc5-4dea-95a1-3468fa49c5b4.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/CacheClip/5a4ca87e-0fc5-4dea-95a1-3468fa49c5b4'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,736 | No reply received from file system, assume successfully deleted folder /home/avery/CacheClip/5a4ca87e-0fc5-4dea-95a1-3468fa49c5b4.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/.gallery/5a4ca87e-0fc5-4dea-95a1-3468fa49c5b4'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:10,746 | No reply received from file system, assume successfully deleted folder /home/avery/.gallery/5a4ca87e-0fc5-4dea-95a1-3468fa49c5b4.
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:10,746 | Deleting project took 44 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:12,827 | Current project pointer changed to (Untitled Project 1) from DB (Local Database : Local)
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:12,827 | Current timeline pointer () is changed
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:16:12,912 | Start purging still caches
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:16:12,912 | Finish purging still caches
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:12,977 | Media pool relink status changed to 0
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/Resolve Project Backups/86ddca50-ac8d-43ef-a944-1f1da5e5900c'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:13,000 | No reply received from file system, assume successfully deleted folder /home/avery/Resolve Project Backups/86ddca50-ac8d-43ef-a944-1f1da5e5900c.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/CacheClip/86ddca50-ac8d-43ef-a944-1f1da5e5900c'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:13,010 | No reply received from file system, assume successfully deleted folder /home/avery/CacheClip/86ddca50-ac8d-43ef-a944-1f1da5e5900c.
-### DEL_DBG IOFileSys::DeleteDirFully - command = rm -rf '/home/avery/.gallery/86ddca50-ac8d-43ef-a944-1f1da5e5900c'
-### DEL_DBG IOFileSys::DeletePath[1510] p_OSErrCode = 0, p_ErrMsg = 
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:16:13,020 | No reply received from file system, assume successfully deleted folder /home/avery/.gallery/86ddca50-ac8d-43ef-a944-1f1da5e5900c.
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:13,021 | Main view page is changed to 1
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:13,083 | Main view page is changed to 17
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:13,176 | Main view page is changed to 17
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:13,178 | Launching main window
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:13,208 | Gallery pointer is changed, refreshing color gallery
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:15,695 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:27,683 | Application state changed to Active
-0x7fb451dfc000 | GPU.SingleBoardMgr   | INFO  | 2026-03-28 19:16:28,301 | Flushing GPU memory...
-0x7fb451dfc000 | UI.GLContext         | INFO  | 2026-03-28 19:16:28,302 | Creating shared OpenGL context for this thread (5 total).
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:28,323 | Main view page is changed to 2
-0x7fb451dfc000 | UI.GLTexPool         | INFO  | 2026-03-28 19:16:28,349 | Released 0 MiB in 0 unused textures.
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:28,672 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:29,630 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:31,020 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:31,338 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:32,329 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:32,515 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:32,794 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:33,441 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:34,138 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:34,394 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:35,495 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:36,042 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:36,190 | Current timeline pointer (Timeline 1) is changed
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:37,429 | Current timeline pointer () is changed
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:37,531 | Start saving project Untitled Project 1
-0x7fb54e08b000 | DbCommon2            | INFO  | 2026-03-28 19:16:37,531 | Initializing fresh project library /home/avery/.local/share/DaVinciResolve/Resolve Project Library/Resolve Projects/Users/guest/Projects/Untitled Project 1/Project.db @ Local Database
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:38,363 | Saving project took 832 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:38,363 | Current project pointer changed to (Untitled Project 1) from DB (Local Database : Local)
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:38,363 | Current timeline pointer () is changed
-0x7fb54e08b000 | UI                   | INFO  | 2026-03-28 19:16:38,388 | Gallery pointer is changed, refreshing color gallery
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:38,407 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:38,408 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:38,671 | Current timeline pointer (Timeline 1) is changed
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:38,879 | Current timeline pointer () is changed
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:38,989 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:39,002 | Saving project took 13 ms
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:40,370 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:41,156 | Saving project took 786 ms
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:42,274 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:42,956 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:51,526 | Current timeline pointer (Timeline 1) is changed
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:52,628 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:16:52,684 | Saving project took 56 ms
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:53,301 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:53,598 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:53,999 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:16:54,800 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:16:58,770 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:17:06,477 | Main view page is changed to 2
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:17:08,986 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:17:09,360 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:17:17,017 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:17:17,304 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:17:20,041 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:18:05,895 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:18:05,929 | Saving project took 34 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:18:07,084 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:18:36,390 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:19:06,395 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:19:06,415 | Saving project took 20 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:19:06,743 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:19:08,705 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:19:09,260 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:19:24,395 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:19:24,428 | Saving project took 33 ms
-0x7fb35e7fc000 | Fusion               | INFO  | 2026-03-28 19:19:25,036 | Started FusionAudio Worker thread
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:19:25,164 | Main view page is changed to 16
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:26,453 | Action [editCut] is not a valid global action
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:26,453 | Action [editBackspace] is not a valid global action
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:19:26,539 | Application state changed to Inactive
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:26,539 | Action [editCut] is not a valid global action
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:26,539 | Action [editBackspace] is not a valid global action
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:19:26,718 | Application state changed to Active
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:26,729 | Action [editCut] is not a valid global action
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:26,729 | Action [editBackspace] is not a valid global action
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:27,306 | Action [editCut] is not a valid global action
-0x7fb54e08b000 | UI.ActionManager     | WARN  | 2026-03-28 19:19:27,306 | Action [editBackspace] is not a valid global action
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:19:27,453 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:19:27,469 | Saving project took 16 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:19:27,533 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:19:30,387 | Finish setting current view 1
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:19:30,833 | Set view 1 current still 0
-Printing Stack Info
-/opt/resolve/bin/resolve() [0x60880af]
-/opt/resolve/bin/resolve() [0x608846c]
-/opt/resolve/bin/resolve() [0x6f0dca4]
-/opt/resolve/bin/resolve() [0x767a014]
-/opt/resolve/bin/resolve() [0x76218e4]
-/opt/resolve/bin/resolve() [0x7b78fb2]
-/opt/resolve/bin/resolve() [0x59fe872]
-/opt/resolve/bin/resolve() [0x5a1bda5]
-/opt/resolve/bin/resolve() [0x5a200c8]
-/opt/resolve/bin/resolve() [0x5a1f57e]
-/opt/resolve/bin/resolve() [0x59ee946]
-/opt/resolve/bin/resolve() [0x59ee55e]
-/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7fb53f9918d4]
-/opt/resolve/bin/resolve() [0x362e38d]
-/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7fb53f9918d4]
-/opt/resolve/bin/resolve() [0x3befd12]
-/opt/resolve/bin/resolve() [0x3d66042]
-/opt/resolve/bin/resolve() [0x3d6578c]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0x5c8) [0x7fb53efa1fe8]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN6QFrame5eventEP6QEvent+0x25) [0x7fb53f04e895]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN13QGraphicsView13viewportEventEP6QEvent+0x4c6) [0x7fb53f2c85d6]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN23QCoreApplicationPrivate29sendThroughObjectEventFiltersEP7QObjectP6QEvent+0xf9) [0x7fb53f95d849]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0xec) [0x7fb53ef6ac6c]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x19eb) [0x7fb53ef6d8cb]
-/opt/resolve/bin/resolve() [0x35bd2dc]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7fb53f95d560]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Ebb+0x38b) [0x7fb53ef6b57b]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x1c0a25) [0x7fb53efc0a25]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x1bf658) [0x7fb53efbf658]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x100) [0x7fb53ef6ac80]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x1da) [0x7fb53ef6c0ba]
-/opt/resolve/bin/resolve() [0x35bd2dc]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7fb53f95d560]
-/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+0xee7) [0x7fb541d21077]
-/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0xdb) [0x7fb541d023cb]
-/opt/resolve/libs/libQt5XcbQpa.so.5(+0x630ca) [0x7fb4e1cf80ca]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x5ef4d) [0x7fb559906f4d]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x60617) [0x7fb559908617]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7fb559908825]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7fb53f9b1208]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7fb53f959ba6]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x71) [0x7fb53f95daf1]
-/opt/resolve/bin/resolve() [0x355db73]
-/opt/resolve/bin/resolve() [0x355c2f1]
-/opt/resolve/bin/resolve() [0x354222c]
-/usr/lib/libc.so.6(+0x276c1) [0x7fb556a366c1]
-/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fb556a367f9]
-/opt/resolve/bin/resolve() [0x354069e]
-0x7fb54e08b000 | BtCommon             | WARN  | 2026-03-28 19:19:52,956 | ListLock not acquired, enabling fix-up lock
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:19:59,950 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:20:01,078 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:20:02,246 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:20:02,556 | Main view page is changed to 3
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:20:17,908 | Color Page playback has started
-0x7fb4535ff000 | LsManager            | WARN  | 2026-03-28 19:20:19,101 | /home/jenkins/jenkins/workspace/resolve/Resolve/Cyclone/LsManager/LsDataHandler.cpp(1836): discard 8(33)
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:20:19,556 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:20:40,683 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:20:41,834 | Color Page playback has started
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:20:49,129 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:20:49,838 | Application state changed to Active
-0x7fb4535ff000 | LsManager            | WARN  | 2026-03-28 19:21:50,422 | /home/jenkins/jenkins/workspace/resolve/Resolve/Cyclone/LsManager/LsDataHandler.cpp(1836): discard 10(1651)
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:21:50,548 | Main view page is changed to 3
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:21:50,551 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:21:54,395 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:21:54,420 | Saving project took 25 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:21:58,111 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:22:02,954 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:22:02,999 | Saving project took 45 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:22:16,900 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:22:33,272 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:22:35,049 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:22:54,894 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:22:54,916 | Saving project took 22 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:22:56,176 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:23:09,895 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:23:09,914 | Saving project took 19 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:23:22,694 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:23:43,257 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:23:44,238 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:23:44,929 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:23:46,966 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:23:46,986 | Saving project took 20 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:23:47,909 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:23:50,521 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:23:50,538 | Saving project took 17 ms
-Printing Stack Info
-/opt/resolve/bin/resolve() [0x60880af]
-/opt/resolve/bin/resolve() [0x608846c]
-/opt/resolve/bin/resolve() [0x6f0dca4]
-/opt/resolve/bin/resolve() [0x767a014]
-/opt/resolve/bin/resolve() [0x76218e4]
-/opt/resolve/bin/resolve() [0x7b78fb2]
-/opt/resolve/bin/resolve() [0x59fe872]
-/opt/resolve/bin/resolve() [0x5a1bda5]
-/opt/resolve/bin/resolve() [0x5a200c8]
-/opt/resolve/bin/resolve() [0x5a1f57e]
-/opt/resolve/bin/resolve() [0x59ee946]
-/opt/resolve/bin/resolve() [0x59ee55e]
-/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7fb53f9918d4]
-/opt/resolve/bin/resolve() [0x362e38d]
-/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7fb53f9918d4]
-/opt/resolve/bin/resolve() [0x3befd12]
-/opt/resolve/bin/resolve() [0x3d66042]
-/opt/resolve/bin/resolve() [0x3d6578c]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0x5c8) [0x7fb53efa1fe8]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN6QFrame5eventEP6QEvent+0x25) [0x7fb53f04e895]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN13QGraphicsView13viewportEventEP6QEvent+0x4c6) [0x7fb53f2c85d6]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN23QCoreApplicationPrivate29sendThroughObjectEventFiltersEP7QObjectP6QEvent+0xf9) [0x7fb53f95d849]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0xec) [0x7fb53ef6ac6c]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x19eb) [0x7fb53ef6d8cb]
-/opt/resolve/bin/resolve() [0x35bd2dc]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7fb53f95d560]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Ebb+0x38b) [0x7fb53ef6b57b]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x1c0a25) [0x7fb53efc0a25]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x1bf658) [0x7fb53efbf658]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x100) [0x7fb53ef6ac80]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x1da) [0x7fb53ef6c0ba]
-/opt/resolve/bin/resolve() [0x35bd2dc]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7fb53f95d560]
-/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+0xee7) [0x7fb541d21077]
-/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0xdb) [0x7fb541d023cb]
-/opt/resolve/libs/libQt5XcbQpa.so.5(+0x630ca) [0x7fb4e1cf80ca]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x5ef4d) [0x7fb559906f4d]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x60617) [0x7fb559908617]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7fb559908825]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7fb53f9b1208]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7fb53f959ba6]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x71) [0x7fb53f95daf1]
-/opt/resolve/bin/resolve() [0x355db73]
-/opt/resolve/bin/resolve() [0x355c2f1]
-/opt/resolve/bin/resolve() [0x354222c]
-/usr/lib/libc.so.6(+0x276c1) [0x7fb556a366c1]
-/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fb556a367f9]
-/opt/resolve/bin/resolve() [0x354069e]
-0x7fb54e08b000 | BtCommon             | WARN  | 2026-03-28 19:23:57,376 | ListLock not acquired, enabling fix-up lock
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:24:03,002 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:24:04,346 | Color Page playback has started
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:25:09,532 | Main view page is changed to 3
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:25:09,543 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:25:13,127 | Main view page is changed to 2
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:25:29,915 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:25:30,375 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:25:47,303 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:00,634 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:01,752 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:02,721 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:07,782 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:26:11,895 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:26:11,918 | Saving project took 23 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:12,061 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:21,637 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:32,750 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:26:33,394 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:26:33,417 | Saving project took 23 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:41,803 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:26:57,894 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:26:57,925 | Saving project took 31 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:26:59,256 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:27:01,570 | Main view page is changed to 14
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:27:03,012 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:27:05,750 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager            | INFO  | 2026-03-28 19:27:06,403 | 'Timeline 1' timeline backup is created in 9 ms.
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:27:27,501 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:27:28,632 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:27:32,136 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:27:32,543 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:27:34,490 | SyOFXPanelMaster :: Non-matching update com.blackmagicdesign.resolvefx.filmgrain:OfxImageEffectContextFilter_e48682eb-3d58-4e09-8780-f1d61d001763_11 against com.blackmagicdesign.resolvefx.filmlook:OfxImageEffectContextFilter_e48682eb-3d58-4e09-8780-f1d61d001763_6
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:27:45,658 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:27:47,401 | Color Page playback has started
-0x7fb4535ff000 | LsManager            | WARN  | 2026-03-28 19:27:50,997 | /home/jenkins/jenkins/workspace/resolve/Resolve/Cyclone/LsManager/LsDataHandler.cpp(1836): discard 18(91)
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:27:51,199 | Color Page playback has stopped
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:27:52,177 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:27:58,766 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:27:59,311 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:10,510 | Main view page is changed to 5
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:12,617 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:27,730 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:28:29,376 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:28:32,801 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:33,139 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:41,470 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:28:43,120 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:28:48,499 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:49,242 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:28:50,380 | Start saving project Untitled Project 1
-0x7fb4695ed000 | SyManager.ActionExecutor | INFO  | 2026-03-28 19:28:50,384 | Database transaction is ongoing, user initiated action SmActIOCPSigInvoker is postponed
-0x7fb54e08b000 | SyManager.ActionExecutor | INFO  | 2026-03-28 19:28:50,398 | Database transaction completed, enqueueing 1 postponed actions
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:28:50,398 | Saving project took 18 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:51,782 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:28:54,014 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:28:58,268 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:28:58,621 | Main view page is changed to 3
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:29:06,032 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:29:09,834 | Color Page playback has stopped
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:29:14,245 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:29:23,179 | Color Page playback has stopped
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:29:23,534 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:29:27,439 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:29:42,184 | Main view page is changed to 5
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:29:43,295 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:29:53,745 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:29:53,778 | Saving project took 33 ms
-Printing Stack Info
-/opt/resolve/bin/resolve() [0x60880af]
-/opt/resolve/bin/resolve() [0x608846c]
-/opt/resolve/bin/resolve() [0x6f0dca4]
-/opt/resolve/bin/resolve() [0x767a014]
-/opt/resolve/bin/resolve() [0x76218e4]
-/opt/resolve/bin/resolve() [0x7b78fb2]
-/opt/resolve/bin/resolve() [0x59fe872]
-/opt/resolve/bin/resolve() [0x5a1bda5]
-/opt/resolve/bin/resolve() [0x5a1f886]
-/opt/resolve/bin/resolve() [0x59ee5c3]
-/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7fb53f9918d4]
-/opt/resolve/bin/resolve() [0x362e38d]
-/opt/resolve/bin/../libs/libQt5Core.so.5(+0x3918d4) [0x7fb53f9918d4]
-/opt/resolve/bin/resolve() [0x3befd12]
-/opt/resolve/bin/resolve() [0x3d66042]
-/opt/resolve/bin/resolve() [0x3d6578c]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0x5c8) [0x7fb53efa1fe8]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN6QFrame5eventEP6QEvent+0x25) [0x7fb53f04e895]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN13QGraphicsView13viewportEventEP6QEvent+0x4c6) [0x7fb53f2c85d6]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN23QCoreApplicationPrivate29sendThroughObjectEventFiltersEP7QObjectP6QEvent+0xf9) [0x7fb53f95d849]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0xec) [0x7fb53ef6ac6c]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x19eb) [0x7fb53ef6d8cb]
-/opt/resolve/bin/resolve() [0x35bd2dc]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7fb53f95d560]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate14sendMouseEventEP7QWidgetP11QMouseEventS1_S1_PS1_R8QPointerIS0_Ebb+0x38b) [0x7fb53ef6b57b]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x1c0a25) [0x7fb53efc0a25]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(+0x1bf658) [0x7fb53efbf658]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x100) [0x7fb53ef6ac80]
-/opt/resolve/bin/../libs/libQt5Widgets.so.5(_ZN12QApplication6notifyEP7QObjectP6QEvent+0x1da) [0x7fb53ef6c0ba]
-/opt/resolve/bin/resolve() [0x35bd2dc]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0xa0) [0x7fb53f95d560]
-/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN22QGuiApplicationPrivate17processMouseEventEPN29QWindowSystemInterfacePrivate10MouseEventE+0xee7) [0x7fb541d21077]
-/opt/resolve/bin/../libs/libQt5Gui.so.5(_ZN22QWindowSystemInterface22sendWindowSystemEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0xdb) [0x7fb541d023cb]
-/opt/resolve/libs/libQt5XcbQpa.so.5(+0x630ca) [0x7fb4e1cf80ca]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x5ef4d) [0x7fb559906f4d]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(+0x60617) [0x7fb559908617]
-/opt/resolve/bin/../libs/libglib-2.0.so.0(g_main_context_iteration+0x35) [0x7fb559908825]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x58) [0x7fb53f9b1208]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x1d6) [0x7fb53f959ba6]
-/opt/resolve/bin/../libs/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x71) [0x7fb53f95daf1]
-/opt/resolve/bin/resolve() [0x355db73]
-/opt/resolve/bin/resolve() [0x355c2f1]
-/opt/resolve/bin/resolve() [0x354222c]
-/usr/lib/libc.so.6(+0x276c1) [0x7fb556a366c1]
-/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fb556a367f9]
-/opt/resolve/bin/resolve() [0x354069e]
-0x7fb54e08b000 | BtCommon             | WARN  | 2026-03-28 19:29:54,639 | ListLock not acquired, enabling fix-up lock
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:30:36,544 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:30:37,782 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:30:40,035 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:30:40,421 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:31:03,512 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:31:05,124 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:31:07,505 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:31:07,890 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:31:35,429 | Main view page is changed to 5
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:31:46,612 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:31:56,163 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:31:57,493 | Color Page playback has started
-0x7fb4535ff000 | LsManager            | WARN  | 2026-03-28 19:32:15,712 | /home/jenkins/jenkins/workspace/resolve/Resolve/Cyclone/LsManager/LsDataHandler.cpp(1836): discard 38(442)
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:32:15,890 | Main view page is changed to 3
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:32:15,894 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:32:32,395 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:32:32,411 | Saving project took 16 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:32:41,294 | Main view page is changed to 5
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:32:42,113 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:32:48,769 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:32:50,636 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:32:53,556 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:32:53,815 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:33:07,652 | Main view page is changed to 2
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:33:17,336 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:34:31,633 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:34:44,239 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:34:46,119 | SyOFXPanelMaster :: Non-matching update com.blackmagicdesign.resolvefx.filmgrain:OfxImageEffectContextFilter_c502ed84-81b6-4e3c-97ae-0114581e6324_11 against com.blackmagicdesign.resolvefx.filmlook:OfxImageEffectContextFilter_c502ed84-81b6-4e3c-97ae-0114581e6324_6
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:34:50,395 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:34:50,411 | Saving project took 16 ms
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:35:25,659 | Start saving project Untitled Project 1
-0x7fb451dfc000 | GPU                  | INFO  | 2026-03-28 19:35:25,673 | Loaded Shaper LUT 'Film Looks/Rec709 Fujifilm 3513DI D60.cube'
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:35:25,676 | Saving project took 17 ms
-0x7fb451dfc000 | GPU                  | INFO  | 2026-03-28 19:35:27,815 | Loaded Shaper LUT 'Film Looks/Rec709 Fujifilm 3513DI D60.cube'
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:35:29,738 | SyOFXPanelMaster :: Non-matching update com.blackmagicdesign.resolvefx.filmgrain:OfxImageEffectContextFilter_c502ed84-81b6-4e3c-97ae-0114581e6324_11 against com.blackmagicdesign.resolvefx.filmlook:OfxImageEffectContextFilter_c502ed84-81b6-4e3c-97ae-0114581e6324_6
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:35:47,071 | Start saving project Untitled Project 1
-0x7fb4695ed000 | SyManager.ActionExecutor | INFO  | 2026-03-28 19:35:47,072 | Database transaction is ongoing, user initiated action SmActIOCPSigInvoker is postponed
-0x7fb54e08b000 | SyManager.ActionExecutor | INFO  | 2026-03-28 19:35:47,082 | Database transaction completed, enqueueing 1 postponed actions
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:35:47,082 | Saving project took 11 ms
-0x7fb54e08b000 | SyManager            | WARN  | 2026-03-28 19:35:56,421 | SyOFXPanelMaster :: Non-matching update com.blackmagicdesign.resolvefx.filmgrain:OfxImageEffectContextFilter_c502ed84-81b6-4e3c-97ae-0114581e6324_11 against com.blackmagicdesign.resolvefx.filmlook:OfxImageEffectContextFilter_c502ed84-81b6-4e3c-97ae-0114581e6324_6
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:36:01,500 | Color Page playback has started
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:36:09,184 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:36:12,600 | Application state changed to Active
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:36:17,766 | Application state changed to Inactive
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:36:25,184 | Application state changed to Active
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:36:26,266 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:36:26,973 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:36:26,994 | Saving project took 21 ms
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:36:28,036 | Color Page playback has started
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:36:29,406 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:36:29,406 | Color Page playback has stopped
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:36:32,065 | Color Page playback has started
-0x7fb4535ff000 | LsManager            | WARN  | 2026-03-28 19:37:02,453 | /home/jenkins/jenkins/workspace/resolve/Resolve/Cyclone/LsManager/LsDataHandler.cpp(1836): discard 47(734)
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:37:02,600 | Main view page is changed to 3
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:37:02,604 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager            | INFO  | 2026-03-28 19:37:16,396 | 'Timeline 1' timeline backup is created in 1 ms.
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:38:15,553 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:38:18,018 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:38:21,233 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:38:22,262 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:38:36,394 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:38:36,411 | Saving project took 17 ms
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:38:37,089 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:38:38,784 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:38:43,997 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:38:44,995 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:40:03,983 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:40:05,755 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:40:08,554 | Color Page playback has stopped
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:40:09,307 | Main view page is changed to 3
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:40:33,795 | Application state changed to Inactive
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:40:38,396 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:40:38,414 | Saving project took 19 ms
-0x7fb54e08b000 | Main                 | INFO  | 2026-03-28 19:40:55,147 | Application state changed to Active
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:41:10,654 | Main view page is changed to 2
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:41:17,061 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:41:23,612 | Main view page is changed to 5
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:41:25,777 | Color Page playback has started
-0x7fb54e08b000 | UI.MainViewer.Transport | INFO  | 2026-03-28 19:41:37,905 | Color Page playback has stopped
-0x7fb4535ff000 | LsManager            | WARN  | 2026-03-28 19:41:37,920 | /home/jenkins/jenkins/workspace/resolve/Resolve/Cyclone/LsManager/LsDataHandler.cpp(1836): discard 56(296)
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:41:39,063 | Main view page is changed to 3
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:42:06,407 | Start saving project Untitled Project 1
-0x7fb54e08b000 | SyManager.ProjectManager | INFO  | 2026-03-28 19:42:06,423 | Saving project took 16 ms
-0x7fb54e08b000 | SyManager.Project    | INFO  | 2026-03-28 19:42:09,880 | Unlock project Untitled Project 1
-0x7fb54e08b000 | DbCommon2            | INFO  | 2026-03-28 19:42:09,887 | Active collaborators cleared
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:42:09,887 | Start purging still caches
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:42:09,887 | Finish purging still caches
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:42:09,905 | Start purging still caches
-0x7fb54e08b000 | SyManager.Gallery    | INFO  | 2026-03-28 19:42:09,905 | Finish purging still caches
-0x7fb54e08b000 | SyManager.Signals    | INFO  | 2026-03-28 19:42:09,956 | Media pool relink status changed to 0
+0x7f3d05242000 | SyManager            | WARN  | 2026-04-05 15:22:34,291 | No reply received from file system, assume successfully deleted folder /home/avery/.gallery/266cb2b0-9c25-4dbb-8c66-a9ca3ae57ec8.
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:34,293 | Main view page is changed to 1
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:34,333 | Main view page is changed to 17
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:34,425 | Main view page is changed to 17
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:34,428 | Launching main window
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:34,458 | Gallery pointer is changed, refreshing color gallery
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:39,059 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:42,019 | Application state changed to Active
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:45,435 | The buttonId [7] is not found for [0] in [0]
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:45,466 | The buttonId [7] is not found for [0] in [0]
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:45,471 | Main view page is changed to 1
+0x7f3c0a3fe000 | GPU.SingleBoardMgr   | INFO  | 2026-04-05 15:22:45,474 | Flushing GPU memory...
+0x7f3c0a3fe000 | UI.GLContext         | INFO  | 2026-04-05 15:22:45,475 | Creating shared OpenGL context for this thread (5 total).
+0x7f3c0a3fe000 | UI.GLTexPool         | INFO  | 2026-04-05 15:22:45,520 | Released 0 MiB in 0 unused textures.
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:48,409 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:22:48,947 | Application state changed to Active
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:51,198 | Main view page is changed to 17
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:51,967 | Main view page is changed to 2
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:22:52,304 | The buttonId [7] is not found for [0] in [0]
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:22:52,308 | Main view page is changed to 1
+0x7f3c1e3f0000 | BtCommon             | WARN  | 2026-04-05 15:22:54,266 | Cannot stat entry '/home/avery/.steampath'
+0x7f3d05242000 | SyManager            | WARN  | 2026-04-05 15:22:58,978 | MsModel | FolderEntry failed with 1:001:/home/avery/KritaRecorder/20260405090511/[0000000-0010226].jpg
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:22:59,396 | Start saving project Untitled Project 2
+0x7f3d05242000 | DbCommon2            | INFO  | 2026-04-05 15:22:59,396 | Initializing fresh project library /home/avery/.local/share/DaVinciResolve/Resolve Project Library/Resolve Projects/Users/guest/Projects/Untitled Project 2/Project.db @ Local Database
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:23:00,415 | Saving project took 1019 ms
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:23:00,415 | Current project pointer changed to (Untitled Project 2) from DB (Local Database : Local)
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:23:00,415 | Current timeline pointer () is changed
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:23:00,419 | The buttonId [7] is not found for [0] in [0]
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:23:00,434 | Gallery pointer is changed, refreshing color gallery
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:23:01,205 | Main view page is changed to 2
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:23:03,276 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:23:09,164 | Application state changed to Active
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:23:09,743 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:23:10,548 | Application state changed to Active
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:23:11,970 | Current timeline pointer (Timeline 1) is changed
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:23:13,268 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:23:13,294 | Saving project took 26 ms
+0x7f3acdfff000 | Fusion               | INFO  | 2026-04-05 15:23:14,095 | Started FusionAudio Worker thread
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:23:14,236 | Main view page is changed to 16
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:23:15,620 | Main view page is changed to 2
+0x7f3c0ddff000 | LsManager            | WARN  | 2026-04-05 15:23:18,389 | Timeout waiting for interop lookahead (AVSyncCount = 316)
+0x7f3d05242000 | UI.GLDispShader      | INFO  | 2026-04-05 15:23:41,877 | Flushing all LUT textures.
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:23:41,898 | Current setup pointer is changed
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:25:21,153 | Application state changed to Inactive
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:26:43,678 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:26:43,707 | Saving project took 29 ms
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:26:47,024 | Application state changed to Active
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:26:48,956 | Main view page is changed to 11
+0x7f3c1e3f0000 | BtCommon             | WARN  | 2026-04-05 15:26:53,418 | Cannot stat entry '/home/avery/.steampath'
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:27:08,116 | Current timeline mode is changed
+0x7f3c213f6000 | SyManager            | ERROR | 2026-04-05 15:27:08,224 | There is no current clip, SetCurrentFrame failed.
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:27:12,548 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:27:15,007 | Application state changed to Active
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:27:18,385 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:27:18,941 | Application state changed to Active
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:27:21,443 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:27:21,791 | Application state changed to Active
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:27:22,070 | Application state changed to Inactive
+0x7f3c203f4000 | GsManager            | INFO  | 2026-04-05 15:27:39,593 | Finished recording 10342 frames.
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:28:10,776 | Application state changed to Active
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:28:14,571 | Current timeline mode is changed
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:28:14,619 | Main view page is changed to 2
+0x7f3d05242000 | UI.ActionManager     | WARN  | 2026-04-05 15:28:15,522 | Action owner [MediaPool] is not active when refreshing shortcut [editDuplicateTimelineOrClips] due to [No focused widget is set yet]
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:28:22,670 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:28:22,949 | Application state changed to Active
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:28:31,617 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:28:42,162 | Application state changed to Active
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:28:56,715 | Current timeline pointer (Timeline 2) is changed
+0x7f3d05242000 | UI.ActionManager     | WARN  | 2026-04-05 15:28:56,835 | Action owner [MediaPool] is not active when refreshing shortcut [editDuplicateTimelineOrClips] due to [No focused widget is set yet]
+0x7f3d05242000 | UI.ActionManager     | WARN  | 2026-04-05 15:28:56,835 | Action owner [MediaPool] is not active when refreshing shortcut [editDuplicateTimelineOrClips] due to [No focused widget is set yet]
+0x7f3d05242000 | SyManager            | INFO  | 2026-04-05 15:28:56,893 | 'Timeline 1' timeline backup is created in 1 ms.
+0x7f3d05242000 | SyManager            | INFO  | 2026-04-05 15:28:56,904 | 'Timeline 2' timeline backup is created in 4 ms.
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:28:56,907 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:28:56,946 | Saving project took 39 ms
+0x7f3d05242000 | UI                   | INFO  | 2026-04-05 15:28:59,798 | Initializing FBO of size 2000 x 3000 - 16b (old 16 x -122142928 - 850762185b)
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:01,700 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:01,728 | Saving project took 28 ms
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:06,324 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:06,344 | Saving project took 20 ms
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:29:19,443 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:29:20,040 | Application state changed to Active
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:23,709 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:23,740 | Saving project took 31 ms
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:29,675 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:29,691 | Saving project took 16 ms
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:33,625 | Start saving project Untitled Project 2
+0x7f3c223f8000 | SyManager.ActionExecutor | INFO  | 2026-04-05 15:29:33,636 | Database transaction is ongoing, user initiated action SmActIOCPSigInvoker is postponed
+0x7f3c223f8000 | SyManager.ActionExecutor | INFO  | 2026-04-05 15:29:33,637 | Database transaction is ongoing, user initiated action SmActIOCPSigInvoker is postponed
+0x7f3c223f8000 | SyManager.ActionExecutor | INFO  | 2026-04-05 15:29:33,638 | Database transaction is ongoing, user initiated action SmActIOCPSigInvoker is postponed
+0x7f3c223f8000 | SyManager.ActionExecutor | INFO  | 2026-04-05 15:29:33,639 | Database transaction is ongoing, user initiated action SmActIOCPSigInvoker is postponed
+0x7f3c223f8000 | SyManager.ActionExecutor | INFO  | 2026-04-05 15:29:33,641 | Database transaction is ongoing, user initiated action SmActIOCPSigInvoker is postponed
+0x7f3d05242000 | SyManager.ActionExecutor | INFO  | 2026-04-05 15:29:33,643 | Database transaction completed, enqueueing 5 postponed actions
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:29:33,643 | Saving project took 18 ms
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:29:37,219 | Main view page is changed to 14
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:30:18,507 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:32:34,049 | Application state changed to Active
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:32:35,047 | Main view page is changed to 2
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:32:35,157 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:32:36,819 | Application state changed to Active
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:32:38,037 | Main view page is changed to 11
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:32:51,678 | Current timeline mode is changed
+0x7f3c213f6000 | SyManager            | ERROR | 2026-04-05 15:32:51,786 | There is no current clip, SetCurrentFrame failed.
+[flac @ 0x7f3b36901400] encoding as 24 bits-per-sample, more is considered experimental. Add -strict experimental if you want to encode more than 24 bits-per-sample
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:32:52,676 | Application state changed to Inactive
+0x7f3c203f4000 | GsManager            | INFO  | 2026-04-05 15:33:14,521 | Finished recording 4127 frames.
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:34:04,772 | Application state changed to Active
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:34:05,050 | Application state changed to Inactive
+0x7f3d05242000 | Main                 | INFO  | 2026-04-05 15:34:05,645 | Application state changed to Active
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:34:06,553 | Start saving project Untitled Project 2
+0x7f3d05242000 | SyManager.ProjectManager | INFO  | 2026-04-05 15:34:06,650 | Saving project took 97 ms
+0x7f3d05242000 | SyManager.Project    | INFO  | 2026-04-05 15:34:06,834 | Unlock project Untitled Project 2
+0x7f3d05242000 | DbCommon2            | INFO  | 2026-04-05 15:34:06,834 | Active collaborators cleared
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:34:06,834 | Start purging still caches
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:34:06,834 | Finish purging still caches
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:34:06,864 | Start purging still caches
+0x7f3d05242000 | SyManager.Gallery    | INFO  | 2026-04-05 15:34:06,864 | Finish purging still caches
+0x7f3d05242000 | SyManager.Signals    | INFO  | 2026-04-05 15:34:06,934 | Media pool relink status changed to 0
 Accepted close event on main window
-0x7fb4553fd000 | LsManager            | INFO  | 2026-03-28 19:42:09,964 | Exit LS data handler
-0x7fb4535ff000 | LsManager            | INFO  | 2026-03-28 19:42:09,964 | Exit LS data handler
-0x7fb4571ff000 | LsManager            | INFO  | 2026-03-28 19:42:09,964 | Exit LS data handler
-0x7fb3e6687000 | SyManager            | INFO  | 2026-03-28 19:42:10,379 | Exiting keyboard device monitor thread.
-0x7fb54e08b000 | SyManager            | INFO  | 2026-03-28 19:42:10,379 | Thread release successful.
-Assertion 'close_nointr(fd) != -EBADF' failed at src/basic/fd-util.c:69, function safe_close(). Aborting.
+0x7f3c0ddff000 | LsManager            | INFO  | 2026-04-05 15:34:06,940 | Exit LS data handler
+0x7f3c11fff000 | LsManager            | INFO  | 2026-04-05 15:34:06,940 | Exit LS data handler
+0x7f3c101ff000 | LsManager            | INFO  | 2026-04-05 15:34:06,940 | Exit LS data handler
+0x7f3b9a5f6000 | SyManager            | INFO  | 2026-04-05 15:34:07,345 | Exiting keyboard device monitor thread.
+0x7f3d05242000 | SyManager            | INFO  | 2026-04-05 15:34:07,345 | Thread release successful.
+Assertion 'close_nointr(fd) != -EBADF' failed at src/basic/fd-util.c:68, function safe_close(). Aborting.

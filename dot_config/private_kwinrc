@@ -69,6 +69,10 @@ cubeEnabled=true
 krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 
+[Script-krohnkite]
+floatingTitle=protonvpn-app
+screenGapBetween=1
+
 [Tiling][36b42cf2-3097-4286-b0f5-b72f1f8bb7a0][8ef4fd04-bc00-4d8e-9a17-0f65e23c660d]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
