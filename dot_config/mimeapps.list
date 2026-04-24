@@ -59,7 +59,7 @@ image/jpeg=com.interversehq.qView.desktop;gimp.desktop;org.kde.showfoto.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
 image/x-canon-cr2=com.interversehq.qView.desktop;
 application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
-application/pdf=librewolf.desktop;libreoffice-draw.desktop;gimp.desktop;
+application/pdf=librewolf.desktop;gimp.desktop;krita_pdf.desktop;libreoffice-draw.desktop;
 application/epub+zip=calibre-gui.desktop;calibre-ebook-viewer.desktop;
 application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;org.kde.ark.desktop;
 image/vnd.adobe.photoshop=krita_psd.desktop;
@@ -68,11 +68,12 @@ x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop;
 image/x-xcf=gimp.desktop;
 image/tiff=gimp.desktop;
-image/avif=com.interversehq.qView.desktop;gimp.desktop;krita_heif.desktop;
+image/avif=gimp.desktop;com.interversehq.qView.desktop;krita_heif.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
 text/x-csrc=org.kde.kate.desktop;
 image/x-hdr=gimp.desktop;
 image/x-dds=gimp.desktop;com.interversehq.qView.desktop;
+image/svg+xml=krita_svg.desktop;gimp.desktop;com.interversehq.qView.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;

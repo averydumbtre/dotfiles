@@ -1,4 +1,4 @@
-b6ea6211dbcc217efa7bc41ade1d11baa98ee58b		branch 'master' of https://github.com/darktable-org/lua-scripts
+cc198d6ca1175818de694e1ba30ee240da48e2e1		branch 'master' of https://github.com/darktable-org/lua-scripts
 77733b334eba61e4b06228c33a7e66aeeabbb83c	not-for-merge	branch '17422_bundle_lua_scripts' of https://github.com/darktable-org/lua-scripts
 85ccc663c8a371e227ca4ff47dd235b18215d6fc	not-for-merge	branch 'API-3.0.0' of https://github.com/darktable-org/lua-scripts
 97dd8a1257862953c84089c4a0f70b8470b63f34	not-for-merge	branch 'API-4.0.0' of https://github.com/darktable-org/lua-scripts

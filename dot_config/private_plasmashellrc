@@ -1,8 +1,9 @@
 [PlasmaViews][Panel 340]
 floating=0
+floatingApplets=1
 
 [PlasmaViews][Panel 340][Defaults]
-thickness=38
+thickness=40
 
 [PlasmaViews][Panel 675]
 floating=0

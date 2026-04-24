@@ -60,6 +60,11 @@ WindowClasses=class1\nclass2\nclass3\ncrystal-dock
 Inactive=74
 IndividualMenuConfig=true
 
+[MouseBindings]
+CommandAll2=Operations menu
+CommandAllWheel=Change Opacity
+CommandTitlebarWheel=Change Opacity
+
 [Plugins]
 aeroglassblurEnabled=true
 better_blur_dxEnabled=true
@@ -70,8 +75,11 @@ krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 
 [Script-krohnkite]
-floatingTitle=protonvpn-app
+floatingTitle=protonvpn-app, qview, mpv
 screenGapBetween=1
+
+[TabBox]
+LayoutName=compact
 
 [Tiling][36b42cf2-3097-4286-b0f5-b72f1f8bb7a0][8ef4fd04-bc00-4d8e-9a17-0f65e23c660d]
 padding=4
@@ -218,11 +226,13 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
+AutoRaise=true
 DelayFocusInterval=0
 ElectricBorderMaximize=false
 ElectricBorderTiling=false
 FocusPolicy=FocusFollowsMouse
-NextFocusPrefersMouse=true
+SeparateScreenFocus=false
+TitlebarDoubleClickCommand=OnAllDesktops
 
 [org.kde.kdecoration2]
 BorderSize=Normal

@@ -1,3 +1,4 @@
+plasma-desktop
 aerothemeplasma-desktop-git
 aerothemeplasma-desktop-x11-git
 aerothemeplasma-icons-git

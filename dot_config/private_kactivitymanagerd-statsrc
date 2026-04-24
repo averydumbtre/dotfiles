@@ -347,16 +347,22 @@ ordering=
 ordering=
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-649-6d66ba13-baae-4ebd-973e-324a2d00c622]
-ordering=
+ordering=applications:systemsettings.desktop
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-649-global]
-ordering=
+ordering=applications:systemsettings.desktop
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-651-6d66ba13-baae-4ebd-973e-324a2d00c622]
 ordering=
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-651-global]
 ordering=
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-678-6d66ba13-baae-4ebd-973e-324a2d00c622]
+ordering=applications:systemsettings.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-678-global]
+ordering=applications:systemsettings.desktop
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-730-6d66ba13-baae-4ebd-973e-324a2d00c622]
 ordering=

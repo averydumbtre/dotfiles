@@ -9,6 +9,8 @@ at
 bitwarden
 blueberry
 btop
+soundconverter
+mp3tag
 cava
 clamav
 cmatrix
