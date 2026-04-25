@@ -6,9 +6,9 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][157]
-ItemGeometries-1920x1080=
+ItemGeometries-1920x1080=Applet-734:1376.01,719.987,544,304,0;
 ItemGeometries-2327x1309=
-ItemGeometriesHorizontal=
+ItemGeometriesHorizontal=Applet-734:1376.01,719.987,544,304,0;
 activityId=6d66ba13-baae-4ebd-973e-324a2d00c622
 formfactor=0
 immutability=1
@@ -17,12 +17,29 @@ location=0
 plugin=io.gitgud.wackyideas.desktopcontainment
 wallpaperplugin=org.kde.image
 
+[Containments][157][Applets][734]
+immutability=1
+plugin=org.kde.plasma.comic
+
+[Containments][157][Applets][734][Configuration]
+UserBackgroundHints=ShadowBackground
+lastStripVisited_xkcd=true
+lastStrip_xkcd=
+maxStripNum_xkcd=0
+scaleToContent_xkcd=false
+storedPosition_xkcd=
+tabIdentifier=xkcd
+
+[Containments][157][Applets][734][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=1135
+
 [Containments][157][ConfigDialog]
 DialogHeight=591
 DialogWidth=1019
 
 [Containments][157][General]
-changedPositions={"desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage":["2327x1309,1920x1080,1080x1920","2","3"]}
+changedPositions={"desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage":["1080x1920,2327x1309,1920x1080","2","3"]}
 lastResolution=1920x1080
 positions={"1080x1920":["4","14","desktop:/Darktable.AppImage","3","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Link to Application.desktop","0","2","desktop:/rotate left.sh","0","0","desktop:/Freecad.AppImage","2","1","desktop:/rotate normal.sh","0","1"],"1920x1080":["4","24","desktop:/rotate normal.sh","0","1","desktop:/Darktable.AppImage","3","2","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3"],"2327x1309":["4","30","desktop:/Freecad.AppImage","2","1","desktop:/Darktable.AppImage","3","2","desktop:/Metro Awakening.desktop","0","4","desktop:/rotate normal.sh","0","1","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Link to Application.desktop","0","2","desktop:/fpsVR.desktop","0","3","desktop:/rotate left.sh","0","0"]}
 sortMode=-1
@@ -30,6 +47,10 @@ sortMode=-1
 [Containments][157][Wallpaper][org.kde.image][General]
 Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-525.png
 SlidePaths=/home/avery/.local/share/wallpapers/,/usr/share/wallpapers/
+
+[Containments][157][Watermark]
+watermarkVisible=true
+watermarks=[{"text":"AeroThemePlasma","bold":false,"color":"FFFFFF","horizontalAlignment":2},{"text":"Build 6.5.0","bold":false,"color":"FFFFFF","horizontalAlignment":2}]
 
 [Containments][175]
 ItemGeometries-1080x1920=
@@ -642,4 +663,4 @@ SlidePaths=/home/avery/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622

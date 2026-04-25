@@ -292,7 +292,7 @@ powerProfile=Battery\tMeta+B,Battery\tMeta+B,Switch Power Profile
 [plasmashell]
 Slideshow Wallpaper Next Image=,,Next Wallpaper Image
 _k_friendly_name=plasmashell
-activate application launcher=\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
+activate application launcher=Alt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=Meta+Ctrl+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=,,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+Ctrl+2,Meta+2,Activate Task Manager Entry 2
@@ -360,9 +360,7 @@ _launch=
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=
-CurrentMonitorScreenShot=
 FullScreenScreenShot=
-OpenWithoutScreenshot=
 RecordRegion=
 RecordScreen=
 RecordWindow=

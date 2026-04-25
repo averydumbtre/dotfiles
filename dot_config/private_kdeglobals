@@ -122,6 +122,7 @@ DefaultLightLookAndFeel=authui7
 LookAndFeelPackage=authui7
 contrast=4
 frameContrast=0.2
+widgetStyle=Oxygen
 
 [KFileDialog Settings]
 Allow Expansion=false
