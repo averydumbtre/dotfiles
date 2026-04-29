@@ -360,7 +360,9 @@ _launch=
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=
+CurrentMonitorScreenShot=
 FullScreenScreenShot=
+OpenWithoutScreenshot=
 RecordRegion=
 RecordScreen=
 RecordWindow=

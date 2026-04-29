@@ -12,3 +12,6 @@
 [branch "API-9.5.0"]
 	remote = origin
 	merge = refs/heads/API-9.5.0
+[branch "API-9.6.0"]
+	remote = origin
+	merge = refs/heads/API-9.6.0

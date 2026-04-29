@@ -94,7 +94,7 @@
                 "highDynamicRange": true,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
-                "maxPeakBrightnessOverride": 200,
+                "maxPeakBrightnessOverride": 210,
                 "mode": {
                     "height": 2160,
                     "refreshRate": 59997,
@@ -103,7 +103,7 @@
                 "overscan": 0,
                 "rgbRange": "Automatic",
                 "scale": 1.65,
-                "sdrBrightness": 150,
+                "sdrBrightness": 180,
                 "sdrGamutWideness": 0,
                 "sharpness": 0,
                 "transform": "Normal",
@@ -145,7 +145,7 @@
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 0,
                 "sharpness": 0,
-                "transform": "Rotated90",
+                "transform": "Normal",
                 "uuid": "bfd020cf-32e4-405c-8e14-6985d1d10da9",
                 "vrrPolicy": "Never",
                 "wideColorGamut": false
@@ -286,7 +286,7 @@
                         "enabled": true,
                         "outputIndex": 1,
                         "position": {
-                            "x": 1080,
+                            "x": 1920,
                             "y": 0
                         },
                         "priority": 1,
@@ -296,7 +296,7 @@
                         "enabled": true,
                         "outputIndex": 2,
                         "position": {
-                            "x": 3000,
+                            "x": 3840,
                             "y": 0
                         },
                         "priority": 2,

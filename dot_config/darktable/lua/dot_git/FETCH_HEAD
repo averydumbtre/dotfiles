@@ -1,4 +1,4 @@
-cc198d6ca1175818de694e1ba30ee240da48e2e1		branch 'master' of https://github.com/darktable-org/lua-scripts
+c1629ee719a81ca071d2cb4325d63d6ea3046a90		branch 'API-9.6.0' of https://github.com/darktable-org/lua-scripts
 77733b334eba61e4b06228c33a7e66aeeabbb83c	not-for-merge	branch '17422_bundle_lua_scripts' of https://github.com/darktable-org/lua-scripts
 85ccc663c8a371e227ca4ff47dd235b18215d6fc	not-for-merge	branch 'API-3.0.0' of https://github.com/darktable-org/lua-scripts
 97dd8a1257862953c84089c4a0f70b8470b63f34	not-for-merge	branch 'API-4.0.0' of https://github.com/darktable-org/lua-scripts
@@ -15,5 +15,4 @@ d609823491587de9a4a623ef6e7023930f884c91	not-for-merge	branch 'API-7.0.0' of htt
 8318569cdf51af5248d01251e0c29c5c3ed8dc94	not-for-merge	branch 'API-9.3.0' of https://github.com/darktable-org/lua-scripts
 62e932990e702a28daefb892583820ad0f9aba7a	not-for-merge	branch 'API-9.4.0' of https://github.com/darktable-org/lua-scripts
 961220f222f36fd2298ebf7db525c8c85ea2d540	not-for-merge	branch 'API-9.5.0' of https://github.com/darktable-org/lua-scripts
-96b7ba24bc8c84c6ac4cda3da9b14182418148db	not-for-merge	branch 'fix_collection_selection_strings_for_translation' of https://github.com/darktable-org/lua-scripts
-3def8b43d9f66534d0491a96709872d9acec0fa8	not-for-merge	branch 'update_links' of https://github.com/darktable-org/lua-scripts
+fe722f8409dd28626d83bab708c8ee0838f915f7	not-for-merge	branch 'master' of https://github.com/darktable-org/lua-scripts

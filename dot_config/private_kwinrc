@@ -75,7 +75,7 @@ krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 
 [Script-krohnkite]
-floatingTitle=protonvpn-app, qview, mpv
+floatingTitle=protonvpn-app, qview, mpv, galculator
 screenGapBetween=1
 
 [TabBox]
@@ -233,6 +233,11 @@ ElectricBorderTiling=false
 FocusPolicy=FocusFollowsMouse
 SeparateScreenFocus=false
 TitlebarDoubleClickCommand=OnAllDesktops
+
+[Windows_HDR]
+MaxFrameAverage=0
+MaxLuminance=210
+Reference=180
 
 [org.kde.kdecoration2]
 BorderSize=Normal

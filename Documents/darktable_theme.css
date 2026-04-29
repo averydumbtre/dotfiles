@@ -1,0 +1,156 @@
+/* Darktable Theme - net-fx.de */
+
+@define-color button_bg #262626;
+@define-color button_hover_bg #d954dd;
+@define-color bg_color #262626;
+@define-color plugin_bg_color #303030;
+@define-color field_bg #262626;
+@define-color collapsible_bg_color #262626;
+@define-color plugin_label_color #959595;
+@define-color field_selected_bg #303030;
+@define-color fg_color #959595;
+@define-color scroll_bar_bg #262626;
+@define-color scroll_bar_inactive #303030;
+@define-color scroll_bar_active #d954dd;
+@define-color bauhaus_bg #262626;
+@define-color bauhaus_fill #d954dd;
+@define-color border_color #262626;
+@define-color darkroom_bg_color #303030;
+@define-color field_active_bg #262626;
+@define-color lighttable_bg_color #262626;
+@define-color thumbnail_selected_bg_color #303030;
+@define-color thumbnail_hover_bg_color #5d5d5d;
+@define-color thumbnail_bg_color #262626;
+@define-color thumbnail_star_bg_color #565656;
+@define-color thumbnail_star_hover_color #d954dd;
+
+
+.dt_overlays_hover_extended #thumb-main:hover #thumb-bottom,
+.dt_overlays_mixed #thumb-main:hover #thumb-bottom,
+.dt_overlays_hover #thumb-main:hover #thumb-bottom {
+    background-image: none;
+    background-color: #565656;
+}
+
+#left {
+padding: 0 8px 0 0;
+}
+
+#left > :not(scrolledwindow) {
+padding-left: 4px;
+}
+
+#right {
+padding: 0 0 0 8px;
+}
+
+#right > :not(scrolledwindow) {
+padding-right: 0px;
+}
+
+
+#plugins_vbox_left > box:not(#basics-box-labels) {
+background-color: @plugin_bg_color;
+border-radius: 4px;
+}
+
+#basics-module-hbox,
+#plugins_vbox_left > box:not(#basics-box-labels) {
+margin-bottom: 4px;
+}
+
+#basics-box-labels widget,
+#basics-module-hbox {
+background-color: @plugin_bg_color;
+}
+
+#basics-box-labels widget {
+border: none;
+}
+
+#basics-module-hbox,
+#plugins_vbox_left frame.dt_plugin_ui {
+border-radius: 0 0 4px 4px;
+}
+
+#basics-module-hbox {
+padding: 0px 0 0px;
+}
+
+#basics-box-labels #basics-header-box {
+padding: 6px 4px 6px 10px;
+}
+
+#basics-module-hbox + widget {
+border-radius: 4px 4px 0 0;
+}
+
+#plugins_vbox_left #module-header,
+#left > box:nth-child(3) #module-header,
+#right > box:nth-child(3) #module-header {
+border: none;
+}
+
+.dt_plugin_ui #blending-tabs .dt_module_btn,
+#modules-tabs .dt_module_btn
+{
+    padding: 0.5em;
+    margin: 0.2em;
+    border-radius: 4px;
+}
+
+.dt_plugin_ui #blending-tabs
+{
+    border-radius: 0 0 4px 4px;
+}
+
+
+#left > box:first-child,
+#modules-tabs {
+margin-bottom: 4px;
+}
+
+
+.font {
+    margin: 8px 0;
+}
+
+.dt_plugin_ui #blending-tabs
+{
+    background-color: shade (@plugin_bg_color, 1.3);
+}
+
+.dt_section_label {
+    border: none;
+    background-color: shade (@plugin_bg_color, 1);
+    border-radius: 4px;
+}
+
+
+#module-filtering #collect-rule-widget:last-child {
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+}
+
+/* Increase min-height to account for auto-hideable buttons */
+#module-header {
+min-height: 6px;
+}
+
+
+#module-header .dt_module_btn {
+color: shade(@plugin_label_color, 0.6);
+background-color: shade(@plugin_bg_color, 0.9);
+}
+
+
+#module-header .dt_module_btn:checked {
+color: shade(@button_hover_bg, 1.2);
+background-color: shade(@plugin_bg_color, 1.2);
+}
+
+#module-header .dt_module_btn:checked ~ .dt_module_btn{
+color: shade(@plugin_label_color, 0.8);
+background-color: shade(@plugin_bg_color, 1);
+
+}
