@@ -305,14 +305,14 @@ sudo -i systemctl enable ly@tty1.service
 sudo -i systemctl enable cronie --now
 sudo systemctl enable --now lactd
 cd
-sudo -i crontab -u $username -e
-echo -e '@reboot  sleep 15 && env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) systemd-run --user --quiet --collect ~/Documents/skripts/STARTUP.sh' >> mycron
-crontab mycron
-rm mycron
-sudo -i chmod u+x ~/Documents/skripts/SHUTDOWN.sh
-sudo -i chmod u+x ~/Documents/skripts/STARTUP.sh
-chmod u+x ~/Documents/skripts/SHUTDOWN.sh
-chmod u+x ~/Documents/skripts/STARTUP.sh
+##sudo -i crontab -u $username -e
+##echo -e '@reboot  sleep 15 && env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) systemd-run --user --quiet --collect ~/Documents/skripts/STARTUP.sh' >> mycron
+##crontab mycron
+##rm mycron
+##sudo -i chmod u+x ~/Documents/skripts/SHUTDOWN.sh
+##sudo -i chmod u+x ~/Documents/skripts/STARTUP.sh
+##chmod u+x ~/Documents/skripts/SHUTDOWN.sh
+##chmod u+x ~/Documents/skripts/STARTUP.sh
 echo
 sudo -i echo "bleh"
 ##sudo -i echo -e "[Unit]\nDescription=Pushes dotfiles to github before shutdown\nDefaultDependencies=no\nAfter=network.target paths.target timers.target sockets.target\nRequires=network.target paths.target timers.target sockets.target\n\n[Service]\nType=oneshot\nUser=$username\nRemainAfterExit=true\nExecStop=/home/$username/Documents/skripts/SHUTDOWN.sh\nTimeoutStartSec=0\n\n[Install]\nWantedBy=network.target paths.target timers.target sockets.target" | sudo -i tee -a /etc/systemd/system/chezmoi-before-shutdown.service
