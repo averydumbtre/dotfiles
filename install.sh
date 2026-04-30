@@ -417,6 +417,7 @@ echo "         tridactyl :bind dd tabclose"
 echo "* and login to discord and steam and matrix"
 echo "and autostart: easyeffects, mpdscribble, solaar, and syncthing"
 echo "and setup kde connect?"
+echo "remember its /Documents/skripts/DOTFILES.sh to push your configs"
 echo
 echo "alright screenshot that"
 echo "press enter to reboot"
