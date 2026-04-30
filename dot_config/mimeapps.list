@@ -74,6 +74,7 @@ text/x-csrc=org.kde.kate.desktop;
 image/x-hdr=gimp.desktop;
 image/x-dds=gimp.desktop;com.interversehq.qView.desktop;
 image/svg+xml=krita_svg.desktop;gimp.desktop;com.interversehq.qView.desktop;
+application/xml=org.kde.kate.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;
