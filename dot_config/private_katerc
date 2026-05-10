@@ -31,6 +31,7 @@ Bracket Match Preview=false
 Chars To Enclose Selection=<>(){}[]'"
 Cycle Through Bookmarks=true
 Default Mark Type=1
+Disable bracket match highlight if inactive=false
 Disable current line highlight if inactive=false
 Dynamic Word Wrap=true
 Dynamic Word Wrap Align Indent=80
@@ -91,6 +92,12 @@ Word Completion Remove Tail=true
 2 screens: Width=1434
 3 screens: Height=308
 3 screens: Width=944
+
+[PluginTextFilter]
+Completion list=grep -ok
+Copy result=false
+Merge output=true
+New Document=false
 
 [UiSettings]
 ColorScheme=BreezeDark

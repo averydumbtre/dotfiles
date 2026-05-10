@@ -168,6 +168,7 @@ y;ctrl=views/lighttable/redo
 z;ctrl=views/lighttable/undo
 Tab=global/panels/all
 Return=views/lighttable/select single image
+Return;double=global/styles/_l10n_darktable|_l10n_camera styles|Fujifilm|FinePix...|FinePix E550
 Escape=views/lighttable/exit current layout
 Escape;alt=views/lighttable/move/leave;next
 Home=views/lighttable/move/whole;previous
