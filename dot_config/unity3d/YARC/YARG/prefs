@@ -1,16 +1,19 @@
 <unity_prefs version_major="1" version_minor="1">
-	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
+	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
+	<pref name="UnitySelectMonitor" type="int">0</pref>
+	<pref name="unity.player_session_count" type="string">MTE=</pref>
+	<pref name="unity_connect.mega_session_id" type="string">MDg0ZDViZWUtZGIyYi01YjAyLWJhMDktMDUxYTg0OTkxMTdi</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="unity.player_sessionid" type="string">NDcxNTc1ODMyMTgxNDE5MDM3OA==</pref>
+	<pref name="Screenmanager Window Position X" type="int">0</pref>
+	<pref name="unity_connect.session_id" type="string">NmEyOTkxMTktMmRjYi0wOTI4LWQ4NTItZGQ0MDBmZTkwMDli</pref>
+	<pref name="UnityGraphicsQuality" type="int">1</pref>
 	<pref name="Screenmanager Fullscreen mode Default" type="int">1</pref>
 	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
-	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
 	<pref name="Screenmanager Resolution Use Native" type="int">1</pref>
-	<pref name="Screenmanager Resolution Use Native Default" type="int">1</pref>
-	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
-	<pref name="Screenmanager Resolution Width Default" type="int">1024</pref>
-	<pref name="Screenmanager Window Position X" type="int">0</pref>
+	<pref name="Screenmanager Resolution Height Default" type="int">768</pref>
+	<pref name="unity_connect.installation_id" type="string">ZWZhNDA0N2YtMWZlMi1kZWE3LWY4YTMtYjFmNWQ3MzNiZjQ2</pref>
+	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
 	<pref name="Screenmanager Window Position Y" type="int">0</pref>
-	<pref name="UnityGraphicsQuality" type="int">1</pref>
-	<pref name="UnitySelectMonitor" type="int">0</pref>
-	<pref name="unity.player_session_count" type="string">MTA=</pref>
-	<pref name="unity.player_sessionid" type="string">NDQ2ODQ5MTQwMzQ0MzkzMjA5MQ==</pref>
 </unity_prefs>

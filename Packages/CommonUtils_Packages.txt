@@ -1,5 +1,5 @@
 adobe-source-code-pro-fonts
-alacritty
+kitty
 alsa-plugins
 android-file-transfer
 android-tools
