@@ -48,7 +48,7 @@
                 "colorProfileSource": "EDID",
                 "connectorName": "DP-1",
                 "detectedDdcCi": true,
-                "edidHash": "b2ce3de4445953851c8cd2bc4c1e75b1",
+                "edidHash": "a8ecd769f29a79308ace349c76508622",
                 "edidIdentifier": "MSI 15527 16843009 3 2022 0",
                 "edrPolicy": "always",
                 "highDynamicRange": false,
