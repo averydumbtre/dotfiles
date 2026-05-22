@@ -64,3 +64,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][d9d0ef43-cb59-4d4f-9023-e4f508e6c828][fbad4ddd-5c8f-4c60-b514-593b68cfa7b3]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Windows]
+ElectricBorderMaximize=false
+ElectricBorderTiling=false
