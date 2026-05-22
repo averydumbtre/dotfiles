@@ -47,6 +47,8 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "EDID",
                 "connectorName": "DP-1",
+                "customModes": [
+                ],
                 "detectedDdcCi": true,
                 "edidHash": "b2ce3de4445953851c8cd2bc4c1e75b1",
                 "edidIdentifier": "MSI 15527 16843009 3 2022 0",
@@ -55,6 +57,7 @@
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
                 "mode": {
+                    "flags": 0,
                     "height": 1080,
                     "refreshRate": 165003,
                     "width": 1920
@@ -87,6 +90,8 @@
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
                 "connectorName": "DP-2",
+                "customModes": [
+                ],
                 "detectedDdcCi": false,
                 "edidHash": "7ab6080f4c3b71bd9a6e2272c754dd4f",
                 "edidIdentifier": "AUS 10426 343323 44 2020 0",
@@ -96,6 +101,7 @@
                 "maxBitsPerColor": 0,
                 "maxPeakBrightnessOverride": 210,
                 "mode": {
+                    "flags": 1,
                     "height": 2160,
                     "refreshRate": 59997,
                     "width": 3840
@@ -167,6 +173,8 @@
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "DP-1",
+                "customModes": [
+                ],
                 "detectedDdcCi": false,
                 "edidHash": "47a2ff926b20a50fa955d4e855878f11",
                 "edidIdentifier": "NVD 0 0 0 0 0",
@@ -174,6 +182,7 @@
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
+                    "flags": 0,
                     "height": 480,
                     "refreshRate": 59940,
                     "width": 640
@@ -420,6 +429,21 @@
                             "y": 0
                         },
                         "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 4,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0,
                         "replicationSource": ""
                     }
                 ]
