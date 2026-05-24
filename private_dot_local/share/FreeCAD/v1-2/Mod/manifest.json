@@ -1,0 +1,24 @@
+{
+  "fasteners": {
+    "addon_id": "fasteners",
+    "migrated": true,
+    "first_installed": "1970-01-01T00:00:00+00:00",
+    "last_updated": "2025-12-10T17:59:28.586322-08:00",
+    "branch_display_name": "master",
+    "extra_files": [],
+    "freecad_version": ""
+  },
+  "freecad-xr-workbench": {
+    "addon_id": "freecad-xr-workbench",
+    "migrated": false,
+    "first_installed": "2026-02-15T23:48:25.842878+00:00",
+    "last_updated": "2026-02-15T23:48:25.842888+00:00",
+    "branch_display_name": "main",
+    "extra_files": [],
+    "freecad_version": [
+      "1",
+      "2",
+      "0"
+    ]
+  }
+}

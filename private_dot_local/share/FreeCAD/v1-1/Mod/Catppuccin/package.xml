@@ -1,0 +1,105 @@
+<?xml
+    version = '1.0'
+    encoding = 'UTF-8'
+    standalone = 'no'
+?>
+<!-- SPDX-License-Identifier: MIT -->
+<!-- SPDX-FileNotice: Part of the Catppuccin addon. -->
+<package
+    format = '1'
+    xmlns = 'https://wiki.freecad.org/Package_Metadata'
+>
+
+    <!--[ Versions ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <freecadmin>1.1.0</freecadmin>
+    <pythonmin>3.11</pythonmin>
+    <version>1.0.0</version>
+    <date>2026-04-04</date>
+
+    <!--[ Info ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <description>Light / Dark theme and preference pack.</description>
+    <name>Catppuccin</name>
+
+    <!--[ Tags ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <tag>Light</tag>
+    <tag>Dark</tag>
+
+    <!--[ Maintainers ]――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <maintainer
+        email = 'hackhype321@gmail.com'
+    >cnvuls</maintainer>
+
+    <!--[ Authors ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <author
+        email = 'hackhype321@gmail.com'
+    >cnvuls</author>
+
+    <!--[ Licenses ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <license
+        file = 'LICENSE'
+    >MIT</license>
+
+    <!--[ Icon ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <icon>resources/icons/catppuccin_themes.svg</icon>
+
+    <!--[ Urls ]―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <url
+        branch = 'main'
+        type = 'repository'
+    >https://github.com/cnvuls/CatppuccinFC</url>
+
+    <url
+        type = 'bugtracker'
+    >https://github.com/cnvuls/CatppuccinFC/issues</url>
+
+    <url
+        type = 'readme'
+    >https://raw.githubusercontent.com/cnvuls/CatppuccinFC/refs/heads/Latest/README.md</url>
+
+    <!--[ Content ]――――――――――――――――――――――――――――――――――――――――――――――――――――――――――-->
+
+    <content>
+        
+      <preferencepack>
+          
+          <description>A dark theme based on the Catppuccin palette.</description>
+          <name>CatppuccinNights</name>
+          <tag>Dark</tag>
+          
+          <subdirectory>./CatppuccinNights/</subdirectory>
+          <file>CatppuccinNights.qss</file>
+      
+      </preferencepack>
+
+      <preferencepack>
+        
+          <description>A light theme based on the Catppuccin palette.</description>
+          <name>CatppuccinLights</name>
+          <tag>Light</tag>
+          
+          <subdirectory>./CatppuccinLights/</subdirectory>
+          <file>CatppuccinLights.qss</file>
+
+      </preferencepack>
+
+      <preferencepack>
+          
+          <description>A set of preferences to complement Catppuccin.</description>
+          <name>CatppuccinPreferences</name>
+          
+          <subdirectory>./CatppuccinPreferences/</subdirectory>
+          <file>CatppuccinPreferences.cfg</file>
+
+      </preferencepack>
+
+    </content>
+
+</package>
