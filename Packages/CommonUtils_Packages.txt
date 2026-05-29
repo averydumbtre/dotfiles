@@ -103,3 +103,4 @@ lact
 kalarm
 detox
 nheko
+openscq30-gui-bin
