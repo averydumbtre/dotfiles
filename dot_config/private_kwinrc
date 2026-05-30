@@ -70,5 +70,9 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
+AutoRaise=true
+AutoRaiseInterval=500
+DelayFocusInterval=0
 ElectricBorderMaximize=false
 ElectricBorderTiling=false
+FocusPolicy=FocusFollowsMouse
