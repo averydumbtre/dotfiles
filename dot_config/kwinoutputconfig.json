@@ -133,14 +133,18 @@
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
-                "connectorName": "HDMI-A-1",
+                "connectorName": "DP-3",
+                "customModes": [
+                ],
                 "detectedDdcCi": true,
-                "edidHash": "12fbfd53829125e1681f8d58980555fb",
+                "edidHash": "f0fe4eedb0263ce7c0b1b71486e7876f",
                 "edidIdentifier": "HAT 4915 4026531854 17 2024 0",
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 16,
                 "mode": {
+                    "flags": 1,
                     "height": 1080,
                     "refreshRate": 60000,
                     "width": 1920
@@ -268,7 +272,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 0,
+                        "priority": 1,
                         "replicationSource": ""
                     }
                 ]
@@ -358,7 +362,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 0,
+                        "priority": 1,
                         "replicationSource": ""
                     },
                     {
@@ -368,7 +372,7 @@
                             "x": 1920,
                             "y": 0
                         },
-                        "priority": 1,
+                        "priority": 2,
                         "replicationSource": ""
                     }
                 ]
@@ -444,6 +448,21 @@
                             "y": 0
                         },
                         "priority": 0,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 3,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 1,
                         "replicationSource": ""
                     }
                 ]
