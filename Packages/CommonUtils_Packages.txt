@@ -104,3 +104,6 @@ kalarm
 detox
 nheko
 openscq30-gui-bin
+otf-fraunces
+ttf-fraunces
+fwupd
