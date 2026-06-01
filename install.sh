@@ -404,6 +404,7 @@ echo
 echo "there are some things left to do:"
 echo "* add addons to librewolf (Sponsorblock, Return Dislike, Bitwarden, Twitch alt Player, Tridactyl, Darkreader, Scroll Anywhere)"
 echo "* import you bookmarks, in ~/Documents/bookmarks-20xx-xx-xx.json"
+echo "* your mouse sens is 1600dpi -0.4sens in kde"
 echo "* tab layout [sshot, zoom, priv, lib, dl, sett, add, burg] - no flex spaces"
 echo "* librewolf settings:"
 echo "         privacy.resistFingerprinting = false"
