@@ -219,60 +219,102 @@ case $yn0 in
 esac
 
 
+
+cd ~/.local/share/chezmoi/
 echo
-echo "which Display manager do you want to install?"
-echo "options are:"
-echo
-echo "* None"
-echo "* Hyprland"
-echo "* KDE Plasma (aero)"
-read -p "> " DispOpt
-case $DispOpt in
-    None ) echo "cool, i respect it";
-           display="none";;
-    none ) echo "cool, i respect it";
-           display="none";;
-    Hyprland ) cat Packages/Hyprland_Packages.txt | yay -S -;
-               echo;
-               read -p "are you on a pc or laptop?  (pc/lap) " pclap;
-               case $pclap in
-                    pc ) rm ~/.config/hypr/hyprland.conf
-                         echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    Pc ) rm ~/.config/hypr/hyprland.conf
-                         echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    lap ) rm ~/.config/hypr/hyprland.conf
-                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    Lap ) rm ~/.config/hypr/hyprland.conf
-                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    laptop ) rm ~/.config/hypr/hyprland.conf
-                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    Laptop ) rm ~/.config/hypr/hyprland.conf
-                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-               esac;
-               display="hyprland";;
-    hyprland ) cat Packages/Hyprland_Packages.txt | yay -S -;
-               echo;
-               read -p "are you on a pc or laptop?  (pc/lap) " pclap;
-               case $pclap in
-                    pc ) rm ~/.config/hypr/hyprland.conf
-                         echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    Pc ) rm ~/.config/hypr/hyprland.conf
-                         echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    lap ) rm ~/.config/hypr/hyprland.conf
-                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    Lap ) rm ~/.config/hypr/hyprland.conf
-                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    laptop ) rm ~/.config/hypr/hyprland.conf
-                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-                    Laptop ) rm ~/.config/hypr/hyprland.conf
-                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
-               esac;
-               display="hyprland";;
-    * ) echo "uhhh... i gues no display manager?";
-        display="none";;
+read -p "do you wish to install Hyprland Shit? (old, not usefull)  [y/N] " yn0
+case $yn0 in
+    y ) echo "do you want to edit the packagefile before it gets installed?";
+        read -p "(it will be uneditied when the script ends)            [y/N] " yn1;
+        case $yn1 in
+            y ) cp Packages/Hyprland_Packages.txt Packages/Hyprland_Packages_TEMP.txt
+                vim Packages/Hyprland_Packages_TEMP.txt;
+                cat Packages/Hyprland_Packages_TEMP.txt | yay -S -;
+                rm Packages/Hyprland_Packages_TEMP.txt;;
+            n ) cat Packages/Hyprland_Packages.txt | yay -S -;;
+            * ) cat Packages/Hyprland_Packages.txt | yay -S -;;
+        esac;;
+    n ) echo "sure";;
+    * ) echo "sure";;
 esac
 
 
+
+cd ~/.local/share/chezmoi/
+echo
+read -p "do you wish to install Aerothemeplasma? (full kde desktop with theming, you want her)  [Y/n] " yn0
+case $yn0 in
+    y ) echo "do you want to edit the packagefile before it gets installed?";
+        read -p "(it will be uneditied when the script ends)            [y/N] " yn1;
+        case $yn1 in
+            y ) cp Packages/Aerothemeplasma_Packages.txt Packages/Aerothemeplasma_Packages_TEMP.txt
+                vim Packages/Aerothemeplasma_Packages_TEMP.txt;
+                cat Packages/Aerothemeplasma_Packages_TEMP.txt | yay -S -;
+                rm Packages/Aerothemeplasma_Packages_TEMP.txt;;
+            n ) cat Packages/Aerothemeplasma_Packages.txt | yay -S -;;
+            * ) cat Packages/Aerothemeplasma_Packages.txt | yay -S -;;
+        esac;;
+    n ) echo "sure";;
+    * ) cat Packages/Aerothemeplasma_Packages.txt | yay -S -;;
+esac
+
+
+
+
+
+##                   JUNKKKKK
+#echo
+#echo "which Display manager do you want to install?"
+#echo "options are:"
+#echo
+#echo "* None"
+#echo "* Hyprland"
+#echo "* KDE Plasma (aero)"
+#read -p "> " DispOpt
+#case $DispOpt in
+#    None ) echo "cool, i respect it";
+#           display="none";;
+#    none ) echo "cool, i respect it";
+#           display="none";;
+#    Hyprland ) cat Packages/Hyprland_Packages.txt | yay -S -;
+#               echo;
+#               read -p "are you on a pc or laptop?  (pc/lap) " pclap;
+#               case $pclap in
+#                    pc ) rm ~/.config/hypr/hyprland.conf
+#                         echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    Pc ) rm ~/.config/hypr/hyprland.conf
+#                         echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    lap ) rm ~/.config/hypr/hyprland.conf
+#                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    Lap ) rm ~/.config/hypr/hyprland.conf
+#                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    laptop ) rm ~/.config/hypr/hyprland.conf
+#                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    Laptop ) rm ~/.config/hypr/hyprland.conf
+#                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#               esac;
+#               display="hyprland";;
+#    hyprland ) cat Packages/Hyprland_Packages.txt | yay -S -;
+#               echo;
+#               read -p "are you on a pc or laptop?  (pc/lap) " pclap;
+#               case $pclap in
+#                    pc ) rm ~/.config/hypr/hyprland.conf
+#                         echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    Pc ) rm ~/.config/hypr/hyprland.conf
+#                        echo -e "##source = /home/avery/.config/hypr/hyprLAPTOP.conf \nsource = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    lap ) rm ~/.config/hypr/hyprland.conf
+#                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    Lap ) rm ~/.config/hypr/hyprland.conf
+#                          echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    laptop ) rm ~/.config/hypr/hyprland.conf
+#                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#                    Laptop ) rm ~/.config/hypr/hyprland.conf
+#                             echo -e "source = /home/avery/.config/hypr/hyprLAPTOP.conf \n##source = /home/avery/.config/hypr/hyprPC.conf \nsource = /home/avery/.config/hypr/hyprGENERAL.conf" >> ~/.config/hypr/hyprland.conf;;
+#               esac;
+#               display="hyprland";;
+#    * ) echo "uhhh... i gues no display manager?";
+#        display="none";;
+#esac
 #case $display in
 #    none ) echo;;
 #    hyprland ) hyprctl monitors
@@ -282,8 +324,6 @@ esac
 #               read -p "> " wallpaper;
 #               echo -e "\n wallpaper = $monitor, $wallpaper" >> ~/.config/hypr/hyprpaper.conf;;
 #esac
-
-
 ## commented out password getting code...
 ##echo
 ##echo "hey im sorry, i need your Root Password for something"
@@ -341,23 +381,6 @@ case $mpd in
         read -p "> " mpdpath;
         sed -i "s\music_directory    .*\music_directory    $mpdpath\g" ~/.config/mpd/mpd.conf;
         rmpc update;
-        echo ;
-        read -p "would you like to setup your cronie (crontab) alarm?  (y/N) " cronyn;
-        case $cronyn in
-        y ) echo "okay, first gimmie the audio device you want it to play out of, something like  (alsa_output.pci-0000_01_00.1.hdmi-stereo)"
-            echo "(dont worry you can change this later) (~/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh)";
-            echo "press enter to view audio devices";
-            read;
-            pw-cli list-objects | grep node.name | column;
-            echo;
-            read -p "audo device> " audiodevice;
-            echo crontab -l > mycron;
-            echo -e "#!/bin/bash \npipewire \nsleep 1 \npactl set-sink-volume @DEFAULT_SINK@ 100% \nmpv $mpdpath -shuffle --no-video --audio-device=pipewire/$audiodevice" >> ~/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh;
-            echo "1 6 * * 1-5 env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) /home/avery/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh \n20 8 * * 0,6 env DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/$(id -u) /home/avery/Documents/skripts/music_shuffle_INSTALLSCRIPT.sh" >> mycron;
-            crontab mycron;
-            rm mycron;;
-        n ) echo;;
-        * ) echo "not setting up crontab.";;
         esac;;
     n ) echo "okay, just dont forget to edit mpd.conf! (~/.config/mpd/mpd.conf)";;
     * ) echo "HEY DOOFUS GO MAKE AND EDIT ~/.config/mpd/mpd.conf IF YOU WANT MUSIC TO WORK";;
