@@ -35,10 +35,7 @@
         "module_name": "obs-shaderfilter",
         "outputs": [],
         "services": [],
-        "sources": [
-            "shader_filter",
-            "shader_transition"
-        ],
+        "sources": [],
         "version": ""
     },
     {
@@ -49,9 +46,7 @@
         "module_name": "obs-retro-effects",
         "outputs": [],
         "services": [],
-        "sources": [
-            "obs_retro_effects_filter"
-        ],
+        "sources": [],
         "version": ""
     }
 ]

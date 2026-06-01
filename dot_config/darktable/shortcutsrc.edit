@@ -180,6 +180,7 @@ y;ctrl=views/darkroom/redo
 z;ctrl=views/darkroom/undo
 BackSpace=views/darkroom/image back
 Tab=global/panels/all
+Return;double=global/styles/_l10n_darktable|_l10n_camera styles|Fujifilm|FinePix...|FinePix E550
 Left=views/darkroom/move/horizontal;down
 Up=views/darkroom/move/vertical;up
 Right=views/darkroom/move/horizontal;up

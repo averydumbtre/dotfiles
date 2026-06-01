@@ -3,6 +3,18 @@ Id_1=d9d0ef43-cb59-4d4f-9023-e4f508e6c828
 Number=1
 Rows=1
 
+[Effect-aeroglassblur]
+AccentColorGroup=7
+AccentColorName=0
+AeroBrightness=12
+AeroHue=222
+AeroIntensity=97
+AeroSaturation=21
+BasicColorization=true
+BlurStrength=8
+CustomColor=#61181a1e
+ReflectionIntensity=69
+
 [Effect-better-blur-dx]
 BlurDecorations=true
 BlurDocks=true
@@ -43,6 +55,7 @@ TopCornerRadius=15
 WindowClasses=
 
 [Plugins]
+aeroglassblurEnabled=true
 better_blur_dxEnabled=true
 blurEnabled=false
 contrastEnabled=false
@@ -76,3 +89,9 @@ DelayFocusInterval=0
 ElectricBorderMaximize=false
 ElectricBorderTiling=false
 FocusPolicy=FocusFollowsMouse
+
+[Xwayland]
+Scale=1.65
+
+[org.kde.kdecoration2]
+ButtonsOnRight=H_IX

@@ -117,12 +117,15 @@ menuFont=Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Segoe UI,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
+[Icons]
+Theme=Windows 7 Aero
+
 [KDE]
 DefaultLightLookAndFeel=authui7
 LookAndFeelPackage=authui7
 contrast=4
 frameContrast=0.2
-widgetStyle=Oxygen
+widgetStyle=kvantum
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -142,8 +145,7 @@ Speedbar Width=140
 View Style=DetailTree
 
 [KScreen]
-ScreenScaleFactors=DP-1=1;DP-2=1;HDMI-A-1=1;
-XwaylandClientsScale=false
+ScreenScaleFactors=DP-1=1;DP-2=1;
 
 [Shortcuts]
 AboutApp=
@@ -172,6 +174,9 @@ Zoom=
 
 [Sounds]
 Theme=Windows 7
+
+[Toolbar style]
+ToolButtonStyle=NoText
 
 [WM]
 activeBackground=153,180,209

@@ -11,7 +11,7 @@ Show Url Nav Bar=true
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
-Color Theme=Breeze Dark
+Color Theme=Breeze Light
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -88,8 +88,8 @@ Word Completion Remove Tail=true
 1280x1024 screen: Window-Maximized=true
 1920x1080 screen: Height=1002
 1920x1080 screen: Width=944
-2 screens: Height=735
-2 screens: Width=984
+2 screens: Height=484
+2 screens: Width=849
 3 screens: Height=308
 3 screens: Width=703
 
@@ -100,7 +100,7 @@ Merge output=true
 New Document=false
 
 [UiSettings]
-ColorScheme=BreezeDark
+ColorScheme=Aero
 
 [filetree]
 editShade=183,220,246
