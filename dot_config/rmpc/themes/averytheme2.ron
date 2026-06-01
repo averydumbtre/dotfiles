@@ -16,13 +16,13 @@
     preview_metadata_group_style: (fg: "white", modifiers: "Bold"),
     tab_bar: (
         enabled: true,
-        active_style: (fg: "black", bg: "#cb64f4", modifiers: "Bold"),
+        active_style: (fg: "black", bg: "#ffffff", modifiers: "Bold"),
         inactive_style: (),
     ),
-    highlighted_item_style: (fg: "#cb64f4", modifiers: "Bold"),
-    current_item_style: (fg: "black", bg: "#cb64f4", modifiers: "Bold"),
-    borders_style: (fg: "#cb64f4"),
-    highlight_border_style: (fg: "#cb64f4"),
+    highlighted_item_style: (fg: "#ffffff", modifiers: "Bold"),
+    current_item_style: (fg: "black", bg: "#ffffff", modifiers: "Bold"),
+    borders_style: (fg: "#ffffff"),
+    highlight_border_style: (fg: "#ffffff"),
     symbols: (
         song: "󰝚 ",
         dir: " ",
@@ -41,7 +41,7 @@
     bar_color: Single("white"),
     ),
     level_styles: (
-        info: (fg: "#cb64f4", bg: "black"),
+        info: (fg: "#ffffff", bg: "black"),
         warn: (fg: "white", bg: "black"),
         error: (fg: "red", bg: "black"),
         debug: (fg: "light_green", bg: "black"),
@@ -49,15 +49,15 @@
     ),
     progress_bar: (
         symbols: ["", "█", "█", " ", ""],
-        track_style: (fg: "#cb64f4"),
-        elapsed_style: (fg: "#cb64f4"),
-        thumb_style: (fg: "#cb64f4", bg: "#cb64f4"),
+        track_style: (fg: "#ffffff"),
+        elapsed_style: (fg: "#ffffff"),
+        thumb_style: (fg: "#ffffff", bg: "#ffffff"),
     ),
     scrollbar: (
         symbols: ["│", "█", "▲", "▼"],
         track_style: (),
         ends_style: (),
-        thumb_style: (fg: "#cb64f4"),
+        thumb_style: (fg: "#ffffff"),
     ),
     song_table_format: [
         (
@@ -125,8 +125,8 @@
                     )
                 ],
                 right: [
-                    (kind: Property(Widget(ScanStatus)), style: (fg: "#cb64f4")),
-                    (kind: Property(Widget(Volume)), style: (fg: "#cb64f4"))
+                    (kind: Property(Widget(ScanStatus)), style: (fg: "#ffffff")),
+                    (kind: Property(Widget(Volume)), style: (fg: "#ffffff"))
                 ]
             ),
             (
