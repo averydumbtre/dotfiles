@@ -30,7 +30,9 @@ positions={"1080x1920":["4","14","desktop:/Darktable.AppImage","3","2","desktop:
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
-Image=file:///home/avery/Documents/2026-03-31-FUJIFILM-X-S10-594.avif
+Color=24,24,24
+FillMode=1
+Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-517.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][157][Watermark]
@@ -63,7 +65,9 @@ positions={"1080x1920":[],"1164x655":["1","15"],"1309x2327":["1","17","desktop:/
 sortMode=-1
 
 [Containments][175][Wallpaper][org.kde.image][General]
-Image=file:///home/avery/Documents/2026-03-31-FUJIFILM-X-S10-594.avif
+Color=24,24,24
+FillMode=1
+Image=file:///home/avery/Documents/2026-01-04-FUJIFILM-X-S10-517.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][702]
@@ -416,4 +420,4 @@ AppletOrder=770;791;790;772;771;769
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+screenMapping=desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622
