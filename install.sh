@@ -202,6 +202,27 @@ esac
 
 cd ~/.local/share/chezmoi/
 echo
+read -p "do you wish to install AMD Drivers? (even if you already installed them this is a good idea)  [Y/n] " yn0
+case $yn0 in
+    y ) echo "do you want to edit the packagefile before it gets installed?";
+        read -p "(it will be uneditied when the script ends)            [y/N] " yn1;
+        case $yn1 in
+            y ) cp Packages/AmdDriver_Packages.txt Packages/IntelDriver_Packages_TEMP.txt
+                vim Packages/AmdDriver_Packages_TEMP.txt;
+                cat Packages/AmdDriver_Packages_TEMP.txt | yay -S -;
+                rm Packages/AmdDriver_Packages_TEMP.txt;;
+            n ) cat Packages/AmdDriver_Packages.txt | yay -S -;;
+            * ) cat Packages/AmdDriver_Packages.txt | yay -S -;;
+        esac;;
+    n ) echo "sure";;
+    * ) cat Packages/AmdDriver_Packages.txt | yay -S -;;
+esac
+
+
+
+
+cd ~/.local/share/chezmoi/
+echo
 read -p "do you wish to install Obscure Bloatware? (large packages i couldnt in good consciece add to common utils)  [Y/n] " yn0
 case $yn0 in
     y ) echo "do you want to edit the packagefile before it gets installed?   (jesus, yes you do)";
@@ -380,8 +401,7 @@ case $mpd in
         echo "something like this:  /path/to/directory/";
         read -p "> " mpdpath;
         sed -i "s\music_directory    .*\music_directory    $mpdpath\g" ~/.config/mpd/mpd.conf;
-        rmpc update;
-        esac;;
+        rmpc update;;
     n ) echo "okay, just dont forget to edit mpd.conf! (~/.config/mpd/mpd.conf)";;
     * ) echo "HEY DOOFUS GO MAKE AND EDIT ~/.config/mpd/mpd.conf IF YOU WANT MUSIC TO WORK";;
 esac
