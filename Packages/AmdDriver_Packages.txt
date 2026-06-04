@@ -1,0 +1,4 @@
+mesa
+vulkan-radeon
+xf64-video-amdgpu
+amd-ucode
