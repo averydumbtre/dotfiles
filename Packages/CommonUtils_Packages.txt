@@ -63,6 +63,7 @@ pavucontrol
 playerctl
 proton-vpn-gtk-app
 qbittorrent
+nicotine+
 qccrypt
 qdirstat
 qt5ct
