@@ -18,4 +18,3 @@ tor
 torbrowser-launcher
 vesktop
 wine
-power-profiles-daemon

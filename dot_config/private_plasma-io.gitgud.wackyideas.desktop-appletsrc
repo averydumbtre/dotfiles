@@ -240,7 +240,7 @@ DialogWidth=720
 [Containments][702][Applets][743][Configuration][General]
 groupedTaskVisualization=1
 hideLauncherOnStart=false
-launchers=applications:librewolf.desktop,preferred://filemanager,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,preferred://filemanager,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:chat.commet.commetapp.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 showOnlyCurrentActivity=false
 showOnlyCurrentScreen=true
 taskMaxWidth=Narrow
@@ -361,6 +361,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][768][Applets][772][Applets][782][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][768][Applets][772][Applets][783]
@@ -414,7 +415,7 @@ DialogWidth=720
 [Containments][768][Applets][791][Configuration][General]
 groupedTaskVisualization=1
 hideLauncherOnStart=false
-launchers=applications:librewolf.desktop,preferred://filemanager,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:nheko.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
+launchers=applications:librewolf.desktop,preferred://filemanager,applications:obsidian.desktop,applications:steam.desktop,applications:org.kde.krita.desktop,applications:chat.commet.commetapp.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:kitty.desktop
 showOnlyCurrentActivity=false
 showOnlyCurrentScreen=true
 taskMaxWidth=Narrow
@@ -424,5 +425,5 @@ wheelEnabled=AdjustVolume
 AppletOrder=770;791;790;772;771;769
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=1,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
+screenMapping=desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622

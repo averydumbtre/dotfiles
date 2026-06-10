@@ -50,3 +50,4 @@ x265
 zip
 plasma-wayland-protocols
 firewalld
+power-profiles-daemon
