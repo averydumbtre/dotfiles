@@ -103,7 +103,7 @@ sshfs
 lact
 kalarm
 detox
-nheko
+commet-bin
 openscq30-gui-bin
 otf-fraunces
 ttf-fraunces

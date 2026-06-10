@@ -25,7 +25,7 @@ DialogWidth=1019
 
 [Containments][157][General]
 changedPositions={}
-lastResolution=2327x1309
+lastResolution=1920x1080
 positions={"1080x1920":["4","14","desktop:/Darktable.AppImage","3","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Link to Application.desktop","0","2","desktop:/rotate left.sh","0","0","desktop:/Freecad.AppImage","2","1","desktop:/rotate normal.sh","0","1"],"1164x655":["7","15","desktop:/rotate normal.sh","0","1","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Casualties Unknown Demo.desktop","0","3","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Darktable.AppImage","3","2","desktop:/Link to Application.desktop","0","2","desktop:/bookmarks-2026-05-22.json","0","4"],"1552x873":["4","20","desktop:/rotate normal.sh","0","1","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Casualties Unknown Demo.desktop","0","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Darktable.AppImage","3","2","desktop:/Link to Application.desktop","0","4","desktop:/bookmarks-2026-05-22.json","0","3"],"1920x1080":["1","24"],"2327x1309":["1","30"],"640x480":["4","8","desktop:/Casualties Unknown Demo.desktop","0","3","desktop:/Darktable.AppImage","3","2","desktop:/rotate left.sh","0","0","desktop:/Freecad.AppImage","2","1","desktop:/rotate normal.sh","0","1","desktop:/Link to Application.desktop","0","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3"]}
 sortMode=-1
 
@@ -425,5 +425,5 @@ wheelEnabled=AdjustVolume
 AppletOrder=770;791;790;772;771;769
 
 [ScreenMapping]
-itemsOnDisabledScreens=1,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=
+screenMapping=file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Drawpile-2.3.0-x86_64.AppImage,1,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
