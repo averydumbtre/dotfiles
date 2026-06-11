@@ -1,5 +1,5 @@
 {
-  "Revision": "0.6.6.2-r247.gada667ba",
+  "Revision": "0.6.7",
   "Profiles": [
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
@@ -99,10 +99,10 @@
       ],
       "AbsoluteModeSettings": {
         "Display": {
-          "Width": 6167.0,
-          "Height": 1309.0,
-          "X": 3083.5,
-          "Y": 654.5,
+          "Width": 1920.0,
+          "Height": 1080.0,
+          "X": 960.0,
+          "Y": 540.0,
           "Rotation": 0.0
         },
         "Tablet": {
@@ -241,49 +241,29 @@
           }
         ],
         "MouseButtons": [],
-        "WheelButtons": [],
         "MouseScrollUp": null,
         "MouseScrollDown": null,
-        "ClockwiseRotation": {
-          "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
-          "Settings": [
-            {
-              "Property": "Direction",
-              "Value": "Vertical"
-            },
-            {
-              "Property": "Amount",
-              "Value": 120
-            },
-            {
-              "Property": "Interval",
-              "Value": 300
-            }
-          ],
-          "Enable": true
-        },
-        "ClockwiseActivationThreshold": 15.0,
-        "CounterClockwiseRotation": {
-          "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
-          "Settings": [
-            {
-              "Property": "Direction",
-              "Value": "Vertical"
-            },
-            {
-              "Property": "Interval",
-              "Value": 300
-            },
-            {
-              "Property": "Amount",
-              "Value": -120
-            }
-          ],
-          "Enable": true
-        },
-        "CounterClockwiseActivationThreshold": 15.0,
+        "WheelBindings": [
+          {
+            "WheelButtons": [],
+            "ClockwiseRotation": null,
+            "ClockwiseActivationThreshold": 1.0,
+            "CounterClockwiseRotation": null,
+            "CounterClockwiseActivationThreshold": 1.0,
+            "StepSize": 15.0
+          },
+          {
+            "WheelButtons": [],
+            "ClockwiseRotation": null,
+            "ClockwiseActivationThreshold": 1.0,
+            "CounterClockwiseRotation": null,
+            "CounterClockwiseActivationThreshold": 1.0,
+            "StepSize": 15.0
+          }
+        ],
         "DisablePressure": false,
-        "DisableTilt": false
+        "DisableTilt": false,
+        "EnableDragBindings": false
       }
     }
   ],

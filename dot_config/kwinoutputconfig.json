@@ -97,7 +97,6 @@
                 "edrPolicy": "always",
                 "highDynamicRange": true,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 0,
                 "maxPeakBrightnessOverride": 210,
                 "mode": {
                     "flags": 1,
@@ -141,7 +140,7 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 16,
+                "maxBitsPerColor": 0,
                 "mode": {
                     "flags": 1,
                     "height": 1080,

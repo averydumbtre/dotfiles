@@ -339,9 +339,6 @@ _launch=Meta+Shift+G
 [services][net.local.bash.desktop]
 _launch=Meta+G
 
-[services][net.local.kitty-2.desktop]
-_launch=Meta+M
-
 [services][net.local.kitty.desktop]
 _launch=Meta+M
 
@@ -363,9 +360,7 @@ _launch=
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=
-CurrentMonitorScreenShot=
 FullScreenScreenShot=
-OpenWithoutScreenshot=
 RecordRegion=
 RecordScreen=
 RecordWindow=
