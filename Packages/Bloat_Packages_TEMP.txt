@@ -1,0 +1,5 @@
+darktable-git
+davinci-resolve-studio
+qemu-base
+steam
+vcvrack
