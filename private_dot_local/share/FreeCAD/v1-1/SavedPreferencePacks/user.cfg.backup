@@ -16,11 +16,10 @@
           <FCBool Name="EnableCursorBlinking" Value="1"/>
           <FCBool Name="ShowSplasher" Value="1"/>
           <FCInt Name="ToolbarIconSize" Value="24"/>
-          <FCText Name="LastModule">PartWorkbench</FCText>
+          <FCText Name="LastModule">DraftWorkbench</FCText>
           <FCBool Name="ConfirmAll" Value="0"/>
-          <FCBool Name="RecentIncludesImported" Value="1"/>
-          <FCBool Name="ShowTaskWatcher" Value="1"/>
           <FCText Name="QtStyle">Fusion</FCText>
+          <FCBool Name="ShowTaskWatcher" Value="1"/>
         </FCParamGroup>
         <FCParamGroup Name="Units">
           <FCInt Name="UserSchema" Value="0"/>
@@ -30,7 +29,7 @@
         </FCParamGroup>
         <FCParamGroup Name="Macro">
           <FCBool Name="LocalEnvironment" Value="1"/>
-          <FCText Name="MacroPath">/home/avery/.local/share/FreeCAD/v1-1/Macro</FCText>
+          <FCText Name="MacroPath">/home/avery/.local/share/FreeCAD/Macro</FCText>
           <FCBool Name="RecordGui" Value="1"/>
           <FCBool Name="GuiAsComment" Value="1"/>
           <FCBool Name="ScriptToPyConsole" Value="1"/>
@@ -97,9 +96,6 @@
             <FCText Name="ShowCustomFolder"/>
             <FCBool Name="Migration2024Complete" Value="1"/>
             <FCBool Name="FirstStart2024" Value="0"/>
-            <FCUInt Name="FileThumbnailBackgroundColor" Value="3554532863"/>
-            <FCUInt Name="FileThumbnailBorderColor" Value="1654713087"/>
-            <FCUInt Name="FileThumbnailSelectionColor" Value="648178175"/>
             <FCText Name="CustomFolder"></FCText>
             <FCBool Name="closeStart" Value="0"/>
             <FCBool Name="ShowOnlyFCStd" Value="0"/>
@@ -216,7 +212,6 @@
             <FCBool Name="svgDisableUnitScaling" Value="0"/>
             <FCBool Name="SvgLinesBlack" Value="1"/>
             <FCBool Name="ocaareas" Value="0"/>
-            <FCUInt Name="DefaultTextColor" Value="255"/>
             <FCBool Name="dxfImportAsDraft" Value="0"/>
             <FCBool Name="dxfImportAsPrimitives" Value="0"/>
             <FCBool Name="dxfImportAsShapes" Value="1"/>
@@ -237,19 +232,7 @@
             <FCUInt Name="BackfaceColor" Value="2914369023"/>
             <FCUInt Name="LineColor" Value="255"/>
             <FCUInt Name="MeshColor" Value="2914369023"/>
-            <FCParamGroup Name="Asymptote">
-              <FCText Name="Width"/>
-              <FCText Name="Height"/>
-            </FCParamGroup>
-            <FCBool Name="TwoSideRendering" Value="0"/>
-            <FCBool Name="ShowBoundingBox" Value="0"/>
-            <FCInt Name="MeshTransparency" Value="0"/>
-            <FCInt Name="LineTransparency" Value="0"/>
-            <FCBool Name="VertexPerNormals" Value="0"/>
-            <FCFloat Name="CreaseAngle" Value="0.000000000000"/>
-            <FCFloat Name="MaxDeviationExport" Value="0.100000000000"/>
-            <FCBool Name="ExportAmfCompressed" Value="1"/>
-            <FCBool Name="Export3mfModel" Value="1"/>
+            <FCParamGroup Name="Asymptote"/>
           </FCParamGroup>
           <FCParamGroup Name="Sketcher">
             <FCParamGroup Name="General">
@@ -353,8 +336,6 @@
               <FCUInt Name="TemplateUnderlineColor" Value="995875839"/>
               <FCUInt Name="GeomHatch" Value="255"/>
               <FCUInt Name="Hatch" Value="255"/>
-              <FCBool Name="LightOnDark" Value="0"/>
-              <FCBool Name="Monochrome" Value="0"/>
               <FCBool Name="ClearFace" Value="0"/>
             </FCParamGroup>
             <FCParamGroup Name="Decorations">
@@ -401,6 +382,8 @@
             </FCParamGroup>
             <FCParamGroup Name="TreeWidget">
               <FCParamGroup Name="MaterialTree">
+                <FCBool Name="Recent" Value="1"/>
+                <FCParamGroup Name="Recent"/>
                 <FCBool Name="System" Value="1"/>
                 <FCParamGroup Name="System">
                   <FCBool Name="Appearance" Value="1"/>
@@ -466,8 +449,8 @@
             <FCParamGroup Name="Favorites"/>
             <FCParamGroup Name="Recent">
               <FCInt Name="Recent" Value="3"/>
-              <FCText Name="MRU0">7f9fd73b-50c9-41d8-b7b2-575a030c1eeb</FCText>
-              <FCText Name="MRU1">ae194589-02d4-4e9b-98a7-f523f660d510</FCText>
+              <FCText Name="MRU0">ae194589-02d4-4e9b-98a7-f523f660d510</FCText>
+              <FCText Name="MRU1">7f9fd73b-50c9-41d8-b7b2-575a030c1eeb</FCText>
               <FCText Name="MRU2">7e5559d5-be15-4571-a72f-20c39edd41cf</FCText>
             </FCParamGroup>
             <FCText Name="DefaultMaterial">7f9fd73b-50c9-41d8-b7b2-575a030c1eeb</FCText>
@@ -577,7 +560,6 @@
             <FCText Name="WebGLTemplateCustomPath"></FCText>
             <FCBool Name="useCustomWebGLExportTemplate" Value="0"/>
           </FCParamGroup>
-          <FCParamGroup Name="Editor"/>
           <FCInt Name="PDFVersion" Value="0"/>
         </FCParamGroup>
         <FCParamGroup Name="HighDPI"/>
@@ -607,17 +589,17 @@
         </FCParamGroup>
         <FCParamGroup Name="MainWindow">
           <FCText Name="OverlayActiveStyleSheet">CatppuccinLights_Overlay.qss</FCText>
+          <FCText Name="QtStyle">FreeCAD</FCText>
           <FCText Name="StyleSheet">CatppuccinLights.qss</FCText>
           <FCText Name="Theme">FreeCAD Dark</FCText>
           <FCBool Name="Maximized" Value="0"/>
           <FCBool Name="StatusBar" Value="1"/>
-          <FCText Name="MainWindowState">AAAA/wAAAAD9AAAAAwAAAAAAAAHvAAAC2PwCAAAAAvsAAAAcAFMAZQBsAGUAYwB0AGkAbwBuACAAdgBpAGUAdwAAAAAA/////wAAAH4A/////AAAAGIAAALYAAAA0AEAABj6AAAAAAIAAAAC+wAAAAoATQBvAGQAZQBsAQAAAAD/////AAAAtwD////7AAAACgBUAGEAcwBrAHMBAAAAAP////8AAABRAP///wAAAAEAAAAAAAAAAPwCAAAAAfsAAAAUAEQAbwBjAGsAVwBpAGQAZwBlAHQCAAAAAAAAAAAAAAELAAAAiAAAAAMAAAdwAAAAi/wBAAAAAfwAAAAAAAAHcAAAAEoA////+gAAAAABAAAAAvsAAAAWAFIAZQBwAG8AcgB0ACAAdgBpAGUAdwEAAAAA/////wAAAEoA////+wAAABwAUAB5AHQAaABvAG4AIABjAG8AbgBzAG8AbABlAAAAAAD/////AAAASgD///8AAAV7AAAC2AAAAAQAAAAEAAAACAAAAAj8AAAACgAAAAIAAAAIAAAACABGAGkAbABlAQAAAAD/////AAAAAAAAAAAAAAAIAEUAZABpAHQBAAAAc/////8AAAAAAAAAAAAAABIAQwBsAGkAcABiAG8AYQByAGQAAAAAAP////8AAAAAAAAAAAAAABIAVwBvAHIAawBiAGUAbgBjAGgBAAABFv////8AAAAAAAAAAAAAAAoATQBhAGMAcgBvAAAAAAD/////AAAAAAAAAAAAAAAIAFYAaQBlAHcBAAAB6f////8AAAAAAAAAAAAAABIAUwB0AHIAdQBjAHQAdQByAGUBAAADRv////8AAAAAAAAAAAAAAAgASABlAGwAcAEAAAQX/////wAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAFAAAAIABJAG4AZABpAHYAaQBkAHUAYQBsACAAVgBpAGUAdwBzAAAAAAD/////AAAAAAAAAAAAAAA2AFAAYQByAHQAIABEAGUAcwBpAGcAbgAgAEgAZQBsAHAAZQByACAARgBlAGEAdAB1AHIAZQBzAQAAAAD/////AAAAAAAAAAAAAAA6AFAAYQByAHQAIABEAGUAcwBpAGcAbgAgAE0AbwBkAGUAbABpAG4AZwAgAEYAZQBhAHQAdQByAGUAcwEAAADm/////wAAAAAAAAAAAAAAOgBQAGEAcgB0ACAARABlAHMAaQBnAG4AIABEAHIAZQBzAHMALQBVAHAAIABGAGUAYQB0AHUAcgBlAHMBAAADAf////8AAAAAAAAAAAAAAEYAUABhAHIAdAAgAEQAZQBzAGkAZwBuACAAVAByAGEAbgBzAGYAbwByAG0AYQB0AGkAbwBuACAARgBlAGEAdAB1AHIAZQBzAQAAA5b/////AAAAAAAAAAA=</FCText>
-          <FCText Name="Geometry">0 0 1904 1002</FCText>
+          <FCText Name="MainWindowState">AAAA/wAAAAD9AAAAAwAAAAAAAAHvAAAA0PwCAAAAAvsAAAAcAFMAZQBsAGUAYwB0AGkAbwBuACAAdgBpAGUAdwAAAAAA/////wAAAH4A/////AAAAGIAAADQAAAA0AEAABj6AAAAAAIAAAAC+wAAAAoATQBvAGQAZQBsAQAAAAD/////AAAAtwD////7AAAACgBUAGEAcwBrAHMBAAAAAP////8AAABRAP///wAAAAEAAAAAAAAAAPwCAAAAAfsAAAAUAEQAbwBjAGsAVwBpAGQAZwBlAHQCAAAAAAAAAAAAAAELAAAAiAAAAAMAAAOwAAAAi/wBAAAAAfwAAAAAAAADsAAAAEoA////+gAAAAABAAAAAvsAAAAWAFIAZQBwAG8AcgB0ACAAdgBpAGUAdwEAAAAA/////wAAAEoA////+wAAABwAUAB5AHQAaABvAG4AIABjAG8AbgBzAG8AbABlAAAAAAD/////AAAASgD///8AAAG7AAAA0AAAAAQAAAAEAAAACAAAAAj8AAAACgAAAAIAAAAIAAAACABGAGkAbABlAQAAAAD/////AAAAAAAAAAAAAAAIAEUAZABpAHQBAAAAc/////8AAAAAAAAAAAAAABIAQwBsAGkAcABiAG8AYQByAGQAAAAAAP////8AAAAAAAAAAAAAABIAVwBvAHIAawBiAGUAbgBjAGgBAAABFv////8AAAAAAAAAAAAAAAoATQBhAGMAcgBvAAAAAAD/////AAAAAAAAAAAAAAAIAFYAaQBlAHcBAAAB6f////8AAAAAAAAAAAAAABIAUwB0AHIAdQBjAHQAdQByAGUBAAADRf////8AAAAAAAAAAAAAAAgASABlAGwAcAEAAAOB/////wAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAFAAAAIABJAG4AZABpAHYAaQBkAHUAYQBsACAAVgBpAGUAdwBzAAAAAAD/////AAAAAAAAAAAAAAA2AFAAYQByAHQAIABEAGUAcwBpAGcAbgAgAEgAZQBsAHAAZQByACAARgBlAGEAdAB1AHIAZQBzAQAAAAD/////AAAAAAAAAAAAAAA6AFAAYQByAHQAIABEAGUAcwBpAGcAbgAgAE0AbwBkAGUAbABpAG4AZwAgAEYAZQBhAHQAdQByAGUAcwEAAADm/////wAAAAAAAAAAAAAAOgBQAGEAcgB0ACAARABlAHMAaQBnAG4AIABEAHIAZQBzAHMALQBVAHAAIABGAGUAYQB0AHUAcgBlAHMBAAADAf////8AAAAAAAAAAAAAAEYAUABhAHIAdAAgAEQAZQBzAGkAZwBuACAAVAByAGEAbgBzAGYAbwByAG0AYQB0AGkAbwBuACAARgBlAGEAdAB1AHIAZQBzAQAAA3T/////AAAAAAAAAAA=</FCText>
+          <FCText Name="Geometry">0 0 944 482</FCText>
           <FCBool Name="WindowStateRestored" Value="1"/>
           <FCBool Name="TiledBackground" Value="0"/>
-          <FCBool Name="InputHintEnabled" Value="1"/>
+          <FCBool Name="InputHintEnabled" Value="0"/>
           <FCBool Name="QuickMeasureEnabled" Value="1"/>
-          <FCText Name="QtStyle">FreeCAD</FCText>
         </FCParamGroup>
         <FCParamGroup Name="Themes">
           <FCUInt Name="ThemeAccentColor1" Value="1252392959"/>
@@ -903,10 +885,10 @@
         </FCParamGroup>
         <FCParamGroup Name="Commands"/>
         <FCParamGroup Name="RecentFiles">
-          <FCText Name="MRU0">/home/avery/Downloads/case.FCStd</FCText>
-          <FCText Name="MRU1">/home/avery/Downloads/framework-13-mainboard-case-with-battery-model_files/top_cover_r_full.stl</FCText>
-          <FCText Name="MRU2">/home/avery/Downloads/framework-13-mainboard-case-with-battery-model_files/top_cover_main_full.stl</FCText>
-          <FCText Name="MRU3">/home/avery/Downloads/framework-13-mainboard-case-with-battery-model_files/top_cover_l_full.stl</FCText>
+          <FCText Name="MRU0">/home/avery/Downloads/table.FCStd</FCText>
+          <FCText Name="MRU1">/usr/share/freecad/examples/draft_test_objects.FCStd</FCText>
+          <FCText Name="MRU2">/usr/share/freecad/examples/PartDesignExample.FCStd</FCText>
+          <FCText Name="MRU3">/usr/share/freecad/examples/FEMExample.FCStd</FCText>
           <FCInt Name="RecentFiles" Value="4"/>
         </FCParamGroup>
         <FCParamGroup Name="NaviCube">
@@ -956,13 +938,9 @@
           <FCInt Name="WindowWidth" Value="806"/>
           <FCInt Name="WindowHeight" Value="605"/>
           <FCText Name="proxy_type">none</FCText>
-          <FCText Name="proxy_host"/>
+          <FCText Name="proxy_host"></FCText>
           <FCInt Name="proxy_port" Value="8080"/>
           <FCBool Name="proxy_settings_migrated_2025" Value="1"/>
-          <FCInt Name="PackageTypeSelection" Value="3"/>
-          <FCInt Name="StatusSelection" Value="0"/>
-          <FCText Name="last_fetched_addon_catalog_cache_hash">258aa0542241470747ca8da05790e1299f432daf06549c2c374a532ec45ff575</FCText>
-          <FCText Name="last_fetched_macro_cache_hash">55777d6c9b8fa7280d3c3deb5731b6a8beab4a415fd60556a998fd41562a2278</FCText>
         </FCParamGroup>
         <FCParamGroup Name="Dialog"/>
         <FCParamGroup Name="Placement">
@@ -983,24 +961,24 @@
         <FCParamGroup Name="DockWindows">
           <FCParamGroup Name="OverlayLeft">
             <FCInt Name="Width" Value="471"/>
-            <FCInt Name="Height" Value="691"/>
+            <FCInt Name="Height" Value="696"/>
             <FCText Name="Widgets"></FCText>
             <FCText Name="Sizes"></FCText>
           </FCParamGroup>
           <FCParamGroup Name="OverlayRight">
             <FCInt Name="Width" Value="471"/>
-            <FCInt Name="Height" Value="549"/>
+            <FCInt Name="Height" Value="554"/>
             <FCText Name="Widgets"></FCText>
             <FCText Name="Sizes"></FCText>
           </FCParamGroup>
           <FCParamGroup Name="OverlayTop">
-            <FCInt Name="Width" Value="458"/>
+            <FCInt Name="Width" Value="697"/>
             <FCInt Name="Height" Value="90"/>
             <FCText Name="Widgets"></FCText>
             <FCText Name="Sizes"></FCText>
           </FCParamGroup>
           <FCParamGroup Name="OverlayBottom">
-            <FCInt Name="Width" Value="590"/>
+            <FCInt Name="Width" Value="829"/>
             <FCInt Name="Height" Value="90"/>
             <FCText Name="Widgets"></FCText>
             <FCText Name="Sizes"></FCText>

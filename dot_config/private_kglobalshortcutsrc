@@ -309,6 +309,7 @@ activate widget 553=,none,Activate Seven Start Widget
 activate widget 601=,none,Activate Seven Start Widget
 activate widget 649=,none,Activate Seven Start Widget
 activate widget 651=,none,Activate Seven Start Widget
+activate widget 799=,none,Activate System Tray Widget
 clear-history=,,Clear Clipboard History
 clipboard_action=,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=,Meta+Alt+P,Move keyboard focus between panels
@@ -360,9 +361,7 @@ _launch=
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=
-CurrentMonitorScreenShot=
 FullScreenScreenShot=
-OpenWithoutScreenshot=
 RecordRegion=
 RecordScreen=
 RecordWindow=
