@@ -86,7 +86,7 @@ Word Completion Remove Tail=true
 
 [MainWindow]
 1280x1024 screen: Window-Maximized=true
-1920x1080 screen: Height=484
+1920x1080 screen: Height=485
 1920x1080 screen: Width=944
 2 screens: Height=1055
 2 screens: Width=1005
