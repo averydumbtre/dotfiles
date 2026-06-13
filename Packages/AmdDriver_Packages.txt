@@ -2,3 +2,5 @@ mesa
 vulkan-radeon
 xf64-video-amdgpu
 amd-ucode
+rocm-smi-lib
+rocm-opencl-runtime
