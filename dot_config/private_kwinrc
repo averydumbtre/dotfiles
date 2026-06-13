@@ -17,9 +17,9 @@ AeroSaturation=100
 BasicColorization=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=5
+BlurStrength=4
 CustomColor=#8d004add
-ReflectionIntensity=69
+ReflectionIntensity=46
 
 [Effect-better-blur-dx]
 BlurDecorations=true
@@ -264,11 +264,13 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Windows]
 AutoRaise=true
 AutoRaiseInterval=500
+BorderSnapZone=0
 DelayFocusInterval=0
 ElectricBorderMaximize=false
 ElectricBorderTiling=false
 FocusPolicy=FocusFollowsMouse
 TitlebarDoubleClickCommand=Nothing
+WindowSnapZone=0
 
 [Xwayland]
 Scale=1

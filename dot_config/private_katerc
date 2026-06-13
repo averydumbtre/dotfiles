@@ -85,7 +85,7 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [MainWindow]
-1080x1920 screen: Height=531
+1080x1920 screen: Height=1850
 1080x1920 screen: Width=1064
 1280x1024 screen: Window-Maximized=true
 1920x1080 screen: Height=730
