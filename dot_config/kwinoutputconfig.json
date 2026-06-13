@@ -153,7 +153,7 @@
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 0,
                 "sharpness": 0,
-                "transform": "Rotated270",
+                "transform": "Normal",
                 "uuid": "bfd020cf-32e4-405c-8e14-6985d1d10da9",
                 "vrrPolicy": "Never",
                 "wideColorGamut": false
