@@ -98,8 +98,7 @@ ForegroundVisited=100,74,155
 
 [General]
 AccentColor=61,174,233
-ColorScheme=KvRoughGlass
-ColorSchemeHash=60afd72ab97c4b4de2f11aaf577d577b0bad2de0
+ColorSchemeHash=8693fc77344945b85b9d5f8668ba2097f46135f4
 LastUsedCustomAccentColor=61,174,233
 UseSystemBell=true
 XftAntialias=true
