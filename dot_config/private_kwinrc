@@ -63,6 +63,9 @@ WindowClasses=
 [Input]
 TabletMode=off
 
+[MouseBindings]
+CommandAll2=Minimize
+
 [Plugins]
 aeroglassblurEnabled=true
 better_blur_dxEnabled=true

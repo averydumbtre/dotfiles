@@ -127,6 +127,7 @@ DialogWidth=720
 groupedTaskVisualization=1
 hideLauncherOnStart=false
 launchers=applications:librewolf.desktop,preferred://filemanager,applications:steam.desktop,applications:org.kde.krita.desktop,applications:chat.commet.commetapp.desktop,applications:vesktop.desktop,applications:com.obsproject.Studio.desktop,applications:obsidian.desktop,applications:kitty.desktop
+middleClickAction=Close
 showOnlyCurrentActivity=false
 showOnlyCurrentScreen=true
 taskMaxWidth=Narrow
@@ -143,8 +144,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=io.gitgud.wackyideas.systemtray
-popupHeight=0
-popupWidth=0
+popupHeight=490
+popupWidth=448
 wallpaperplugin=org.kde.image
 
 [Containments][702][Applets][799][Applets][800]
