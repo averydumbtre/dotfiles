@@ -114,3 +114,5 @@ spectacle
 calf
 reflector-rs
 modern-beep
+kwalletmanager
+kwallet-pam
