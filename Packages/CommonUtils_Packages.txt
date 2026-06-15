@@ -116,3 +116,4 @@ reflector-rs
 modern-beep
 kwalletmanager
 kwallet-pam
+anki
