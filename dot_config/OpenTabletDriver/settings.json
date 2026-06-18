@@ -4,7 +4,7 @@
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
         "Settings": [],
         "Enable": true
       },
@@ -256,43 +256,27 @@
           {
             "WheelButtons": [],
             "ClockwiseRotation": {
-              "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
+              "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
               "Settings": [
                 {
-                  "Property": "Direction",
-                  "Value": "Vertical"
-                },
-                {
-                  "Property": "Interval",
-                  "Value": 600
-                },
-                {
-                  "Property": "Amount",
-                  "Value": 200
+                  "Property": "Key",
+                  "Value": "VolumeUp"
                 }
               ],
               "Enable": true
             },
-            "ClockwiseActivationThreshold": 75.0,
+            "ClockwiseActivationThreshold": 90.0,
             "CounterClockwiseRotation": {
-              "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
+              "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
               "Settings": [
                 {
-                  "Property": "Direction",
-                  "Value": "Vertical"
-                },
-                {
-                  "Property": "Interval",
-                  "Value": 600
-                },
-                {
-                  "Property": "Amount",
-                  "Value": -200
+                  "Property": "Key",
+                  "Value": "VolumeDown"
                 }
               ],
               "Enable": true
             },
-            "CounterClockwiseActivationThreshold": 75.0,
+            "CounterClockwiseActivationThreshold": 90.0,
             "StepSize": 15.0
           },
           {
