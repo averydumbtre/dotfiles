@@ -4,7 +4,7 @@
     {
       "Tablet": "Huion Kamvas 13 (Gen 3)",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.LinuxArtistMode",
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
         "Settings": [],
         "Enable": true
       },
@@ -255,18 +255,70 @@
         "WheelBindings": [
           {
             "WheelButtons": [],
-            "ClockwiseRotation": null,
-            "ClockwiseActivationThreshold": 1.0,
-            "CounterClockwiseRotation": null,
-            "CounterClockwiseActivationThreshold": 1.0,
+            "ClockwiseRotation": {
+              "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
+              "Settings": [
+                {
+                  "Property": "Direction",
+                  "Value": "Vertical"
+                },
+                {
+                  "Property": "Interval",
+                  "Value": 600
+                },
+                {
+                  "Property": "Amount",
+                  "Value": 200
+                }
+              ],
+              "Enable": true
+            },
+            "ClockwiseActivationThreshold": 75.0,
+            "CounterClockwiseRotation": {
+              "Path": "OpenTabletDriver.Desktop.Binding.MouseScrollBinding",
+              "Settings": [
+                {
+                  "Property": "Direction",
+                  "Value": "Vertical"
+                },
+                {
+                  "Property": "Interval",
+                  "Value": 600
+                },
+                {
+                  "Property": "Amount",
+                  "Value": -200
+                }
+              ],
+              "Enable": true
+            },
+            "CounterClockwiseActivationThreshold": 75.0,
             "StepSize": 15.0
           },
           {
             "WheelButtons": [],
-            "ClockwiseRotation": null,
-            "ClockwiseActivationThreshold": 1.0,
-            "CounterClockwiseRotation": null,
-            "CounterClockwiseActivationThreshold": 1.0,
+            "ClockwiseRotation": {
+              "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+              "Settings": [
+                {
+                  "Property": "Key",
+                  "Value": "BrightnessUp"
+                }
+              ],
+              "Enable": true
+            },
+            "ClockwiseActivationThreshold": 90.0,
+            "CounterClockwiseRotation": {
+              "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+              "Settings": [
+                {
+                  "Property": "Key",
+                  "Value": "BrightnessDown"
+                }
+              ],
+              "Enable": true
+            },
+            "CounterClockwiseActivationThreshold": 90.0,
             "StepSize": 15.0
           }
         ],

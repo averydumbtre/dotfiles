@@ -55,7 +55,7 @@ video/x-theora+ogg=mpv.desktop;
 x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
 image/png=com.interversehq.qView.desktop;gimp.desktop;gmic_qt.desktop;krita_png.desktop;org.darktable.darktable.desktop;
 application/x-zerosize=org.kde.kate.desktop;
-image/jpeg=gimp.desktop;com.interversehq.qView.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
+image/jpeg=com.interversehq.qView.desktop;gimp.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
 image/x-canon-cr2=com.interversehq.qView.desktop;
 application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
@@ -77,6 +77,7 @@ image/svg+xml=krita_svg.desktop;gimp.desktop;com.interversehq.qView.desktop;
 application/xml=org.kde.kate.desktop;
 x-scheme-handler/bitwarden=bitwarden.desktop;Bitwarden.desktop;
 x-scheme-handler/discord=vesktop.desktop;
+application/vnd.efi.iso=gnome-disk-image-mounter.desktop;
 
 [Default Applications]
 application/x-matroska=mpv.desktop;

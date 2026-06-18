@@ -75,14 +75,14 @@ krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
 
 [Script-krohnkite]
-floatingClass=maliit-keyboard,maliit,onboard
-floatingTitle=maliit-keyboard,maliit,onboard
-ignoreActivity=onboard
-ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,kruler,kwin_wayland,ksmserver-logout-greeter,maliit-keyboard,maliit,onboard
-ignoreRole=quake,maliit-keyboard,maliit,onboard
-ignoreScreen=onboard
-ignoreTitle=maliit-keyboard,maliit,onboard
-ignoreVDesktop=onboard
+floatingClass=maliit-keyboard,maliit,onboard,mpv
+floatingTitle=maliit-keyboard,maliit,onboard,mpv
+ignoreActivity=onboard,mpv
+ignoreClass=krunner,yakuake,spectacle,kded5,xwaylandvideobridge,plasmashell,ksplashqml,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kruler,kruler,kwin_wayland,ksmserver-logout-greeter,maliit-keyboard,maliit,onboard,mpv
+ignoreRole=quake,maliit-keyboard,maliit,onboard,mpv
+ignoreScreen=onboard,mpv
+ignoreTitle=maliit-keyboard,maliit,onboard,mpv
+ignoreVDesktop=onboard,mpv
 
 [Tiling][0ebfee0a-d1da-488c-adf9-43c3364c4667][]
 padding=4
