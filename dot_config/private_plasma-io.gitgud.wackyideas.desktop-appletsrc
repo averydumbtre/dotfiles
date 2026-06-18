@@ -144,8 +144,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=io.gitgud.wackyideas.systemtray
-popupHeight=128
-popupWidth=113
+popupHeight=490
+popupWidth=448
 wallpaperplugin=org.kde.image
 
 [Containments][702][Applets][799][Applets][800]
