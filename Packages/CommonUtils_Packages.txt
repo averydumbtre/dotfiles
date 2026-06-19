@@ -117,3 +117,4 @@ modern-beep
 kwalletmanager
 kwallet-pam
 anki
+displaycal

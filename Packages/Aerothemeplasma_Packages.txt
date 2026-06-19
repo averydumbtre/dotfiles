@@ -10,4 +10,4 @@ aeroshell-smodglow-x11-git
 aeroshell-smod-git
 aeroshell-libplasma-git
 uac-polkit-agent-git 
-
+colord-kde

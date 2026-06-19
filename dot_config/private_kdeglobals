@@ -1,6 +1,6 @@
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=112,111,110
+Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
@@ -10,35 +10,43 @@ IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=false
+ChangeSelectionColor=true
 Color=112,111,110
 ColorAmount=0.025
 ColorEffect=2
 ContrastAmount=0.1
 ContrastEffect=2
-Enable=true
+Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=111,190,232
-BackgroundNormal=230,230,230
+BackgroundAlternate=114,193,235
+BackgroundNormal=240,240,240
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
-ForegroundInactive=136,135,134
+ForegroundInactive=140,140,140
 ForegroundLink=45,127,170
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=20,19,18
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+ForegroundNegative=218,68,83
+ForegroundNeutral=198,92,0
+ForegroundNormal=0,0,0
+ForegroundPositive=39,174,96
+ForegroundVisited=128,0,128
 
 [Colors:Complementary]
+BackgroundAlternate=59,64,69
+BackgroundNormal=49,54,59
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
+ForegroundInactive=175,176,179
 ForegroundLink=61,174,233
+ForegroundNegative=231,76,60
+ForegroundNeutral=253,188,75
+ForegroundNormal=239,240,241
+ForegroundPositive=46,204,113
+ForegroundVisited=61,174,230
 
 [Colors:Selection]
 BackgroundAlternate=119,198,239
@@ -48,57 +56,57 @@ DecorationHover=61,174,233
 ForegroundActive=61,174,233
 ForegroundInactive=0,0,0
 ForegroundLink=183,220,251
-ForegroundNegative=156,14,14
-ForegroundNeutral=255,221,0
+ForegroundNegative=176,55,69
+ForegroundNeutral=246,116,0
 ForegroundNormal=0,0,0
-ForegroundPositive=128,255,128
-ForegroundVisited=100,74,155
+ForegroundPositive=23,104,57
+ForegroundVisited=128,0,128
 
 [Colors:Tooltip]
-BackgroundAlternate=0,0,0
-BackgroundNormal=0,0,0
+BackgroundAlternate=77,77,77
+BackgroundNormal=255,255,225
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
-ForegroundInactive=225,225,225
-ForegroundLink=61,174,233
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=255,255,255
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+ForegroundInactive=140,140,140
+ForegroundLink=45,127,170
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=0,0,0
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
 
 [Colors:View]
-BackgroundAlternate=240,240,240
+BackgroundAlternate=247,247,247
 BackgroundNormal=255,255,255
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
-ForegroundInactive=136,135,134
+ForegroundInactive=140,140,140
 ForegroundLink=45,127,170
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=20,19,18
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=0,0,0
+ForegroundPositive=39,174,96
+ForegroundVisited=128,0,128
 
 [Colors:Window]
-BackgroundAlternate=220,220,220
-BackgroundNormal=220,220,220
+BackgroundAlternate=227,227,227
+BackgroundNormal=240,240,240
 DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
-ForegroundInactive=136,135,134
+ForegroundInactive=140,140,140
 ForegroundLink=45,127,170
-ForegroundNegative=191,3,3
-ForegroundNeutral=176,128,0
-ForegroundNormal=20,19,18
-ForegroundPositive=0,110,40
-ForegroundVisited=100,74,155
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=0,0,0
+ForegroundPositive=39,174,96
+ForegroundVisited=128,0,128
 
 [General]
 AccentColor=61,174,233
-ColorSchemeHash=8693fc77344945b85b9d5f8668ba2097f46135f4
+ColorSchemeHash=60afd72ab97c4b4de2f11aaf577d577b0bad2de0
 LastUsedCustomAccentColor=61,174,233
 UseSystemBell=true
 XftAntialias=true
@@ -109,15 +117,11 @@ menuFont=Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Segoe UI,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
-[Icons]
-Theme=Windows 7 Aero
-
 [KDE]
 DefaultLightLookAndFeel=authui7
 LookAndFeelPackage=authui7
-contrast=0
+contrast=4
 frameContrast=0.2
-widgetStyle=kvantum-dark
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -171,10 +175,10 @@ Theme=Windows 7
 ToolButtonStyle=NoText
 
 [WM]
-activeBackground=220,220,220
-activeBlend=220,220,220
+activeBackground=153,180,209
+activeBlend=185,209,234
 activeFont=Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=0,0,0
-inactiveBackground=220,220,220
-inactiveBlend=75,71,67
-inactiveForeground=100,100,100
+inactiveBackground=191,205,219
+inactiveBlend=215,228,242
+inactiveForeground=67,78,84

@@ -1,5 +1,6 @@
 [PlasmaViews][Panel 702]
 floating=0
+shell=io.gitgud.wackyideas.desktop
 
 [PlasmaViews][Panel 702][Defaults]
 thickness=35

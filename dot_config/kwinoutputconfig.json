@@ -16,6 +16,7 @@
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "mode": {
+                    "flags": 0,
                     "height": 1080,
                     "refreshRate": 60008,
                     "width": 1920
@@ -34,6 +35,11 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0,
                     0,
                     0,
@@ -81,6 +87,11 @@
                     0,
                     0,
                     0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0
                 ],
                 "autoRotation": "InTabletMode",
@@ -116,9 +127,15 @@
                 "wideColorGamut": true
             },
             {
+                "abmLevel": 0,
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": false,
                 "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0,
                     0,
                     0,
@@ -128,9 +145,9 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.3,
+                "brightness": 0.95,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "EDID",
+                "colorProfileSource": "ICC",
                 "connectorName": "DP-3",
                 "customModes": [
                 ],
@@ -138,8 +155,10 @@
                 "edidHash": "f0fe4eedb0263ce7c0b1b71486e7876f",
                 "edidIdentifier": "HAT 4915 4026531854 17 2024 0",
                 "edrPolicy": "always",
+                "hdrColorProfileSource": "EDID",
+                "hdrIccProfilePath": "",
                 "highDynamicRange": false,
-                "iccProfilePath": "",
+                "iccProfilePath": "/home/avery/Downloads/Monitor_1_#1_2026-06-18_23-36_2.2_F-S_1xCurve+MTX/Monitor_1_#1_2026-06-18_23-36_2.2_F-S_1xCurve+MTX.icc",
                 "maxBitsPerColor": 0,
                 "mode": {
                     "flags": 1,
@@ -151,7 +170,7 @@
                 "rgbRange": "Automatic",
                 "scale": 1,
                 "sdrBrightness": 200,
-                "sdrGamutWideness": 0,
+                "sdrGamutWideness": 0.35,
                 "sharpness": 0,
                 "transform": "Normal",
                 "uuid": "bfd020cf-32e4-405c-8e14-6985d1d10da9",
@@ -162,6 +181,11 @@
                 "allowDdcCi": true,
                 "allowSdrSoftwareBrightness": true,
                 "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
                     0,
                     0,
                     0,
