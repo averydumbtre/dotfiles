@@ -203,7 +203,7 @@
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="ATMOS_LOUDNESS_SOURCE" value="0"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="AMBISONICS_METER_MODE" value="0"/>
 	<SystemParameter module="MT_MONITORING" index="0" parameter="HEADTRACKER_PROFILE" value="0"/>
-	<SystemParameter module="MT_SYSTEM" index="0" parameter="MIXER_UI_OPTIONS2" value="2"/>
+	<SystemParameter module="MT_SYSTEM" index="0" parameter="MIXER_UI_OPTIONS2" value="3"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="FILL_OVERLAP" value="3"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="TL_SHOW_MARKER_LINE" value="1"/>
 	<SystemParameter module="MT_SYSTEM" index="0" parameter="SPACEVIEW_AUTO_ZOOM" value="0"/>

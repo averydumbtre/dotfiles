@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--DbAppVer="20.2.0.0013" DbPrjVer="15"-->
-<SmPTZRInputPresetList DbId="846eab79-ddf6-49bf-9da6-c05a1f55659d">
+<!--DbAppVer="21.0.0.0048" DbPrjVer="17"-->
+<SmPTZRInputPresetList DbId="7c8149ed-3c12-437e-a0a0-7fe16cf9d84b">
  <FieldsBlob/>
  <PresetList>
   <Element>
-   <SmPTZRPreset DbId="c1daaa9d-bf2f-4439-b8d1-df308f64dfc2">
+   <SmPTZRPreset DbId="63f545f6-823d-4bcd-a6f5-fec8e7f3b5ae">
     <FieldsBlob/>
     <Name>None</Name>
     <ID>101</ID>

@@ -118,3 +118,4 @@ kwalletmanager
 kwallet-pam
 anki
 displaycal
+qpwgraph

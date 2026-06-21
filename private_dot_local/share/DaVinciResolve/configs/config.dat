@@ -11,37 +11,25 @@ Site.1.Svc.5 = LsManager.1
 Site.1.Svc.6 = LsManager.2
 Site.1.Svc.7 = LsManager.3
 
-Site.1.FS.Count = 5
+Site.1.FS.Count = 3
 
 Site.1.FS.1.Type = IOFileSys
-Site.1.FS.1.Root = /home/avery
+Site.1.FS.1.Root = /home/avery/Videos
 Site.1.FS.1.MappedRoot = 
 Site.1.FS.1.DIO = 0
 Site.1.FS.1.BrightClip = 0
 
 Site.1.FS.2.Type = IOFileSys
-Site.1.FS.2.Root = /mnt/Game_Disk2/CLIPS
+Site.1.FS.2.Root = /home/avery/Downloads
 Site.1.FS.2.MappedRoot = 
 Site.1.FS.2.DIO = 0
 Site.1.FS.2.BrightClip = 0
 
 Site.1.FS.3.Type = IOFileSys
-Site.1.FS.3.Root = /mnt/9c1b5651-fb99-4525-9716-4137b631551a/CLIPS
+Site.1.FS.3.Root = ResolveVirtual
 Site.1.FS.3.MappedRoot = 
 Site.1.FS.3.DIO = 0
 Site.1.FS.3.BrightClip = 0
-
-Site.1.FS.4.Type = IOFileSys
-Site.1.FS.4.Root = /run/media/avery
-Site.1.FS.4.MappedRoot = 
-Site.1.FS.4.DIO = 0
-Site.1.FS.4.BrightClip = 0
-
-Site.1.FS.5.Type = IOFileSys
-Site.1.FS.5.Root = ResolveVirtual
-Site.1.FS.5.MappedRoot = 
-Site.1.FS.5.DIO = 0
-Site.1.FS.5.BrightClip = 0
 
 Site.1.CmdRT.Count = 1
 Site.1.CmdRT.1.Type = Mem
@@ -81,14 +69,15 @@ LsManager.2.Processing = Input
 LsManager.3.Guid = 32
 LsManager.3.Algo.1 = IpVaGPUGraphObj
 LsManager.3.Processing = InputOutput
+LsManager.3.NumGPUs = 1
 Custom.LUT.Path.Count = 0
 
 Local.Resource.Processors.1 = 2
 
-Local.Resource.Buffers.1 = 5112
+Local.Resource.Buffers.1 = 4066
 
 Local.Resource.ResolveMemoryPercentage = 75
-Local.Resource.FusionMemoryPercentage = 57
+Local.Resource.FusionMemoryPercentage = 25
 
 Local.Gui.AutoStart = 1
 Local.Gui.UseTex = 1
@@ -128,11 +117,13 @@ Red.Rocket.Enable = 0
 Braw.GPU.Enable = 1
 Red.GPU.Enable = 1
 IO.EasyDCPDecoder.Enable = 0
-Local.IO.EnableBMDCloudStreaming = 1
+Local.IO.EnableBMDCloudFileStreaming = 0
 
+Local.GPU.Mapping = gpu:78859c6a.9db9a58e
+Local.GPU.Mode = OpenCL
 Local.DNE.Mode = 0
-Local.OpenVINO.Enable = 0
-Local.DirectML.Enable = 0
+Local.OpenVINO.Enable = 1
+Local.DirectML.Enable = 1
 Local.TensorRT.Enable = 1
 
 Local.IO.HardwareAccDecode = 1
@@ -142,7 +133,7 @@ Local.IO.EnableAutoFileRescan = 0
 Local.Audio.DeckLink = 0
 
 Local.GUI.UseFloatGLPixelFormat = 0
-Local.GUI.ShowAllMountedVolumes = 0
+Local.GUI.ShowAllMountedVolumes = 1
 Local.GUI.EnableDisplayColorProfile = 0
 System.Db.EnablePSQLProxy = 0
 Local.GUI.Tag709ClipsAs709A = 0
@@ -160,17 +151,19 @@ Local.Audio.VSTDirs.Count = 1
 Local.Audio.VSTDirs.1.Path = /usr/lib/vst3/
 Local.Audio.DefaultVST3DirsAdded = 1
 System.Proxy.Mode = 1
-System.FrameIO.CacheDir = /home/avery/CacheClip
-
-Update.AutoCheck.Enabled = 0
+Update.AutoCheck.Enabled = 1
 
 Update.AutoCheck.OptInNewBetaPrograms = 0
 
 RemoteRender.AutoScan.OtherDBs = 0
 
 Local.GUI.PreventSystemSleep = 1
+Bg.Tasks.EnableBackgroundRenders = 0
+Bg.Tasks.PauseBGRenderOnFGActivity = 1
+Bg.Tasks.EnableBgTranscription = 0
+Bg.Tasks.EnableBgProxyGeneration = 0
 Display.ControlPanelsStatus.OnPageSwitcher = 1
-CrashReport.Enable = 0
+CrashReport.Enable = 1
 CrashReport.AutoSend = 0
 
 //Custom settings added by the user

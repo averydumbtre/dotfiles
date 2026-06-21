@@ -256,27 +256,27 @@
           {
             "WheelButtons": [],
             "ClockwiseRotation": {
-              "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+              "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
               "Settings": [
                 {
-                  "Property": "Key",
-                  "Value": "VolumeUp"
+                  "Property": "Keys",
+                  "Value": "Control+Add"
                 }
               ],
               "Enable": true
             },
-            "ClockwiseActivationThreshold": 90.0,
+            "ClockwiseActivationThreshold": 60.0,
             "CounterClockwiseRotation": {
-              "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+              "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
               "Settings": [
                 {
-                  "Property": "Key",
-                  "Value": "VolumeDown"
+                  "Property": "Keys",
+                  "Value": "Control+Minus"
                 }
               ],
               "Enable": true
             },
-            "CounterClockwiseActivationThreshold": 90.0,
+            "CounterClockwiseActivationThreshold": 60.0,
             "StepSize": 15.0
           },
           {
@@ -291,7 +291,7 @@
               ],
               "Enable": true
             },
-            "ClockwiseActivationThreshold": 90.0,
+            "ClockwiseActivationThreshold": 120.0,
             "CounterClockwiseRotation": {
               "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
               "Settings": [
@@ -302,7 +302,7 @@
               ],
               "Enable": true
             },
-            "CounterClockwiseActivationThreshold": 90.0,
+            "CounterClockwiseActivationThreshold": 120.0,
             "StepSize": 15.0
           }
         ],
@@ -314,5 +314,32 @@
   ],
   "LockUsableAreaDisplay": true,
   "LockUsableAreaTablet": true,
-  "Tools": []
+  "Tools": [
+    {
+      "Path": "ScrollBinding.ScrollBindingSettings",
+      "Settings": [
+        {
+          "Property": "ScrollDelay",
+          "Value": 15
+        },
+        {
+          "Property": "ForwardScroll",
+          "Value": 120
+        },
+        {
+          "Property": "BackwardScroll",
+          "Value": 120
+        },
+        {
+          "Property": "LeftScroll",
+          "Value": 120
+        },
+        {
+          "Property": "RightScroll",
+          "Value": 120
+        }
+      ],
+      "Enable": false
+    }
+  ]
 }

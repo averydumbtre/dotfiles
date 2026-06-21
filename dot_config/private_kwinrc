@@ -17,7 +17,7 @@ AeroSaturation=100
 BasicColorization=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=4
+BlurStrength=5
 CustomColor=#8d004add
 ReflectionIntensity=46
 
@@ -69,7 +69,7 @@ CommandAll2=Minimize
 [Plugins]
 aeroglassblurEnabled=true
 better_blur_dxEnabled=true
-blurEnabled=true
+blurEnabled=false
 contrastEnabled=false
 krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
