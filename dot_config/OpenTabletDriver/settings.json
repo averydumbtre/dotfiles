@@ -291,7 +291,7 @@
               ],
               "Enable": true
             },
-            "ClockwiseActivationThreshold": 120.0,
+            "ClockwiseActivationThreshold": 60.0,
             "CounterClockwiseRotation": {
               "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
               "Settings": [
@@ -302,7 +302,7 @@
               ],
               "Enable": true
             },
-            "CounterClockwiseActivationThreshold": 120.0,
+            "CounterClockwiseActivationThreshold": 60.0,
             "StepSize": 15.0
           }
         ],

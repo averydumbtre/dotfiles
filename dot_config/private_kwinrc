@@ -69,7 +69,7 @@ CommandAll2=Minimize
 [Plugins]
 aeroglassblurEnabled=true
 better_blur_dxEnabled=true
-blurEnabled=false
+blurEnabled=true
 contrastEnabled=false
 krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
