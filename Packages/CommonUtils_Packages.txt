@@ -119,3 +119,4 @@ kwallet-pam
 anki
 displaycal
 qpwgraph
+shutter-encoder-bin

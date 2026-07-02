@@ -7,7 +7,7 @@
     change-host, gesture2-gestures, gesture2-divert, gesture2-params, haptic-level, haptic-play, sidetone, equalizer, adc_power_management]
   _battery: 4096
   _modelId: '407400000000'
-  _sensitive: {dpi: false, led_control: true, led_zone_1: true, onboard_profiles: true, report_rate: true}
+  _sensitive: {dpi: true, led_control: true, led_zone_1: true, onboard_profiles: true, report_rate: true}
   _serial: 0B3B1D44
   _unitId: 11F34E19
   _wpid: '4074'
