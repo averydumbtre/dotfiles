@@ -183,7 +183,7 @@
             "Settings": [
               {
                 "Property": "Keys",
-                "Value": "Control+Z"
+                "Value": "Control+Y"
               }
             ],
             "Enable": true
@@ -193,7 +193,7 @@
             "Settings": [
               {
                 "Property": "Keys",
-                "Value": "Control+Shift+Z"
+                "Value": "Control+Shift+Y"
               }
             ],
             "Enable": true
