@@ -332,6 +332,9 @@ switch to next activity=none,none,Switch to Next Activity
 switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
+[services][io.github.htkhiem.Euphonica.desktop]
+_launch=Meta+M
+
 [services][kitty.desktop]
 _launch=Meta+Q
 
@@ -346,7 +349,7 @@ _launch=Meta+Shift+G
 _launch=Meta+G
 
 [services][net.local.kitty.desktop]
-_launch=Meta+M
+_launch=Meta+Shift+M
 
 [services][net.local.pkill-2.desktop]
 _launch=Meta+Shift+O
@@ -366,7 +369,9 @@ _launch=none
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=none
+CurrentMonitorScreenShot=none
 FullScreenScreenShot=none
+OpenWithoutScreenshot=none
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none

@@ -88,8 +88,8 @@ immutability=1
 plugin=io.gitgud.wackyideas.SevenStart
 
 [Containments][702][Applets][705][Configuration]
-popupHeight=0
-popupWidth=0
+popupHeight=424
+popupWidth=411
 
 [Containments][702][Applets][705][Configuration][ConfigDialog]
 DialogHeight=540
@@ -144,8 +144,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=io.gitgud.wackyideas.systemtray
-popupHeight=0
-popupWidth=0
+popupHeight=96
+popupWidth=113
 wallpaperplugin=org.kde.image
 
 [Containments][702][Applets][799][Applets][800]
