@@ -315,6 +315,7 @@ activate widget 601=none,none,Activate Seven Start Widget
 activate widget 649=none,none,Activate Seven Start Widget
 activate widget 651=none,none,Activate Seven Start Widget
 activate widget 799=none,none,Activate System Tray Widget
+clear history=none,none,Clear Notification History
 clear-history=none,none,Clear Clipboard History
 clipboard_action=none,Meta+Ctrl+X,Automatic Action Popup Menu
 cycle-panels=none,Meta+Alt+P,Move keyboard focus between panels

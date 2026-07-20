@@ -120,3 +120,4 @@ anki
 displaycal
 qpwgraph
 shutter-encoder-bin
+euphonica

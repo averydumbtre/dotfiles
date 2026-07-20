@@ -11,3 +11,4 @@ aeroshell-smod-git
 aeroshell-libplasma-git
 uac-polkit-agent-git 
 colord-kde
+kwin-effects-better-blur-dx-git
