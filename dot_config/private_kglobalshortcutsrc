@@ -166,7 +166,7 @@ Toggle Window Raise/Lower=none,none,Toggle Window Raise/Lower
 ToggleMouseClick=none,Meta+*,Toggle Mouse Click Animation
 TrackMouse=none,none,Track mouse
 Walk Through Windows=Alt+Tab,Alt+Tab\tMeta+Tab,Walk Through Windows
-Walk Through Windows (Reverse)=Alt+Shift+Tab\tCtrl+Alt+Tab\\, Ctrl+Alt+Tab\\, Ctrl+Alt+Tab\\, Ctrl+Alt+Tab,Alt+Shift+Tab\tMeta+Shift+Tab,Walk Through Windows (Reverse)
+Walk Through Windows (Reverse)=Alt+Shift+Tab\tCtrl+Alt+Tab,Alt+Shift+Tab\tMeta+Shift+Tab,Walk Through Windows (Reverse)
 Walk Through Windows Alternative=none,none,Walk Through Windows Alternative
 Walk Through Windows Alternative (Reverse)=none,none,Walk Through Windows Alternative (Reverse)
 Walk Through Windows of Current Application=none,Alt+`\tMeta+`,Walk Through Windows of Current Application
@@ -355,6 +355,9 @@ _launch=Meta+Shift+M
 [services][net.local.pkill-2.desktop]
 _launch=Meta+Shift+O
 
+[services][net.local.prlimit.desktop]
+_launch=Meta+S
+
 [services][org.kde.krunner.desktop]
 RunClipboard=none
 _launch=Meta
@@ -370,9 +373,7 @@ _launch=none
 
 [services][org.kde.spectacle.desktop]
 ActiveWindowScreenShot=none
-CurrentMonitorScreenShot=none
 FullScreenScreenShot=none
-OpenWithoutScreenshot=none
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none
