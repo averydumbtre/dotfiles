@@ -22,24 +22,15 @@ CustomColor=#8d004add
 ReflectionIntensity=46
 
 [Effect-better-blur-dx]
-BlurDecorations=true
-BlurDocks=true
-BlurMatching=false
-BlurMenus=true
-BlurNonMatching=true
-BlurStrength=2
-Contrast=115
-CornerRadius=12
-ForceContrastParams=true
-NoiseStrength=20
-RefractionCornerRadius=146
+BlurStrength=8
+CornerRadius=5
+NoiseStrength=15
+RefractionCornerRadius=17
 RefractionEdgeSize=30
 RefractionMode=1
-RefractionNormalPow=8
-RefractionRGBFringing=9
+RefractionNormalPow=3
+RefractionRGBFringing=7
 RefractionStrength=30
-Saturation=100
-WindowClasses=
 
 [Effect-blur]
 BlurStrength=10
@@ -77,7 +68,6 @@ blurEnabled=false
 contrastEnabled=false
 krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
-translucencyEnabled=true
 
 [Script-krohnkite]
 floatingClass=maliit-keyboard,maliit,onboard,mpv

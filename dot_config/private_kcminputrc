@@ -1,3 +1,7 @@
+[ButtonRebinds][Mouse]
+ExtraButton1=Key,Up
+ExtraButton2=Key,Down
+
 [ButtonRebinds][TabletTool][OpenTabletDriver Virtual Artist Tablet]
 329=MouseButton,274
 
