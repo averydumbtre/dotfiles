@@ -145,7 +145,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 1,
+                "brightness": 0.9,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "ICC",
                 "connectorName": "DP-3",

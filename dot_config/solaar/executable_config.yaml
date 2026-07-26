@@ -1,23 +1,26 @@
 - 1.1.20
-- _NAME: G305 Lightspeed Wireless Gaming Mouse
-  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, scroll-ratchet-torque, smart-shift,
-    thumb-scroll-invert, thumb-scroll-mode, report_rate_extended, pointer_speed, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out,
-    backlight_duration_hands_in, backlight_duration_powered, backlight-timed, rgb_control, rgb_zone_, per-key-lighting, brightness_control, rgb_idle_effect,
-    rgb_idle_timeout, rgb_sleep_timeout, rgb_startup_animation, rgb_shutdown_animation, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys,
-    disable-keyboard-keys, force-sensing, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures,
-    gesture2-divert, gesture2-params, analog-button-tuning, haptic-level, haptic-play, sidetone, equalizer, adc_power_management, headset-eco-mode, headset-do-not-disturb,
-    headset-mic-mute, headset-mic-snr, headset-ai-nr, headset-ai-nr-level, headset-sidetone, headset-mic-gain, headset-mix-balance, headset-auto-sleep,
-    headset-onboard-eq, headset-eq-active-preset, headset-advanced-eq, headset_led_control, headset-onboard-effect, headset_per_zone_lighting, headset-signature-startup,
-    headset-signature-shutdown, headset-signature-passive, logivoice-nr-state, logivoice-ng-state, logivoice-comp-state, logivoice-deesser-state, logivoice-depopper-state,
-    logivoice-limiter-state, logivoice-hpf-state]
+- _NAME: "\x01B"
+  _absent: [hi-res-scroll, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, scroll-ratchet-torque, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, dpi_extended, backlight, backlight_level, backlight_duration_hands_out, backlight_duration_hands_in, backlight_duration_powered,
+    rgb_control, rgb_zone_, rgb_idle_effect, rgb_idle_timeout, rgb_sleep_timeout, rgb_startup_animation, rgb_shutdown_animation, fn-swap, reprogrammable-keys,
+    persistent-remappable-keys, divert-keys, disable-keyboard-keys, force-sensing, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform,
+    change-host, gesture2-gestures, gesture2-divert, gesture2-params, analog-button-tuning, haptic-level, haptic-play, sidetone, equalizer, adc_power_management,
+    headset-eco-mode, headset-do-not-disturb, headset-mic-mute, headset-mic-snr, headset-ai-nr, headset-ai-nr-level, headset-sidetone, headset-mic-gain,
+    headset-mix-balance, headset-auto-sleep, headset-onboard-eq, headset-eq-active-preset, headset-advanced-eq, headset_led_control, headset-onboard-effect,
+    headset_per_zone_lighting, headset-signature-startup, headset-signature-shutdown, headset-signature-passive, logivoice-nr-state, logivoice-ng-state,
+    logivoice-comp-state, logivoice-deesser-state, logivoice-depopper-state, logivoice-limiter-state, logivoice-hpf-state, lowres-scroll-mode, report_rate_extended,
+    pointer_speed, speed-change, led_zone_, per-key-lighting, brightness_control, speed-change, led_zone_, per-key-lighting, brightness_control]
   _battery: 4096
+  _config_cookie: [221, 41]
   _modelId: '407400000000'
   _sensitive: {dpi: true, led_control: true, led_zone_1: true, onboard_profiles: true, report_rate: true}
   _serial: 0B3B1D44
   _unitId: 11F34E19
   _wpid: '4074'
+  backlight-timed: 0
   dpi: 1600
   led_control: 1
   led_zone_1: !LEDEffectSetting {ID: 3, color: 0xff0000, intensity: 0, period: 4024, ramp: 0, speed: 0}
+  lowres-scroll-mode: false
   onboard_profiles: 0
   report_rate: 1
