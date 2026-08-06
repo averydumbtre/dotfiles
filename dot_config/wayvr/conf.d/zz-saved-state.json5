@@ -53,6 +53,17 @@
         }
       },
       "hidden_overlays": {
+        "DP-2": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.14999999,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        },
         "DP-1": {
           "alpha": 1.0,
           "grabbable": true,
@@ -77,12 +88,23 @@
           "block_input": true,
           "angle_fade": false
         },
-        "DP-2": {
+        "whisper": {
           "alpha": 1.0,
           "grabbable": true,
           "interactable": true,
           "positioning": "Anchored",
-          "curvature": 0.14999999,
+          "curvature": null,
+          "additive": false,
+          "saved_transform": null,
+          "block_input": true,
+          "angle_fade": false
+        },
+        "kbd": {
+          "alpha": 1.0,
+          "grabbable": true,
+          "interactable": true,
+          "positioning": "Anchored",
+          "curvature": 0.15,
           "additive": false,
           "saved_transform": null,
           "block_input": true,
@@ -181,8 +203,8 @@
   ],
   "global_set": {
     "watch": {
-      "alpha": 1.0,
-      "grabbable": true,
+      "alpha": 0.02,
+      "grabbable": false,
       "interactable": true,
       "positioning": {
         "FollowHand": {
@@ -196,6 +218,30 @@
       "saved_transform": null,
       "block_input": true,
       "angle_fade": true
+    },
+    "Dashboard": {
+      "alpha": 1.0,
+      "grabbable": true,
+      "interactable": true,
+      "positioning": "Floating",
+      "curvature": 0.15,
+      "additive": false,
+      "saved_transform": [
+        0.9904295,
+        -0.04384266,
+        -0.13085522,
+        0.04181988,
+        0.99895805,
+        -0.018167526,
+        0.13151567,
+        0.012521528,
+        0.99123305,
+        -0.07345858,
+        -0.02031207,
+        -0.8077534
+      ],
+      "block_input": true,
+      "angle_fade": false
     }
   },
   "last_set": 0,
@@ -225,6 +271,14 @@
       []
     ],
     [
+      "euphonica",
+      []
+    ],
+    [
+      "DP-3",
+      []
+    ],
+    [
       "kbd",
       []
     ],
@@ -242,6 +296,10 @@
     ],
     [
       "grab-help",
+      []
+    ],
+    [
+      "whisper",
       []
     ]
   ]

@@ -30,9 +30,9 @@ audio/x-wav=mpv.desktop;
 image/avif=gimp.desktop;com.interversehq.qView.desktop;org.darktable.darktable.desktop;krita_heif.desktop;
 image/jpeg=com.interversehq.qView.desktop;gimp.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
 image/jxl=com.interversehq.qView.desktop;gimp.desktop;
-image/png=com.interversehq.qView.desktop;gimp.desktop;gmic_qt.desktop;krita_png.desktop;org.darktable.darktable.desktop;
+image/png=gimp.desktop;com.interversehq.qView.desktop;gmic_qt.desktop;krita_png.desktop;org.darktable.darktable.desktop;
 image/svg+xml=krita_svg.desktop;gimp.desktop;com.interversehq.qView.desktop;
-image/tiff=gimp.desktop;
+image/tiff=gimp.desktop;com.interversehq.qView.desktop;
 image/vnd.adobe.photoshop=krita_psd.desktop;
 image/webp=com.interversehq.qView.desktop;gimp.desktop;
 image/x-adobe-dng=com.interversehq.qView.desktop;
@@ -81,6 +81,7 @@ x-scheme-handler/http=librewolf.desktop;
 x-scheme-handler/https=librewolf.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop;
+application/x-ms-dll=wine-extension-reg.desktop;
 
 [Default Applications]
 application/octet-stream=org.kde.kate.desktop
@@ -152,3 +153,4 @@ x-scheme-handler/jitsi-meet=jitsi-meet-desktop.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop
 x-scheme-handler/ror2mm=r2modman.desktop
+application/x-ms-dll=wine-extension-reg.desktop
