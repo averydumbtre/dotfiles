@@ -1,6 +1,10 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-6d66ba13-baae-4ebd-973e-324a2d00c622=
 
+[Custom Commands][net.local.close_plasmashell.sh.desktop]
+Exec=/home/avery/Documents/skripts/close_plasmashell.sh
+Name=close_plasmashell
+
 [Custom Commands][net.local.kitty-2.desktop]
 Exec=kitty -e rmpc
 Name=rmpc
@@ -13,6 +17,10 @@ Name=rmpc
 Exec=pkill onboard ; GDK_BACKEND=x11 onboard
 Name=onboard
 
+[Custom Commands][net.local.prlimit.desktop]
+Exec=prlimit --as=1000000000 librewolf
+Name=librewolf
+
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch keyboard layout to English (US, intl., with dead keys)=
 Switch keyboard layout to German=
@@ -24,7 +32,7 @@ Switch to Next Keyboard Layout=
 AboutApp=
 AboutKDE=
 Activate Next Tab=Ctrl+PgDown; Ctrl+]
-Activate Previous Tab=Ctrl+PgUp; Ctrl+[
+Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
 Back=Alt+Left; Back
@@ -32,12 +40,12 @@ BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+W; Ctrl+Esc
+Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+C; Ctrl+Ins
+Copy=Ctrl+Ins; Ctrl+C
 CreateFolder=Ctrl+Shift+N
-Cut=Ctrl+X; Shift+Del
+Cut=Shift+Del; Ctrl+X
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -54,7 +62,7 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Forward; Alt+Right
+Forward=Alt+Right; Forward
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
@@ -69,7 +77,7 @@ New=Ctrl+N
 Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
-OpenContextMenu=Menu; Shift+F10
+OpenContextMenu=Shift+F10; Menu
 OpenMainMenu=F10
 OpenRecent=
 Paste=Shift+Ins; Ctrl+V
@@ -81,7 +89,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=Refresh; F5
+Reload=F5; Refresh
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -124,7 +132,7 @@ _launch=Meta+Q
 
 [kmix][Global Shortcuts]
 decrease_microphone_volume=Microphone Volume Down
-decrease_volume=Meta+,; Volume Down
+decrease_volume=Volume Down; Meta+,
 decrease_volume_small=Shift+Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up; Meta+.
@@ -357,7 +365,7 @@ disableInputCapture=
 minimizeAllOthers=
 minimizeAllOthersActiveScreen=
 view_actual_size=Meta+0
-view_zoom_in=Meta++; Meta+=
+view_zoom_in=Meta+=; Meta++
 view_zoom_out=Meta+-
 
 [librewolf.desktop][Global Shortcuts]
@@ -380,6 +388,9 @@ seekforwardmedia=Media Fast Forward
 seekforwardmedialong=
 stopmedia=Media Stop
 
+[net.local.close_plasmashell.sh.desktop][Global Shortcuts]
+_launch=Meta+G
+
 [net.local.kitty-2.desktop][Global Shortcuts]
 _launch=Meta+M
 
@@ -388,6 +399,9 @@ _launch=Meta+Shift+M
 
 [net.local.pkill-2.desktop][Global Shortcuts]
 _launch=Meta+Shift+O
+
+[net.local.prlimit.desktop][Global Shortcuts]
+_launch=Meta+S
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=
@@ -417,7 +431,7 @@ _launch=
 [org.kde.touchpadshortcuts.desktop][Global Shortcuts]
 DisableTouchpad=Touchpad Off
 EnableTouchpad=Touchpad On
-ToggleTouchpad=Meta+Ctrl+Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku; Touchpad Toggle
+ToggleTouchpad=Touchpad Toggle; Meta+Ctrl+Touchpad Toggle; Meta+Ctrl+Zenkaku Hankaku
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
@@ -432,7 +446,7 @@ PowerOff=Power Off
 Sleep=Sleep
 Toggle Keyboard Backlight=Keyboard Light On/Off
 Turn Off Screen=
-powerProfile=Battery; Meta+B
+powerProfile=Meta+B; Battery
 
 [plasmashell][Global Shortcuts]
 Slideshow Wallpaper Next Image=
@@ -454,6 +468,7 @@ activate widget 601=
 activate widget 649=
 activate widget 651=
 activate widget 799=
+clear history=
 clear-history=
 clipboard_action=
 cycle-panels=
