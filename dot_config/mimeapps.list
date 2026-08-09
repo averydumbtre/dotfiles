@@ -82,6 +82,8 @@ x-scheme-handler/https=librewolf.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop;
 application/x-ms-dll=wine-extension-reg.desktop;
+x-scheme-handler/sable=sable-handler.desktop;
+x-scheme-handler/moe.sable.app=sable-handler.desktop;
 
 [Default Applications]
 application/octet-stream=org.kde.kate.desktop
@@ -154,3 +156,5 @@ x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop
 x-scheme-handler/ror2mm=r2modman.desktop
 application/x-ms-dll=wine-extension-reg.desktop
+x-scheme-handler/sable=sable-handler.desktop
+x-scheme-handler/moe.sable.app=sable-handler.desktop

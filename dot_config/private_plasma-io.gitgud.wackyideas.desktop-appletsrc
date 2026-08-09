@@ -27,9 +27,9 @@ DialogHeight=591
 DialogWidth=1019
 
 [Containments][157][General]
-changedPositions={"desktop:/close_plasmashell.sh":["1920x1080","2","3"],"desktop:/com.blackmagicdesign.resolve.desktop":["1080x1920,1920x1080,1366x768","0","1"],"desktop:/rotate_screen.sh":["1080x1920,1920x1080,1366x768","3","4"]}
+changedPositions={"desktop:/com.blackmagicdesign.resolve.desktop":["1920x1080,1366x768,1080x1920","0","1"],"desktop:/rotate_screen.sh":["1920x1080","1","2"]}
 lastResolution=1920x1080
-positions={"1080x1920":["4","14","desktop:/com.blackmagicdesign.resolve.desktop","0","1","desktop:/rotate_screen.sh","3","4","desktop:/steam.desktop","0","0"],"1164x655":["7","15","desktop:/rotate normal.sh","0","1","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Casualties Unknown Demo.desktop","0","3","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Darktable.AppImage","3","2","desktop:/Link to Application.desktop","0","2","desktop:/bookmarks-2026-05-22.json","0","4"],"1366x768":["4","18","desktop:/com.blackmagicdesign.resolve.desktop","0","1","desktop:/rotate_screen.sh","3","4","desktop:/steam.desktop","0","0"],"1552x873":["4","20","desktop:/rotate normal.sh","0","1","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Casualties Unknown Demo.desktop","0","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Darktable.AppImage","3","2","desktop:/Link to Application.desktop","0","4","desktop:/bookmarks-2026-05-22.json","0","3"],"1920x1080":["4","24","desktop:/close_plasmashell.sh","2","3","desktop:/steam.desktop","0","0","desktop:/rotate_screen.sh","3","4","desktop:/com.blackmagicdesign.resolve.desktop","0","1"],"2327x1309":["1","30"],"640x480":["4","8","desktop:/Casualties Unknown Demo.desktop","0","3","desktop:/Darktable.AppImage","3","2","desktop:/rotate left.sh","0","0","desktop:/Freecad.AppImage","2","1","desktop:/rotate normal.sh","0","1","desktop:/Link to Application.desktop","0","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3"]}
+positions={"1080x1920":["4","14","desktop:/com.blackmagicdesign.resolve.desktop","0","1","desktop:/rotate_screen.sh","3","4","desktop:/steam.desktop","0","0"],"1164x655":["7","15","desktop:/rotate normal.sh","0","1","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Casualties Unknown Demo.desktop","0","3","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Darktable.AppImage","3","2","desktop:/Link to Application.desktop","0","2","desktop:/bookmarks-2026-05-22.json","0","4"],"1366x768":["4","18","desktop:/com.blackmagicdesign.resolve.desktop","0","1","desktop:/rotate_screen.sh","3","4","desktop:/steam.desktop","0","0"],"1552x873":["4","20","desktop:/rotate normal.sh","0","1","desktop:/Freecad.AppImage","2","1","desktop:/rotate left.sh","0","0","desktop:/Casualties Unknown Demo.desktop","0","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3","desktop:/Darktable.AppImage","3","2","desktop:/Link to Application.desktop","0","4","desktop:/bookmarks-2026-05-22.json","0","3"],"1920x1080":["2","24","desktop:/com.blackmagicdesign.resolve.desktop","0","1","desktop:/rotate_screen.sh","1","2","desktop:/steam.desktop","0","0"],"2327x1309":["1","30"],"640x480":["4","8","desktop:/Casualties Unknown Demo.desktop","0","3","desktop:/Darktable.AppImage","3","2","desktop:/rotate left.sh","0","0","desktop:/Freecad.AppImage","2","1","desktop:/rotate normal.sh","0","1","desktop:/Link to Application.desktop","0","2","desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage","2","3"]}
 sortMode=-1
 
 [Containments][157][Wallpaper][org.kde.image][General]
@@ -62,7 +62,7 @@ DialogWidth=810
 
 [Containments][175][General]
 changedPositions={}
-lastResolution=1366x768
+lastResolution=1920x1080
 positions={"1080x1920":[],"1164x655":["1","15"],"1309x2327":["1","17","desktop:/Link to Application.desktop","0","1"],"1366x768":["1","18"],"1422x800":[],"1920x1080":["1","24"],"2327x1309":["1","30"]}
 sortMode=-1
 
@@ -144,8 +144,8 @@ immutability=1
 lastScreen=-1
 location=0
 plugin=io.gitgud.wackyideas.systemtray
-popupHeight=0
-popupWidth=0
+popupHeight=128
+popupWidth=113
 wallpaperplugin=org.kde.image
 
 [Containments][702][Applets][799][Applets][800]
@@ -396,5 +396,5 @@ wheelEnabled=AdjustVolume
 AppletOrder=770;791;790;772;771;769
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,6d66ba13-baae-4ebd-973e-324a2d00c622,12,desktop:/Freecad.AppImage,desktop:/rotate normal.sh,desktop:/com.blackmagicdesign.resolve.desktop,desktop:/steam.desktop,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,desktop:/Link to Application.desktop,desktop:/Casualties Unknown Demo.desktop,desktop:/bookmarks-2026-05-22.json,desktop:/close_plasmashell.sh,desktop:/rotate_screen.sh,desktop:/Darktable.AppImage,desktop:/rotate left.sh,1,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
-screenMapping=desktop:/com.blackmagicdesign.resolve.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/close_plasmashell.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/steam.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate_screen.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622
+itemsOnDisabledScreens=1,6d66ba13-baae-4ebd-973e-324a2d00c622,1,desktop:/Drawpile-2.3.0-x86_64.AppImage
+screenMapping=desktop:/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate normal.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable-5.5.0+615.g9529eeb80a-x86_64.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Darktable.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate left.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/steam.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/bookmarks-2026-05-22.json,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Freecad.AppImage,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/rotate_screen.sh,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/com.blackmagicdesign.resolve.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,file:///home/avery/Desktop/Link to Application.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622,desktop:/Casualties Unknown Demo.desktop,0,6d66ba13-baae-4ebd-973e-324a2d00c622
