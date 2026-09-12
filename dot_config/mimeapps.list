@@ -1,7 +1,7 @@
 [Added Associations]
 application/epub+zip=calibre-gui.desktop;calibre-ebook-viewer.desktop;
 application/octet-stream=org.kde.ark.desktop;org.kde.kate.desktop;
-application/pdf=librewolf.desktop;gimp.desktop;krita_pdf.desktop;libreoffice-draw.desktop;
+application/pdf=librewolf.desktop;libreoffice-draw.desktop;gimp.desktop;krita_pdf.desktop;
 application/vnd.efi.iso=gnome-disk-image-mounter.desktop;
 application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;org.kde.ark.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
@@ -30,7 +30,7 @@ audio/x-wav=mpv.desktop;
 image/avif=gimp.desktop;com.interversehq.qView.desktop;org.darktable.darktable.desktop;krita_heif.desktop;
 image/jpeg=com.interversehq.qView.desktop;gimp.desktop;org.kde.showfoto.desktop;org.darktable.darktable.desktop;
 image/jxl=com.interversehq.qView.desktop;gimp.desktop;
-image/png=gimp.desktop;com.interversehq.qView.desktop;gmic_qt.desktop;krita_png.desktop;org.darktable.darktable.desktop;
+image/png=com.interversehq.qView.desktop;gimp.desktop;gmic_qt.desktop;krita_png.desktop;org.darktable.darktable.desktop;
 image/svg+xml=krita_svg.desktop;gimp.desktop;com.interversehq.qView.desktop;
 image/tiff=gimp.desktop;com.interversehq.qView.desktop;
 image/vnd.adobe.photoshop=krita_psd.desktop;
@@ -84,6 +84,12 @@ x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop;
 application/x-ms-dll=wine-extension-reg.desktop;
 x-scheme-handler/sable=sable-handler.desktop;
 x-scheme-handler/moe.sable.app=sable-handler.desktop;
+audio/flac=soundconverter.desktop;
+application/java-archive=java-java17-openjdk.desktop;
+x-scheme-handler/discord-460807638964371468=discord-460807638964371468.desktop;
+application/vnd.apple.keynote=org.kde.kate.desktop;
+audio/x-opus+ogg=mpv.desktop;
+image/gif=com.interversehq.qView.desktop;
 
 [Default Applications]
 application/octet-stream=org.kde.kate.desktop
@@ -158,3 +164,4 @@ x-scheme-handler/ror2mm=r2modman.desktop
 application/x-ms-dll=wine-extension-reg.desktop
 x-scheme-handler/sable=sable-handler.desktop
 x-scheme-handler/moe.sable.app=sable-handler.desktop
+x-scheme-handler/discord-460807638964371468=discord-460807638964371468.desktop

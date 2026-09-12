@@ -8,11 +8,11 @@ Number=5
 Rows=1
 
 [Effect-aeroglassblur]
-AccentColorGroup=7
-AccentColorName=0
-AeroBrightness=87
-AeroHue=220
-AeroIntensity=141
+AccentColorGroup=5
+AccentColorName=108
+AeroBrightness=100
+AeroHue=227
+AeroIntensity=66
 AeroSaturation=100
 BasicColorization=true
 BlurDocks=true
@@ -64,7 +64,7 @@ CommandAll2=Minimize
 aeroglassblurEnabled=true
 aeroshell-thumbnailsEnabled=false
 better_blur_dxEnabled=true
-blurEnabled=true
+blurEnabled=false
 contrastEnabled=false
 krohnkiteEnabled=true
 kwin4_effect_geometry_changeEnabled=true
