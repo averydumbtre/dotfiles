@@ -82,14 +82,15 @@ x-scheme-handler/https=librewolf.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop;
 application/x-ms-dll=wine-extension-reg.desktop;
-x-scheme-handler/sable=sable-handler.desktop;
-x-scheme-handler/moe.sable.app=sable-handler.desktop;
+x-scheme-handler/sable=sable-next-handler.desktop;sable-handler.desktop;
+x-scheme-handler/moe.sable.app=sable-next-handler.desktop;sable-handler.desktop;
 audio/flac=soundconverter.desktop;
 application/java-archive=java-java17-openjdk.desktop;
 x-scheme-handler/discord-460807638964371468=discord-460807638964371468.desktop;
 application/vnd.apple.keynote=org.kde.kate.desktop;
 audio/x-opus+ogg=mpv.desktop;
 image/gif=com.interversehq.qView.desktop;
+x-scheme-handler/moe.sable.next=sable-next-handler.desktop;
 
 [Default Applications]
 application/octet-stream=org.kde.kate.desktop
@@ -162,6 +163,7 @@ x-scheme-handler/mailto=userapp-Thunderbird-IAKJM3.desktop
 x-scheme-handler/mid=userapp-Thunderbird-IAKJM3.desktop
 x-scheme-handler/ror2mm=r2modman.desktop
 application/x-ms-dll=wine-extension-reg.desktop
-x-scheme-handler/sable=sable-handler.desktop
-x-scheme-handler/moe.sable.app=sable-handler.desktop
+x-scheme-handler/sable=sable-next-handler.desktop
+x-scheme-handler/moe.sable.app=sable-next-handler.desktop
 x-scheme-handler/discord-460807638964371468=discord-460807638964371468.desktop
+x-scheme-handler/moe.sable.next=sable-next-handler.desktop
