@@ -199,11 +199,11 @@
             "Enable": true
           },
           {
-            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Path": "OpenTabletDriver.Desktop.Binding.MultiKeyBinding",
             "Settings": [
               {
-                "Property": "Key",
-                "Value": "LeftControl"
+                "Property": "Keys",
+                "Value": "LeftControl+Space"
               }
             ],
             "Enable": true

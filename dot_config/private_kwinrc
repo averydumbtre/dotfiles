@@ -9,11 +9,11 @@ Rows=1
 
 [Effect-aeroglassblur]
 AccentColorGroup=5
-AccentColorName=108
-AeroBrightness=100
-AeroHue=227
-AeroIntensity=66
-AeroSaturation=100
+AccentColorName=106
+AeroBrightness=60
+AeroHue=157
+AeroIntensity=86
+AeroSaturation=30
 BasicColorization=true
 BlurDocks=true
 BlurMenus=true
@@ -307,6 +307,7 @@ DelayFocusInterval=0
 ElectricBorderMaximize=false
 ElectricBorderTiling=false
 FocusPolicy=FocusFollowsMouse
+FocusStealingPreventionLevel=0
 TitlebarDoubleClickCommand=Nothing
 WindowSnapZone=0
 

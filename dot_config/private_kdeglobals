@@ -55,7 +55,7 @@ DecorationFocus=61,174,233
 DecorationHover=61,174,233
 ForegroundActive=61,174,233
 ForegroundInactive=0,0,0
-ForegroundLink=183,220,251
+ForegroundLink=45,127,170
 ForegroundNegative=176,55,69
 ForegroundNeutral=246,116,0
 ForegroundNormal=0,0,0
@@ -106,7 +106,7 @@ ForegroundVisited=128,0,128
 
 [General]
 AccentColor=61,174,233
-ColorSchemeHash=60afd72ab97c4b4de2f11aaf577d577b0bad2de0
+ColorSchemeHash=66d3cfbc92419e060c6b68379c1479900832a5a9
 LastUsedCustomAccentColor=61,174,233
 UseSystemBell=true
 XftAntialias=true
@@ -136,7 +136,7 @@ Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=140
 View Style=DetailTree
 
